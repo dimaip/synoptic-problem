@@ -1,0 +1,503 @@
+{
+  "id": "D",
+  "title": "Which direction? Could Matthew have used Luke?",
+  "question": "If Matthew and Luke are not independent, did Luke use Matthew (the Farrer hypothesis) or did Matthew use Luke (Matthean Posteriority), and do any extant texts supply what Q was invented to supply?",
+  "items": [
+    {
+      "id": "D1",
+      "title": "Matthew as gatherer, Luke as scatterer",
+      "claim": "Gathering scattered sayings into topical discourses, as Matthew would have done with Luke, matches how ancient writers combined sources; dispersing an ordered discourse, as Luke would have done with Matthew, does not.",
+      "favours": "matthew-used-luke",
+      "evidence": [
+        {
+          "text": "Every element of Luke's Sermon on the Plain reappears in Matthew's Sermon on the Mount, in the same order, expanded with material found elsewhere in Luke and in Mark.",
+          "ref": "Luke 6:20–49 // Matt 5:1–7:29; Garrow 2023b, p. 294",
+          "basis": "read"
+        },
+        {
+          "text": "Matthew's woes repeatedly open with the same formula (“Woe to you, scribes and Pharisees, hypocrites”); in Luke the parallel sayings are fewer, have varied openings, and are split between two chapters.",
+          "ref": "Matt 23:13–36 // Luke 11:39–52; 20:46; Garrow n.d. (Huggins)",
+          "basis": "read"
+        },
+        {
+          "text": "In the Mustard Seed, Matthew moves between Mark's wording and Luke's within a single parable, and he adds the Leaven, which in Luke follows the Mustard Seed.",
+          "ref": "Matt 13:31–33 // Mark 4:30–32 // Luke 13:18–21; Garrow 2016b, pp. 410–411",
+          "basis": "read"
+        },
+        {
+          "text": "Luke builds a setting for his Sermon out of Mark's healing of the crowds (Luke 6:17–19). Matthew's Sermon gets the same kind of setting (Matt 4:23–5:1), so after the Temptation the two Gospels do agree once in placing double-tradition material against Mark's outline.",
+          "ref": "Luke 6:17–20 // Matt 4:23–5:2 // Mark 3:7–13; Garrow 2016a, pp. 219–221",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Ancient rewriters chose one source as a frame and filled it with related material from others (Plutarch, Josephus, Tatian, Ammonius). Under Matthean Posteriority, Matthew does this with Luke's Sermon. Under the Farrer hypothesis, Luke runs the same process in reverse.",
+          "ref": "Garrow 2023b, pp. 281–286, 294–295",
+          "basis": "read"
+        },
+        {
+          "text": "Streeter's order argument works against Luke's use of Matthew, but not against Matthew's use of Luke. Matthew does not tear sayings out of good contexts. He gathers related passages from several sources into extended discourses.",
+          "ref": "Garrow 2016a, pp. 209–210; Streeter 1924, p. 183",
+          "basis": "read"
+        },
+        {
+          "text": "Bauckham's difficulty with the Farrer hypothesis is “the how, not the why”. Luke would have had to pick out Matthew's non-Markan material while avoiding the Markan material around it, which is extremely complex and has no parallel. Matthew's conflation of Luke with Mark would be far simpler.",
+          "ref": "Bauckham 2021",
+          "basis": "read"
+        },
+        {
+          "text": "Matthew's discourses grow from Markan cores, so expanding Luke's Sermon on the Plain into the Sermon on the Mount is in character. The reverse requires Luke, a conservative editor wherever he can be checked against Mark, to break the Sermon up across chapters 8, 11, 12, 13, 14 and 16.",
+          "ref": "MacEwen 2018; Garrow n.d. (Huggins)",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "On any view one evangelist rearranged the double tradition, so “one set of transpositions logically must be the mirror image of the other” (Eve). Goodacre adds that aligning Luke with the original order does not remove the logistical difficulty; it only moves it from Luke to Matthew.",
+          "ref": "Eve 2021b, pp. 146, 152, 160, as quoted in Garrow 2023b, pp. 277–278; Goodacre 2016a, p. 42, as quoted in Garrow 2023b, p. 277",
+          "basis": "reported"
+        },
+        {
+          "text": "Luke's reworking of the Sermon is a deliberate creative choice to abbreviate, relocate and redistribute it and to give it biographical plausibility. Jesus films do the same thing.",
+          "ref": "Goodacre 2002, p. 130, as quoted in Garrow 2023b, p. 293",
+          "basis": "reported"
+        },
+        {
+          "text": "Tuckett, in the most recent Two-Source reply to Matthean Posteriority, questions its advocates' claims that the theory is “simple”, and argues that Matthew's non-use of much of Luke counts against it ([[D3]]).",
+          "ref": "Tuckett 2025",
+          "basis": "abstract"
+        },
+        {
+          "text": "Ancient historians valued agreed testimony (Tacitus, Arrian), so a writer combining two sources should keep their common witness. Matthew instead fails to reproduce forty-one passages where Mark and Luke agree verbatim for thirty characters or more. Downing judges any evangelist writing third in this way “totally implausible”: the argument is aimed at Mark-third and Luke-third as much as Matthew-third, and leaves only the Two-Source hypothesis ([[M6]]).",
+          "ref": "Downing 2017, pp. 322, 334–336",
+          "basis": "read"
+        },
+        {
+          "text": "Kloppenborg disputes that an ancient author could keep two sources in view at once, which conflation with simultaneous visual contact would require.",
+          "ref": "Kloppenborg 2019, as reported in Garrow 2023b, p. 279",
+          "basis": "reported"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Gathering and scattering are not mirror images. An animation of five pericopes moving from one consecutive block into dispersed positions tells a different story from one that gathers them, and comparable ancient practice shows which direction is normal. Luke's simple handling of Mark gives no sign of the special skill Farrer-Luke would need.",
+          "ref": "Garrow 2023b, pp. 278, 295",
+          "basis": "read"
+        },
+        {
+          "text": "Reply to Downing: nothing shows that ancient authors tracked every thirty-character agreement between two sources in order to reproduce it. Matthew handles these passages with the range of options he uses on Mark (omission, abridgement, paraphrase, full inclusion), and only four Mark–Luke episodes, sixteen verses in all, are missing from Matthew. The data fit any number of hypotheses.",
+          "ref": "Garrow 2020, pp. 133–137",
+          "basis": "read"
+        }
+      ],
+      "status": "Matthew's gathering of scattered material is the main positive argument for Matthean Posteriority, and the same observation is the core of the Two-Source case against Luke's use of Matthew ([[M1]]). Farrer scholars reply that whoever reordered the double tradition did equivalent work in reverse; Tuckett questions the claimed simplicity. Downing's argument from refused common witness tells against every third-evangelist model alike, and Garrow answers that no ancient author tracked agreements that way. Whether gathering really differs in kind from scattering is still the live question.",
+      "bearsOn": {
+        "2DH": "neutral",
+        "FH": "strains",
+        "MPH": "supports",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "I2",
+        "M1",
+        "M2",
+        "M6",
+        "C3"
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "Luke's more primitive forms",
+      "claim": "Luke usually has the earlier form of the double-tradition sayings, which points to Luke being earlier than Matthew. Where Matthew looks earlier, he is drawing on a source of Luke's that he also knew.",
+      "favours": "matthew-used-luke",
+      "evidence": [
+        {
+          "text": "Luke's Lord's Prayer is shorter, with “Father” as the address and five petitions. Matthew's has “Our Father in heaven” and seven balanced clauses.",
+          "ref": "Luke 11:2–4 // Matt 6:9–13",
+          "basis": "read"
+        },
+        {
+          "text": "“Blessed are the poor” (μακάριοι οἱ πτωχοί) in Luke becomes “Blessed are the poor in spirit” (οἱ πτωχοὶ τῷ πνεύματι) in Matthew. Luke's “the cheek” becomes “the right cheek” in Matthew.",
+          "ref": "Luke 6:20 // Matt 5:3; Luke 6:29 // Matt 5:39; Edwards 2009, pp. 248–249",
+          "basis": "read"
+        },
+        {
+          "text": "Jesus casts out demons “by the finger of God” (ἐν δακτύλῳ θεοῦ) in Luke and “by the Spirit of God” (ἐν πνεύματι θεοῦ) in Matthew. The surrounding 37 words are almost identical.",
+          "ref": "Luke 11:19–20 // Matt 12:27–28; Garrow n.d. (Leasure)",
+          "basis": "read"
+        },
+        {
+          "text": "In On Retaliation and Love of Enemies, Matthew has forms the Critical Edition of Q judges older: “pray for those who persecute you”, and “do not even the Gentiles do the same?” where Luke has “sinners”.",
+          "ref": "Matt 5:44, 47 // Luke 6:28, 33; Garrow 2016b, p. 415 n. 45",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Q scholars judge Luke the more primitive far more often than Matthew. The slogan “alternating primitivity” hides this. On balance, the material should flow from Luke to Matthew.",
+          "ref": "Bauckham 2021",
+          "basis": "read"
+        },
+        {
+          "text": "The Critical Edition of Q gives Matthew the original order in only eleven places. Even in those, such as the Temptation and the two builders, Matthew's priority is not obvious.",
+          "ref": "Garrow n.d. (Huggins)",
+          "basis": "read"
+        },
+        {
+          "text": "Alternating primitivity shows a shared earlier source, not that Matthew and Luke were independent. On that logic, the cases where Tatian is closer to Mark than Luke is would prove that Tatian did not know Luke. Garrow calls this the “Streeter Fallacy”.",
+          "ref": "Garrow 2016a, pp. 208–210",
+          "basis": "read"
+        },
+        {
+          "text": "The MPH expects Luke to be usually more primitive. Matthew can still be more primitive at points where he conflates Luke with Luke's own source and follows that source more closely.",
+          "ref": "Garrow 2016a, pp. 214–215; Garrow 2016b, pp. 414–415",
+          "basis": "read"
+        },
+        {
+          "text": "Matthew's Lord's Prayer, longer Eucharistic consensus and fuller titular Christology look like the end of a development that starts in Luke.",
+          "ref": "Edwards 2009, pp. 246–248",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Alternating primitivity is a real datum, and it fits independent use of a common source best ([[I3]]). If Matthew copied Luke, Matthew should not be earlier anywhere. Foster lists this among the main difficulties for Matthean Posteriority.",
+          "ref": "Foster 2003, pp. 333–336, as reported in Garrow 2020, p. 131 n. 4; Tuckett 1996, p. 10, as quoted in Garrow 2016a, p. 209",
+          "basis": "reported"
+        },
+        {
+          "text": "In the 2018 paper later published as “Why Not Matthew's Use of Luke?”, Goodacre treats the arguments from primitivity and order as old chestnuts that do not decide direction: Luke's earlier-looking forms can come from his own editing or from oral tradition.",
+          "ref": "Goodacre 2022a, as reported in MacEwen 2018",
+          "basis": "reported"
+        },
+        {
+          "text": "Primitivity cannot settle direction. An earlier-looking theology does not prove an earlier date: Paul's Christology is higher than Luke's, yet Paul is earlier.",
+          "ref": "Goodacre 2005",
+          "basis": "read"
+        },
+        {
+          "text": "Appealing to a further source whenever Matthew looks primitive makes the hypothesis hard to test. Goodacre argued that high verbatim agreement does not show an author working from one source, and low agreement does not show two, since Matthew can produce a low-agreement passage from a single source.",
+          "ref": "Goodacre 2017a, as reported in Garrow 2018",
+          "basis": "reported"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: the appeal to oral tradition is reversible, since Matthew could equally have known oral forms; and alternating primitivity does not establish independence.",
+          "ref": "MacEwen 2018",
+          "basis": "read"
+        },
+        {
+          "text": "Reply: Garrow conceded that low agreement may simply reflect Matthew's own freedom with Luke. He says the model does not depend on that point, because in the passages Goodacre tested, Matthew consistently conflates related passages of Mark and Luke.",
+          "ref": "Garrow 2018",
+          "basis": "read"
+        },
+        {
+          "text": "Reply: the Didache supplies a check. At Matt 5:38–48, where Matthew departs from Luke, his wording matches Did. 1.2–5a, a concrete case of Matthew drawing on Luke's source (see [[D5]]).",
+          "ref": "Garrow 2016b, pp. 411–415",
+          "basis": "read"
+        }
+      ],
+      "status": "Both sides agree that Luke more often looks earlier in the double tradition, and that judging primitivity is partly subjective. The Two-Source hypothesis reads Luke as closer to Q, the Farrer hypothesis reads him as an editor who also knew oral tradition, and Matthean Posteriority reads him as earlier than Matthew. The cases where Matthew looks earlier are the ones MPH must explain with further sources such as the Didache, and how many it may posit without becoming untestable is the main open question.",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "strains",
+        "MPH": "supports",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "I3",
+        "D5",
+        "Q3"
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "Matthew lacks Luke's special material",
+      "claim": "If Matthew had used Luke he would not have passed over the Good Samaritan, the Prodigal Son, Luke's birth stories and Emmaus; so Matthew did not know Luke.",
+      "favours": "open",
+      "evidence": [
+        {
+          "text": "Matthew has no Good Samaritan, Prodigal Son, Rich Fool, widow of Nain, Zacchaeus or Emmaus road. His infancy narrative and genealogy differ from Luke's in most details.",
+          "ref": "Luke 10:29–37; 15:11–32; 12:13–21; 7:11–17; 19:1–10; 24:13–35; Matt 1–2 // Luke 1–2",
+          "basis": "read"
+        },
+        {
+          "text": "Only four episodes shared by Mark and Luke are missing from Matthew, sixteen verses in all: the synagogue demoniac, the withdrawal to preach, the strange exorcist and the widow's mite.",
+          "ref": "Mark 1:23–28 // Luke 4:33–37; Mark 1:35–38 // Luke 4:42–44; Mark 9:38–40 // Luke 9:49–50; Mark 12:41–44 // Luke 21:1–4; Garrow 2020, p. 133 n. 8",
+          "basis": "read"
+        },
+        {
+          "text": "Matthew opens John's ministry with “in those days” rather than Luke's six-ruler dating. He still names Caiaphas as high priest and calls Pilate “the governor”, details he does not take from Mark.",
+          "ref": "Matt 3:1 // Luke 3:1–2; Matt 26:3, 57; 27:2; Garrow 2023a, pp. 298–300",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Tuckett, in the newest Two-Source reply to Matthean Posteriority, points to elements of Luke “which would have been highly congenial to Matthew” but which Matthew does not use, and concludes that this non-use “casts doubt on the hypothesis that Matthew knew and used Luke”.",
+          "ref": "Tuckett 2025",
+          "basis": "abstract"
+        },
+        {
+          "text": "Goodacre: Matthew adds political detail to Mark, so he should have welcomed Luke's six-ruler synchronism (Luke 3:1–2), Herod's trial of Jesus (Luke 23:6–12) and Luke's silent correction of Mark's “Philip” (Mark 6:17; cf. Luke 3:19). He uses none of them.",
+          "ref": "Goodacre 2022a, pp. 88–89, as reported in Garrow 2023a, pp. 298–299",
+          "basis": "reported"
+        },
+        {
+          "text": "Andrejevs applies the test that Kloppenborg had used against the Farrer hypothesis: an evangelist who enhances Peter should not drop a source's Peter material. Matthew enhances Peter when editing Mark, yet omits Luke's call of Peter (Luke 5:1–11), Satan's demand to sift Simon (Luke 22:31–32) and the appearance to Simon (Luke 24:34).",
+          "ref": "Andrejevs 2022a, as reported in Garrow 2023a, pp. 287–289; Kloppenborg 2003, pp. 221–222",
+          "basis": "reported"
+        },
+        {
+          "text": "Foster names Matthew's omissions of Lukan material, and his apparent ignorance of Luke's additions to Mark in the triple tradition, as difficulties for Matthean Posteriority. On that hypothesis Matthew uses less than a quarter of Luke.",
+          "ref": "Foster 2003, pp. 333–336, as reported in Garrow 2020, p. 131 n. 4; Garrow 2023b, p. 294 n. 58",
+          "basis": "reported"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Matthew was not obliged to use everything. MacEwen judges that many of the omitted parables would have been uncongenial to Matthew's aims, hard to use, or similar to versions he preferred. The Rich Fool, for example, conflicts with Matthew's milder attitude to wealth.",
+          "ref": "MacEwen 2015, pp. 103–117, 186, as reported in Garrow 2016a, p. 223",
+          "basis": "reported"
+        },
+        {
+          "text": "Matthew follows Mark's Galilean ending. Luke's Jerusalem appearances conflict with it, and ancient compilers such as Arrian and Josephus often kept one source and dropped the other in such cases. Tatian too reportedly stopped harmonising at the resurrection.",
+          "ref": "Garrow 2016a, p. 224, citing Huggins 1992, pp. 21–22",
+          "basis": "read"
+        },
+        {
+          "text": "Matthew's birth narrative may combine Luke's with another account. That would explain the twelve shared points, including the virginal conception, Bethlehem and Davidic descent, and Matthew's preference for details that support Jesus' messianic dignity.",
+          "ref": "Garrow 2016a, pp. 223–224, citing Huggins 1992, p. 17 n. 38",
+          "basis": "read"
+        },
+        {
+          "text": "West argued in 1967 that Matthew consistently trims material in which women act on their own initiative, which would explain his leaving out Lukan stories such as Martha and Mary, the sinful woman and the women who travelled with Jesus.",
+          "ref": "West 1967; Garrow n.d. (West)",
+          "basis": "reported"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply to Andrejevs: Matthew also drops Peter when editing Mark (Mark 1:36; 5:37; 11:21; 13:3; 16:7). From Matt 26:1 Matthew follows Mark almost alone, which covers the late Petrine passages, and inserting Luke's call of Peter would have stalled Matthew's build-up to the Sermon.",
+          "ref": "Garrow 2023a, pp. 287–291",
+          "basis": "read"
+        },
+        {
+          "text": "Reply to Goodacre: Luke 3:1–2 heralds John, whom Matthew plays down, and Matthew uses the details that bear on Jesus (Caiaphas, Pilate the governor, Herod the tetrarch). MacEwen adds that Matthew never mentions political leaders unless they are part of his story; choosing Mark's “Philip” keeps the fuller detail.",
+          "ref": "Garrow 2023a, pp. 298–300; MacEwen 2018",
+          "basis": "read"
+        }
+      ],
+      "status": "The objection mirrors the main Two-Source argument against Luke's use of Matthew ([[I4]]), and each side presses arguments from omission against the other. Matthean Posteriority advocates give case-by-case reasons (concision, Mark's Galilean ending, Matthew's own priorities); Tuckett and Goodacre reply that some of what Matthew passes over would have suited him well. The unshared infancy and resurrection narratives remain hard data for both MPH and the Farrer hypothesis.",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "neutral",
+        "MPH": "strains",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "I4",
+        "I1",
+        "D4"
+      ]
+    },
+    {
+      "id": "D4",
+      "title": "Fatigue and other direction indicators",
+      "claim": "Goodacre's direction indicators (fatigue, Matthean wording in Luke, Matthean structure in Luke) can be reversed, and some features point from Luke to Matthew.",
+      "favours": "matthew-used-luke",
+      "evidence": [
+        {
+          "text": "In the Pounds, Luke's nobleman gives a mina to each of ten servants, but only three report, and the third is called “the other” (ὁ ἕτερος). Matthew's Talents has three servants throughout.",
+          "ref": "Luke 19:11–27 // Matt 25:14–30",
+          "basis": "read"
+        },
+        {
+          "text": "In Luke 9:5 the disciples leave “that town” (τῆς πόλεως ἐκείνης), though only a house has been mentioned. In Matthew's version a town has already been entered (Matt 10:11, 14).",
+          "ref": "Luke 9:4–5 // Matt 10:11–14 // Mark 6:10–11; Goodacre 2018, pp. 218–219",
+          "basis": "read"
+        },
+        {
+          "text": "Luke 7:1 (“when he had completed all his sayings…”) closes the Sermon on the Plain with a formula close to the one Matthew uses after each of his five discourses.",
+          "ref": "Luke 7:1 // Matt 7:28; 11:1; 13:53; 19:1; 26:1",
+          "basis": "read"
+        },
+        {
+          "text": "Matthew and Luke agree against Mark on ὕστερον (“afterwards”) for Mark's ἔσχατον and on “the crowds followed him”.",
+          "ref": "Mark 12:22 // Matt 22:27 // Luke 20:32; Mark 6:33 // Matt 14:13 // Luke 9:11",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Hägerland argues that the fatigue argument wrongly assumes Matthew handled Q as he handled Mark, and wrongly claims there is no fatigue in Matthew's double tradition. His example: Matthew sends John's “brood of vipers” speech to “Pharisees and Sadducees” (Matt 3:7), yet his narrative goes on to imply Luke's audience, “the crowds” (Luke 3:7).",
+          "ref": "Hägerland 2019; Hägerland 2019, pp. 203–205, as reported in Garrow 2023a, p. 295",
+          "basis": "abstract"
+        },
+        {
+          "text": "Luke's Pounds has a throne-claimant subplot that probably came from an earlier setting (cf. Archelaus in 4 BCE). On that reading Matthew, who tidies, removed every distracting feature, and the incoherence is not Luke's fatigue.",
+          "ref": "Garrow 2023a, pp. 296–297; Huggins 2022",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre treats a phrase that is frequent in one Gospel and rare in the other as a sign of origin. The test is reversible: Matthew multiplies phrases he likes from Mark (“repent, for the kingdom of heaven is at hand”), and Matthew's first use of several phrases, including the discourse-ending formula, runs parallel to Luke's only use.",
+          "ref": "MacEwen 2018; Garrow 2023a, pp. 291–295, 297–298",
+          "basis": "read"
+        },
+        {
+          "text": "Tripp tested the minor agreements statistically by type of change (transposition, omission, addition, substitution). Matthew and Luke make the same choices more often than independence predicts, and where the results are clear Luke is an influential variable on Matthew, not the reverse.",
+          "ref": "Garrow n.d. (Tripp); Tripp 2023",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Goodacre: editorial fatigue is one of the clearest indicators of literary priority, and among several cases in the double tradition “the direction of dependence is always from Matthew to Luke”. The Talents/Pounds is among the best ([[C4]]).",
+          "ref": "Goodacre 2022a, pp. 84–86, as quoted in Garrow 2023a, pp. 295–296; Goodacre 1998",
+          "basis": "reported"
+        },
+        {
+          "text": "Matthew's fingerprints reappear in Luke: ὕστερον, a Matthean favourite, in Luke 20:32; “the crowds followed him” in Luke 9:11; and John's preaching in Luke 3:7–9, whose “brood of vipers” taunt recurs only in Matthew and whose harvest-judgement imagery is characteristically Matthean. Luke 7:1 echoes Matthew's favourite literary segue at the same point in the story.",
+          "ref": "Goodacre 2022a, pp. 74–80, 87–88, as reported in Garrow 2023a, pp. 291–298; Goodacre 2018, pp. 220–221",
+          "basis": "reported"
+        },
+        {
+          "text": "Luke 9:5's “that town” has no antecedent in Luke and seems to come from Matt 10:14. On Matthean Posteriority Matthew would have to see the problem in Luke and repair it by importing the towns of Luke 10:8–11, so “Luke's use of Matthew is the stronger hypothesis”.",
+          "ref": "Goodacre 2018, pp. 218–220 and n. 42",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre also appeals to first impressions of date: Luke's preface knows of “many” predecessors, and the “we” passages and contacts with Josephus suggest Luke is the later Gospel ([[M5]]).",
+          "ref": "Goodacre 2022a, p. 74, as reported in MacEwen 2018 and Garrow 2023a, p. 300",
+          "basis": "reported"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: a single word such as ὕστερον is fragile evidence; Neirynck reads Luke's bare ὕστερον, against Matthew's ὕστερον πάντων, as independent editing. Goodacre himself once judged τίς ἐστιν ὁ παίσας σε (“Who is it that struck you?”) “a little more Lukan in style than it is Matthean”.",
+          "ref": "Garrow 2023a, pp. 291–292, 294 n. 30; Neirynck 1997; Goodacre 1996, p. 106",
+          "basis": "reported"
+        },
+        {
+          "text": "Reply: MacEwen accepts that fatigue is important but asks whether Matthew never fatigues when using Luke, and whether some cases are really “editorial alertness”, one evangelist removing the other's awkwardness.",
+          "ref": "MacEwen 2018",
+          "basis": "read"
+        },
+        {
+          "text": "Reply on dating: the date arguments are inconclusive (MacEwen), and Garrow calls them “far from conclusive”.",
+          "ref": "MacEwen 2018; Garrow 2023a, p. 300",
+          "basis": "read"
+        }
+      ],
+      "status": "These are the most concrete direction tests, and they are disputed case by case. Goodacre reads fatigue, Matthean wording and Matthean structure in Luke as running from Matthew to Luke; Garrow, MacEwen and Hägerland reply that the criteria are reversible and that Matt 3:7 runs the other way, and Tripp's statistics point from Luke to Matthew. Both sides accept that fatigue must be tested in both directions with the same criteria, which has not yet been done across the whole double tradition.",
+      "bearsOn": {
+        "2DH": "neutral",
+        "FH": "supports",
+        "MPH": "strains",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "C4",
+        "C1",
+        "C2",
+        "C5",
+        "P4",
+        "M5"
+      ]
+    },
+    {
+      "id": "D5",
+      "title": "The Didache as an “extant Q”",
+      "claim": "Didache 1.2–5a is a source that Luke reworked and that Matthew then conflated with Luke, making it an extant instance of a source shared by Matthew and Luke.",
+      "favours": "matthew-used-luke",
+      "evidence": [
+        {
+          "text": "The Didache puts the negative Golden Rule (1.2) directly beside sayings on enemies and retaliation (1.3–5a), with “avoid fleshly and bodily passions” (1.4a) in the middle. Luke 6:27–36 joins the same elements in one sequence with a positive Golden Rule and no 1.4a.",
+          "ref": "Did. 1.2–5a // Luke 6:27–36; Garrow 2016b, pp. 401–408",
+          "basis": "read"
+        },
+        {
+          "text": "Where Matthew departs from Luke, the Didache has his wording: ῥαπίζει and “the right cheek” (εἰς τὴν δεξιὰν σιαγόνα), the extra mile, “pray for… persecute”, “the Gentiles”, and “perfect” (τέλειος).",
+          "ref": "Matt 5:39–48 // Luke 6:27–36 // Did. 1.3–5; Garrow 2016b, pp. 411–414",
+          "basis": "read"
+        },
+        {
+          "text": "Matthew's eschatological discourse and Didache 16 share material that is not in Mark 13. Garrow argued in 2004 that Matthew used Didache 16.",
+          "ref": "Matt 24 // Did. 16; Garrow 2004",
+          "basis": "abstract"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Koester's criterion runs in reverse here. Joining the Golden Rule to the catena of sayings is the Didachist's own editorial act, because other versions of the Two Ways lack the catena. Luke's having the same combination shows that he presupposes this section of the Didache.",
+          "ref": "Garrow 2016b, pp. 405–406",
+          "basis": "read"
+        },
+        {
+          "text": "Luke's positive Golden Rule, his omission of 1.4a, and his coinage “love your enemies” are all explained as him smoothing out the Didache's rough joins.",
+          "ref": "Garrow 2016b, pp. 406–409",
+          "basis": "read"
+        },
+        {
+          "text": "On this account, Q shrinks from the International Q Project's roughly 4,500 words to fewer than 450 words of sources, used only in low-agreement passages. Such fragments could survive, and one does.",
+          "ref": "Garrow 2016a, p. 226; Garrow 2016b, pp. 399–401",
+          "basis": "read"
+        },
+        {
+          "text": "The case that the Didache depends on the Gospels here is weak: Gregory, Bellinzoni, Draper and Hagner doubt that Did. 1.3–5a presupposes Luke, and Pardee's study of the Didache's development, like Garrow's, places 1.3–5a at a pre-Gospel stage.",
+          "ref": "Gregory 2003, p. 124, as quoted in Garrow 2016b, p. 404; Garrow 2016b, p. 403 n. 12",
+          "basis": "reported"
+        },
+        {
+          "text": "Garrow's *The Didache Discoveries* (2026) develops the layered model further, identifying the original Didache with the Apostolic Decree of Acts 15 (48 CE) and a revised form with the lost letter mentioned in 3 John 9. On that dating the Didache's early layers precede the Gospels.",
+          "ref": "Garrow 2026",
+          "basis": "abstract"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Applying Koester's test, Tuckett finds that Did. 1.3–5a presupposes the editorial work of both evangelists, Luke more clearly than Matthew, and so depends on the finished Gospels.",
+          "ref": "Tuckett 1989, p. 230, as quoted in Garrow 2016b, p. 403",
+          "basis": "reported"
+        },
+        {
+          "text": "Kloppenborg argues that the compiler of Did. 1.3b–2.1 knew Luke and Matthew (or Q) and harmonised them from memory.",
+          "ref": "Kloppenborg 2005, pp. 105–129, as reported in Garrow 2016b, p. 409 n. 34",
+          "basis": "reported"
+        },
+        {
+          "text": "The most common view is that the Didache and Luke drew independently on shared traditions (Glover, Draper, Young, Rordorf, Milavec). That view removes the need for any direct line between the Didache and Luke.",
+          "ref": "Garrow 2016b, p. 405",
+          "basis": "read"
+        },
+        {
+          "text": "The proposal stands or falls with a contested reconstruction of the Didache's growth. The Didache is usually dated after the Gospels and refers to “the gospel” (8.2; 11.3; 15.3–4); Garrow places Did. 1.3–5a early only by separating it from later layers.",
+          "ref": "Garrow 2016b, pp. 402–403, 416–417",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Tuckett's markers of Lukan or Matthean editing depend on first fixing the wording of Q, and Gregory judged Tuckett's conclusion more confident than his own analysis supported. Kloppenborg's Didachist harmonises in 1.4 but separates in 1.5, which is inconsistent.",
+          "ref": "Garrow 2016b, pp. 403–404, 409 n. 34",
+          "basis": "read"
+        }
+      ],
+      "status": "This is the most concrete attempt to name a surviving source for part of the double tradition, but it has persuaded few beyond Matthean Posteriority circles. Most Didache scholars hold either that its Jesus sayings come from shared tradition or that they depend on the Gospels, and Garrow's 2026 book has not yet been tested in reviews. Other “extant Q” candidates (Marcion's Gospel, Thomas) belong to minority models; see [[Q2]].",
+      "bearsOn": {
+        "2DH": "neutral",
+        "FH": "strains",
+        "MPH": "supports",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "D2",
+        "Q2",
+        "Q4",
+        "I3"
+      ]
+    }
+  ]
+}

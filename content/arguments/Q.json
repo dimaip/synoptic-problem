@@ -1,0 +1,367 @@
+{
+  "id": "Q",
+  "title": "What kind of thing would Q be?",
+  "question": "Leaving aside whether Luke knew Matthew, is the hypothesised document itself plausible: does it look like a real ancient text, can it be recovered, and why has it left no trace?",
+  "items": [
+    {
+      "id": "Q1",
+      "title": "A distinctive profile",
+      "claim": "The double tradition has a theology, style and coherence of its own that neither Matthew's nor Luke's redaction explains, and that is best explained by a single source with its own outlook.",
+      "favours": "independence",
+      "evidence": [
+        {
+          "text": "Recurring motifs bind the double tradition together: the announcement of judgement, references to “the Coming One” (Q 3:16; 7:18–23; 13:35), allusions to the Lot cycle (Q 17:28–30), and a Deuteronomistic view of Israel's history as the killing of the prophets (Q 11:47–51; 13:34–35).",
+          "ref": "Kloppenborg 2003, p. 225; Matt 23:34–39 // Luke 11:49–51; Luke 13:34–35",
+          "basis": "read"
+        },
+        {
+          "text": "The material has no passion narrative and no resurrection account; its few narrative pieces mostly set the scene for sayings (the Baptist's preaching, the temptation, the centurion, John's question from prison).",
+          "ref": "Head & Williams 2003, pp. 119–120; Goodacre 2001, pp. 151–152",
+          "basis": "read"
+        },
+        {
+          "text": "Kloppenborg reconstructs Q as a Greek document from Galilee whose final redaction came after 70 CE, and argues that it was “a literary and theological work in its own right”.",
+          "ref": "Kloppenborg 2000, p. 402, as reported in Head & Williams 2003, pp. 128–129",
+          "basis": "reported"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Kloppenborg's point is not that Q's themes are absent from Matthew and Luke (“of course they are, since Q is extracted from its successor documents”) but that the themes organising Q are not those organising either evangelist's redaction. Q has no programmatic interest in Jesus as fulfilling the Torah or as messianic shepherd, nor in Luke's piety, meals or reconciliation; conversely, the Lot cycle and the Deuteronomistic scheme organise neither Gospel.",
+          "ref": "Kloppenborg 2003, p. 225",
+          "basis": "read"
+        },
+        {
+          "text": "This meets a test Farrer himself set: if the common passages had “a strong distinctive flavor” and, strung together, made “a satisfyingly complete little book”, a common source would be a fair inference. Kloppenborg concludes that the Q material “looks like a coherent document because it represents a coherent document”.",
+          "ref": "Farrer 1955, as quoted in Kloppenborg 2003, p. 225 n. 37; Kloppenborg 2003, p. 226",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre grants that this is a major positive argument for Q and that it “has grown stronger in recent years”: a vast literature now studies Q's origins, characteristics, theology, community and genre, and its authors, though they argue among themselves, share the implicit consensus that Q is a document in its own right.",
+          "ref": "Goodacre 2001, pp. 115–116",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "On the Farrer hypothesis the double tradition would have a distinctive profile anyway: it is the part of Matthew's non-Markan material that most appealed to Luke, “(Matthew minus Mark) divided by ‘Luke-pleasingness’”. Matthew's special material should then look Luke-displeasing, and it does: the coin in the fish's mouth, the sheep and the goats, a Jewish-Christian focus against Q's more pro-Gentile profile.",
+          "ref": "Goodacre 2001, pp. 141–142",
+          "basis": "read"
+        },
+        {
+          "text": "Studying the double tradition apart from its contexts tends to confirm the starting point. Some M units cannot be told apart in style from some Q units, and proposed Q passages found only in Luke (Luke 11:27–28; 12:15–21; 15:8–10) read as thoroughly Lukan.",
+          "ref": "Goodacre 2001, pp. 140–141",
+          "basis": "read"
+        },
+        {
+          "text": "Q is said to lack a passion narrative, yet strong Matthew–Luke agreements against Mark occur in the passion, such as “Who is it that struck you?” (Matt 26:68 // Luke 22:64), which no one can attribute to Q.",
+          "ref": "Goodacre 2001, pp. 146–147",
+          "basis": "read"
+        },
+        {
+          "text": "The “Q community” has come under attack along with Gospel communities in general. Walsh treats the evangelists as literate specialists working within Greco-Roman literary culture, not voices of communities, and reads Q itself as such a literary product; a document need not imply a community behind it.",
+          "ref": "Walsh 2021; Nongbri 2021; Kirk 2023c, pp. 470–471, as reported in Wikipedia 2025",
+          "basis": "reported"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: selection by Luke explains why the double tradition differs from M, but not why it holds together around themes such as the Coming One, Lot and the fate of the prophets that are not Luke's own interests; Kloppenborg thinks it implausible that Luke's principles of selection produced that coherence. He had earlier called Farrer's “Luke-pleasing” principle tautologous: Luke kept what he kept and omitted what he omitted.",
+          "ref": "Kloppenborg 2003, pp. 220 n. 30, 225–226",
+          "basis": "read"
+        },
+        {
+          "text": "Reply on the community question: Kirk prefers Rollens's model of Q's framers as “peasant intellectuals” to Walsh's Greco-Roman literary model, as better suited to a text that shaped networks of Jesus followers. The dispute is about social setting; both sides assume a Q document.",
+          "ref": "Kirk 2023c, pp. 470–471, as reported in Wikipedia 2025; Rollens 2014",
+          "basis": "reported"
+        }
+      ],
+      "status": "Both sides agree that the double tradition has a recognisable profile. They disagree whether that profile is evidence of a source or follows from how the material is defined: on the Farrer view, the non-Markan parts of Matthew that Luke chose to use. Goodacre's “Luke-pleasingness” account explains why that material differs from Matthew's special material; Kloppenborg's narrower claim, that Q's organising themes are neither Matthew's nor Luke's, is the part least directly answered. Work on a “Q community” presupposes Q and cannot be used to support it.",
+      "bearsOn": { "2DH": "supports", "FH": "strains", "MPH": "strains", "2GH": "strains" },
+      "seeAlso": ["Q2", "Q5", "C6", "I3", "S2"]
+    },
+    {
+      "id": "Q2",
+      "title": "Genre and the Gospel of Thomas",
+      "claim": "Sayings collections were a recognised ancient genre, and the Gospel of Thomas shows that a gospel made only of sayings existed, so a document like Q is historically plausible.",
+      "favours": "independence",
+      "evidence": [
+        {
+          "text": "The Coptic Gospel of Thomas, found complete at Nag Hammadi in 1945, is a series of sayings of Jesus with almost no narrative. Greek fragments of it had been known from Oxyrhynchus.",
+          "ref": "Goodacre 2001, p. 152; Kloppenborg 2003, p. 211 n. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Q's opening section moves in a sequence: John appears at the Jordan, preaches, predicts the Coming One; Jesus is baptised and tempted, goes to Nazara, gives a sermon, enters Capernaum and heals the centurion's boy; John's disciples then ask whether he is the Coming One.",
+          "ref": "Goodacre 2001, pp. 151–152; Kloppenborg 2003, p. 231; Q 3:2–7:35",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Kloppenborg's *The Formation of Q* placed Q among ancient instruction and chreia collections, building on Robinson's essay “LOGOI SOPHON” on the genre of sayings collections. Such collections survive in Near Eastern languages, Greek and Latin, flexible enough to carry very different content, so a written Q needs no special pleading.",
+          "ref": "Kloppenborg 1987; Head & Williams 2003, p. 130; Kloppenborg 2003, p. 211 n. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre accepts that Thomas answers one of Farrer's 1955 arguments, that “there is no independent evidence for anything like Q”. Fitzmyer was among the first to see this.",
+          "ref": "Goodacre 2002a",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Farrer argued from genre: “We have no reason to suppose documents of the Q type to have been plentiful… in postulating Q we are postulating the unique”, which offends against economy of explanation.",
+          "ref": "Farrer 1955, p. 325, as quoted in Kloppenborg 2003, p. 211 n. 7",
+          "basis": "reported"
+        },
+        {
+          "text": "Thomas does not look like Q. Thomas is “made up of disparate sayings, rarely lengthy, with no easily discernible order”, whereas Q consists of thematic discourses and its first third has a narrative sequence. That sequence follows the places where Matthew 3–11 departs from Mark, as expected if Luke were following Matthew there ([[C6]]). Thomas also overlaps Mark, M and L as much as the double tradition.",
+          "ref": "Goodacre 2002a; Goodacre 2001, pp. 151–152",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre (*Thomas and the Gospels*, 2012) and Gathercole (*The Composition of the Gospel of Thomas*, 2012) argue that Thomas knew the Synoptic Gospels, since it reproduces features of Matthew's and Luke's redaction; if so, it is no independent first-century sayings gospel. Tuckett, a defender of Q, reviewing both, wrote that he was “entirely in agreement with many of their conclusions”.",
+          "ref": "Goodacre 2012; Gathercole 2012; Tuckett 2013, p. 221",
+          "basis": "abstract"
+        },
+        {
+          "text": "Goodacre adds that there are many sayings and discourse collections about Jesus from the second to fourth centuries, so the genre gives no reason to date a text to the first century.",
+          "ref": "Goodacre 2014, pp. 287–288",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply to Farrer: Kloppenborg notes that the Oxyrhynchus fragments of Thomas had been known for half a century before 1955, and that numerous sayings collections survive. He credits Goodacre with not resting the case against Q on genre.",
+          "ref": "Kloppenborg 2003, p. 211 and n. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Reply on narrative: Kloppenborg accepts that the “narrativizing direction” of Q 3–7 sets it off from Thomas, but notes that other gnomic collections, such as Ankhsheshonq and the Sentences of Secundus, begin in a quasi-biographical way and continue with miscellaneous sayings.",
+          "ref": "Kloppenborg 2003, pp. 231–232 and n. 51",
+          "basis": "read"
+        },
+        {
+          "text": "Reply on Thomas: Kloppenborg finds Goodacre's and Gathercole's case for Thomas's knowledge of the Synoptics partial and in places unconvincing, and some of Thomas substantially autonomous, a “school text” or “anthology” drawing on parallel streams of tradition. On the Rich Fool he notes that Luke has no monopoly on interior monologue and cites Ben Sira 11:18–19. Patterson made similar objections.",
+          "ref": "Kloppenborg 2014b; Patterson 2014; Goodacre 2014, pp. 288–289",
+          "basis": "abstract"
+        },
+        {
+          "text": "Counter-reply: Goodacre answers that the Rich Fool is a cumulative case: it is one of four example stories, all in Luke; it turns on reversal between rich and poor, a Lukan theme; and its interior monologue appears in Thomas only where Thomas runs parallel to Luke. His target is the claim that Q and Thomas form a special early sub-genre, not the existence of sayings collections.",
+          "ref": "Goodacre 2014, pp. 287–289 and n. 6",
+          "basis": "read"
+        }
+      ],
+      "status": "Neither side disputes that sayings collections were a common ancient form, so Q is not implausible on grounds of genre, and Goodacre does not rest his case on genre. Whether Thomas is a close, independent parallel to Q is contested: since 2012 the case that Thomas knew the Synoptics has gained ground, including with Tuckett, while Kloppenborg and Patterson resist it. Q's narrative opening sets it apart from Thomas, though Kloppenborg cites other collections with biographical openings. The argument shows that a document like Q could have existed, not that one did.",
+      "bearsOn": { "2DH": "supports", "FH": "neutral", "MPH": "neutral", "2GH": "neutral" },
+      "seeAlso": ["C6", "Q1", "Q3"]
+    },
+    {
+      "id": "Q3",
+      "title": "Reconstruction and stratification",
+      "claim": "Q's wording, order and literary history can be reconstructed from Matthew and Luke with enough confidence to support a critical text, a theology of Q and a division into compositional layers.",
+      "favours": "open",
+      "evidence": [
+        {
+          "text": "The International Q Project's *Critical Edition of Q* (2000) runs to 561 pages for a text of about 4,500 words in about 250 verses. It grades decisions by probability on the model of the UBS Greek New Testament. Its working volumes, *Documenta Q*, spend thirty pages on Q 4:13 alone.",
+          "ref": "Robinson, Hoffmann & Kloppenborg 2000; Head & Williams 2003, pp. 123–127",
+          "basis": "reported"
+        },
+        {
+          "text": "Kloppenborg divides Q into an earlier sapiential layer of six instructional clusters (Q1), a main redaction dominated by judgement and Deuteronomistic material (Q2), and a late layer including the temptation story (Q3). The key evidence is a set of “stratigraphic markers”, Q2 sayings placed inside Q1 settings (Q 6:23c; 10:12, 13–15; 12:8–10).",
+          "ref": "Kloppenborg 1987; Kloppenborg 2000, pp. 112–165, as reported in Head & Williams 2003, p. 130",
+          "basis": "reported"
+        },
+        {
+          "text": "Weaks reconstructed Mark from Matthew and Luke alone, as if Mark were lost and only its two users survived, and compared the result (“MarQ”) with the real Mark, including a stylometric comparison. He concludes that a reconstructed text lacks features pervasive in the original, has features of its own with no basis in the original, and, when the original is a narrative, contains more sayings material than the original did. Goodacre, a member of his committee, reported that the presentation showed “just how much we would lose from scholarship on Mark”.",
+          "ref": "Weaks 2010; Goodacre 2008",
+          "basis": "abstract"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Andrejevs finds the “reconstructed Mark” a poorly calibrated analogy for Q. Matthew and Luke valued Jesus' sayings in Mark more highly than Mark's narrative, and treated a sayings collection differently again, so Q's text is more attainable than a reconstructed Mark would suggest.",
+          "ref": "Andrejevs 2020",
+          "basis": "abstract"
+        },
+        {
+          "text": "The IQP's procedure sets out its arguments openly. Each variation unit is sorted into ‘Luke=Q, pro/con’ and ‘Matthew=Q, pro/con’ and weighed, so that, for example, Matthew's characteristic τότε (“then”) is judged a Matthean change where Luke's καί (“and”) is not characteristically Lukan.",
+          "ref": "Head & Williams 2003, pp. 127–128; Goodacre 2004a, p. 117",
+          "basis": "read"
+        },
+        {
+          "text": "Kloppenborg's stratification is a literary analysis, not a claim about which sayings are earliest or most authentic. Robinson described a sapiential collection followed by a Deuteronomistic redaction as having “become a general assumption” of Q scholarship.",
+          "ref": "Robinson, Hoffmann & Kloppenborg 2000, p. lxvi (Robinson's introduction), as reported in Head & Williams 2003, p. 130 n. 23",
+          "basis": "reported"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Head and Williams, examining the shortest Q verse (Q 4:13) in detail, conclude that the wording of Q “can never be reconstructed with any certainty”. The edition gives ratings without arguments.",
+          "ref": "Head & Williams 2003, pp. 125–126",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre argues that the IQP's text-critical model misleads: Q is not lost but hypothetical, and Matthew and Luke are not its manuscript ‘witnesses’. The IQP built one critical text from two others and so missed real variants: it assigned Ναζαρά (Nazara) to Q 4:16 as a spelling unattested elsewhere, though P70 and Origen read it at Matt 2:23. Calling Luke-only material “unattested” in Matthew presupposes that Q's limits are known.",
+          "ref": "Goodacre 2004a, pp. 121–124",
+          "basis": "read"
+        },
+        {
+          "text": "Defenders of Q also reject the stratification. Tuckett and Catchpole question building literary layers on a hypothetical, reconstructed text, and others argue that it wrongly separates wisdom from apocalyptic and judgement material. Head and Williams judge the stratigraphic markers “vulnerable to criticism”.",
+          "ref": "Tuckett 1991; Tuckett 1996, pp. 70–74; Head & Williams 2003, p. 130",
+          "basis": "reported"
+        },
+        {
+          "text": "Eve proposed reconstructing Mark from Matthew and Luke, given Q, as Q is reconstructed given Mark, and argued that the result “would not be adequate to support Markan scholarship as we know it”. Goodacre's “erasure history” of Mark imagines the same case, a Mark used by Matthew and Luke but lost to the manuscript record.",
+          "ref": "Eve 2001; Goodacre 2022b",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Kloppenborg answered that the papyrus and text-critical models are metaphors for organising a large body of data, not descriptions of procedure, and that Goodacre's real complaint is that the IQP did not write a book called “The Sources of Luke”.",
+          "ref": "Kloppenborg 2006, as quoted in Goodacre 2006",
+          "basis": "reported"
+        },
+        {
+          "text": "Counter-reply: Goodacre answered that he had called the models analogies throughout. His point is that the choice of analogy has consequences: it led the IQP to overlook textual variants, to avoid engaging rival source theories, and to speak as if dealing with an extant text.",
+          "ref": "Goodacre 2006",
+          "basis": "read"
+        }
+      ],
+      "status": "Few now claim that the wording of Q can be recovered with the precision of a critical text, and critics of the IQP's method and of Kloppenborg's layers include Q scholars as well as sceptics. Weaks's and Eve's reconstructed-Mark experiments show what a reconstruction from two users can lose or invent; Andrejevs replies that sayings material survives better than narrative, so the analogy overstates the loss. None of this bears on whether Q existed. It limits what can be built on Q: its exact wording, its theology, its layers and its community.",
+      "bearsOn": { "2DH": "neutral", "FH": "neutral", "MPH": "neutral", "2GH": "neutral" },
+      "seeAlso": ["Q1", "Q5", "I3", "C5"]
+    },
+    {
+      "id": "Q4",
+      "title": "No manuscript, no ancient mention",
+      "claim": "No copy or fragment of Q survives and no ancient writer refers to it, which counts against its having existed.",
+      "favours": "open",
+      "evidence": [
+        {
+          "text": "No manuscript or fragment of Q has been found, and no ancient author refers to such a document.",
+          "ref": "Goodacre 2003a",
+          "basis": "read"
+        },
+        {
+          "text": "Papias, quoted by Eusebius: Ματθαῖος μὲν οὖν Ἑβραΐδι διαλέκτῳ τὰ λόγια συνετάξατο (“Matthew compiled the oracles in the Hebrew language”), and each person interpreted them as he could.",
+          "ref": "Schaff & Wace 1890; Eusebius, Hist. eccl. 3.39.16",
+          "basis": "read"
+        },
+        {
+          "text": "In 1832 Schleiermacher noted that Papias does not call these λόγια (logia) a gospel, and inferred an early sayings collection used by Matthew. In 1838 Weisse combined this with Markan priority, and the label Q came later.",
+          "ref": "Smith 2023",
+          "basis": "reported"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Goodacre offers this as a “sober reminder”: editions, strata, communities and theologies of Q have been produced, yet there is no manuscript of Q and no ancient reference to it. The Papias logia, once a plank of the hypothesis, are identified with Q by no current Q proponent.",
+          "ref": "Goodacre 2003a; Goodacre 2004a, p. 121 n. 24",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre distinguishes lost from hypothetical texts. The Diatessaron is lost but attested in antiquity; Q is not, and “the sole reason” for postulating it is to solve a source-critical difficulty.",
+          "ref": "Goodacre 2004a, p. 121",
+          "basis": "read"
+        },
+        {
+          "text": "Casey, who did not hold the Farrer hypothesis, said that the silence of antiquity and Q's non-survival should have been “devastating enough” to prevent the idea of a single Q document with its own theology and community. He proposed several Aramaic sources instead.",
+          "ref": "Casey 2002, p. 47, as reported in Head & Williams 2003, p. 132",
+          "basis": "reported"
+        }
+      ],
+      "contra": [
+        {
+          "text": "A source absorbed into Matthew and Luke had little reason to be recopied. Copying was expensive and uncopied manuscripts wore out, so a document that disappeared early would leave no trace in later writers. Luke 1:1 itself speaks of “many” (πολλοί) earlier accounts, none of which survives under its own name.",
+          "ref": "Smith 2023; Luke 1:1",
+          "basis": "read"
+        },
+        {
+          "text": "Kloppenborg argues that dependence on Mark is no less a hypothesis than dependence on Q. The text of Mark is itself reconstructed from manuscripts none earlier than the third century.",
+          "ref": "Kloppenborg 2003, pp. 215–216",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: lost works like the Diatessaron are attested in antiquity, whereas Q is not, so the case for Q must rest entirely on the source-critical argument. That is why the absence of attestation counts, even if it is not decisive.",
+          "ref": "Goodacre 2004a, p. 121",
+          "basis": "read"
+        }
+      ],
+      "status": "Both sides agree there is no manuscript and no ancient reference, and that the Papias link that helped launch the hypothesis has been dropped. They differ on how much the silence matters: early losses were common, and a source absorbed into later Gospels had little reason to survive. The silence does not refute Q, but it leaves Q resting entirely on the source-critical argument. It weighs against Q only as a matter of economy ([[C8]]) and favours no single rival.",
+      "bearsOn": { "2DH": "strains", "FH": "neutral", "MPH": "neutral", "2GH": "neutral" },
+      "seeAlso": ["C8", "M5", "Q2"]
+    },
+    {
+      "id": "Q5",
+      "title": "How big was Q, and did Mark know it?",
+      "claim": "Q was not identical with the double tradition: it probably included material preserved by only one evangelist and overlapped with Mark, and Mark may have known it.",
+      "favours": "open",
+      "evidence": [
+        {
+          "text": "Kloppenborg's reconstruction counts as probably in Q passages found in Luke alone, such as Luke 9:61–62 (a third would-be follower) and 15:8–10 (the lost coin). It lists Matt 10:5b–6, 23 (the mission only to Israel) as possible.",
+          "ref": "Kloppenborg 2000, as listed in Head & Williams 2003, p. 129 n. 21",
+          "basis": "reported"
+        },
+        {
+          "text": "The IQP voted to include Jesus' baptism (Q 3:21–22). Kloppenborg dissented, so Q scholars disagree over whether Q had even this narrative scene.",
+          "ref": "Kloppenborg 2003, p. 231 n. 49",
+          "basis": "read"
+        },
+        {
+          "text": "Some double-tradition sayings presuppose Mark's wording. Q's “and fire” in John's prophecy (Matt 3:11 // Luke 3:16) needs an antecedent like “he will baptise you in holy spirit”, which is exactly Mark 1:8.",
+          "ref": "Goodacre 2001, p. 149; Mark 1:7–8 // Matt 3:11 // Luke 3:16",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Matthew and Luke each omitted parts of Mark, so they presumably each omitted parts of Q too. Q could have contained material that survives in only one Gospel, or in neither.",
+          "ref": "Kloppenborg 2000",
+          "basis": "unchecked"
+        },
+        {
+          "text": "The IQP's critical text itself includes Mark–Q overlap material in Q's opening (John's preaching, the temptation). On any standard reconstruction, Q and Mark had content in common.",
+          "ref": "Goodacre 2001, p. 152 n. 13; Robinson, Hoffmann & Kloppenborg 2000",
+          "basis": "read"
+        },
+        {
+          "text": "Fleddermann examined 29 Mark–Q overlap texts and concluded that Mark is consistently secondary to Q and at points knows Q's redaction, so the Two-Source hypothesis should be extended to include Mark's use of Q. Catchpole and Lambrecht argued that Mark knew Q in his opening (Mark 1:1–8). Streeter had proposed Mark's use of Q in 1911 and abandoned it by 1924.",
+          "ref": "Fleddermann 1995, as reported in Nel 1998, pp. 837–838; Dunderberg 1995; Goodacre 2018, p. 203 n. 5",
+          "basis": "reported"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Neirynck's assessment, printed in Fleddermann's own volume, raised doubts about many of Fleddermann's arguments. Tuckett and Dunderberg also doubt that Mark knew Q, and most Q scholars still treat Mark and Q as independent.",
+          "ref": "Nel 1998, p. 838; Dunderberg 1995",
+          "basis": "reported"
+        },
+        {
+          "text": "Goodacre argues that no one knows Q's limits. Unlike an extant document, Q has no known edges: no one can say how much of it is missing from both Gospels or survives in only one. The proposed Luke-only Q passages (Luke 11:27–28; 12:15–21; 15:8–10) also have a strongly Lukan ring, which is odd if Q had a distinctive style.",
+          "ref": "Goodacre 2004a, p. 124; Goodacre 2001, p. 141",
+          "basis": "read"
+        },
+        {
+          "text": "A Q that presupposes Mark's wording is “more than a little odd if Mark and Q are (as most hold them to be) independent”. The Farrer hypothesis explains it more simply: Matthew expanded Mark, and Luke followed Matthew ([[C3]]).",
+          "ref": "Goodacre 2001, pp. 149–151",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Kloppenborg and the IQP include Luke-only or Matthew-only material only as probable or possible, and grade it as such. Q's extent is uncertain at the edges, but the double tradition itself is a firm core.",
+          "ref": "Kloppenborg 2000, as listed in Head & Williams 2003, p. 129 n. 21",
+          "basis": "reported"
+        }
+      ],
+      "status": "Nearly everyone agrees that Q's edges are uncertain, and the more flexible Q becomes, the harder it is to test. If Mark knew Q, Q stops being an independent second source beside Mark: in the overlap passages Mark becomes a redactor of Q, and Q a source used by all three evangelists. Fleddermann accepts that and would extend the Two-Source hypothesis accordingly; most Q scholars keep Mark and Q independent; Goodacre takes Q's dependence on Mark's wording as a sign that the “Q” in these passages is Matthew's expansion of Mark.",
+      "bearsOn": { "2DH": "strains", "FH": "neutral", "MPH": "neutral", "2GH": "neutral" },
+      "seeAlso": ["C3", "Q3", "Q1"]
+    }
+  ]
+}

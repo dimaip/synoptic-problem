@@ -1,0 +1,462 @@
+{
+  "_doc": "Hand-written spec for tools/build_synopsis.py. Greek is never typed here: each column's 'ref' selects text from tools/data. 'english' is a close working translation keyed by verse. Optional 'blocks' pair verse groups across columns; words only match inside the same block (refs may use 'a'/'b' for the part of a verse before/after its first full stop or colon, or '@i-j' for words i to j). Optional 'align': 'bag' matches by multiset instead of in sequence. 'alignNote' is appended to the 'How counted' stat.",
+  "exhibits": [
+    {
+      "id": "john-preaching",
+      "title": "John's preaching of repentance",
+      "kind": "double",
+      "lede": "A passage found in Matthew and Luke but not in Mark. After the different introductions, John's words run almost word for word in both.",
+      "columns": [
+        { "gospel": "Matt", "ref": "3:7–10", "english": {
+          "7": "But seeing many of the Pharisees and Sadducees coming to his baptism, he said to them: Brood of vipers, who warned you to flee from the coming wrath?",
+          "8": "Produce, then, fruit worthy of repentance,",
+          "9": "and do not presume to say among yourselves, ‘We have Abraham as father’; for I tell you that God is able from these stones to raise up children to Abraham.",
+          "10": "And already the axe is laid at the root of the trees; so every tree not producing good fruit is cut down and thrown into fire."
+        } },
+        { "gospel": "Luke", "ref": "3:7–9", "english": {
+          "7": "So he said to the crowds coming out to be baptised by him: Brood of vipers, who warned you to flee from the coming wrath?",
+          "8": "Produce, then, fruits worthy of repentance; and do not begin to say among yourselves, ‘We have Abraham as father’; for I tell you that God is able from these stones to raise up children to Abraham.",
+          "9": "And already even the axe is laid at the root of the trees; so every tree not producing good fruit is cut down and thrown into fire."
+        } }
+      ],
+      "points": [
+        "Once the narrative introductions are set aside, almost every word of John's speech is identical in form and order in the two Gospels, down to particles and word order.",
+        "Agreement this close in Greek points to copying from a written text rather than independent use of oral tradition; both sides accept this.",
+        "For the Two-Source hypothesis the shared text is Q, copied faithfully by both; for the Farrer hypothesis it is Luke copying Matthew."
+      ],
+      "usedBy": ["C9", "I6", "M3"]
+    },
+    {
+      "id": "john-coming-one",
+      "title": "John on the one who is coming",
+      "kind": "overlap",
+      "lede": "Mark has a shorter version of this saying. Matthew and Luke share wording that Mark lacks, above all “and fire” and the whole winnowing-fork verse.",
+      "columns": [
+        { "gospel": "Matt", "ref": "3:11–12", "english": {
+          "11": "I baptise you with water for repentance; but the one coming after me is stronger than I, whose sandals I am not worthy to carry; he will baptise you with the Holy Spirit and fire.",
+          "12": "His winnowing fork is in his hand, and he will clear his threshing floor and gather his wheat into the barn, but the chaff he will burn with unquenchable fire."
+        } },
+        { "gospel": "Mark", "ref": "1:7–8", "english": {
+          "7": "And he proclaimed, saying: There comes the one stronger than I after me, the strap of whose sandals I am not worthy to stoop down and untie.",
+          "8": "I baptised you with water, but he will baptise you with the Holy Spirit."
+        } },
+        { "gospel": "Luke", "ref": "3:16–17", "english": {
+          "16": "John answered, saying to all: I baptise you with water; but there comes the one stronger than I, the strap of whose sandals I am not worthy to untie; he will baptise you with the Holy Spirit and fire.",
+          "17": "His winnowing fork is in his hand, to clear his threshing floor and to gather the wheat into his barn, but the chaff he will burn with unquenchable fire."
+        } }
+      ],
+      "blocks": [
+        { "Matt": "3:11a", "Mark": "1:8@1–4", "Luke": "3:16@1–10" },
+        { "Matt": "3:11b, 12", "Mark": "1:7, 8@5–99", "Luke": "3:16@11–99, 17" }
+      ],
+      "alignNote": "Mark puts the water-baptism clause (1:8a) after the saying about the stronger one; it is paired separately so that the reordering does not hide the agreement.",
+      "points": [
+        "Matthew and Luke agree against Mark in placing the water-baptism clause first, in “and fire”, and in the whole of Matt 3:12 // Luke 3:17, which Mark does not have.",
+        "On the Two-Source hypothesis this is a Mark–Q overlap: Q had its own version, and Matthew and Luke each conflated it with Mark.",
+        "On the Farrer hypothesis these are simply places where Luke follows Matthew's expanded version rather than Mark's."
+      ],
+      "usedBy": ["C3", "I1"]
+    },
+    {
+      "id": "who-struck-you",
+      "title": "“Who is it that struck you?”",
+      "kind": "minor-agreement",
+      "lede": "In the mockery scene Matthew and Luke share a five-word question, “who is it that struck you?”, that Mark lacks.",
+      "columns": [
+        { "gospel": "Matt", "ref": "26:67–68", "english": {
+          "67": "Then they spat in his face and struck him with their fists, and some slapped him,",
+          "68": "saying: Prophesy to us, Christ: who is it that struck you?"
+        } },
+        { "gospel": "Mark", "ref": "14:65", "english": {
+          "65": "And some began to spit on him and to cover his face and to strike him with their fists and to say to him: Prophesy! And the guards received him with slaps."
+        } },
+        { "gospel": "Luke", "ref": "22:63–64", "english": {
+          "63": "And the men who were holding him mocked him, beating him;",
+          "64": "and having covered him they kept asking him, saying: Prophesy: who is it that struck you?"
+        } }
+      ],
+      "points": [
+        "The question τίς ἐστιν ὁ παίσας σε is identical in Matthew and Luke and absent from Mark; this is the only use of the verb παίω in either Matthew or Luke.",
+        "In Matthew the question makes the taunt intelligible only if Jesus is blindfolded, but Matthew, unlike Mark and Luke, never mentions covering his face.",
+        "Defenders of Q usually explain the words as an early scribal addition to Matthew from Luke; Goodacre and others take them as Luke's knowledge of Matthew."
+      ],
+      "usedBy": ["C2"]
+    },
+    {
+      "id": "mysteries",
+      "title": "The mysteries of the kingdom",
+      "kind": "minor-agreement",
+      "lede": "Matthew and Luke both have “it has been given to know the mysteries”, against Mark's “the mystery has been given”.",
+      "columns": [
+        { "gospel": "Matt", "ref": "13:11", "english": {
+          "11": "And he answered and said to them: To you it has been given to know the mysteries of the kingdom of the heavens, but to them it has not been given."
+        } },
+        { "gospel": "Mark", "ref": "4:11", "english": {
+          "11": "And he said to them: To you the mystery has been given of the kingdom of God; but to those outside everything comes in parables,"
+        } },
+        { "gospel": "Luke", "ref": "8:10", "english": {
+          "10": "And he said: To you it has been given to know the mysteries of the kingdom of God, but to the rest in parables, so that seeing they may not see and hearing they may not understand."
+        } }
+      ],
+      "points": [
+        "Matthew and Luke agree against Mark in adding γνῶναι (“to know”) and in the plural τὰ μυστήρια.",
+        "On the Two-Source hypothesis the shared change is a natural improvement made independently, or a trace of an overlapping tradition; on the Farrer hypothesis Luke has taken Matthew's wording."
+      ],
+      "usedBy": ["C2"]
+    },
+    {
+      "id": "mustard-seed",
+      "title": "The mustard seed",
+      "kind": "overlap",
+      "lede": "Matthew mixes Mark's wording with wording he shares with Luke alone: a man “took and sowed/threw” the seed, it became a “tree”, and the birds nest “in its branches”.",
+      "columns": [
+        { "gospel": "Matt", "ref": "13:31–32", "english": {
+          "31": "Another parable he put before them, saying: The kingdom of the heavens is like a grain of mustard seed, which a man took and sowed in his field;",
+          "32": "which is smaller than all the seeds, but when it has grown it is greater than the garden plants and becomes a tree, so that the birds of the sky come and nest in its branches."
+        } },
+        { "gospel": "Mark", "ref": "4:30–32", "english": {
+          "30": "And he said: How shall we liken the kingdom of God, or in what parable shall we put it?",
+          "31": "Like a grain of mustard seed, which, when it is sown upon the earth, being smaller than all the seeds that are upon the earth —",
+          "32": "and when it is sown, it comes up and becomes greater than all the garden plants and makes great branches, so that the birds of the sky can nest under its shade."
+        } },
+        { "gospel": "Luke", "ref": "13:18–19", "english": {
+          "18": "So he said: To what is the kingdom of God like, and to what shall I liken it?",
+          "19": "It is like a grain of mustard seed, which a man took and threw into his own garden, and it grew and became a tree, and the birds of the sky nested in its branches."
+        } }
+      ],
+      "points": [
+        "Matthew agrees with Mark on the smallest-of-seeds and greater-than-garden-plants contrast that Luke lacks, and with Luke on the man who took it, the tree and nesting in its branches, which Mark lacks.",
+        "The Two-Source hypothesis reads this as Matthew conflating Mark with a Q version that Luke reproduces on its own.",
+        "The Farrer hypothesis reads it as Matthew expanding Mark and Luke choosing Matthew's non-Markan wording, which removes the need for a second source."
+      ],
+      "usedBy": ["C3", "M1"]
+    },
+    {
+      "id": "beelzebul",
+      "title": "The Beelzebul controversy",
+      "kind": "overlap",
+      "lede": "A Mark–Q overlap. Matthew and Luke share a healing that opens the scene, the saying on “your sons”, “the finger/Spirit of God”, and “whoever is not with me”, none of it in Mark.",
+      "columns": [
+        { "gospel": "Matt", "ref": "12:22–30", "english": {
+          "22": "Then there was brought to him a demon-possessed man, blind and mute; and he healed him, so that the mute man spoke and saw.",
+          "23": "And all the crowds were amazed and said: Can this be the Son of David?",
+          "24": "But the Pharisees, hearing it, said: This man does not cast out the demons except by Beelzebul, ruler of the demons.",
+          "25": "But knowing their thoughts he said to them: Every kingdom divided against itself is laid waste, and every city or house divided against itself will not stand.",
+          "26": "And if Satan casts out Satan, he is divided against himself; how then will his kingdom stand?",
+          "27": "And if I cast out the demons by Beelzebul, by whom do your sons cast them out? Therefore they will be your judges.",
+          "28": "But if it is by the Spirit of God that I cast out the demons, then the kingdom of God has come upon you.",
+          "29": "Or how can someone enter the house of the strong man and seize his goods, unless he first binds the strong man? And then he will plunder his house.",
+          "30": "Whoever is not with me is against me, and whoever does not gather with me scatters."
+        } },
+        { "gospel": "Mark", "ref": "3:22–27", "english": {
+          "22": "And the scribes who had come down from Jerusalem said, He has Beelzebul, and, By the ruler of the demons he casts out the demons.",
+          "23": "And calling them to him he said to them in parables: How can Satan cast out Satan?",
+          "24": "And if a kingdom is divided against itself, that kingdom cannot stand;",
+          "25": "and if a house is divided against itself, that house will not be able to stand;",
+          "26": "and if Satan has risen up against himself and is divided, he cannot stand but has an end.",
+          "27": "But no one can enter the house of the strong man and plunder his goods unless he first binds the strong man, and then he will plunder his house."
+        } },
+        { "gospel": "Luke", "ref": "11:14–23", "english": {
+          "14": "And he was casting out a demon that was mute; and when the demon had gone out, the mute man spoke. And the crowds were amazed;",
+          "15": "but some of them said: By Beelzebul, the ruler of the demons, he casts out the demons;",
+          "16": "and others, testing him, were seeking from him a sign from heaven.",
+          "17": "But he, knowing their thoughts, said to them: Every kingdom divided against itself is laid waste, and house falls upon house.",
+          "18": "And if Satan too is divided against himself, how will his kingdom stand? For you say that I cast out the demons by Beelzebul.",
+          "19": "And if I cast out the demons by Beelzebul, by whom do your sons cast them out? Therefore they will be your judges.",
+          "20": "But if it is by the finger of God that I cast out the demons, then the kingdom of God has come upon you.",
+          "21": "When the strong man, fully armed, guards his own courtyard, his possessions are in peace;",
+          "22": "but when one stronger than he comes upon him and overpowers him, he takes away his armour in which he had trusted and divides his spoils.",
+          "23": "Whoever is not with me is against me, and whoever does not gather with me scatters."
+        } }
+      ],
+      "blocks": [
+        { "Matt": "12:22–24", "Mark": "3:22", "Luke": "11:14–15" },
+        { "Matt": "12:25–26", "Mark": "3:23–26", "Luke": "11:17–18" },
+        { "Matt": "12:27–28", "Luke": "11:19–20" },
+        { "Matt": "12:29", "Mark": "3:27", "Luke": "11:21–22" },
+        { "Matt": "12:30", "Luke": "11:23" }
+      ],
+      "alignNote": "Luke 11:16 (the request for a sign) has no counterpart here and is left unmatched.",
+      "points": [
+        "Matt 12:27–28 and 12:30 agree almost word for word with Luke 11:19–20 and 11:23 and have nothing in Mark; in the strong-man saying, by contrast, Matthew follows Mark and Luke goes his own way.",
+        "Matt 12:28 has “by the Spirit of God”, Luke 11:20 “by the finger of God”: Q scholars usually take Luke's “finger” as original, while Goodacre argues that Luke changed Matthew's “Spirit”.",
+        "Both sides agree that Matthew combines Mark with another text here; they disagree on whether that text was Q or whether Luke is the one combining Mark with Matthew."
+      ],
+      "usedBy": ["C3", "M1", "I3"]
+    },
+    {
+      "id": "peter-confession",
+      "title": "Peter's confession",
+      "kind": "addition",
+      "lede": "Matthew adds a blessing of Peter (16:17–19) to the Markan scene. Luke follows Mark and has none of it.",
+      "columns": [
+        { "gospel": "Matt", "ref": "16:13–20", "english": {
+          "13": "Now when Jesus came into the region of Caesarea Philippi, he asked his disciples, saying: Who do people say that the Son of Man is?",
+          "14": "And they said: Some, John the Baptist; others, Elijah; and others, Jeremiah or one of the prophets.",
+          "15": "He says to them: But you, who do you say that I am?",
+          "16": "And Simon Peter answered and said: You are the Christ, the Son of the living God.",
+          "17": "And Jesus answered and said to him: Blessed are you, Simon Bar-Jonah, for flesh and blood did not reveal this to you, but my Father who is in the heavens.",
+          "18": "And I tell you that you are Peter, and on this rock I will build my church, and the gates of Hades will not prevail against it.",
+          "19": "I will give you the keys of the kingdom of the heavens, and whatever you bind on earth will be bound in the heavens, and whatever you loose on earth will be loosed in the heavens.",
+          "20": "Then he ordered the disciples to tell no one that he was the Christ."
+        } },
+        { "gospel": "Mark", "ref": "8:27–30", "english": {
+          "27": "And Jesus and his disciples went out into the villages of Caesarea Philippi; and on the way he asked his disciples, saying to them: Who do people say that I am?",
+          "28": "And they said to him, saying: John the Baptist; and others, Elijah; and others, one of the prophets.",
+          "29": "And he asked them: But you, who do you say that I am? Peter answered and says to him: You are the Christ.",
+          "30": "And he rebuked them, that they should tell no one about him."
+        } },
+        { "gospel": "Luke", "ref": "9:18–21", "english": {
+          "18": "And it happened, while he was praying alone, the disciples were with him, and he asked them, saying: Who do the crowds say that I am?",
+          "19": "And they answered and said: John the Baptist; and others, Elijah; and others, that one of the ancient prophets has risen.",
+          "20": "And he said to them: But you, who do you say that I am? And Peter answered and said: The Christ of God.",
+          "21": "And he rebuked them and commanded them to tell this to no one,"
+        } }
+      ],
+      "blocks": [
+        { "Matt": "16:13–16", "Mark": "8:27–29", "Luke": "9:18–20" },
+        { "Matt": "16:20", "Mark": "8:30", "Luke": "9:21" }
+      ],
+      "alignNote": "Matt 16:17–19 has no counterpart and is left unmatched.",
+      "points": [
+        "Matt 16:17–19 has no parallel in Mark or Luke; Luke's wording stays close to Mark's, with only small agreements with Matthew (εἶπεν for Mark's λέγει, and “of God”).",
+        "For defenders of Q, a Luke who knew Matthew would hardly have left out the blessing of Peter; for the Farrer hypothesis, Luke follows Mark in triple-tradition passages and need not take every Matthean addition."
+      ],
+      "usedBy": ["I1"]
+    },
+    {
+      "id": "lords-prayer",
+      "title": "The Lord's Prayer",
+      "kind": "primitivity",
+      "lede": "Luke's prayer is shorter. Where the two overlap the wording is close, but Matthew has “debts” where Luke has “sins”, then “debtors” where Luke has “everyone indebted to us”.",
+      "columns": [
+        { "gospel": "Matt", "ref": "6:9–13", "english": {
+          "9": "Pray, then, like this: Our Father who is in the heavens, may your name be made holy;",
+          "10": "may your kingdom come; may your will be done, as in heaven, so also on earth;",
+          "11": "our daily bread give us today;",
+          "12": "and forgive us our debts, as we also have forgiven our debtors;",
+          "13": "and do not bring us into temptation, but deliver us from the evil one."
+        } },
+        { "gospel": "Luke", "ref": "11:2–4", "english": {
+          "2": "And he said to them: When you pray, say: Father, may your name be made holy; may your kingdom come;",
+          "3": "our daily bread keep giving us each day;",
+          "4": "and forgive us our sins, for we ourselves also forgive everyone indebted to us; and do not bring us into temptation."
+        } }
+      ],
+      "points": [
+        "Luke lacks “our … who is in the heavens”, the petition for God's will, and the deliverance from evil; where both have a petition, much of the wording is identical, including the rare word ἐπιούσιος.",
+        "Q scholars usually judge Luke's shorter form the more original in length and Matthew's the more original in some wording.",
+        "Farrer scholars point to Luke's “sins … everyone indebted to us” as a trace of Matthew's “debts” left behind when Luke edited it."
+      ],
+      "usedBy": ["I3", "D2"]
+    },
+    {
+      "id": "beatitude-poor",
+      "title": "Blessed are the poor",
+      "kind": "primitivity",
+      "lede": "Matthew's beatitudes speak of “the poor in spirit” in the third person; Luke's speak of “the poor” in the second person, and Luke has fewer of them.",
+      "columns": [
+        { "gospel": "Matt", "ref": "5:3–6", "english": {
+          "3": "Blessed are the poor in spirit, for theirs is the kingdom of the heavens.",
+          "4": "Blessed are those who mourn, for they will be comforted.",
+          "5": "Blessed are the meek, for they will inherit the earth.",
+          "6": "Blessed are those who hunger and thirst for righteousness, for they will be filled."
+        } },
+        { "gospel": "Luke", "ref": "6:20–21", "english": {
+          "20": "And he, lifting up his eyes to his disciples, said: Blessed are the poor, for yours is the kingdom of God.",
+          "21": "Blessed are those who hunger now, for you will be filled. Blessed are those who weep now, for you will laugh."
+        } }
+      ],
+      "blocks": [
+        { "Matt": "5:3", "Luke": "6:20" },
+        { "Matt": "5:6", "Luke": "6:21a" },
+        { "Matt": "5:4", "Luke": "6:21b" }
+      ],
+      "alignNote": "The order differs: Matthew's hunger beatitude (5:6) is paired with Luke 6:21a and the mourning beatitude (5:4) with Luke 6:21b; Matt 5:5 has no counterpart.",
+      "points": [
+        "The shared core is short: “blessed are the poor … for … is the kingdom” and “blessed are those who hunger … will be filled”.",
+        "Most Q scholars take Luke's plain “poor” and “hunger” as earlier and Matthew's “in spirit” and “for righteousness” as Matthean additions; Farrer scholars argue that Luke removed them in line with his interest in the literally poor."
+      ],
+      "usedBy": ["I3", "D2"]
+    },
+    {
+      "id": "talents-pounds",
+      "title": "The talents and the pounds",
+      "kind": "fatigue",
+      "lede": "Two versions of one parable with much lower verbal agreement than most double tradition. Watch the servants: Luke introduces ten, but only three report back.",
+      "columns": [
+        { "gospel": "Matt", "ref": "25:14–30", "english": {
+          "14": "For it is like a man going on a journey, who called his own servants and handed over to them his possessions;",
+          "15": "and to one he gave five talents, to another two, to another one, to each according to his own ability; and he went on his journey. At once",
+          "16": "the one who had received the five talents went and traded with them and gained five more;",
+          "17": "likewise the one with the two gained two more.",
+          "18": "But the one who had received the one went off, dug in the ground and hid his master's money.",
+          "19": "After a long time the master of those servants comes and settles accounts with them.",
+          "20": "And the one who had received the five talents came forward and brought five more talents, saying: Master, you handed over to me five talents; see, I have gained five more talents.",
+          "21": "His master said to him: Well done, good and faithful servant; you were faithful over a few things, I will set you over many; enter into the joy of your master.",
+          "22": "And the one with the two talents also came forward and said: Master, you handed over to me two talents; see, I have gained two more talents.",
+          "23": "His master said to him: Well done, good and faithful servant; you were faithful over a few things, I will set you over many; enter into the joy of your master.",
+          "24": "And the one who had received the one talent also came forward and said: Master, I knew you, that you are a hard man, reaping where you did not sow and gathering where you did not scatter;",
+          "25": "and being afraid I went off and hid your talent in the ground; see, you have what is yours.",
+          "26": "But his master answered and said to him: Wicked and lazy servant! You knew that I reap where I did not sow and gather where I did not scatter?",
+          "27": "Then you ought to have put my money with the bankers, and on coming I would have received what is mine with interest.",
+          "28": "So take the talent from him and give it to the one who has the ten talents.",
+          "29": "For to everyone who has, more will be given, and he will have abundance; but from the one who does not have, even what he has will be taken away from him.",
+          "30": "And throw the worthless servant into the outer darkness; there will be weeping and gnashing of teeth."
+        } },
+        { "gospel": "Luke", "ref": "19:11–27", "english": {
+          "11": "As they were listening to this, he went on to tell a parable, because he was near Jerusalem and they supposed that the kingdom of God was about to appear immediately.",
+          "12": "So he said: A certain man of noble birth went to a distant country to receive a kingdom for himself and to return.",
+          "13": "Calling ten of his servants, he gave them ten minas and said to them: Do business until I come.",
+          "14": "But his citizens hated him and sent a delegation after him, saying: We do not want this man to reign over us.",
+          "15": "And it happened, when he returned having received the kingdom, that he ordered these servants to whom he had given the money to be called to him, so that he might know what they had gained by trading.",
+          "16": "The first came forward, saying: Master, your mina has made ten minas more.",
+          "17": "And he said to him: Well done, good servant; because you were faithful in a very little, have authority over ten cities.",
+          "18": "And the second came, saying: Your mina, master, has made five minas.",
+          "19": "And he said to this one too: And you, be over five cities.",
+          "20": "And the other came, saying: Master, see, here is your mina, which I kept laid away in a cloth;",
+          "21": "for I was afraid of you, because you are a severe man; you take up what you did not lay down and reap what you did not sow.",
+          "22": "He says to him: Out of your own mouth I will judge you, wicked servant! You knew that I am a severe man, taking up what I did not lay down and reaping what I did not sow?",
+          "23": "Then why did you not put my money on a banker's table? And on coming I would have collected it with interest.",
+          "24": "And to those standing by he said: Take the mina from him and give it to the one who has the ten minas —",
+          "25": "and they said to him: Master, he has ten minas —",
+          "26": "I tell you that to everyone who has, more will be given; but from the one who does not have, even what he has will be taken away.",
+          "27": "But these enemies of mine who did not want me to reign over them, bring them here and slaughter them before me."
+        } }
+      ],
+      "blocks": [
+        { "Matt": "25:14–15", "Luke": "19:12–13" },
+        { "Matt": "25:19", "Luke": "19:15" },
+        { "Matt": "25:20–21", "Luke": "19:16–17" },
+        { "Matt": "25:22–23", "Luke": "19:18–19" },
+        { "Matt": "25:24–25", "Luke": "19:20–21" },
+        { "Matt": "25:26–27", "Luke": "19:22–23" },
+        { "Matt": "25:28", "Luke": "19:24–25" },
+        { "Matt": "25:29", "Luke": "19:26" },
+        { "Matt": "25:30", "Luke": "19:27" }
+      ],
+      "alignNote": "Matt 25:16–18 and Luke 19:11, 14 have no counterpart and are left unmatched.",
+      "points": [
+        "Verbal agreement is much lower than in passages such as Matt 3:7–10 // Luke 3:7–9; the closest agreement is in the master's verdict on the third servant (Matt 25:26–29 // Luke 19:22–26).",
+        "Luke has ten servants given ten minas (19:13), yet only three report, called “the first”, “the second” and “the other” (ὁ ἕτερος, “the other of two”), and the bystanders protest that the first “has ten minas” (19:25), where Matthew's servant has ten talents (25:28).",
+        "Goodacre reads these as editorial fatigue, Luke drifting back into Matthew's three-servant version; critics reply that Luke's ten servants and throne-claimant frame (19:12, 14, 27) may be his own additions to a three-servant parable in Q, which would produce the same unevenness without Matthew."
+      ],
+      "usedBy": ["C4", "M3"]
+    },
+    {
+      "id": "herod-fatigue",
+      "title": "Herod: tetrarch or king?",
+      "kind": "fatigue",
+      "lede": "Mark calls Herod “king” throughout. Matthew corrects the title to “tetrarch” at the start (14:1), but at 14:9, where he is following Mark 6:26 closely, Herod is “the king” again.",
+      "columns": [
+        { "gospel": "Matt", "ref": "14:1–12", "english": {
+          "1": "At that time Herod the tetrarch heard the report about Jesus,",
+          "2": "and said to his servants: This is John the Baptist; he has been raised from the dead, and that is why the powers are at work in him.",
+          "3": "For Herod had seized John, bound him and put him away in prison because of Herodias, the wife of Philip his brother;",
+          "4": "for John had been saying to him: It is not lawful for you to have her.",
+          "5": "And though he wanted to kill him, he feared the crowd, because they held him to be a prophet.",
+          "6": "But when Herod's birthday came, the daughter of Herodias danced in their midst and pleased Herod,",
+          "7": "so that he promised with an oath to give her whatever she might ask.",
+          "8": "Prompted by her mother, she said: Give me here on a platter the head of John the Baptist.",
+          "9": "And though grieved, the king, because of the oaths and the guests, ordered it to be given,",
+          "10": "and he sent and beheaded John in the prison;",
+          "11": "and his head was brought on a platter and given to the girl, and she brought it to her mother.",
+          "12": "And his disciples came and took the body and buried him, and they went and told Jesus."
+        } },
+        { "gospel": "Mark", "ref": "6:14–29", "english": {
+          "14": "And King Herod heard of it, for his name had become known, and people were saying: John the Baptiser has been raised from the dead, and that is why the powers are at work in him.",
+          "15": "But others were saying: It is Elijah; and others were saying: A prophet, like one of the prophets.",
+          "16": "But when Herod heard, he said: John, whom I beheaded, he has been raised.",
+          "17": "For Herod himself had sent and seized John and bound him in prison because of Herodias, the wife of Philip his brother, because he had married her.",
+          "18": "For John had been saying to Herod: It is not lawful for you to have your brother's wife.",
+          "19": "And Herodias had a grudge against him and wanted to kill him, but she could not;",
+          "20": "for Herod feared John, knowing him to be a righteous and holy man, and he protected him; and when he heard him he was greatly perplexed, and yet he heard him gladly.",
+          "21": "And an opportune day came when Herod on his birthday gave a banquet for his nobles and the military commanders and the leading men of Galilee,",
+          "22": "and when the daughter of Herodias herself came in and danced, she pleased Herod and the guests. The king said to the girl: Ask me whatever you wish, and I will give it to you.",
+          "23": "And he swore to her: Whatever you ask me I will give you, up to half of my kingdom.",
+          "24": "And she went out and said to her mother: What shall I ask for? And she said: The head of John the Baptiser.",
+          "25": "And coming in at once with haste to the king, she asked, saying: I want you to give me at once on a platter the head of John the Baptist.",
+          "26": "And though deeply grieved, the king, because of the oaths and the guests, did not want to refuse her.",
+          "27": "And at once the king sent an executioner and commanded him to bring his head. And he went and beheaded him in the prison",
+          "28": "and brought his head on a platter and gave it to the girl, and the girl gave it to her mother.",
+          "29": "And when his disciples heard, they came and took his body and laid it in a tomb."
+        } }
+      ],
+      "blocks": [
+        { "Matt": "14:1–2", "Mark": "6:14–16" },
+        { "Matt": "14:3–4", "Mark": "6:17–18" },
+        { "Matt": "14:5", "Mark": "6:19–20" },
+        { "Matt": "14:6–8", "Mark": "6:21–25" },
+        { "Matt": "14:9–12", "Mark": "6:26–29" }
+      ],
+      "points": [
+        "Matthew's version is a little over half the length of Mark's, and at 14:1 uses the correct title “tetrarch” where Mark 6:14 has “King Herod”.",
+        "At 14:9 Matthew's wording runs parallel to Mark 6:26 (“grieved … the king … because of the oaths and the guests”), and the title “king” comes with it.",
+        "Goodacre (1998) cites this among cases of fatigue that confirm Markan priority, which both sides accept; the dispute is whether the same pattern in the double tradition (see the talents and pounds) shows Luke copying Matthew."
+      ],
+      "usedBy": ["P4"]
+    },
+    {
+      "id": "evening-sunset",
+      "title": "“When evening had come, when the sun set”",
+      "kind": "dual-expression",
+      "lede": "Mark gives a double time-note. Matthew has its first half and Luke its second.",
+      "columns": [
+        { "gospel": "Matt", "ref": "8:16", "english": {
+          "16": "When evening had come, they brought to him many who were demon-possessed; and he cast out the spirits with a word, and healed all who were ill;"
+        } },
+        { "gospel": "Mark", "ref": "1:32", "english": {
+          "32": "When evening had come, when the sun set, they were bringing to him all who were ill and those who were demon-possessed;"
+        } },
+        { "gospel": "Luke", "ref": "4:40", "english": {
+          "40": "As the sun was setting, all who had people sick with various diseases brought them to him; and he laid his hands on each one of them and healed them."
+        } }
+      ],
+      "points": [
+        "Matthew repeats Mark's Ὀψίας δὲ γενομένης word for word; Luke has the sunset, using the same verb (δύνω) and noun (ἥλιος) as Mark in different forms.",
+        "On Markan priority, Matthew and Luke each kept one half of Mark's double expression; on the Griesbach hypothesis, Mark combined Matthew's phrase with Luke's.",
+        "Neirynck showed that two-step expressions like this run through the whole of Mark, including passages with no parallel; Markan-priority scholars take them as Mark's own style rather than conflation."
+      ],
+      "usedBy": ["P6"]
+    },
+    {
+      "id": "mighty-work",
+      "title": "“He could do no mighty work there”",
+      "kind": "harder-reading",
+      "lede": "At Nazareth Mark says Jesus “could not” do any mighty work. Matthew says he “did not” do many.",
+      "columns": [
+        { "gospel": "Matt", "ref": "13:58", "english": {
+          "58": "And he did not do many mighty works there because of their unbelief."
+        } },
+        { "gospel": "Mark", "ref": "6:5–6a", "english": {
+          "5": "And he could not do any mighty work there, except that he laid his hands on a few sick people and healed them;",
+          "6": "and he was amazed because of their unbelief."
+        } }
+      ],
+      "points": [
+        "The two verses share their frame (“and … not … there … mighty work … because of their unbelief”), but Mark's “could not” becomes Matthew's “did not”.",
+        "Those who hold Markan priority read this as Matthew softening a statement that limits Jesus' power; Griesbach supporters must explain why Mark would have made Matthew's sentence harder."
+      ],
+      "usedBy": ["P3"]
+    },
+    {
+      "id": "serve-two-masters",
+      "title": "No one can serve two masters",
+      "kind": "double",
+      "lede": "A double-tradition saying in which Matthew and Luke differ by a single word.",
+      "columns": [
+        { "gospel": "Matt", "ref": "6:24", "english": {
+          "24": "No one can serve two masters; for either he will hate the one and love the other, or he will be devoted to the one and despise the other. You cannot serve God and mammon."
+        } },
+        { "gospel": "Luke", "ref": "16:13", "english": {
+          "13": "No household servant can serve two masters; for either he will hate the one and love the other, or he will be devoted to the one and despise the other. You cannot serve God and mammon."
+        } }
+      ],
+      "points": [
+        "Apart from Luke's οἰκέτης (“household servant”) the 27 words of Matthew's saying appear in Luke in the same forms and the same order.",
+        "Both sides read agreement of this kind as evidence of copying from a written text: from Q for the Two-Source hypothesis, from Matthew for the Farrer hypothesis."
+      ],
+      "usedBy": ["C9"]
+    }
+  ]
+}

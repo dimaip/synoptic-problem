@@ -1,0 +1,1533 @@
+{
+  "intro": "Before any hypothesis is named, there is a body of data that every solution has to account for: what material the three Gospels share, in what order, and in how many of the same words. The figures below are counts and tables made by named scholars; they depend on definitions, and they differ from one count to another.",
+  "counts": {
+    "note": "Verse totals are Streeter's (1924), counting Mark to 16:8; they match the SBL Greek New Testament, which omits a few verses found in later manuscripts. Word counts are Honoré's (1968), who counted, for each pair of Gospels, the words in material shared only by that pair (the double-tradition row here is his Matthew–Luke pair) and in material shared by all three. Every count depends on where one draws the line between a parallel and a loose resemblance, so scholars' figures differ: Streeter gives about 200 verses of double tradition, Goodacre 'between 200 and 250', and Carlson 'about 200'. Verse counts for the special material are Hawkins's (1909), who counted the passages of each Gospel that have no parallel in either of the other two.",
+    "ref": "Streeter 1924, ch. 7; Honoré 1968, table 10, as reproduced in Goodacre 2015, p. 91; Goodacre 2001, pp. 40, 42, 107; Carlson 2004d; Hawkins 1909, pp. 10–11, 15, 25",
+    "basis": "read",
+    "unit": "words",
+    "gospels": [
+      {
+        "id": "Matt",
+        "verses": 1068
+      },
+      {
+        "id": "Mark",
+        "verses": 661
+      },
+      {
+        "id": "Luke",
+        "verses": 1149
+      }
+    ],
+    "segments": [
+      {
+        "id": "triple",
+        "label": "Triple tradition",
+        "Matt": 8336,
+        "Mark": 8630,
+        "Luke": 7884,
+        "verses": "Matthew reproduces the substance of over 600 of Mark's 661 verses; Luke about 350, just over half (Streeter).",
+        "note": "Words in material common to all three, as counted by Honoré. Matthew keeps 51% of Mark's actual words and Luke 53% (Streeter)."
+      },
+      {
+        "id": "double",
+        "label": "Double tradition (Matthew and Luke only)",
+        "Matt": 4461,
+        "Mark": null,
+        "Luke": 4476,
+        "verses": "About 200 verses (Streeter; Carlson); 200–250 (Goodacre).",
+        "note": "Honoré's Matthew–Luke pair. Mostly sayings; Matthew's and Luke's totals are almost equal in length."
+      },
+      {
+        "id": "mk-mt",
+        "label": "Mark and Matthew only",
+        "Matt": 1764,
+        "Mark": 2034,
+        "Luke": null,
+        "verses": "Includes the 74 verses of Mark 6:45–8:26 that Luke lacks (Streeter).",
+        "note": "Honoré's Matthew–Mark pair."
+      },
+      {
+        "id": "mk-lk",
+        "label": "Mark and Luke only",
+        "Matt": null,
+        "Mark": 357,
+        "Luke": 274,
+        "verses": "Of the 55 verses of Mark not reproduced in Matthew, 24 are in Luke (Streeter).",
+        "note": "Honoré's Mark–Luke pair: the smallest category of shared material."
+      },
+      {
+        "id": "mark-alone",
+        "label": "Mark alone",
+        "Matt": null,
+        "Mark": null,
+        "Luke": null,
+        "verses": "31 verses on Streeter's list of Mark's passages absent from both Matthew and Luke; about 50 on Hawkins's looser count of passages without a parallel.",
+        "note": "Goodacre: 'only a handful of verses', chiefly Mark 7:33–36, 8:22–26 and 14:51–52. No word count was found."
+      },
+      {
+        "id": "special",
+        "label": "Special Matthew (M) and special Luke (L)",
+        "Matt": null,
+        "Mark": null,
+        "Luke": null,
+        "verses": "Hawkins: about 338 verses peculiar to Matthew (48 in Matt 1–2, about 290 elsewhere) and about 499 peculiar to Luke (132 in Luke 1–2, 367 elsewhere). Streeter counts eight parables peculiar to Matthew (59 verses) plus roughly 140 verses of discourse, which on his view made M 'quite as considerable in extent as Q'.",
+        "note": "Luke's Gospel has more unshared material than Matthew's, much of it narrative: two infancy chapters, many parables of the central section (Luke 9:51–18:14) and its own resurrection appearances."
+      }
+    ]
+  },
+  "terms": [
+    {
+      "id": "triple-tradition",
+      "term": "Triple tradition",
+      "definition": "Material that appears in all three Synoptic Gospels: mostly narrative (healings, controversies, the passion), with some sayings.",
+      "size": "About 8,300–8,600 words in each Gospel (Honoré); over 600 of Mark's 661 verses reappear in Matthew and about 350 in Luke (Streeter).",
+      "example": "Mark 2:1–12 // Matt 9:1–8 // Luke 5:17–26",
+      "matters": "On Markan priority this is the material Matthew and Luke took from Mark; on the Griesbach hypothesis it is the material Mark took over where Matthew and Luke agreed.",
+      "ref": "Streeter 1924, ch. 7; Honoré 1968, as reproduced in Goodacre 2015, p. 91; Carlson 2004d (FAQ 1.6)",
+      "basis": "read",
+      "exhibit": "peter-confession"
+    },
+    {
+      "id": "double-tradition",
+      "term": "Double tradition",
+      "definition": "Material shared by Matthew and Luke but absent from Mark. It is mostly sayings and parables, with a little narrative, such as the centurion's servant.",
+      "size": "About 200 verses (Streeter); 200–250 (Goodacre); about 4,460 words in each Gospel (Honoré).",
+      "example": "Matt 3:7–10 // Luke 3:7–9",
+      "matters": "The Two-Source hypothesis explains it by a lost common source, 'Q'; the Farrer hypothesis by Luke's use of Matthew; Matthean posteriority by Matthew's use of Luke.",
+      "ref": "Streeter 1924, ch. 7; Goodacre 2001, pp. 40, 42, 107; Honoré 1968, as reproduced in Goodacre 2015, p. 91",
+      "basis": "read",
+      "exhibit": "john-preaching"
+    },
+    {
+      "id": "agreement-in-order",
+      "term": "Agreement in order",
+      "definition": "In the triple tradition the three Gospels largely share one sequence of episodes. Where they differ, Matthew and Mark agree against Luke, or Mark and Luke against Matthew; Matthew and Luke rarely agree in order against Mark.",
+      "size": "Runs through the whole triple tradition; see the Markan-sequence chart below.",
+      "example": "Mark 6:14–29 // Matt 14:1–12: both tell John's death as a flashback at the same point.",
+      "matters": "The pattern makes Mark the 'middle term' between Matthew and Luke. Since Butler (1951) it has been accepted that this fits Markan priority, the Griesbach hypothesis and other arrangements, so it cannot decide between them alone.",
+      "ref": "Carlson 2004d (FAQ 1.5, 1.7, 2.3); Goodacre 2001",
+      "basis": "read"
+    },
+    {
+      "id": "minor-agreements",
+      "term": "Minor agreements",
+      "definition": "Places in the triple tradition where Matthew and Luke agree with each other against Mark, in wording or in what they leave out. Most are a word or two.",
+      "size": "Many hundreds; Goodacre puts them at about a thousand. Neirynck's cumulative list (1974) is the standard catalogue; he sorted the stylistic agreements into 35 categories to show that most arise from independent editing of Mark.",
+      "example": "Mark 14:65 // Matt 26:68 // Luke 22:64: Matthew and Luke both add 'Who is it that struck you?'",
+      "matters": "Those who hold Q put most of them down to two editors independently improving Mark, and the remainder to textual corruption or Mark–Q overlap; those who reject Q see in the hardest cases Luke's knowledge of Matthew.",
+      "ref": "Goodacre 2001, pp. 145–146; Goodacre 2003a; Streeter 1924, ch. 11; Neirynck 1974; Van Belle 2013",
+      "basis": "read",
+      "exhibit": "who-struck-you"
+    },
+    {
+      "id": "mark-q-overlaps",
+      "term": "'Mark–Q overlaps' (major agreements)",
+      "definition": "Passages that Mark has, where Matthew and Luke also share substantial material, including whole sentences, that Mark lacks. The label presupposes the Two-Source hypothesis: it names the passages as places where Mark and Q both had a version. A neutral description is 'triple-tradition passages with major Matthew–Luke agreements'.",
+      "size": "A limited group of passages, for example John's preaching, the temptation, the Beelzebul controversy, the mustard seed and the mission charge.",
+      "example": "Mark 3:22–27 // Matt 12:22–30 // Luke 11:14–23",
+      "matters": "On the Two-Source hypothesis they show Mark and Q overlapping. On the Farrer hypothesis they are the middle of a continuum running from triple tradition with minor agreements to pure double tradition, which is what Luke's use of both Mark and Matthew would produce.",
+      "ref": "Goodacre 2001, pp. 150–151; Streeter 1924, ch. 8",
+      "basis": "read",
+      "exhibit": "beelzebul"
+    },
+    {
+      "id": "special-material",
+      "term": "Special material ('M' and 'L')",
+      "definition": "Material found only in Matthew (Sondergut Matthew) or only in Luke. The sigla 'M' and 'L' come from Streeter's four-document hypothesis and imply sources; used neutrally they simply mean 'unique to Matthew' and 'unique to Luke'.",
+      "size": "Matthew: about 338 verses without a parallel in Mark or Luke, Luke about 499 (Hawkins); Streeter puts the sayings part of M at about 200 verses.",
+      "example": "Matt 13:44–46 (treasure and pearl); Luke 15:11–32 (the prodigal son)",
+      "matters": "Defenders of Q ask why Luke, if he knew Matthew, used none of Matthew's special material; Farrer theorists reply that any of it that Luke used would by definition count as double tradition, and that Luke's own special material shows his preferences.",
+      "ref": "Hawkins 1909, pp. 10, 15, 25; Streeter 1924, ch. 9; Just n.d.; Goodacre 2001, pp. 112–113, 132–133",
+      "basis": "read"
+    },
+    {
+      "id": "doublets",
+      "term": "Doublets",
+      "definition": "A saying that occurs twice within the same Gospel, often once in a Markan context and once in a non-Markan one.",
+      "size": "Hawkins lists over 20 in Matthew and 11 in Luke.",
+      "example": "Luke 8:16 (// Mark 4:21) and Luke 11:33 (// Matt 5:15): the lamp on the stand",
+      "matters": "For Streeter, repeated doublets are 'presumptive evidence of the use of parallel sources', which on his view were Mark and Q; on the Farrer hypothesis the second source can be Matthew rather than Q.",
+      "ref": "Hawkins 1909, pp. 80–81; Streeter 1924, ch. 8",
+      "basis": "read"
+    },
+    {
+      "id": "great-omission",
+      "term": "Luke's 'great omission' and the 'interpolations'",
+      "definition": "Luke has no parallel to the continuous block Mark 6:45–8:26. Conversely, in Luke 6:20–8:3 and 9:51–18:14 he leaves Mark aside for blocks of double-tradition and special material; Hawkins called these the 'lesser' and 'great interpolation'.",
+      "size": "Great omission: 74 verses of Mark (Streeter). Lesser interpolation: 83 verses of Luke; great interpolation: 350 (counted in the SBL Greek New Testament).",
+      "example": "Mark 6:45–8:26 (absent from Luke); Luke 9:51–18:14 (the central or 'travel' section)",
+      "matters": "These blocks show Luke alternating between Markan and non-Markan material rather than interweaving them. Streeter built his 'Proto-Luke' theory partly on this alternation; every hypothesis has to say why Luke left the Markan block out.",
+      "ref": "Streeter 1924, chs. 7–8; Just n.d.; Holmes 2010",
+      "basis": "read"
+    },
+    {
+      "id": "infancy-resurrection",
+      "term": "Infancy and resurrection narratives",
+      "definition": "Matthew and Luke each add a birth narrative before Mark's opening and resurrection appearances after Mark 16:8. The two versions share almost no wording and few episodes.",
+      "size": "Matt 1:18–2:23 is 31 verses; Luke 1:5–2:52 is 128 (SBL Greek New Testament).",
+      "example": "Matt 1:21 // Luke 1:31: 'you shall call his name Jesus'",
+      "matters": "Defenders of Q argue that Luke's very different birth story shows he did not know Matthew's; Goodacre points to shared details (Bethlehem, Joseph, the virginal conception) and a shared sentence as signs that he did.",
+      "ref": "Goodacre 2001, pp. 112–113, 132–133",
+      "basis": "read"
+    },
+    {
+      "id": "verbatim-agreement",
+      "term": "Verbatim agreement and its variation",
+      "definition": "The share of words that two parallel passages have in identical form. In the double tradition it ranges from near-identity to almost nothing.",
+      "size": "Morgenthaler: about 13% of the double tradition falls between 80% and 98% agreement, 78.5% between 20% and 80%, and 8% below 20%. Honoré: Matthew and Luke agree in about 39% of their double-tradition words but only about 30–32% of their triple-tradition words.",
+      "example": "Matt 6:24 // Luke 16:13 (98%, Morgenthaler); Matt 22:1–10 // Luke 14:16–24 (about 6%, Mournet)",
+      "matters": "Defenders of Q take the very high agreement as evidence of a written Greek source and the low agreement as editing or oral variation; Goodacre argues that agreement higher in the double tradition than in the triple is more natural if Luke copied Matthew directly.",
+      "ref": "Mournet 2003, pp. 204–205 and ch. 6; Goodacre 2015, pp. 84, 86 n. 12, 90–91; Morgenthaler 1971",
+      "basis": "read",
+      "exhibit": "serve-two-masters"
+    },
+    {
+      "id": "alternating-primitivity",
+      "term": "Alternating primitivity",
+      "definition": "In double-tradition passages Matthew sometimes seems to have the earlier wording and Luke sometimes does. 'Primitive' means closer to an earlier form, and judging it requires a view of each evangelist's style.",
+      "size": "A judgement about individual passages, not a count.",
+      "example": "Matt 5:3 // Luke 6:20 ('poor in spirit' / 'poor'); Matt 6:9–13 // Luke 11:2–4 (the Lord's Prayer)",
+      "matters": "On the Two-Source hypothesis it shows that neither copied the other, because both drew on Q; Goodacre replies that Luke's supposed primitivity is overestimated and can come from a later writer simplifying or drawing on living tradition.",
+      "ref": "Goodacre 2001, pp. 113–114, 133–139; Carlson 2004d (FAQ 2.4)",
+      "basis": "read",
+      "exhibit": "beatitude-poor"
+    }
+  ],
+  "order": {
+    "note": "Two tables. The first follows Mark's sequence, pericope by pericope (divisions condensed from Stephen Carlson's Parallel Synoptic Table; Mark to 16:8), with the place of each parallel in Matthew and Luke, including parallels that stand elsewhere. The second lists the double tradition in Luke's order, using the units of Kloppenborg's contents of Q (Excavating Q, fig. 16), split where Matthew's parallels lie in different places; Matthean references follow the Complete Gospels synopsis, Felix Just's Q table and Carlson. 'agree' is given only where a published per-passage figure exists, banded as Morgenthaler bands the double tradition (80–98% high, 20–80% medium, below 20% low), using the share of Luke's words. 'overlap' marks units that also have a Markan parallel. Every reference was checked against the SBL Greek New Testament.",
+    "ref": "Carlson 2004d; Kloppenborg 2000, p. 100, as quoted in Kirby n.d.; Miller 1992, as quoted in Kirby n.d.; Just n.d.; Mournet 2003; Goodacre 2015; Holmes 2010",
+    "basis": "read",
+    "markan": [
+      {
+        "n": 1,
+        "label": "Title; John the Baptist appears",
+        "mk": "1:1–6",
+        "mt": "3:1–6",
+        "lk": "3:1–6"
+      },
+      {
+        "n": 2,
+        "label": "John announces a stronger one",
+        "mk": "1:7–8",
+        "mt": "3:11–12",
+        "lk": "3:15–18",
+        "exhibit": "john-coming-one"
+      },
+      {
+        "n": 3,
+        "label": "Baptism of Jesus",
+        "mk": "1:9–11",
+        "mt": "3:13–17",
+        "lk": "3:21–22"
+      },
+      {
+        "n": 4,
+        "label": "Testing in the wilderness",
+        "mk": "1:12–13",
+        "mt": "4:1–11",
+        "lk": "4:1–13"
+      },
+      {
+        "n": 5,
+        "label": "Jesus begins preaching in Galilee",
+        "mk": "1:14–15",
+        "mt": "4:12–17",
+        "lk": "4:14–15"
+      },
+      {
+        "n": 6,
+        "label": "Call of the first disciples",
+        "mk": "1:16–20",
+        "mt": "4:18–22",
+        "lk": "5:1–11",
+        "note": "Luke's call story is a different account, placed later."
+      },
+      {
+        "n": 7,
+        "label": "Teaching and exorcism in the Capernaum synagogue",
+        "mk": "1:21–28",
+        "mt": "7:28–29",
+        "lk": "4:31–37",
+        "note": "Matthew has only the crowd's astonishment, at the end of the Sermon on the Mount."
+      },
+      {
+        "n": 8,
+        "label": "Peter's mother-in-law healed",
+        "mk": "1:29–31",
+        "mt": "8:14–15",
+        "lk": "4:38–39"
+      },
+      {
+        "n": 9,
+        "label": "Healings at evening",
+        "mk": "1:32–34",
+        "mt": "8:16–17",
+        "lk": "4:40–41",
+        "exhibit": "evening-sunset"
+      },
+      {
+        "n": 10,
+        "label": "Jesus leaves Capernaum; preaching tour",
+        "mk": "1:35–39",
+        "mt": "4:23",
+        "lk": "4:42–44"
+      },
+      {
+        "n": 11,
+        "label": "A leper cleansed",
+        "mk": "1:40–45",
+        "mt": "8:1–4",
+        "lk": "5:12–16"
+      },
+      {
+        "n": 12,
+        "label": "A paralysed man healed",
+        "mk": "2:1–12",
+        "mt": "9:1–8",
+        "lk": "5:17–26"
+      },
+      {
+        "n": 13,
+        "label": "Call of Levi; eating with sinners",
+        "mk": "2:13–17",
+        "mt": "9:9–13",
+        "lk": "5:27–32"
+      },
+      {
+        "n": 14,
+        "label": "Question about fasting; new wine",
+        "mk": "2:18–22",
+        "mt": "9:14–17",
+        "lk": "5:33–39"
+      },
+      {
+        "n": 15,
+        "label": "Plucking grain on the sabbath",
+        "mk": "2:23–28",
+        "mt": "12:1–8",
+        "lk": "6:1–5"
+      },
+      {
+        "n": 16,
+        "label": "Man with a withered hand",
+        "mk": "3:1–6",
+        "mt": "12:9–14",
+        "lk": "6:6–11"
+      },
+      {
+        "n": 17,
+        "label": "Crowds by the sea",
+        "mk": "3:7–12",
+        "mt": "12:15–16",
+        "lk": "6:17–19"
+      },
+      {
+        "n": 18,
+        "label": "The Twelve chosen",
+        "mk": "3:13–19",
+        "mt": "10:1–4",
+        "lk": "6:12–16"
+      },
+      {
+        "n": 19,
+        "label": "His family tries to restrain him",
+        "mk": "3:20–21",
+        "mt": null,
+        "lk": null
+      },
+      {
+        "n": 20,
+        "label": "Beelzebul controversy",
+        "mk": "3:22–27",
+        "mt": "12:24–29",
+        "lk": "11:15–22",
+        "exhibit": "beelzebul"
+      },
+      {
+        "n": 21,
+        "label": "Blasphemy against the Spirit",
+        "mk": "3:28–30",
+        "mt": "12:31–32",
+        "lk": "12:10"
+      },
+      {
+        "n": 22,
+        "label": "Jesus' true family",
+        "mk": "3:31–35",
+        "mt": "12:46–50",
+        "lk": "8:19–21"
+      },
+      {
+        "n": 23,
+        "label": "Parable of the sower",
+        "mk": "4:1–9",
+        "mt": "13:1–9",
+        "lk": "8:4–8"
+      },
+      {
+        "n": 24,
+        "label": "Why parables",
+        "mk": "4:10–12",
+        "mt": "13:10–15",
+        "lk": "8:9–10",
+        "exhibit": "mysteries"
+      },
+      {
+        "n": 25,
+        "label": "The sower explained",
+        "mk": "4:13–20",
+        "mt": "13:18–23",
+        "lk": "8:11–15"
+      },
+      {
+        "n": 26,
+        "label": "Lamp under a bushel; nothing hidden",
+        "mk": "4:21–23",
+        "mt": "5:15",
+        "lk": "8:16–17"
+      },
+      {
+        "n": 27,
+        "label": "The measure you give; to those who have",
+        "mk": "4:24–25",
+        "mt": "13:12",
+        "lk": "8:18"
+      },
+      {
+        "n": 28,
+        "label": "Seed growing by itself",
+        "mk": "4:26–29",
+        "mt": null,
+        "lk": null
+      },
+      {
+        "n": 29,
+        "label": "Parable of the mustard seed",
+        "mk": "4:30–32",
+        "mt": "13:31–32",
+        "lk": "13:18–19",
+        "exhibit": "mustard-seed"
+      },
+      {
+        "n": 30,
+        "label": "Jesus' use of parables",
+        "mk": "4:33–34",
+        "mt": "13:34–35",
+        "lk": null
+      },
+      {
+        "n": 31,
+        "label": "Stilling of the storm",
+        "mk": "4:35–41",
+        "mt": "8:23–27",
+        "lk": "8:22–25"
+      },
+      {
+        "n": 32,
+        "label": "The Gerasene demoniac",
+        "mk": "5:1–20",
+        "mt": "8:28–34",
+        "lk": "8:26–39"
+      },
+      {
+        "n": 33,
+        "label": "Jairus' daughter and the woman with a haemorrhage",
+        "mk": "5:21–43",
+        "mt": "9:18–26",
+        "lk": "8:40–56"
+      },
+      {
+        "n": 34,
+        "label": "Rejection at Nazareth",
+        "mk": "6:1–6",
+        "mt": "13:53–58",
+        "lk": "4:16–30",
+        "note": "Luke's Nazareth scene is much longer and placed at the start of the ministry."
+      },
+      {
+        "n": 35,
+        "label": "Mission of the Twelve",
+        "mk": "6:7–13",
+        "mt": "10:5–14",
+        "lk": "9:1–6"
+      },
+      {
+        "n": 36,
+        "label": "Herod hears of Jesus",
+        "mk": "6:14–16",
+        "mt": "14:1–2",
+        "lk": "9:7–9",
+        "exhibit": "herod-fatigue"
+      },
+      {
+        "n": 37,
+        "label": "Death of John the Baptist",
+        "mk": "6:17–29",
+        "mt": "14:3–12",
+        "lk": "3:19–20",
+        "note": "Luke has only a brief notice of John's imprisonment."
+      },
+      {
+        "n": 38,
+        "label": "Feeding of the five thousand",
+        "mk": "6:30–44",
+        "mt": "14:13–21",
+        "lk": "9:10–17"
+      },
+      {
+        "n": 39,
+        "label": "Walking on the water",
+        "mk": "6:45–52",
+        "mt": "14:22–33",
+        "lk": null
+      },
+      {
+        "n": 40,
+        "label": "Healings at Gennesaret",
+        "mk": "6:53–56",
+        "mt": "14:34–36",
+        "lk": null
+      },
+      {
+        "n": 41,
+        "label": "Tradition of the elders",
+        "mk": "7:1–13",
+        "mt": "15:1–9",
+        "lk": null
+      },
+      {
+        "n": 42,
+        "label": "What defiles a person",
+        "mk": "7:14–23",
+        "mt": "15:10–20",
+        "lk": null
+      },
+      {
+        "n": 43,
+        "label": "The Syrophoenician (Canaanite) woman",
+        "mk": "7:24–30",
+        "mt": "15:21–28",
+        "lk": null
+      },
+      {
+        "n": 44,
+        "label": "A deaf man healed",
+        "mk": "7:31–37",
+        "mt": null,
+        "lk": null
+      },
+      {
+        "n": 45,
+        "label": "Feeding of the four thousand",
+        "mk": "8:1–10",
+        "mt": "15:32–39",
+        "lk": null
+      },
+      {
+        "n": 46,
+        "label": "Demand for a sign",
+        "mk": "8:11–13",
+        "mt": "16:1–4",
+        "lk": null
+      },
+      {
+        "n": 47,
+        "label": "The leaven of the Pharisees",
+        "mk": "8:14–21",
+        "mt": "16:5–12",
+        "lk": null
+      },
+      {
+        "n": 48,
+        "label": "A blind man healed at Bethsaida",
+        "mk": "8:22–26",
+        "mt": null,
+        "lk": null
+      },
+      {
+        "n": 49,
+        "label": "Peter's confession; first passion prediction",
+        "mk": "8:27–33",
+        "mt": "16:13–23",
+        "lk": "9:18–22",
+        "exhibit": "peter-confession"
+      },
+      {
+        "n": 50,
+        "label": "Taking up the cross",
+        "mk": "8:34–9:1",
+        "mt": "16:24–28",
+        "lk": "9:23–27"
+      },
+      {
+        "n": 51,
+        "label": "Transfiguration",
+        "mk": "9:2–8",
+        "mt": "17:1–8",
+        "lk": "9:28–36"
+      },
+      {
+        "n": 52,
+        "label": "The coming of Elijah",
+        "mk": "9:9–13",
+        "mt": "17:9–13",
+        "lk": null
+      },
+      {
+        "n": 53,
+        "label": "A boy with a spirit healed",
+        "mk": "9:14–29",
+        "mt": "17:14–20",
+        "lk": "9:37–42"
+      },
+      {
+        "n": 54,
+        "label": "Second passion prediction",
+        "mk": "9:30–32",
+        "mt": "17:22–23",
+        "lk": "9:43–45"
+      },
+      {
+        "n": 55,
+        "label": "Who is the greatest",
+        "mk": "9:33–37",
+        "mt": "18:1–5",
+        "lk": "9:46–48"
+      },
+      {
+        "n": 56,
+        "label": "The strange exorcist",
+        "mk": "9:38–41",
+        "mt": null,
+        "lk": "9:49–50",
+        "exhibit": "mighty-work"
+      },
+      {
+        "n": 57,
+        "label": "Causing others to stumble",
+        "mk": "9:42–48",
+        "mt": "18:6–9",
+        "lk": "17:1–2"
+      },
+      {
+        "n": 58,
+        "label": "Salt",
+        "mk": "9:49–50",
+        "mt": "5:13",
+        "lk": "14:34–35"
+      },
+      {
+        "n": 59,
+        "label": "Marriage and divorce",
+        "mk": "10:1–12",
+        "mt": "19:1–12",
+        "lk": null
+      },
+      {
+        "n": 60,
+        "label": "Jesus blesses the children",
+        "mk": "10:13–16",
+        "mt": "19:13–15",
+        "lk": "18:15–17"
+      },
+      {
+        "n": 61,
+        "label": "The rich man; reward of discipleship",
+        "mk": "10:17–31",
+        "mt": "19:16–30",
+        "lk": "18:18–30"
+      },
+      {
+        "n": 62,
+        "label": "Third passion prediction",
+        "mk": "10:32–34",
+        "mt": "20:17–19",
+        "lk": "18:31–34"
+      },
+      {
+        "n": 63,
+        "label": "Request of James and John; greatness as service",
+        "mk": "10:35–45",
+        "mt": "20:20–28",
+        "lk": "22:24–27",
+        "note": "Luke has only the saying on service, at the Last Supper."
+      },
+      {
+        "n": 64,
+        "label": "Healing of blind Bartimaeus",
+        "mk": "10:46–52",
+        "mt": "20:29–34",
+        "lk": "18:35–43"
+      },
+      {
+        "n": 65,
+        "label": "Entry into Jerusalem",
+        "mk": "11:1–10",
+        "mt": "21:1–9",
+        "lk": "19:28–38"
+      },
+      {
+        "n": 66,
+        "label": "Jesus looks around the temple",
+        "mk": "11:11",
+        "mt": "21:10–11",
+        "lk": null
+      },
+      {
+        "n": 67,
+        "label": "Cursing of the fig tree",
+        "mk": "11:12–14",
+        "mt": "21:18–19",
+        "lk": null
+      },
+      {
+        "n": 68,
+        "label": "Cleansing of the temple",
+        "mk": "11:15–19",
+        "mt": "21:12–13",
+        "lk": "19:45–48"
+      },
+      {
+        "n": 69,
+        "label": "The withered fig tree; faith and prayer",
+        "mk": "11:20–25",
+        "mt": "21:20–22",
+        "lk": null
+      },
+      {
+        "n": 70,
+        "label": "Question about authority",
+        "mk": "11:27–33",
+        "mt": "21:23–27",
+        "lk": "20:1–8"
+      },
+      {
+        "n": 71,
+        "label": "Parable of the wicked tenants",
+        "mk": "12:1–12",
+        "mt": "21:33–46",
+        "lk": "20:9–19"
+      },
+      {
+        "n": 72,
+        "label": "Tribute to Caesar",
+        "mk": "12:13–17",
+        "mt": "22:15–22",
+        "lk": "20:20–26"
+      },
+      {
+        "n": 73,
+        "label": "Question about the resurrection",
+        "mk": "12:18–27",
+        "mt": "22:23–33",
+        "lk": "20:27–40"
+      },
+      {
+        "n": 74,
+        "label": "The great commandment",
+        "mk": "12:28–34",
+        "mt": "22:34–40",
+        "lk": "10:25–28",
+        "note": "Luke's version stands earlier, before the Good Samaritan."
+      },
+      {
+        "n": 75,
+        "label": "Question about David's son",
+        "mk": "12:35–37",
+        "mt": "22:41–46",
+        "lk": "20:41–44"
+      },
+      {
+        "n": 76,
+        "label": "Warning against the scribes",
+        "mk": "12:38–40",
+        "mt": "23:6–7",
+        "lk": "20:45–47"
+      },
+      {
+        "n": 77,
+        "label": "The widow's offering",
+        "mk": "12:41–44",
+        "mt": null,
+        "lk": "21:1–4"
+      },
+      {
+        "n": 78,
+        "label": "Destruction of the temple foretold",
+        "mk": "13:1–4",
+        "mt": "24:1–3",
+        "lk": "21:5–7"
+      },
+      {
+        "n": 79,
+        "label": "Signs before the end",
+        "mk": "13:5–8",
+        "mt": "24:4–8",
+        "lk": "21:8–11"
+      },
+      {
+        "n": 80,
+        "label": "Persecution foretold",
+        "mk": "13:9–12",
+        "mt": "10:17–21",
+        "lk": "21:12–16",
+        "note": "Matthew places this in his mission discourse."
+      },
+      {
+        "n": 81,
+        "label": "Hated by all",
+        "mk": "13:13",
+        "mt": "24:9–14",
+        "lk": "21:17–19"
+      },
+      {
+        "n": 82,
+        "label": "The desolating sacrilege",
+        "mk": "13:14–20",
+        "mt": "24:15–22",
+        "lk": "21:20–24"
+      },
+      {
+        "n": 83,
+        "label": "False messiahs",
+        "mk": "13:21–23",
+        "mt": "24:23–25",
+        "lk": "17:23"
+      },
+      {
+        "n": 84,
+        "label": "Coming of the Son of Man",
+        "mk": "13:24–27",
+        "mt": "24:29–31",
+        "lk": "21:25–28"
+      },
+      {
+        "n": 85,
+        "label": "Lesson of the fig tree; the day unknown",
+        "mk": "13:28–32",
+        "mt": "24:32–36",
+        "lk": "21:29–33"
+      },
+      {
+        "n": 86,
+        "label": "Be watchful",
+        "mk": "13:33–37",
+        "mt": "24:42–44",
+        "lk": "21:34–36",
+        "note": "Luke's closing exhortation shares ἀγρυπνεῖτε (“keep awake”, Mark 13:33; Luke 21:36)."
+      },
+      {
+        "n": 87,
+        "label": "Plot to kill Jesus",
+        "mk": "14:1–2",
+        "mt": "26:1–5",
+        "lk": "22:1–2"
+      },
+      {
+        "n": 88,
+        "label": "Anointing at Bethany",
+        "mk": "14:3–9",
+        "mt": "26:6–13",
+        "lk": "7:36–50",
+        "note": "Luke's anointing is a different story set in Galilee."
+      },
+      {
+        "n": 89,
+        "label": "Judas agrees to betray Jesus",
+        "mk": "14:10–11",
+        "mt": "26:14–16",
+        "lk": "22:3–6"
+      },
+      {
+        "n": 90,
+        "label": "Preparing the Passover",
+        "mk": "14:12–16",
+        "mt": "26:17–19",
+        "lk": "22:7–13"
+      },
+      {
+        "n": 91,
+        "label": "The betrayer announced",
+        "mk": "14:17–21",
+        "mt": "26:20–25",
+        "lk": "22:21–23",
+        "note": "Luke places the announcement after the supper."
+      },
+      {
+        "n": 92,
+        "label": "The Last Supper",
+        "mk": "14:22–25",
+        "mt": "26:26–29",
+        "lk": "22:15–20"
+      },
+      {
+        "n": 93,
+        "label": "Peter's denial foretold",
+        "mk": "14:26–31",
+        "mt": "26:30–35",
+        "lk": "22:31–34"
+      },
+      {
+        "n": 94,
+        "label": "Gethsemane",
+        "mk": "14:32–42",
+        "mt": "26:36–46",
+        "lk": "22:39–46"
+      },
+      {
+        "n": 95,
+        "label": "The arrest",
+        "mk": "14:43–52",
+        "mt": "26:47–56",
+        "lk": "22:47–53"
+      },
+      {
+        "n": 96,
+        "label": "Jesus taken to the high priest",
+        "mk": "14:53–54",
+        "mt": "26:57–58",
+        "lk": "22:54–55"
+      },
+      {
+        "n": 97,
+        "label": "Jesus before the council",
+        "mk": "14:55–64",
+        "mt": "26:59–66",
+        "lk": "22:66–71"
+      },
+      {
+        "n": 98,
+        "label": "Jesus mocked: 'Prophesy!'",
+        "mk": "14:65",
+        "mt": "26:67–68",
+        "lk": "22:63–65",
+        "exhibit": "who-struck-you"
+      },
+      {
+        "n": 99,
+        "label": "Peter's denial",
+        "mk": "14:66–72",
+        "mt": "26:69–75",
+        "lk": "22:56–62"
+      },
+      {
+        "n": 100,
+        "label": "Jesus handed over to Pilate",
+        "mk": "15:1",
+        "mt": "27:1–2",
+        "lk": "23:1"
+      },
+      {
+        "n": 101,
+        "label": "Jesus before Pilate",
+        "mk": "15:2–5",
+        "mt": "27:11–14",
+        "lk": "23:2–5"
+      },
+      {
+        "n": 102,
+        "label": "Barabbas released; Jesus sentenced",
+        "mk": "15:6–15",
+        "mt": "27:15–26",
+        "lk": "23:18–25"
+      },
+      {
+        "n": 103,
+        "label": "Soldiers mock Jesus",
+        "mk": "15:16–20",
+        "mt": "27:27–31",
+        "lk": null
+      },
+      {
+        "n": 104,
+        "label": "Simon of Cyrene",
+        "mk": "15:21",
+        "mt": "27:32",
+        "lk": "23:26"
+      },
+      {
+        "n": 105,
+        "label": "The crucifixion",
+        "mk": "15:22–32",
+        "mt": "27:33–44",
+        "lk": "23:33–43"
+      },
+      {
+        "n": 106,
+        "label": "Death of Jesus",
+        "mk": "15:33–39",
+        "mt": "27:45–54",
+        "lk": "23:44–47"
+      },
+      {
+        "n": 107,
+        "label": "Women watching",
+        "mk": "15:40–41",
+        "mt": "27:55–56",
+        "lk": "23:49"
+      },
+      {
+        "n": 108,
+        "label": "Burial",
+        "mk": "15:42–47",
+        "mt": "27:57–61",
+        "lk": "23:50–56"
+      },
+      {
+        "n": 109,
+        "label": "The empty tomb",
+        "mk": "16:1–8",
+        "mt": "28:1–8",
+        "lk": "24:1–12"
+      }
+    ],
+    "double": [
+      {
+        "n": 1,
+        "label": "John's preaching of repentance",
+        "mt": "3:7–10",
+        "lk": "3:7–9",
+        "agree": "high",
+        "agreeRef": "Kloppenborg 2007, p. 53 (85% of Luke's words), as quoted in Goodacre 2015, p. 84 n. 7",
+        "exhibit": "john-preaching"
+      },
+      {
+        "n": 2,
+        "label": "John: one stronger is coming",
+        "mt": "3:11",
+        "lk": "3:16",
+        "overlap": true,
+        "exhibit": "john-coming-one"
+      },
+      {
+        "n": 3,
+        "label": "Winnowing fork and chaff",
+        "mt": "3:12",
+        "lk": "3:17",
+        "agree": "high",
+        "agreeRef": "Morgenthaler 1971, 88%, as cited in Goodacre 2015, p. 84"
+      },
+      {
+        "n": 4,
+        "label": "The three temptations",
+        "mt": "4:1–11",
+        "lk": "4:1–13",
+        "overlap": true
+      },
+      {
+        "n": 5,
+        "label": "Beatitudes",
+        "mt": "5:3–12",
+        "lk": "6:20–23",
+        "exhibit": "beatitude-poor"
+      },
+      {
+        "n": 6,
+        "label": "Love your enemies",
+        "mt": "5:44",
+        "lk": "6:27–28"
+      },
+      {
+        "n": 7,
+        "label": "The other cheek; give to those who ask",
+        "mt": "5:39–42",
+        "lk": "6:29–30",
+        "agree": "medium",
+        "agreeRef": "Mournet 2003, Aland §58 (verbatim words: Luke 50%)"
+      },
+      {
+        "n": 8,
+        "label": "The golden rule",
+        "mt": "7:12",
+        "lk": "6:31"
+      },
+      {
+        "n": 9,
+        "label": "If you love those who love you; be merciful / perfect",
+        "mt": "5:45–48",
+        "lk": "6:32–36"
+      },
+      {
+        "n": 10,
+        "label": "Judge not",
+        "mt": "7:1–2",
+        "lk": "6:37–38"
+      },
+      {
+        "n": 11,
+        "label": "The blind leading the blind",
+        "mt": "15:14",
+        "lk": "6:39"
+      },
+      {
+        "n": 12,
+        "label": "Disciple and teacher",
+        "mt": "10:24–25",
+        "lk": "6:40"
+      },
+      {
+        "n": 13,
+        "label": "The speck and the log",
+        "mt": "7:3–5",
+        "lk": "6:41–42"
+      },
+      {
+        "n": 14,
+        "label": "A tree known by its fruit",
+        "mt": "7:16–20",
+        "lk": "6:43–45"
+      },
+      {
+        "n": 15,
+        "label": "'Lord, Lord'; the two builders",
+        "mt": "7:21–27",
+        "lk": "6:46–49"
+      },
+      {
+        "n": 16,
+        "label": "The centurion's servant",
+        "mt": "8:5–13",
+        "lk": "7:1–10",
+        "agree": "medium",
+        "agreeRef": "Mournet 2003, Aland §85 (verbatim words: Luke 34%)"
+      },
+      {
+        "n": 17,
+        "label": "John's question from prison",
+        "mt": "11:2–6",
+        "lk": "7:18–23"
+      },
+      {
+        "n": 18,
+        "label": "Jesus' testimony about John",
+        "mt": "11:7–11",
+        "lk": "7:24–28",
+        "agree": "medium",
+        "agreeRef": "Mournet 2003, Aland §107 (verbatim words: Luke 59%, Matthew 59%, for the whole section)"
+      },
+      {
+        "n": 19,
+        "label": "Tax collectors accepted John",
+        "mt": "21:31–32",
+        "lk": "7:29–30"
+      },
+      {
+        "n": 20,
+        "label": "Children in the marketplace",
+        "mt": "11:16–19",
+        "lk": "7:31–35",
+        "agree": "medium",
+        "agreeRef": "Mournet 2003, Aland §107 (verbatim words: Luke 59%, Matthew 59%, for the whole section)"
+      },
+      {
+        "n": 21,
+        "label": "Would-be followers",
+        "mt": "8:19–22",
+        "lk": "9:57–60",
+        "agree": "medium",
+        "agreeRef": "Mournet 2003, Aland §89 (verbatim words: Luke 44%)"
+      },
+      {
+        "n": 22,
+        "label": "The harvest is plentiful",
+        "mt": "9:37–38",
+        "lk": "10:2"
+      },
+      {
+        "n": 23,
+        "label": "Sheep among wolves",
+        "mt": "10:16",
+        "lk": "10:3"
+      },
+      {
+        "n": 24,
+        "label": "Instructions for the mission",
+        "mt": "10:7–14",
+        "lk": "10:4–11"
+      },
+      {
+        "n": 25,
+        "label": "More tolerable for Sodom",
+        "mt": "10:15",
+        "lk": "10:12"
+      },
+      {
+        "n": 26,
+        "label": "Woes on Chorazin, Bethsaida and Capernaum",
+        "mt": "11:21–23",
+        "lk": "10:13–15",
+        "agree": "high",
+        "agreeRef": "Morgenthaler 1971, 90% for Matt 11:20–24, as cited in Goodacre 2015, p. 84"
+      },
+      {
+        "n": 27,
+        "label": "Whoever hears you hears me",
+        "mt": "10:40",
+        "lk": "10:16"
+      },
+      {
+        "n": 28,
+        "label": "Thanksgiving to the Father",
+        "mt": "11:25–27",
+        "lk": "10:21–22",
+        "agree": "medium",
+        "agreeRef": "Mournet 2003, Aland §109 (verbatim words: Luke 73%)"
+      },
+      {
+        "n": 29,
+        "label": "Blessed are the eyes that see",
+        "mt": "13:16–17",
+        "lk": "10:23–24"
+      },
+      {
+        "n": 30,
+        "label": "The Lord's Prayer",
+        "mt": "6:9–13",
+        "lk": "11:2–4",
+        "agree": "medium",
+        "agreeRef": "Mournet 2003, Aland §62 (verbatim words: Luke 35%)",
+        "exhibit": "lords-prayer"
+      },
+      {
+        "n": 31,
+        "label": "Ask, seek, knock",
+        "mt": "7:7–11",
+        "lk": "11:9–13"
+      },
+      {
+        "n": 32,
+        "label": "Beelzebul: a divided kingdom",
+        "mt": "12:22–26",
+        "lk": "11:14–18",
+        "overlap": true,
+        "exhibit": "beelzebul"
+      },
+      {
+        "n": 33,
+        "label": "By the finger (Spirit) of God; the strong man",
+        "mt": "12:27–30",
+        "lk": "11:19–23",
+        "agree": "high",
+        "agreeRef": "Morgenthaler 1971, 88% for Matt 12:27–32, as cited in Goodacre 2015, p. 84",
+        "overlap": true
+      },
+      {
+        "n": 34,
+        "label": "Return of the unclean spirit",
+        "mt": "12:43–45",
+        "lk": "11:24–26",
+        "agree": "high",
+        "agreeRef": "Morgenthaler 1971, 93%, as cited in Goodacre 2015, p. 84; Mournet 2003, Aland §120 (verbatim words: Luke 94%)"
+      },
+      {
+        "n": 35,
+        "label": "The sign of Jonah",
+        "mt": "12:38–42",
+        "lk": "11:29–32"
+      },
+      {
+        "n": 36,
+        "label": "Lamp on a stand",
+        "mt": "5:15",
+        "lk": "11:33",
+        "overlap": true
+      },
+      {
+        "n": 37,
+        "label": "The eye is the lamp of the body",
+        "mt": "6:22–23",
+        "lk": "11:34–35"
+      },
+      {
+        "n": 38,
+        "label": "Woe: clean the inside of the cup",
+        "mt": "23:25–26",
+        "lk": "11:39–41"
+      },
+      {
+        "n": 39,
+        "label": "Woe: tithing mint and rue",
+        "mt": "23:23",
+        "lk": "11:42"
+      },
+      {
+        "n": 40,
+        "label": "Woe: seats of honour",
+        "mt": "23:6–7",
+        "lk": "11:43"
+      },
+      {
+        "n": 41,
+        "label": "Woe: unmarked tombs",
+        "mt": "23:27–28",
+        "lk": "11:44"
+      },
+      {
+        "n": 42,
+        "label": "Woe: heavy burdens",
+        "mt": "23:4",
+        "lk": "11:46"
+      },
+      {
+        "n": 43,
+        "label": "Woe: tombs of the prophets; from Abel to Zechariah",
+        "mt": "23:29–36",
+        "lk": "11:47–51"
+      },
+      {
+        "n": 44,
+        "label": "Woe: the key of knowledge",
+        "mt": "23:13",
+        "lk": "11:52"
+      },
+      {
+        "n": 45,
+        "label": "Nothing hidden; fear God; acknowledging Jesus",
+        "mt": "10:26–33",
+        "lk": "12:2–9"
+      },
+      {
+        "n": 46,
+        "label": "A word against the Son of Man",
+        "mt": "12:32",
+        "lk": "12:10",
+        "overlap": true
+      },
+      {
+        "n": 47,
+        "label": "The Spirit will teach you what to say",
+        "mt": "10:19–20",
+        "lk": "12:11–12",
+        "overlap": true
+      },
+      {
+        "n": 48,
+        "label": "Do not be anxious",
+        "mt": "6:25–33",
+        "lk": "12:22–31"
+      },
+      {
+        "n": 49,
+        "label": "Treasure in heaven",
+        "mt": "6:19–21",
+        "lk": "12:33–34"
+      },
+      {
+        "n": 50,
+        "label": "The thief in the night",
+        "mt": "24:43–44",
+        "lk": "12:39–40"
+      },
+      {
+        "n": 51,
+        "label": "The faithful and unfaithful servant",
+        "mt": "24:45–51",
+        "lk": "12:42–46",
+        "agree": "medium",
+        "agreeRef": "Mournet 2003, Aland §297 (verbatim words: Luke 69%)"
+      },
+      {
+        "n": 52,
+        "label": "Not peace but division",
+        "mt": "10:34–36",
+        "lk": "12:51–53",
+        "agree": "low",
+        "agreeRef": "Mournet 2003, Aland §102 (verbatim words: Luke 7%)"
+      },
+      {
+        "n": 53,
+        "label": "Signs of the times",
+        "mt": "16:2–3",
+        "lk": "12:54–56"
+      },
+      {
+        "n": 54,
+        "label": "Settle with your accuser",
+        "mt": "5:25–26",
+        "lk": "12:58–59",
+        "agree": "medium",
+        "agreeRef": "Mournet 2003, Aland §55 (verbatim words: Luke 40%, Matthew 17%)"
+      },
+      {
+        "n": 55,
+        "label": "Parable of the mustard seed",
+        "mt": "13:31–32",
+        "lk": "13:18–19",
+        "overlap": true,
+        "exhibit": "mustard-seed"
+      },
+      {
+        "n": 56,
+        "label": "Parable of the leaven",
+        "mt": "13:33",
+        "lk": "13:20–21"
+      },
+      {
+        "n": 57,
+        "label": "The narrow door / gate",
+        "mt": "7:13–14",
+        "lk": "13:24"
+      },
+      {
+        "n": 58,
+        "label": "'I never knew you'",
+        "mt": "7:22–23",
+        "lk": "13:25–27"
+      },
+      {
+        "n": 59,
+        "label": "From east and west",
+        "mt": "8:11–12",
+        "lk": "13:28–29"
+      },
+      {
+        "n": 60,
+        "label": "The last will be first",
+        "mt": "20:16",
+        "lk": "13:30"
+      },
+      {
+        "n": 61,
+        "label": "Lament over Jerusalem",
+        "mt": "23:37–39",
+        "lk": "13:34–35",
+        "agree": "high",
+        "agreeRef": "Morgenthaler 1971, 85%, as cited in Goodacre 2015, p. 84; Mournet 2003, Aland §285 (verbatim words: Luke 92%)"
+      },
+      {
+        "n": 62,
+        "label": "The humbled exalted",
+        "mt": "23:12",
+        "lk": "14:11"
+      },
+      {
+        "n": 63,
+        "label": "The great supper / wedding banquet",
+        "mt": "22:1–10",
+        "lk": "14:16–24",
+        "agree": "low",
+        "agreeRef": "Mournet 2003, Aland §279 (verbatim words: Luke 6%); Goodacre 2015, p. 86 n. 12"
+      },
+      {
+        "n": 64,
+        "label": "Hating family; carrying the cross",
+        "mt": "10:37–38",
+        "lk": "14:26–27"
+      },
+      {
+        "n": 65,
+        "label": "Salt that has lost its taste",
+        "mt": "5:13",
+        "lk": "14:34–35",
+        "overlap": true
+      },
+      {
+        "n": 66,
+        "label": "The lost sheep",
+        "mt": "18:12–14",
+        "lk": "15:4–7"
+      },
+      {
+        "n": 67,
+        "label": "No one can serve two masters",
+        "mt": "6:24",
+        "lk": "16:13",
+        "agree": "high",
+        "agreeRef": "Morgenthaler 1971, 98%, as cited in Goodacre 2015, p. 84",
+        "exhibit": "serve-two-masters"
+      },
+      {
+        "n": 68,
+        "label": "The law and the prophets until John",
+        "mt": "11:12–13",
+        "lk": "16:16"
+      },
+      {
+        "n": 69,
+        "label": "Not one stroke of the law",
+        "mt": "5:18",
+        "lk": "16:17"
+      },
+      {
+        "n": 70,
+        "label": "Divorce and remarriage",
+        "mt": "5:32",
+        "lk": "16:18",
+        "overlap": true
+      },
+      {
+        "n": 71,
+        "label": "Woe to the one who causes stumbling",
+        "mt": "18:6–7",
+        "lk": "17:1–2",
+        "overlap": true
+      },
+      {
+        "n": 72,
+        "label": "Forgive repeatedly",
+        "mt": "18:21–22",
+        "lk": "17:3–4"
+      },
+      {
+        "n": 73,
+        "label": "Faith like a mustard seed",
+        "mt": "17:20",
+        "lk": "17:6"
+      },
+      {
+        "n": 74,
+        "label": "The day of the Son of Man like lightning",
+        "mt": "24:26–27",
+        "lk": "17:23–24"
+      },
+      {
+        "n": 75,
+        "label": "As in the days of Noah",
+        "mt": "24:37–39",
+        "lk": "17:26–27"
+      },
+      {
+        "n": 76,
+        "label": "Whoever loses life will keep it",
+        "mt": "10:39",
+        "lk": "17:33"
+      },
+      {
+        "n": 77,
+        "label": "One taken, one left",
+        "mt": "24:40–41",
+        "lk": "17:34–35"
+      },
+      {
+        "n": 78,
+        "label": "Where the corpse is, the vultures gather",
+        "mt": "24:28",
+        "lk": "17:37"
+      },
+      {
+        "n": 79,
+        "label": "Parable of the talents / pounds",
+        "mt": "25:14–30",
+        "lk": "19:12–27",
+        "agree": "low",
+        "agreeRef": "Goodacre 2015, p. 86 n. 12",
+        "exhibit": "talents-pounds"
+      },
+      {
+        "n": 80,
+        "label": "Judging the twelve tribes",
+        "mt": "19:28",
+        "lk": "22:28–30"
+      }
+    ]
+  },
+  "takeaways": [
+    "Almost all of Mark is in Matthew (all but about 55 of 661 verses) and just over half is in Luke (about 350 verses).",
+    "Where all three run parallel, Mark's order of episodes is almost always supported by Matthew, by Luke, or by both; Matthew and Luke rarely agree in order against Mark.",
+    "The double tradition, about 200–250 verses, is mostly sayings, and Matthew and Luke place it very differently: in Matthew much of it stands in five long discourses, in Luke it is spread through the Gospel, much of it in 9:51–18:14.",
+    "Verbatim agreement in the double tradition runs from near-identity (Matt 6:24 // Luke 16:13) to almost none (the great supper, the talents and pounds), and on Honoré's count it is higher overall than Matthew–Luke agreement in the triple tradition.",
+    "Inside the triple tradition Matthew and Luke agree against Mark in many small ways, and in a few passages, such as the Beelzebul controversy, in whole sentences (the so-called Mark–Q overlaps).",
+    "Matthew and Luke both add birth stories and resurrection appearances to Mark, but the two versions share very little."
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "intro": "Milestones in the debate, from the first synopsis to the present. Dates are those of the first publication of the work named. Where an idea was first put forward earlier, the entry says so.",
+  "items": [
+    {
+      "year": "1776",
+      "who": "J. J. Griesbach",
+      "what": "Publishes the first synopsis: Matthew, Mark and Luke in parallel columns, laid out for comparison rather than harmonised. It made the agreements in order visible for the first time.",
+      "ref": "Kloppenborg 2023, p. 6; Carlson 2004",
+      "basis": "reported"
+    },
+    {
+      "year": "1784",
+      "who": "G. E. Lessing",
+      "what": "His *Neue Hypothese* (written 1778, published posthumously) derives the Gospels from a lost Aramaic “Urgospel”. This was the first of several lost-gospel theories.",
+      "ref": "Kloppenborg 2023, p. 5; Carlson 2004",
+      "basis": "reported"
+    },
+    {
+      "year": "1789",
+      "who": "J. J. Griesbach",
+      "what": "*Commentatio* (1789–90): Mark abbreviated and combined Matthew and Luke, turning to Luke whenever he left Matthew's order. Griesbach had announced the thesis in 1783, and Henry Owen had suggested the same order in 1764. G. C. Storr had argued in 1786 for the reverse: Mark first, then Luke, then Matthew using both. Griesbach's view held wide acceptance in Germany until about 1860.",
+      "ref": "Kloppenborg 2023, pp. 6–8; Carlson 2004",
+      "basis": "reported"
+    },
+    {
+      "year": "1832–35",
+      "who": "F. Schleiermacher; Karl Lachmann",
+      "what": "Schleiermacher (1832) takes Papias's statement that Matthew compiled the λόγια (“oracles”) to mean a collection of Jesus' sayings, the seed of the sayings-source idea. Lachmann (1835) argues from the order of the narratives that Mark best preserves the common sequence.",
+      "ref": "Kloppenborg 2023, pp. 7–8; Carlson 2004",
+      "basis": "reported"
+    },
+    {
+      "year": "1838",
+      "who": "C. H. Weisse; C. G. Wilke",
+      "what": "In the same year, Weisse proposes that Matthew and Luke used Mark and a sayings source, the first form of the Two-Source hypothesis (Kloppenborg calls it a forerunner). Wilke proposes Mark first, with Matthew using Luke, the forerunner of Matthean Posteriority.",
+      "ref": "Kloppenborg 2023, p. 8; Carlson 2004",
+      "basis": "reported"
+    },
+    {
+      "year": "1863",
+      "who": "H. J. Holtzmann",
+      "what": "*Die synoptischen Evangelien* is often credited with establishing the Two-Source hypothesis. It uses a proto-Mark (A) and a sayings source (Λ); Holtzmann dropped the proto-Mark in 1886. Around 1880, with E. Simons, he allowed that Luke also made subsidiary use of Matthew.",
+      "ref": "Kloppenborg 2023, pp. 8–12; Carlson 2004",
+      "basis": "reported"
+    },
+    {
+      "year": "1890",
+      "who": "Johannes Weiss",
+      "what": "From Weiss onwards the sayings source, earlier called “the λόγια”, is known as Q (*Quelle*, “source”).",
+      "ref": "Kloppenborg 2023, p. 13",
+      "basis": "reported"
+    },
+    {
+      "year": "1899",
+      "who": "Paul Wernle; John C. Hawkins",
+      "what": "Wernle's monograph argues that Matthew and Luke used Mark itself, so Q is more or less the double tradition. Hawkins's *Horae Synopticae* supplies the word statistics that British scholarship relied on, and explains many minor agreements as independent editing of a Mark almost identical with ours.",
+      "ref": "Kloppenborg 2023, p. 13; Carlson 2004; Hawkins 1909, preface",
+      "basis": "reported"
+    },
+    {
+      "year": "1911",
+      "who": "W. Sanday (ed.)",
+      "what": "*Oxford Studies in the Synoptic Problem*, from the Oxford seminar Sanday led from 1894. It includes Streeter on Mark's knowledge of Q.",
+      "ref": "Porter & Dyer 2016; Streeter 1911",
+      "basis": "reported"
+    },
+    {
+      "year": "1924",
+      "who": "B. H. Streeter",
+      "what": "*The Four Gospels* sets out the classic British form: Mark, Q, M and L, plus Proto-Luke. It explains the minor agreements chiefly as independent editing and textual assimilation.",
+      "ref": "Streeter 1924",
+      "basis": "read"
+    },
+    {
+      "year": "1945",
+      "who": "Nag Hammadi",
+      "what": "A Coptic Gospel of Thomas is found: a sayings gospel without a passion narrative. Q theorists cite it as evidence that collections of sayings existed, which answers Farrer's objection that nothing like Q is attested.",
+      "ref": "Goodacre 2001; Goodacre 2002a",
+      "basis": "read"
+    },
+    {
+      "year": "1951",
+      "who": "B. C. Butler",
+      "what": "*The Originality of St Matthew* names the “Lachmann fallacy”: the agreements in order show only that Mark is the middle term between Matthew and Luke, not that Mark was first.",
+      "ref": "Butler 1951; Kloppenborg 2023, p. 14",
+      "basis": "reported"
+    },
+    {
+      "year": "1955",
+      "who": "Austin Farrer",
+      "what": "“On Dispensing with Q”: if Luke could have read Matthew, the question Q answers never arises. It drew little response at first.",
+      "ref": "Farrer 1955; Kloppenborg 2023, p. 14",
+      "basis": "read"
+    },
+    {
+      "year": "1964",
+      "who": "W. R. Farmer; J. M. Robinson",
+      "what": "Farmer's *The Synoptic Problem* reopens the question and revives Griesbach. In the same year Robinson's essay “LOGOI SOPHON” (ET 1971) assigns Q to the genre of sayings of the wise.",
+      "ref": "Farmer 1964; Kloppenborg 2023, pp. 14–15; Robinson 1971",
+      "basis": "reported"
+    },
+    {
+      "year": "1974",
+      "who": "M. D. Goulder",
+      "what": "*Midrash and Lection in Matthew*, followed by *Luke: A New Paradigm* (1989), makes the Farrer hypothesis a sustained programme. In 1974 Neirynck also publishes his catalogue of the minor agreements.",
+      "ref": "Goodacre 2001; Kloppenborg 2023, p. 15; Neirynck 1974",
+      "basis": "reported"
+    },
+    {
+      "year": "1984",
+      "who": "Jerusalem symposium",
+      "what": "At the Jerusalem symposium Boismard, Farmer and Neirynck present competing hypotheses side by side, and the Griesbach team sets out its statement of the Two-Gospel hypothesis. In the same year Tuckett shows that the alternating support for Mark's order is also compatible with the Two-Source hypothesis. The symposium papers appeared as *The Interrelations of the Gospels* (ed. D. L. Dungan, BETL 95, 1990).",
+      "ref": "Dungan 1990; Porter & Dyer 2016; Carlson 2004",
+      "basis": "reported"
+    },
+    {
+      "year": "1987",
+      "who": "J. S. Kloppenborg",
+      "what": "*The Formation of Q* argues that Q was a Greek document composed in layers. Studies of Q as a gospel with its own theology and community follow.",
+      "ref": "Kloppenborg 1987; Head & Williams 2003; Carlson 2004",
+      "basis": "reported"
+    },
+    {
+      "year": "2000",
+      "who": "International Q Project",
+      "what": "*The Critical Edition of Q* (eds. J. M. Robinson, P. Hoffmann and J. S. Kloppenborg) prints a reconstructed text with graded degrees of certainty. It is the product of IQP work sessions whose reports appeared in *JBL* from 1990.",
+      "ref": "Robinson, Hoffmann & Kloppenborg 2000; Head & Williams 2003",
+      "basis": "reported"
+    },
+    {
+      "year": "2002",
+      "who": "Mark Goodacre",
+      "what": "*The Case Against Q* restates the Farrer case without Goulder's lectionary theory and without denying Luke other sources. *Questioning Q* (eds. Goodacre and N. Perrin, 2004) gathers further essays.",
+      "ref": "Goodacre 2002; Goodacre 2002a; Goodacre & Perrin 2004",
+      "basis": "read"
+    },
+    {
+      "year": "2011",
+      "who": "Oxford conference",
+      "what": "*New Studies in the Synoptic Problem* (eds. P. Foster, A. Gregory, J. S. Kloppenborg and J. Verheyden, BETL 239), from the April 2008 Oxford conference honouring C. M. Tuckett.",
+      "ref": "Foster et al. 2011; Porter & Dyer 2016",
+      "basis": "reported"
+    },
+    {
+      "year": "2015",
+      "who": "Poirier & Peterson; MacEwen",
+      "what": "*Marcan Priority without Q* (LNTS 455) is the first multi-author volume on the Farrer hypothesis. MacEwen's *Matthean Posteriority* (LNTS 501) is the first monograph on Matthew's use of Luke, and Garrow's *NTS* articles follow in 2016.",
+      "ref": "Poirier & Peterson 2015; MacEwen 2015; Garrow 2016a",
+      "basis": "reported"
+    },
+    {
+      "year": "2016",
+      "who": "Porter & Dyer (eds.)",
+      "what": "*The Synoptic Problem: Four Views*: Evans (Two-Source), Goodacre (Farrer), Peabody (Two-Gospel) and Riesner (orality and memory). In the same year Kirk's *Q in Matthew* gives a media-and-memory defence of Q.",
+      "ref": "Porter & Dyer 2016; Kirk 2016",
+      "basis": "read"
+    },
+    {
+      "year": "2018",
+      "who": "Müller & Omerzu (eds.)",
+      "what": "*Gospel Interpretation and the Q-Hypothesis* (LNTS 573), from the international conference at Roskilde, Denmark, in June 2015 (organised by M. Müller, S. Nordgaard and H. Omerzu). Q's defenders, sceptics and the undecided appear in one volume, including the Tuckett–Watson exchange and Goodacre on the Mark–Q overlaps.",
+      "ref": "Müller & Omerzu 2018; Goodacre 2014b",
+      "basis": "abstract"
+    },
+    {
+      "year": "2021",
+      "who": "Eric Eve",
+      "what": "*Relating the Gospels* and *Solving the Synoptic Puzzle*: the fullest Farrer case since 2002, built on memory and ancient imitation. Klinghardt's *The Oldest Gospel* (English edition) puts Marcion's Gospel in the place of Q.",
+      "ref": "Eve 2021a; Eve 2021b; Klinghardt 2021",
+      "basis": "reported"
+    },
+    {
+      "year": "2023",
+      "who": "Loyola volume; Oxford Handbook",
+      "what": "*The Synoptic Problem 2022* (BiTS 44) gathers papers for a Loyola Chicago conference planned for 2020 and cancelled because of Covid-19; its publisher describes it as the first such volume in which Matthean Posteriority is prominently represented. *The Oxford Handbook of the Synoptic Gospels* (ed. S. P. Ahearne-Kroll) opens with Kloppenborg's survey of the problem.",
+      "ref": "Andrejevs et al. 2023; Ahearne-Kroll 2023; Kloppenborg 2023",
+      "basis": "read"
+    },
+    {
+      "year": "2025",
+      "who": "Barker; Goodacre; Tuckett",
+      "what": "Barker's *Writing and Rewriting the Gospels* (Mark, Matthew, Luke, then John, with no Q) and Goodacre's *The Fourth Synoptic Gospel* carry the Farrer logic over to John. Tuckett's *NovT* article answers Matthean Posteriority.",
+      "ref": "Barker 2025; Goodacre 2025; Tuckett 2025",
+      "basis": "reported"
+    }
+  ]
+}

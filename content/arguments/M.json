@@ -1,0 +1,535 @@
+{
+  "id": "M",
+  "title": "How ancient authors worked",
+  "question": "Which hypothesis asks its evangelists to do only what a first-century writer, working with scrolls, memory and perhaps a scribe, could plausibly have done?",
+  "items": [
+    {
+      "id": "M1",
+      "title": "Conflation and “unpicking”",
+      "claim": "Ancient writers followed one source at a time and did not take apart and reassemble overlapping sources; the Two-Source hypothesis fits that practice, while the Farrer hypothesis makes Luke strip Mark's words out of Matthew's conflated text.",
+      "favours": "independence",
+      "evidence": [
+        {
+          "text": "In the Beelzebul controversy Matthew's version contains much that is also in Mark, yet Luke's version has almost no independent parallels with Mark. On the Farrer hypothesis Luke is here following Matthew and has left out the Markan elements of Matthew's text; on the Two-Source hypothesis Luke simply follows Q. Downing made the same case for the Baptism and Temptation, the Mission Charge and the apocalyptic discourse.",
+          "ref": "Matt 12:22–32 // Mark 3:20–30 // Luke 11:14–23, 12:10; Olson 2004b, ch. 4, p. 30",
+          "basis": "read"
+        },
+        {
+          "text": "The Farrer Luke is usually pictured working in blocks. Goulder had Luke follow Mark for Luke 3:1–6:19 and 8:4–9:50 and Matthew for 6:20–8:3 and 9:51–18:14, with “echoes” of the other source from memory. Goodacre describes Luke “[t]aking Mark for a stretch (Lk. 4,31-6,19), then Matthew for a stretch (6,20-[8,3]), then returning to Mark (8,4-9,50), and so on”.",
+          "ref": "Goodacre 2003c, p. 239, as quoted in Garrow 2023a, p. 291 n. 22; Goulder 1993, p. 150, as quoted in Garrow 2023b, p. 289",
+          "basis": "reported"
+        },
+        {
+          "text": "On the Two-Source hypothesis Luke takes over Mark and Q in alternating blocks, while Matthew builds new blocks of narrative and discourse and weaves Mark and Q together most closely in the Mark–Q overlap passages.",
+          "ref": "Derrenbacker 2001, abstract and Conclusion",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "F. Gerald Downing compared the Synoptics with Josephus and Plutarch. Plutarch follows the agreed witness of Livy and Dionysius and shows no interest in “unpicking” what each had changed. In the four overlap passages Downing found the Farrer Luke and the Griesbach Mark refusing that common witness, and concluded that only the Two-Source hypothesis fits ancient practice. In 1992 he judged Goulder's Luke wholly foreign to the first century. He later generalised the argument to any third evangelist ([[M6]]).",
+          "ref": "Downing 1965; Downing 1988, pp. 81–85, as reported in Derrenbacker 2001, ch. 3; Downing 1992, as reported in Derrenbacker 2001, ch. 3",
+          "basis": "reported"
+        },
+        {
+          "text": "Robert Derrenbacker's survey of ancient compositional practice finds no regular “micro-conflation”, an author moving back and forth between sources within an episode; Josephus switches sources in large chunks. Luke's use of Mark and Q in alternating blocks is “feasible and consistent with the known practices of writers in antiquity”, and the Two-Source hypothesis has “the fewest problems” of the three he tests.",
+          "ref": "Derrenbacker 2001, abstract, ch. 3 and Conclusion; Derrenbacker 2005",
+          "basis": "read"
+        },
+        {
+          "text": "Christopher Tuckett, following Downing, points to Luke's “apparently almost pathological refusal” on the Farrer model to use any Markan material in some overlap texts (the Beelzebul controversy, the Mustard Seed), although elsewhere he prefers Mark to Matthew.",
+          "ref": "Tuckett 2004, p. 402, as quoted in Goodacre 2018, p. 214",
+          "basis": "reported"
+        },
+        {
+          "text": "Olegs Andrejevs builds on Francis Watson's 2018 recognition and tabulation of Luke's “unpicking”. He argues that the phenomenon is more extensive than Watson listed and that Eve's 2021 treatment leaves out several of Watson's instances. He offers a complete table without judging how difficult the procedure would be.",
+          "ref": "Andrejevs 2022b, abstract; Watson 2018",
+          "basis": "abstract"
+        },
+        {
+          "text": "Alan Garrow argues that the block defence costs the Farrer hypothesis its Markan frame. If Luke used Matthew alone in the Beelzebul controversy, the same logic applies to the Nazareth sermon, the call of the disciples, the anointing, the lawyer's question, John the Baptist and the passion from Luke 22:15. More than three-quarters of Luke would then be written without Mark, so “FH supporters cannot have it both ways”.",
+          "ref": "Garrow 2023b, pp. 287–290",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Ken Olson argues that the Farrer Luke follows ancient method: he takes one source as the basis of each episode and supplements his main (Markan) source with Matthean material, and has “no demonstrable tendency to remove Markan parallels from his use of Matthew”. Goulder had already replied to Downing that the comparisons with Josephus support him rather than Downing.",
+          "ref": "Olson 2004b, abstract and pp. 52–53; Olson 2004; Goulder 1993, as reported in Derrenbacker 2001, ch. 3",
+          "basis": "read"
+        },
+        {
+          "text": "Olson turns the argument round. On the Two-Source hypothesis it is Matthew who conflates two overlapping written sources: in the Beelzebul pericope he keeps very nearly every word Mark and Q share while rewriting the rest, a method “both difficult and unprecedented”. That is the objection E. A. Abbott brought against the Griesbach Mark.",
+          "ref": "Olson 2004b, ch. 5, pp. 47–49",
+          "basis": "read"
+        },
+        {
+          "text": "Derrenbacker, a Two-Source advocate, grants that in terms of compositional conventions “the 2DH is weakest in the sections in Matthew where he is evidently conflating Mark and Q”, though he thinks memory and a Q codex can explain them.",
+          "ref": "Derrenbacker 2001, abstract and Conclusion",
+          "basis": "read"
+        },
+        {
+          "text": "Mark Goodacre replies that the premise is factually wrong: Luke's overlap passages are not free of Mark. John's preaching and the baptism have triple agreements and Mark–Luke agreements, such as the thong of the sandals (Mark 1:7 // Luke 3:16, against Matt 3:11). Olson notes two small Mark–Luke agreements even in Beelzebul (Luke 11:17 // Mark 3:25; Luke 12:10 // Mark 3:29).",
+          "ref": "Goodacre 2018, pp. 214–215; Olson 2004b, p. 47 n. 76",
+          "basis": "read"
+        },
+        {
+          "text": "James Barker argues that simultaneously using several sources and reordering them were established practices: the Greek Minor Prophets scroll from Naḥal Ḥever before the Gospels, Tatian's Diatessaron after them. Every solution to the Synoptic Problem needs such conventions, so they do not privilege the Two-Source hypothesis.",
+          "ref": "Barker 2016, abstract; Barker 2023",
+          "basis": "abstract"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: John Kloppenborg answers Barker that micro-conflation is “both unattested and technically unfeasible”, since Barker's instances do not show an author composing with visual access to two sources. Alan Kirk also questions Barker's reading.",
+          "ref": "Kloppenborg 2019, abstract; Kirk 2016, p. 307 n. 29, as reported in Downing 2017, p. 314 n. 4",
+          "basis": "abstract"
+        },
+        {
+          "text": "Counter-reply: Goodacre calls “unpicking” an “old chestnut”. He defers to the critiques by Olson and by Eric Eve, who gives a Farrer reading of the Beelzebul controversy, and observes that no Farrer advocate actually uses the term critics put in quotation marks. Garrow adds that whatever the method, “some ancient authors succeeded, by some means, in closely combining multiple sources”.",
+          "ref": "Goodacre 2017b; Eve 2015b; Garrow 2023b, p. 279 n. 9",
+          "basis": "read"
+        }
+      ],
+      "status": "Both sides agree that ancient authors usually based each episode on one source and drew on others from memory. They disagree over which hypothesis breaks that rule. Two-Source scholars point to the Farrer Luke in the Mark–Q overlaps; Farrer scholars point to the Two-Source Matthew in the same passages, a weakness Derrenbacker concedes. Whether Barker's examples count as close conflation remains disputed with Kloppenborg. Andrejevs's full table and Garrow's frame argument have reopened a question the Farrer side had treated as answered by Olson and Eve.",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "strains",
+        "MPH": "neutral",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "M6",
+        "C3",
+        "M2",
+        "M4"
+      ]
+    },
+    {
+      "id": "M2",
+      "title": "Scrolls, tablets, desks and memory",
+      "claim": "The material conditions of ancient writing (no desks, one scroll open at a time, slow searching within a roll) count against an evangelist who moves back and forth through a source, and so against the Farrer Luke's handling of Matthew.",
+      "favours": "open",
+      "evidence": [
+        {
+          "text": "Ancient writers worked without desks, often with the writing surface on the knee; artistic evidence for scribes at writing desks comes only centuries later. Derrenbacker cites a third-century colophon to a copy of the *Iliad* that credits the scribe's hand and knee.",
+          "ref": "Derrenbacker 2001, ch. 1",
+          "basis": "read"
+        },
+        {
+          "text": "Luke himself shows a scroll in use without difficulty: Jesus “unrolled the scroll and found the place where it was written” (ἀναπτύξας τὸ βιβλίον εὗρεν τὸν τόπον), a passage near the end of Isaiah.",
+          "ref": "Luke 4:17; Goodacre 2017, pp. 226–227",
+          "basis": "read"
+        },
+        {
+          "text": "Goulder once pictured Luke at a “cramped writing table” with Mark and Matthew taking turns “on the floor”. In Luke 13:22–18:8 he had Luke working backwards through Matthew 13–23.",
+          "ref": "Goulder 1989, as quoted in Derrenbacker 2001, ch. on the Farrer–Goulder hypothesis",
+          "basis": "reported"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Derrenbacker argues that the evangelists' physical setting must be taken seriously. The Farrer Luke's movement within a pericope between the text in front of him and Matthew held in memory is more complicated than Goulder's “one source at a time” suggests, and Goulder's reverse use of Matthew does not hold up across Luke 13:22–18:8.",
+          "ref": "Derrenbacker 2001, abstract and ch. on the Farrer–Goulder hypothesis",
+          "basis": "read"
+        },
+        {
+          "text": "Downing takes as the realistic starting point a Luke doing his own writing, “balancing a springy new scroll on a board on his knees”, with pen, ruler, sponge and ink, and his scroll of Mark somewhere to hand.",
+          "ref": "Downing 1992, p. 21, as quoted in Goodacre 2017, p. 227 n. 11",
+          "basis": "reported"
+        },
+        {
+          "text": "Alan Kirk, writing for the Two-Source hypothesis, finds that the Farrer Luke would need “breathtaking leaps across the source”, while Matthew's use of Q is intelligible as memory-guided movement through a work held in memory as a sequence of topics. In 2023 he asked directly whether memory can rescue the Farrer Luke, taking the Temple Scroll as his comparison.",
+          "ref": "Kirk 2016, p. 150, as quoted in Goodacre 2017, p. 229; Kirk 2023b",
+          "basis": "reported"
+        }
+      ],
+      "contra": [
+        {
+          "text": "John Poirier argues that the debate has rested on “unrealistic and factually groundless claims” about book production. Writers drafted on wax tablets, which can be rearranged and erased, so even a Farrer Luke could rearrange the travel-narrative material freely.",
+          "ref": "Poirier 2012, pp. 18, 21, as reported in Dufvevind 2021",
+          "basis": "reported"
+        },
+        {
+          "text": "Goodacre calls the worry about unwieldy scrolls an “anachronistic anxiety”, citing William Johnson's warning against “exaggerated modern notions of the difficulty of using a bookroll”. Ancient authors often dictated, so Luke could hold Matthew's scroll in both hands while a scribe wrote.",
+          "ref": "Goodacre 2017, pp. 226–227; Johnson 2009, p. 267",
+          "basis": "read"
+        },
+        {
+          "text": "Kirk's model cuts both ways. If memory explains Matthew's leaps across Q, the same appeal is open for Luke's use of Matthew: “Sauce (or source!) for the goose is sauce for the gander.” Eric Eve insists likewise that “the techniques and abilities needed by 2DH Matthew must also be allowed to FH Luke”.",
+          "ref": "Goodacre 2017, pp. 228–229; Eve 2021b, p. 152, as quoted in Garrow 2023b, p. 278 n. 3",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Derrenbacker welcomed Poirier's attention to tablets but asked him to rework the thesis. Downing replied that a tablet holds about one scroll column (some 500 characters), so a Gospel needs a great many tablets (Poirier himself estimates nearly 180), and asked for an ancient writer who conflated two sources this way. Poirier answered both in 2023.",
+          "ref": "Derrenbacker 2013 and Downing 2013, as reported in Dufvevind 2021; Poirier 2023",
+          "basis": "reported"
+        },
+        {
+          "text": "Reply: Garrow, for Matthean posteriority, answers Eve that one author's capacity is not automatically another's. The only concrete evidence of Luke's capacity is his simple handling of Mark, which does not suggest the facility needed for the Farrer Luke's handling of Matthew.",
+          "ref": "Garrow 2023b, p. 278 n. 3",
+          "basis": "read"
+        },
+        {
+          "text": "Reply: Derrenbacker's own Two-Source solution is a codex of Q, which would give Matthew the random access a roll does not. Kirk regards the codex as unnecessary once memory is taken into account.",
+          "ref": "Derrenbacker 2001, ch. on the Two-Document hypothesis; Goodacre 2017, p. 225 n. 7",
+          "basis": "read"
+        }
+      ],
+      "status": "The question has moved from what scrolls prevent to what memory, tablets, notebooks and dictation make possible. Once those resources are granted, every hypothesis can be given a workable evangelist; Barker's 2023 survey concludes that every proposed solution is feasible. The live dispute, carried on in the 2023 Loyola volume by Kirk, Eve and Poirier, is whether memory-based composition is equally available to the Farrer Luke and the Two-Source Matthew. The argument now constrains the most mechanical forms of each hypothesis, such as Goulder's backwards-scrolling Luke, more than it decides between them.",
+      "bearsOn": {
+        "2DH": "neutral",
+        "FH": "neutral",
+        "MPH": "neutral",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "M1",
+        "M3",
+        "I2"
+      ]
+    },
+    {
+      "id": "M3",
+      "title": "Oral tradition and uneven verbal agreement",
+      "claim": "The double tradition's very uneven verbal agreement shows that much of it reached Matthew and Luke through oral tradition rather than by copying one written text.",
+      "favours": "open",
+      "evidence": [
+        {
+          "text": "John the Baptist's preaching is almost identical in Greek. The differences are δόξητε (“presume”) against ἄρξησθε (“begin”), καρπὸν ἄξιον (“fruit worthy”) against καρποὺς ἀξίους (“fruits worthy”), and one extra καί. By Kloppenborg's count, 61 of Matthew's 76 words (80%) are identical with Luke's.",
+          "ref": "Matt 3:7–10 // Luke 3:7–9; Goodacre 2015, pp. 83–84 and n. 7, quoting Kloppenborg 2007, p. 53",
+          "basis": "read"
+        },
+        {
+          "text": "Other double-tradition passages agree very closely: 98% for Matt 6:24 // Luke 16:13, 93% for Matt 12:43–45 // Luke 11:24–26 and 90% for Matt 11:20–24 // Luke 10:13–15, on Morgenthaler's figures.",
+          "ref": "Goodacre 2015, p. 84",
+          "basis": "read"
+        },
+        {
+          "text": "Parables such as the Talents and the Pounds, and the Wedding Banquet and the Great Supper, share a story line but little wording.",
+          "ref": "Matt 25:14–30 // Luke 19:11–27; Matt 22:1–14 // Luke 14:15–24; Goodacre 2015, p. 86 n. 12",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "James Dunn argued that the earliest transmission of the Jesus tradition was predominantly oral. Much Synoptic material shows the mix of stability and flexibility typical of oral performance, and a clearly delimited Q document is too narrow a framework. He kept the Two-Source hypothesis for the high-agreement passages.",
+          "ref": "Dunn 2003a; Dunn 2003b, pp. 214–216; Goodacre 2015, p. 88 n. 14",
+          "basis": "reported"
+        },
+        {
+          "text": "Terence Mournet measured variability inside individual pericopes. In passages Dunn had labelled “oral”, variability was greater than in his “literary” passages and greater than in triple-tradition control passages. He concludes that an oral-performance origin is plausible “for at least several of his selected pericopes”.",
+          "ref": "Mournet 2003, ch. 7, p. 300; Mournet 2005",
+          "basis": "read"
+        },
+        {
+          "text": "Thomas Bergemann held that verbatim agreement is the primary objective test for assigning a pericope to Q. Following earlier scholars who split the double tradition by degree of agreement, he did not assign the low-agreement passages to a single written source.",
+          "ref": "Bergemann 1993, as summarised in Mournet 2003, pp. 199–200",
+          "basis": "reported"
+        },
+        {
+          "text": "Rainer Riesner defends an “orality and memory” hypothesis, in which oral tradition and memory rather than literary copying account for much of the Synoptic relationship.",
+          "ref": "Riesner 2016",
+          "basis": "abstract"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Kloppenborg argues that ancient authors had no consistent pattern of reproducing written sources; Diodorus' use of Ephorus shows high variability. Uneven agreement should be set in the context of ancient scribal and rhetorical technique “rather than a facile appeal to ‘oral tradition’”. Goodacre welcomed the article and added that the same high agreement tells against independent copying of a written Q.",
+          "ref": "Kloppenborg 2007, abstract; Goodacre 2007c",
+          "basis": "abstract"
+        },
+        {
+          "text": "Alan Kirk criticises the appeals to ancient media by Dunn, Mournet and others. He works out instead how orality, writing and memory interacted, particularly to explain the uneven pattern of variation and agreement, and argues that a sharp split between oral and written transmission is itself a source of stalemate.",
+          "ref": "Kirk 2012; Kirk 2023a",
+          "basis": "abstract"
+        },
+        {
+          "text": "Goodacre notes that even Dunn's “oral” example, the Centurion's Servant, contains a 25-word unbroken run of agreement, one of the highest in the Synoptics. Mournet too found that its long verbatim stretches set it apart and raised the possibility of Matthean and Lukan editing instead.",
+          "ref": "Matt 8:5–13 // Luke 7:1–10; Goodacre 2015, pp. 86–87 and n. 13; Mournet 2003, pp. 291–292, 300",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre argues that low agreement follows form more than content: the evangelists, especially Luke, vary narrative more than sayings. A Luke who rewrote Matthew's parables freely and copied his sayings closely needs no oral source.",
+          "ref": "Goodacre 2015, p. 86 n. 12",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply from the Farrer side: high agreement points to direct copying, and an author can also draw on memory of a written text, which is not the same thing as oral tradition. Luke may still have known oral forms of some sayings independently of Matthew and preserved a different or earlier form.",
+          "ref": "Goodacre 2015, p. 88 n. 15; Goodacre 2002a",
+          "basis": "read"
+        },
+        {
+          "text": "Counter-reply from the Two-Source side: once Luke is allowed independent oral versions, the Farrer hypothesis brings back unknown sources. Kirk says of Watson's appeal to Luke's oral handling of Matthew that orality becomes “a wand”. Goodacre answers that Kirk's own Matthew applies “oral utilization practices” to a written source.",
+          "ref": "Kirk 2016, p. 149, as quoted in Goodacre 2017, p. 229 n. 18; Watson 2013",
+          "basis": "reported"
+        }
+      ],
+      "status": "All sides agree that the high-agreement passages are literary; the dispute is over the low-agreement ones. On the Two-Source hypothesis they show Matthew and Luke editing Q freely, perhaps with oral variants beside it. Oral-tradition advocates read them as performance variants, and Farrer advocates read them as Luke rewriting Matthew, sometimes with oral knowledge of his own. Each side's appeal to oral tradition is charged by the other with bringing back an unknown source, so the data alone do not settle it.",
+      "bearsOn": {
+        "2DH": "neutral",
+        "FH": "neutral",
+        "MPH": "neutral",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "C9",
+        "S1",
+        "Q5"
+      ]
+    },
+    {
+      "id": "M4",
+      "title": "Analogies: rewriting, imitation, Josephus, film",
+      "claim": "Known ancient practices of rewriting and imitation show that a later author could plausibly have reworked an earlier Gospel as freely as the Farrer Luke reworks Matthew.",
+      "favours": "open",
+      "evidence": [
+        {
+          "text": "Josephus retells Samuel–Kings and Chronicles in the *Antiquities*. In Antiquities 3.258–275 he places side by side laws from Leviticus 13–14, Leviticus 12, Numbers 5 and Leviticus 20.",
+          "ref": "Goodacre 2017, p. 229 n. 20; Derrenbacker 2001, ch. 3",
+          "basis": "read"
+        },
+        {
+          "text": "Plutarch combines Livy and Dionysius of Halicarnassus in his Roman *Lives*. Tatian's Diatessaron (second century) weaves four Gospels into one; Barker counts Tatian working with three or four Gospels at once nearly three-quarters of the time.",
+          "ref": "Pelling 1979; Barker 2021, p. 36, as quoted in Garrow 2023b, p. 280 n. 10",
+          "basis": "reported"
+        },
+        {
+          "text": "Five Jesus films shorten Matthew's Sermon on the Mount and relocate, redistribute and restructure it, much as Luke does on the Farrer view.",
+          "ref": "Goodacre 2000b, abstract; Goodacre 2002, ch. 6",
+          "basis": "abstract"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Goodacre argues that writers often jump across their sources, as Josephus does with the Pentateuch, Thomas with the Synoptics and Luke with Mark, and that the moves are rarely random. Luke's rearrangement of Matthew's sayings is of the same kind.",
+          "ref": "Goodacre 2017, p. 229",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre's film analogy is aimed at the claim that Luke's treatment of the Sermon on the Mount is inexplicable if he knew Matthew. Film-makers who know Matthew repeatedly break the Sermon up when turning the Gospels into a single narrative.",
+          "ref": "Goodacre 2000b, abstract; Goodacre 2016a, p. 28",
+          "basis": "abstract"
+        },
+        {
+          "text": "Olson asks whether Josephus, by following Kings and adding the Chronicler's extra material, has not “unpicked” Chronicles, and whether Streeter's Luke, following Q instead of Mark, has not unpicked Mark. If so, the Farrer Luke's supplementing of Mark from Matthew is ordinary practice.",
+          "ref": "Olson 2004b, pp. 52–53",
+          "basis": "read"
+        },
+        {
+          "text": "Francis Watson reads Luke as an interpreter of Matthew who omits, supplements and reinterprets Matthew's use of Mark (his “L/M” theory). Barker grounds a Farrer-type “snowballing” model in the ordinary ancient practice of rewriting and imitating a predecessor.",
+          "ref": "Watson 2013; Barker 2025",
+          "basis": "reported"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Downing's studies of Josephus and Plutarch find a “very simple process of conflation”. Where sources agree the writer follows them, where they differ he follows one, and he shows no sign of laying them side by side. Derrenbacker found that Josephus alternates between sources only in large chunks.",
+          "ref": "Downing 1980a; Downing 1980b; Downing 1988, as reported in Derrenbacker 2001, ch. 3",
+          "basis": "reported"
+        },
+        {
+          "text": "Downing answered the film article: comparison with Luke's near-contemporaries such as Josephus, and their improvements on others' narratives, “suggests more apposite questions and a different answer”. Goodacre replied in “On Choosing and Using Appropriate Analogies”.",
+          "ref": "Downing 2001, abstract; Goodacre 2003c",
+          "basis": "abstract"
+        },
+        {
+          "text": "Garrow argues that analogies from Plutarch, Josephus, Tatian, Ammonius and Eusebius show writers choosing one source as a frame and filling it from others. Matthew's use of Luke follows that pattern; Luke's use of Matthew would run it in reverse.",
+          "ref": "Garrow 2023b, pp. 277–286",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Pelling's study of Plutarch supports a writer who keeps one source before his eyes and brings in other material from memory. Derrenbacker grants that this fits Goulder's picture of Luke at first sight, though he finds problems in the detail.",
+          "ref": "Pelling 1979, p. 92, as quoted in Derrenbacker 2001, ch. on the Farrer–Goulder hypothesis",
+          "basis": "reported"
+        },
+        {
+          "text": "Reply: Barker uses Tatian, the Naḥal Ḥever Minor Prophets scroll, the Septuagint recensions and Josephus to argue that interweaving and reordering sources was neither unprecedented nor especially complicated.",
+          "ref": "Barker 2016, abstract; Barker 2023, abstract",
+          "basis": "abstract"
+        },
+        {
+          "text": "Reply: Tuckett answered Watson's L/M proposal for the Two-Source hypothesis, and Watson replied with “seven theses” in the same volume, recognising and tabulating instances of Luke's “unpicking” of Matthew.",
+          "ref": "Tuckett 2018; Watson 2018; Andrejevs 2022b, abstract",
+          "basis": "abstract"
+        }
+      ],
+      "status": "Each side picks the analogies that suit it. Two-Source scholars cite Josephus' and Plutarch's simple, block-wise conflation; Farrer scholars cite free rearrangement, imitation and later harmonies; Garrow uses the same analogies for Matthean posteriority. Goodacre, Watson, Eve and Barker have recast the question from “could Luke have done this?” to “why would Luke have wanted to?”, so the case now turns on exegesis of Luke more than on comparative evidence.",
+      "bearsOn": {
+        "2DH": "neutral",
+        "FH": "neutral",
+        "MPH": "neutral",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "M1",
+        "I2",
+        "D1"
+      ]
+    },
+    {
+      "id": "M5",
+      "title": "Dates and circulation",
+      "claim": "The later Luke is dated, the harder it becomes to believe he did not know Matthew.",
+      "favours": "contact",
+      "evidence": [
+        {
+          "text": "Luke's preface speaks of “many” who had already undertaken an account (πολλοὶ ἐπεχείρησαν).",
+          "ref": "Luke 1:1–4; Goodacre 2009",
+          "basis": "read"
+        },
+        {
+          "text": "Richard Pervo dates Acts to about 115 CE. Martin Hengel dates Mark to 69–70, Luke to 75–85 and Matthew to 90–100.",
+          "ref": "Pervo 2006; Hengel 2000, as reported in Blomberg's review",
+          "basis": "reported"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Goodacre lists Luke's preface and the date among his reasons for preferring Luke's use of Matthew: “The general indications of date also tend to favour a later Luke”, and the preface's “many” suggests a Luke who is “self-consciously second generation in a way that is less clear with Matthew”.",
+          "ref": "Goodacre 2009",
+          "basis": "read"
+        },
+        {
+          "text": "Richard Pervo dates Acts to about 115 CE: its author knows the later writings of Josephus and shares an outlook with Polycarp and the Pastoral Epistles. A Luke–Acts written decades after Matthew makes ignorance of Matthew harder to credit.",
+          "ref": "Pervo 2006",
+          "basis": "abstract"
+        },
+        {
+          "text": "Steve Mason argues that Luke–Acts uses information supplied by Josephus (Judas the Galilean and Theudas in Acts 5:36–37, the Egyptian and the sicarii in Acts 21:38), which would put it after the *Antiquities* (c. 93–94). The case is disputed.",
+          "ref": "Mason 2003",
+          "basis": "reported"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Hengel, one of the few to argue the order from dates, put Luke before Matthew and proposed that Matthew used Luke alongside other sources. On that view the chronological argument favours Matthean posteriority, not the Farrer hypothesis.",
+          "ref": "Hengel 2000, as reported in Garrow 2020, p. 132 n. 5; Goodacre 2009",
+          "basis": "reported"
+        },
+        {
+          "text": "Kloppenborg observes that the dominance of the Two-Source hypothesis has shaped other suppositions, including “the dating of the gospels”, and that the case against Q “depends logically on the plausibility of Luke's direct use of Matthew”. Dates cannot settle what only the texts can.",
+          "ref": "Kloppenborg 2003, pp. 210, 226",
+          "basis": "read"
+        },
+        {
+          "text": "Matthew Larsen argues that the usual picture of Gospels “published” at a fixed date and then circulating as finished books is anachronistic, which weakens arguments from date and circulation on all sides.",
+          "ref": "Larsen 2023",
+          "basis": "abstract"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Farrer advocates do not rest the case on dates. Goodacre gives date as one reason among several, beside Matthean language in Luke's double tradition, Luke's secondary forms and Mark as the usual middle term; a later Luke only shifts the burden of proof.",
+          "ref": "Goodacre 2009",
+          "basis": "read"
+        }
+      ],
+      "status": "Dating is a supporting argument only. A late Luke makes contact with Matthew more likely, but the dates are uncertain, partly shaped by source theory, and the same considerations can favour Matthew's use of Luke. Both sides accept that the question is decided by the texts; the date bears mainly on the burden of proof.",
+      "bearsOn": {
+        "2DH": "strains",
+        "FH": "supports",
+        "MPH": "neutral",
+        "2GH": "supports"
+      },
+      "seeAlso": [
+        "C7",
+        "D1",
+        "Q4"
+      ]
+    },
+    {
+      "id": "M6",
+      "title": "Agreements a third evangelist would have kept",
+      "claim": "A writer using two sources tends to keep what they agree on; every hypothesis with one evangelist using the other two makes him repeatedly pass over wording his sources share, so only the Two-Source hypothesis, in which no evangelist has two overlapping Gospels, avoids the problem.",
+      "favours": "independence",
+      "evidence": [
+        {
+          "text": "Mark 1:4 and Luke 3:3 share κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν (“proclaiming a baptism of repentance for the forgiveness of sins”), 42 characters; Matthew 3 has none of it, though nearby he copies Mark alone on John's clothing and Luke alone on the “brood of vipers”.",
+          "ref": "Mark 1:4 // Luke 3:3 // Matt 3:1–10; Downing 2017, p. 322",
+          "basis": "read"
+        },
+        {
+          "text": "Mark 1:7 and Luke 3:16 share an 84-character sequence ending λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ (“to untie the thong of his sandals”); Matthew paraphrases, τὰ ὑποδήματα βαστάσαι (“to carry the sandals”).",
+          "ref": "Mark 1:7 // Luke 3:16 // Matt 3:11; Downing 2017, p. 323; Garrow 2020, p. 135",
+          "basis": "read"
+        },
+        {
+          "text": "The one long Mark–Luke agreement Matthew keeps is ἐξεπλήσσοντο ἐπὶ τῇ διδαχῇ αὐτοῦ (“they were astounded at his teaching”), which he places after the Sermon on the Mount with οἱ ὄχλοι inserted.",
+          "ref": "Mark 1:22 // Luke 4:32 // Matt 7:28; Downing 2017, p. 324; Garrow 2020, p. 136",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "In 2004 F. Gerald Downing argued that on the Griesbach and Farrer hypotheses the third author shows “very frequent though not entirely consistent refusals” to copy his sources where they agree verbatim or very closely, while copying one of them precisely in the same context. He discussed “some sixty instances”, in detail for Mark and more briefly for Luke.",
+          "ref": "Downing 2004, abstract; Downing 2017, p. 319",
+          "basis": "abstract"
+        },
+        {
+          "text": "In 2017 Downing applied a stricter test to Matthew writing third. He counted only shared sequences of 30 or more characters in ordinary narrative, leaving aside Scripture and definitive sayings that any writer would keep. He found 41 Mark–Luke agreements “refused” by Matthew (one only 23 characters long) against one 30-character agreement kept and two shorter ones.",
+          "ref": "Downing 2017, pp. 320–321, 334",
+          "basis": "read"
+        },
+        {
+          "text": "Downing grounds the expectation in ancient practice: historians preferred agreed witness. Tacitus writes, “Where the authorities are unanimous, I shall follow them”, and Arrian records as true what Ptolemy and Aristobulus both report. Avoiding so many agreements by accident is not credible, and avoiding them from memory would be harder still.",
+          "ref": "Downing 2017, pp. 321–323",
+          "basis": "read"
+        },
+        {
+          "text": "He judges the probability of the pattern “simply nil, zero, zilch”. Any hypothesis with one evangelist using the other two meets “the same vicious inconsistency”. On the Two-Source hypothesis neither Matthew nor Luke has a “Markanized” text of the other, and their coincidences are improbable but possible.",
+          "ref": "Downing 2017, p. 335",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Alan Garrow replies that ancient authors valued independent corroboration, not identical wording: “The more extensively two witnesses agree verbatim the greater the suspicion that, far from offering independent corroboration, the second witness is merely parroting the first.”",
+          "ref": "Garrow 2020, p. 134",
+          "basis": "read"
+        },
+        {
+          "text": "Garrow adds that 30-character strings in unspaced majuscule would be as hard to find in order to include them as to exclude them, and that Matthew wanted what Luke added to Mark, not what duplicated it. In the cases listed Matthew simply uses his usual options with Mark: omission, partial omission, emendation, paraphrase, expansion and inclusion. The data therefore fit any hypothesis.",
+          "ref": "Garrow 2020, pp. 134–137; Garrow 2023a, pp. 286–287",
+          "basis": "read"
+        },
+        {
+          "text": "Garrow also notes that only four Mark–Luke episodes, sixteen verses in all, are missing from Matthew. Matthew accepts the double witness at the level of incidents, so Downing has to fall back on verbatim strings, unlike his 2004 complaint that the Farrer Luke ploughs a fresh furrow in the passion where Mark and Matthew agree.",
+          "ref": "Garrow 2020, p. 133 n. 8; Garrow 2023a, p. 286",
+          "basis": "read"
+        },
+        {
+          "text": "From the Farrer side, Goodacre points to Mark–Luke agreements that Luke keeps in the overlap passages, such as the sandal thong, against the claim that Luke avoids Mark there. Downing's 2017 list makes the same passage a Mark–Luke agreement that Matthew refuses.",
+          "ref": "Goodacre 2018, pp. 214–215 and n. 33; Downing 2017, p. 323",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Downing grants that a writer with both texts before him could physically have avoided the agreements, but asks why he would, when the same writer copies a single source verbatim close by and stops only where the two agree. He notes that Eve cites his 2011 summary of the 2004 article without discussing the “refused” dual witness.",
+          "ref": "Downing 2017, pp. 319 n. 17, 334–335",
+          "basis": "read"
+        }
+      ],
+      "status": "The data are not in dispute: Matthew, on Matthean posteriority, rarely reproduces long Mark–Luke verbal agreements outside Scripture and sayings, and Downing found similar patterns for the Griesbach Mark and the Farrer Luke. What is disputed is the premise that an ancient writer would have kept shared wording. Garrow, the target of the 2017 article, has replied twice; Farrer advocates have answered the older “unpicking” form of the argument rather than the 2017 count. Its force depends on how far ancient preference for agreed testimony extended to wording rather than events.",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "strains",
+        "MPH": "strains",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "M1",
+        "C1",
+        "C3",
+        "D1"
+      ]
+    }
+  ]
+}

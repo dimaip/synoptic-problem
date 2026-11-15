@@ -1,0 +1,691 @@
+{
+  "intro": "Who has argued what, from Griesbach to the present. Markan priority with Q (the Two-Source hypothesis) has been the majority view since the late nineteenth century, and it still is. Its main rivals have been the Griesbach (Two-Gospel) hypothesis, chiefly in North America since 1964, and the Farrer hypothesis, chiefly in Britain since the 1990s. Matthean Posteriority, proposed by Storr in 1786 and Wilke in 1838, has had a small revival since Huggins (1992) and MacEwen (2015). This list samples the leading advocates of every position. It is not a sample of opinion: the minority views are over-represented, and the bars do not show how the field divides. No formal survey of scholars' opinion exists. Each entry names the work where the position is stated. Entries marked unchecked rest on the standard literature rather than on a text cited here.",
+  "groups": [
+    {
+      "title": "Founders, 1780s–1920s",
+      "items": [
+        {
+          "name": "Johann Jakob Griesbach",
+          "year": 1789,
+          "side": "noq",
+          "hyp": "2GH",
+          "note": "*Commentatio* (1789–90), announced in 1783: Mark abbreviated and combined Matthew and Luke, switching to Luke wherever he left Matthew's order. Griesbach also produced the first synopsis (1776).",
+          "ref": "Kloppenborg 2023, pp. 5–7; Carlson 2004",
+          "basis": "reported"
+        },
+        {
+          "name": "C. G. Wilke",
+          "year": 1838,
+          "side": "noq",
+          "hyp": "MPH",
+          "note": "*Der Urevangelist*: Mark first, and Matthew took the double tradition from Luke. No sayings source. Modern advocates of Matthean Posteriority claim him as their forerunner.",
+          "ref": "Wilke 1838; Carlson 2004",
+          "basis": "reported"
+        },
+        {
+          "name": "C. H. Weisse",
+          "year": 1838,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Die evangelische Geschichte*: Matthew and Luke both used canonical Mark and Papias's λόγια (“oracles”). Carlson calls this the first formulation of the Two-Source hypothesis; Kloppenborg a forerunner of it. In 1856 he went back to an Ur-Markus.",
+          "ref": "Kloppenborg 2023, pp. 8–9; Carlson 2004",
+          "basis": "reported"
+        },
+        {
+          "name": "H. J. Holtzmann",
+          "year": 1863,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Die synoptischen Evangelien*: source A (a proto-Mark) and the sayings source Λ. He dropped the proto-Mark by 1886. Around 1880 he also allowed, with E. Simons, that Luke made some secondary use of Matthew.",
+          "ref": "Holtzmann 1863; Kloppenborg 2023, pp. 9–12; Carlson 2004",
+          "basis": "reported"
+        },
+        {
+          "name": "Johannes Weiss",
+          "year": 1890,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "First used the siglum Q (*Quelle*, “source”) for the sayings source in place of “the λόγια”.",
+          "ref": "Kloppenborg 2023, p. 13",
+          "basis": "reported"
+        },
+        {
+          "name": "Paul Wernle",
+          "year": 1899,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Die synoptische Frage*: Matthew and Luke used Mark itself, so no proto-Mark is needed and Q is more or less the double tradition. This became the classic German form.",
+          "ref": "Wernle 1899; Kloppenborg 2023, p. 13",
+          "basis": "reported"
+        },
+        {
+          "name": "B. H. Streeter",
+          "year": 1924,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*The Four Gospels*: Mark, Q, M and L (a “four-document hypothesis”), plus Proto-Luke. This became the classic British statement. He explained the minor agreements chiefly as independent editing and textual assimilation.",
+          "ref": "Streeter 1924, chs. 7–11",
+          "basis": "read"
+        }
+      ]
+    },
+    {
+      "title": "The twentieth-century debate, 1930s–1999",
+      "items": [
+        {
+          "name": "B. C. Butler",
+          "year": 1951,
+          "side": "noq",
+          "hyp": "Augustinian",
+          "note": "*The Originality of St Matthew*: Matthew first, Mark used Matthew, and Luke used both, with no Q. He named the “Lachmann fallacy”: order shows only that Mark is the middle term, not that Mark came first.",
+          "ref": "Butler 1951; Kloppenborg 2023, p. 14",
+          "basis": "reported"
+        },
+        {
+          "name": "Austin Farrer",
+          "year": 1955,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "“On Dispensing with Q”: once Luke's use of Matthew is credible, Q loses its reason to exist. Kloppenborg notes that the essay had little immediate effect.",
+          "ref": "Farrer 1955; Kloppenborg 2023, p. 14",
+          "basis": "read"
+        },
+        {
+          "name": "Robert L. Lindsey",
+          "year": 1963,
+          "side": "open",
+          "hyp": "multi-source",
+          "note": "“A Modified Two-Document Theory” (*NovT* 6): Luke first, then Mark, then Matthew, with shared lost sources. This became the basis of the “Jerusalem school”.",
+          "ref": "Lindsey 1963; Kloppenborg 2023, p. 17",
+          "basis": "reported"
+        },
+        {
+          "name": "William R. Farmer",
+          "year": 1964,
+          "side": "noq",
+          "hyp": "2GH",
+          "note": "*The Synoptic Problem*: attacked the logic of the Markan hypothesis and revived Griesbach, later as the “Two-Gospel hypothesis”. Kloppenborg calls it the most important development since Streeter.",
+          "ref": "Farmer 1964; Kloppenborg 2023, pp. 14–15",
+          "basis": "reported"
+        },
+        {
+          "name": "Joseph A. Fitzmyer",
+          "year": 1970,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "“The Priority of Mark and the ‘Q’ Source in Luke”, and *Luke I–IX* (1981), pp. 73–75: a standard statement of the reasons Luke did not use Matthew.",
+          "ref": "Fitzmyer 1970; Fitzmyer 1981; Evans 2016",
+          "basis": "reported"
+        },
+        {
+          "name": "M.-É. Boismard",
+          "year": 1972,
+          "side": "open",
+          "hyp": "multi-source",
+          "note": "*Synopse des quatre Évangiles*, vol. 2: several lost documents and intermediate editions of the Gospels. Restated in English in “The Two-Source Theory at an Impasse” (1979).",
+          "ref": "Benoit & Boismard 1972; Boismard 1979",
+          "basis": "reported"
+        },
+        {
+          "name": "W. G. Kümmel",
+          "year": 1973,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Einleitung in das Neue Testament* (17th edn; ET 1975): the standard textbook defence of the Two-Source hypothesis in its generation.",
+          "ref": "Kümmel 1975; Kloppenborg 2003",
+          "basis": "reported"
+        },
+        {
+          "name": "Frans Neirynck",
+          "year": 1974,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*The Minor Agreements of Matthew and Luke against Mark*: a full catalogue. He argued that they come from Matthew and Luke independently editing Mark, together with textual factors, and led the Leuven defence of the hypothesis.",
+          "ref": "Neirynck 1974; Neirynck 1991; Kloppenborg 2003",
+          "basis": "reported"
+        },
+        {
+          "name": "Michael D. Goulder",
+          "year": 1974,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "*Midrash and Lection in Matthew* (1974) and *Luke: A New Paradigm* (1989). He went further than Farrer and dispensed with M, L and most oral tradition as well, and he linked the Gospels to a lectionary. Later Farrer scholars dropped both moves.",
+          "ref": "Goulder 1989; Goodacre 2002a; Kloppenborg 2023, pp. 15–16",
+          "basis": "reported"
+        },
+        {
+          "name": "H. Benedict Green",
+          "year": 1975,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "*The Gospel according to Matthew* (1975). Also “The Credibility of Luke's Transformation of Matthew” (1984).",
+          "ref": "Green 1984; Goodacre 2002d",
+          "basis": "reported"
+        },
+        {
+          "name": "John Drury",
+          "year": 1976,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "*Tradition and Design in Luke's Gospel*: Luke used Mark and Matthew freely. Like Goulder, he gave Luke very little independent oral tradition.",
+          "ref": "Drury 1976; Goodacre 2000; Goodacre 2002c",
+          "basis": "reported"
+        },
+        {
+          "name": "Bernard Orchard",
+          "year": 1976,
+          "side": "noq",
+          "hyp": "2GH",
+          "note": "*Matthew, Luke and Mark* (1976), and *The Order of the Synoptics* with Harold Riley (1987). Co-author of the 1984 Jerusalem statement of the Two-Gospel hypothesis.",
+          "ref": "Orchard 1976; Orchard & Riley 1987; Porter & Dyer 2016",
+          "basis": "reported"
+        },
+        {
+          "name": "Robert H. Gundry",
+          "year": 1982,
+          "side": "open",
+          "hyp": "3SH",
+          "note": "*Matthew* commentary, and “Matthean Foreign Bodies” (1992): Luke used Q and Mark, but also knew Matthew, which explains some minor agreements.",
+          "ref": "Gundry 1982; Gundry 1992; Carlson 2004",
+          "basis": "reported"
+        },
+        {
+          "name": "Christopher M. Tuckett",
+          "year": 1983,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*The Revival of the Griesbach Hypothesis* (1983) and *Q and the History of Early Christianity* (1996): the leading British defender of Q, against both Griesbach and Farrer.",
+          "ref": "Tuckett 1983; Tuckett 1996; Goodacre 2000",
+          "basis": "reported"
+        },
+        {
+          "name": "Ulrich Luz",
+          "year": 1985,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Das Evangelium nach Matthäus* (EKK; ET *Matthew 1–7*, 1989): the major German Matthew commentary works with Mark and Q, but a Q that circulated in recensions (QMt close to the common form, QLk much enlarged). For the minor agreements, which he calls the one serious difficulty for the Two-Source hypothesis, he allows slightly differing versions of Mark.",
+          "ref": "Luz 1985; Derrenbacker 2001, pp. 269–270",
+          "basis": "reported"
+        },
+        {
+          "name": "John S. Kloppenborg",
+          "year": 1987,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*The Formation of Q*: Q was a written Greek document that grew in stages, a sapiential layer expanded by a deuteronomistic one. Later he co-edited the *Critical Edition of Q* (2000) and wrote *Excavating Q* (2000).",
+          "ref": "Kloppenborg 1987; Head & Williams 2003; Carlson 2004",
+          "basis": "reported"
+        },
+        {
+          "name": "Robert H. Stein",
+          "year": 1987,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*The Synoptic Problem: An Introduction* (2nd edn *Studying the Synoptic Gospels*, 2001): the standard evangelical textbook for Markan priority and Q.",
+          "ref": "Stein 1987; Stein 2001; Goodacre 2000",
+          "basis": "reported"
+        },
+        {
+          "name": "W. D. Davies & Dale C. Allison",
+          "year": 1988,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Matthew* (ICC), vol. 1: Luke shows no knowledge of Matthew's additions to Mark, and sometimes Matthew and sometimes Luke has the more original wording. Allison returned to the question in 2022, arguing that Luke's Sermon on the Plain is not a rewriting of Matthew's Sermon on the Mount.",
+          "ref": "Davies & Allison 1988; Goodacre 2000; Allison 2022",
+          "basis": "reported"
+        },
+        {
+          "name": "E. P. Sanders & Margaret Davies",
+          "year": 1989,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "*Studying the Synoptic Gospels*: “Matthew used Mark and Luke used them both”, with what they call a “rather substantial modification”. Both evangelists also had other sources for the sayings. They judged that the Two-Source and Griesbach hypotheses both “break down”.",
+          "ref": "Sanders & Davies 1989, pp. 112, 117, as quoted in Goodacre 2002c; Kloppenborg 2023, p. 16",
+          "basis": "reported"
+        },
+        {
+          "name": "John Wenham",
+          "year": 1991,
+          "side": "noq",
+          "hyp": "Augustinian",
+          "note": "*Redating Matthew, Mark and Luke*: Matthew first, and early dates for all three.",
+          "ref": "Wenham 1991; Abakuks 2006",
+          "basis": "reported"
+        },
+        {
+          "name": "Ronald V. Huggins",
+          "year": 1992,
+          "side": "noq",
+          "hyp": "MPH",
+          "note": "“Matthean Posteriority: A Preliminary Proposal” (*NovT* 34): Mark, then Luke, then Matthew. This began the modern revival of Wilke's view.",
+          "ref": "Huggins 1992; Garrow n.d.",
+          "basis": "read"
+        },
+        {
+          "name": "David R. Catchpole",
+          "year": 1993,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*The Quest for Q*: detailed studies arguing that Q had its own distinctive themes and structure.",
+          "ref": "Catchpole 1993",
+          "basis": "reported"
+        },
+        {
+          "name": "Eric Franklin",
+          "year": 1994,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "*Luke: Interpreter of Paul, Critic of Matthew*: Luke wrote knowing Matthew and in part correcting it.",
+          "ref": "Franklin 1994; Goodacre 2002d",
+          "basis": "reported"
+        },
+        {
+          "name": "Harry T. Fleddermann",
+          "year": 1995,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Mark and Q* (1995) and *Q: A Reconstruction and Commentary* (2005): Q existed, and Mark knew and used it.",
+          "ref": "Fleddermann 1995; Fleddermann 2005; Fleddermann 2016",
+          "basis": "reported"
+        },
+        {
+          "name": "A. J. McNicol, D. L. Dungan & D. B. Peabody",
+          "year": 1996,
+          "side": "noq",
+          "hyp": "2GH",
+          "note": "*Beyond the Q Impasse: Luke's Use of Matthew* (1996), and its sequel *One Gospel from Two* (2002) on Mark's use of Matthew and Luke. These are the Griesbach school's team commentaries.",
+          "ref": "McNicol, Dungan & Peabody 1996; Peabody, Cope & McNicol 2002; Kloppenborg 2023, p. 15",
+          "basis": "reported"
+        }
+      ]
+    },
+    {
+      "title": "Since 2000",
+      "items": [
+        {
+          "name": "James M. Robinson",
+          "year": 2000,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "Co-editor of *The Critical Edition of Q* (with Hoffmann and Kloppenborg), the International Q Project's text. His “LOGOI SOPHON” essay (German 1964; ET 1971) set Q's genre among sayings of the wise.",
+          "ref": "Robinson, Hoffmann & Kloppenborg 2000; Robinson 1971",
+          "basis": "reported"
+        },
+        {
+          "name": "Martin Hengel",
+          "year": 2000,
+          "side": "noq",
+          "hyp": "MPH",
+          "note": "*The Four Gospels and the One Gospel of Jesus Christ*: Luke before Matthew, and Matthew used Mark and probably Luke. He still allowed a sayings (logia) source.",
+          "ref": "Hengel 2000; Head & Williams 2003",
+          "basis": "reported"
+        },
+        {
+          "name": "David Alan Black",
+          "year": 2001,
+          "side": "noq",
+          "hyp": "2GH",
+          "note": "*Why Four Gospels?*: Matthew first, then Luke, then Mark. Mark draws on Peter's preaching of Matthew and Luke.",
+          "ref": "Black 2001",
+          "basis": "reported"
+        },
+        {
+          "name": "Mark Goodacre",
+          "year": 2002,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "*The Case Against Q*: Markan priority affirmed and Q rejected. Unlike Goulder, he lets Luke draw on oral tradition as well as Mark and Matthew, and he has no lectionary theory. *The Fourth Synoptic Gospel* (2025) extends the argument to John.",
+          "ref": "Goodacre 2002; Goodacre 2002a; Goodacre 2025",
+          "basis": "read"
+        },
+        {
+          "name": "James D. G. Dunn",
+          "year": 2003,
+          "side": "q",
+          "hyp": "oral",
+          "note": "“Altering the Default Setting” (*NTS* 49) and *Jesus Remembered*: Q for the close double-tradition agreements, and oral performance for the loose ones.",
+          "ref": "Dunn 2003a; Dunn 2003b",
+          "basis": "reported"
+        },
+        {
+          "name": "Paul Foster",
+          "year": 2003,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "“Is It Possible to Dispense with Q?” (*NovT* 45): a reply to Goodacre and the Farrer case. He also wrote on Matthew's doublets (2016) and Streeter's minor sources (2023).",
+          "ref": "Foster 2003; Foster 2016; Foster 2023a",
+          "basis": "reported"
+        },
+        {
+          "name": "Ken Olson",
+          "year": 2004,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "“Unpicking on the Farrer Theory” (in *Questioning Q*): Luke does not have to unpick Matthew's additions from Mark sentence by sentence. Also argued that Luke's Lord's Prayer is an abridgement of Matthew's (2015).",
+          "ref": "Olson 2004; Olson 2015",
+          "basis": "reported"
+        },
+        {
+          "name": "Mark A. Matson",
+          "year": 2004,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "“Luke's Rewriting of the Sermon on the Mount” (in *Questioning Q*): Luke's Sermon on the Plain read as a deliberate reworking of Matthew's sermon.",
+          "ref": "Matson 2004; Goodacre 2016a",
+          "basis": "reported"
+        },
+        {
+          "name": "Delbert Burkett",
+          "year": 2004,
+          "side": "open",
+          "hyp": "multi-source",
+          "note": "*Rethinking the Gospel Sources* (2004, 2009) and *The Case for Proto-Mark* (2018): none of the Synoptics used another directly. Q was more than one document.",
+          "ref": "Burkett 2004; Burkett 2009; Burkett 2018",
+          "basis": "abstract"
+        },
+        {
+          "name": "Robert A. Derrenbacker Jr.",
+          "year": 2005,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Ancient Compositional Practices and the Synoptic Problem*: ancient authors worked from scrolls and memory, not at desks. Measured against that practice, Matthew's and Luke's use of Mark and Q is more plausible than the alternatives.",
+          "ref": "Derrenbacker 2005; Derrenbacker 2001",
+          "basis": "reported"
+        },
+        {
+          "name": "James R. Edwards",
+          "year": 2009,
+          "side": "noq",
+          "hyp": "MPH",
+          "note": "*The Hebrew Gospel and the Development of the Synoptic Tradition*: Luke drew on a Hebrew Gospel, and Matthew is later than Luke (pp. 245–252).",
+          "ref": "Edwards 2009; Garrow n.d.",
+          "basis": "read"
+        },
+        {
+          "name": "Andris Abakuks",
+          "year": 2011,
+          "side": "open",
+          "hyp": "contact",
+          "note": "Statistical papers (2006–2012) and *The Synoptic Problem and Statistics* (2015). Matthew's and Luke's retention of Mark's words is strongly dependent, which fits contact and strains independence. Whether Luke used Matthew or the reverse was inconclusive, though a 2006 model preferred the Farrer order.",
+          "ref": "Abakuks 2006; Abakuks 2012; Abakuks 2015",
+          "basis": "read"
+        },
+        {
+          "name": "Dennis R. MacDonald",
+          "year": 2012,
+          "side": "open",
+          "hyp": "3SH",
+          "note": "*Two Shipwrecked Gospels*: an expanded Q (“the Logoi of Jesus”) used by Mark, Matthew and Luke. Luke also used Matthew.",
+          "ref": "MacDonald 2012; MacDonald & Van Dore 2019",
+          "basis": "abstract"
+        },
+        {
+          "name": "Francis Watson",
+          "year": 2013,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "*Gospel Writing*: Luke used Mark and Matthew. He suggests Luke copied some Matthean sayings into a notebook for later use. Tuckett's reply (2018) targets this model and its “L/M”.",
+          "ref": "Watson 2013; Kloppenborg 2023, pp. 16–17; Tuckett 2018",
+          "basis": "reported"
+        },
+        {
+          "name": "Alexander Damm",
+          "year": 2013,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Ancient Rhetoric and the Synoptic Problem: Clarifying Markan Priority* (BETL 252): tests direction of dependence by the rhetorical virtues of clarity and propriety, and finds for Markan priority. A student of Kloppenborg's, he had earlier argued (SBL 2003) that in the Beelzebul controversy Luke's use of Q is more plausible than Luke's use of Matthew.",
+          "ref": "Damm 2013; Kloppenborg 2023, p. 20; Goodacre 2003e",
+          "basis": "reported"
+        },
+        {
+          "name": "Jason D. BeDuhn",
+          "year": 2013,
+          "side": "open",
+          "hyp": "Marcion",
+          "note": "*The First New Testament*: Marcion did not cut down Luke. He adopted an existing gospel.",
+          "ref": "BeDuhn 2013",
+          "basis": "reported"
+        },
+        {
+          "name": "Markus Vinzent",
+          "year": 2014,
+          "side": "open",
+          "hyp": "Marcion",
+          "note": "*Marcion and the Dating of the Synoptic Gospels*: Marcion's Gospel came first, and the canonical Synoptics respond to it.",
+          "ref": "Vinzent 2014",
+          "basis": "abstract"
+        },
+        {
+          "name": "Sarah E. Rollens",
+          "year": 2014,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Framing Social Criticism in the Jesus Movement: The Ideological Project in the Sayings Gospel Q* (WUNT 2/374): a social reading of Q's ideology.",
+          "ref": "Rollens 2014; Ahearne-Kroll 2023",
+          "basis": "abstract"
+        }
+      ]
+    },
+    {
+      "title": "Recent work, 2015–2026",
+      "items": [
+        {
+          "name": "John C. Poirier & Jeffrey Peterson",
+          "year": 2015,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "Editors of *Marcan Priority without Q* (LNTS 455), the first multi-author volume on the Farrer hypothesis, with a reply from Kloppenborg. Poirier also argued for Luke working from wax tablets (2012, 2023).",
+          "ref": "Poirier & Peterson 2015; Poirier 2023",
+          "basis": "reported"
+        },
+        {
+          "name": "Robert K. MacEwen",
+          "year": 2015,
+          "side": "noq",
+          "hyp": "MPH",
+          "note": "*Matthean Posteriority* (LNTS 501), the first monograph on the view. It was prompted by Huggins's 1992 article. Kloppenborg cites it for problems with Farrer's Luke.",
+          "ref": "MacEwen 2015; Garrow n.d.; Kloppenborg 2023, p. 17",
+          "basis": "read"
+        },
+        {
+          "name": "Giovanni B. Bazzana",
+          "year": 2015,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Kingdom of Bureaucracy* (BETL 274): Q's political theology read as the outlook of Galilean village scribes.",
+          "ref": "Bazzana 2015",
+          "basis": "unchecked"
+        },
+        {
+          "name": "Alan Kirk",
+          "year": 2016,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Q in Matthew*: Matthew's handling of Q fits ancient scribal and memory practice. Kirk finds Farrer's Luke implausible on those grounds and continued the debate with Eve and Goodacre (2017, 2023).",
+          "ref": "Kirk 2016; Kirk 2023b",
+          "basis": "reported"
+        },
+        {
+          "name": "Alan Garrow",
+          "year": 2016,
+          "side": "noq",
+          "hyp": "MPH",
+          "note": "“Streeter's ‘Other’ Synoptic Solution” (*NTS* 62): Matthew used Luke, sometimes conflating Luke with one of Luke's small sources. One such source survives in Didache 1.2–5a. He has kept up the debate with Goodacre (2017–2023).",
+          "ref": "Garrow 2016a; Garrow 2016b; Garrow 2023a",
+          "basis": "read"
+        },
+        {
+          "name": "Craig A. Evans",
+          "year": 2016,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "Defends the Two-Source hypothesis in *The Synoptic Problem: Four Views*.",
+          "ref": "Evans 2016; Porter & Dyer 2016",
+          "basis": "read"
+        },
+        {
+          "name": "David B. Peabody",
+          "year": 2016,
+          "side": "noq",
+          "hyp": "2GH",
+          "note": "Defends the Two-Gospel hypothesis in *Four Views*. Co-author of the Griesbach team volumes of 1996 and 2002.",
+          "ref": "Peabody 2016; Porter & Dyer 2016",
+          "basis": "read"
+        },
+        {
+          "name": "Rainer Riesner",
+          "year": 2016,
+          "side": "open",
+          "hyp": "oral",
+          "note": "Presents the “Orality and Memory Hypothesis” in *Four Views*: oral tradition and memory, with some written aids, rather than one Gospel copying another.",
+          "ref": "Riesner 2016; Porter & Dyer 2016",
+          "basis": "abstract"
+        },
+        {
+          "name": "Joseph Verheyden",
+          "year": 2016,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "Co-editor of *An Early Reader of Mark and Q* (BiTS 21), *New Studies in the Synoptic Problem* (2011) and the Loyola volume (2023). He works within the Two-Source framework.",
+          "ref": "Verheyden & Van Belle 2016; Foster et al. 2011; Andrejevs et al. 2023",
+          "basis": "abstract"
+        },
+        {
+          "name": "Christoph Heil & Daniel A. Smith",
+          "year": 2018,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "Co-editors, with Gertraud Harb, of *Built on Rock or Sand? Q Studies: Retrospects, Introspects and Prospects* (2018). Smith has argued that the Gospel used by Marcion lacked several of the minor agreements, which if right would put some of them down to later Matthean influence on the text of Luke.",
+          "ref": "Heil, Harb & Smith 2018; Smith 2018",
+          "basis": "reported"
+        },
+        {
+          "name": "Markus Tiwald",
+          "year": 2019,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Kommentar zur Logienquelle* (2019; English 2020) and editor of *The Q Hypothesis Unveiled* (2020).",
+          "ref": "Tiwald 2019; Tiwald 2020a; Tiwald 2020b",
+          "basis": "abstract"
+        },
+        {
+          "name": "Jens Schröter",
+          "year": 2020,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "“Key Issues Concerning the Q Hypothesis”: keeps Q as a source but doubts that its wording can be reconstructed.",
+          "ref": "Schröter 2020a",
+          "basis": "unchecked"
+        },
+        {
+          "name": "Olegs Andrejevs",
+          "year": 2021,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Apocalypticism in the Synoptic Sayings Source* (2019) and articles in *NTS* and *JSNT* (2021–22) testing the Farrer and Matthean Posteriority alternatives. Co-editor of the Loyola volume (2023).",
+          "ref": "Andrejevs 2019; Andrejevs 2021; Andrejevs 2022b; Andrejevs et al. 2023",
+          "basis": "abstract"
+        },
+        {
+          "name": "Eric Eve",
+          "year": 2021,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "*Relating the Gospels* and *Solving the Synoptic Puzzle*: the fullest case for the Farrer hypothesis since Goodacre. It draws on memory and ancient imitation, and he concedes that some data fit neither hypothesis neatly.",
+          "ref": "Eve 2021a; Eve 2021b",
+          "basis": "reported"
+        },
+        {
+          "name": "Matthias Klinghardt",
+          "year": 2021,
+          "side": "open",
+          "hyp": "Marcion",
+          "note": "*The Oldest Gospel* (German 2015): a reconstruction of Marcion's Gospel as the source of all four canonical Gospels, which takes the place of Q.",
+          "ref": "Klinghardt 2015; Klinghardt 2021",
+          "basis": "abstract"
+        },
+        {
+          "name": "Richard Bauckham",
+          "year": 2021,
+          "side": "noq",
+          "hyp": "MPH",
+          "note": "Held Q for most of his career and now uses Matthean Posteriority as a working hypothesis. His objection to Farrer's Luke is “the how, not the why” of Luke's rearrangement. He remains “99%” convinced of Markan priority.",
+          "ref": "Bauckham 2021",
+          "basis": "read"
+        },
+        {
+          "name": "John S. Kloppenborg",
+          "year": 2023,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Oxford Handbook* survey: at the end of the twentieth century the Two-Source, Farrer and Griesbach hypotheses “remain the best supported”. He calls for “humility” and against announcing that any hypothesis has been “discredited”.",
+          "ref": "Kloppenborg 2023, p. 17",
+          "basis": "read"
+        },
+        {
+          "name": "Paul Foster",
+          "year": 2023,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "*Oxford Handbook* chapter on M, L and Proto-Luke: these sources now draw “little significant attention”. The double tradition still needs Q or direct dependence to explain it.",
+          "ref": "Foster 2023a, pp. 41–42",
+          "basis": "read"
+        },
+        {
+          "name": "Chakrita M. Saulina",
+          "year": 2023,
+          "side": "noq",
+          "hyp": "MPH",
+          "note": "“Competitive Traditions” (BiTS 44): the Beelzebul controversy read as Matthew developing Luke.",
+          "ref": "Saulina 2023; Garrow n.d.",
+          "basis": "read"
+        },
+        {
+          "name": "Jeffrey M. Tripp",
+          "year": 2023,
+          "side": "open",
+          "hyp": "MPH",
+          "note": "Statistical study of the minor agreements (BiTS 44): where results are clear, Luke influences Matthew. He describes himself as exploring Matthean Posteriority rather than committed to it.",
+          "ref": "Tripp 2023; Tripp 2021; Garrow n.d.",
+          "basis": "read"
+        },
+        {
+          "name": "Sophie Robert Hayek, Jacques Istas & Frédérique Rey",
+          "year": 2023,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "Machine-learning stylometry: Luke's triple tradition comes from Mark, not Matthew. They judge the Two-Source hypothesis most likely and warn that the dataset is small.",
+          "ref": "Robert Hayek, Istas & Rey 2023",
+          "basis": "abstract"
+        },
+        {
+          "name": "Simon J. Joseph",
+          "year": 2023,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "Co-editor of the Loyola volume (BiTS 44, 2023), whose essay “The End of Q Studies: Contemporary Reflections” takes stock of Q research from within it.",
+          "ref": "Joseph 2023",
+          "basis": "abstract"
+        },
+        {
+          "name": "James W. Barker",
+          "year": 2025,
+          "side": "noq",
+          "hyp": "FH",
+          "note": "*Writing and Rewriting the Gospels*: Mark, then Matthew using Mark, then Luke using both (no Q), and John using all three.",
+          "ref": "Barker 2025; Barker 2016",
+          "basis": "reported"
+        },
+        {
+          "name": "Christopher M. Tuckett",
+          "year": 2025,
+          "side": "q",
+          "hyp": "2DH",
+          "note": "“Matthean Posteriority: Did Matthew Use Luke?” (*NovT* 67): Matthew's failure to use material in Luke that would have suited him counts against the view.",
+          "ref": "Tuckett 2025",
+          "basis": "reported"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Claims to retire",
+  "items": [
+    {
+      "claim": "“Q is a known document, and scholars have found it.”",
+      "fact": "No manuscript or fragment of Q exists, and no ancient writer mentions it. Q is a modern inference from the double tradition. Its texts, such as the *Critical Edition of Q* (2000), are reconstructions from Matthew and Luke.",
+      "ref": "Goodacre 2003a; Robinson, Hoffmann & Kloppenborg 2000",
+      "basis": "read"
+    },
+    {
+      "claim": "“To reject Q is to reject Markan priority.”",
+      "fact": "The Farrer hypothesis and Matthean Posteriority both keep Mark first. Only the Griesbach and Augustinian hypotheses put Matthew first. The two questions are separate, though textbooks and even specialists have confused the Farrer hypothesis with the Griesbach or Augustinian ones.",
+      "ref": "Goodacre 2002a; Goodacre 2001; Kloppenborg 2003",
+      "basis": "read"
+    },
+    {
+      "claim": "“Matthean Posteriority is a recent invention: the Farrer hypothesis run backwards.”",
+      "fact": "It is older than the Farrer hypothesis: Storr (1786) and Wilke (1838) already had Matthew using Luke, and Huggins revived it in 1992. In outline it does reverse Farrer's relation between Matthew and Luke, as Kloppenborg puts it, but its arguments are its own: Matthew as a conflator who gathered Luke's scattered sayings into discourses, and, in Garrow's version, Matthew's use of one of Luke's own sources, which he finds in Didache 1.2–5a ([[D1]], [[D5]]).",
+      "ref": "Kloppenborg 2023, pp. 6, 17; Carlson 2004; Huggins 1992; Garrow 2016a; Garrow 2016b",
+      "basis": "read"
+    },
+    {
+      "claim": "“The case against Q is just Occam's razor.”",
+      "fact": "Goodacre invokes the razor only as a conclusion: if Luke makes sense as a reader of Matthew, Q is not needed. His positive case rests on the minor agreements, the Mark–Q overlaps, editorial fatigue and Matthean wording in Luke ([[C1]]–[[C5]]). Q's defenders reply that saving one source makes Luke's editing harder to explain, for example his non-use of Matthew's additions to Mark ([[I1]]).",
+      "ref": "Goodacre 2002a; Goodacre 2003a; Kloppenborg 2023, pp. 16–17",
+      "basis": "read"
+    },
+    {
+      "claim": "“Goodacre holds that Luke had no sources except Mark and Matthew.”",
+      "fact": "That was Goulder's position, and Drury's. Goodacre calls Goulder's elimination of all other sources “unwise” and has Luke interact with oral tradition, sometimes keeping an older form of a saying. He also does not use Goulder's lectionary theory.",
+      "ref": "Goodacre 2002a; Goodacre 2000",
+      "basis": "read"
+    },
+    {
+      "claim": "“The minor agreements are all trivial.”",
+      "fact": "Most are small, but some are not. In the mockery, Matt 26:68 and Luke 22:64 both have τίς ἐστιν ὁ παίσας σε; (“Who is it that struck you?”), which Mark 14:65 lacks. Streeter gave that agreement special treatment, and Kloppenborg calls the minor agreements “the most problematic datum” for the Two-Source hypothesis ([[C2]]).",
+      "ref": "Matt 26:68 // Mark 14:65 // Luke 22:64; Streeter 1924, ch. 11; Kloppenborg 2023, p. 15",
+      "basis": "read"
+    },
+    {
+      "claim": "“The minor agreements settle the question against Q.”",
+      "fact": "They can be explained in several ways: independent editing of Mark, textual corruption or cross-contamination, a revised Mark, or Luke's knowledge of Matthew. Kloppenborg says they trouble the Two-Source hypothesis not because they cannot be explained but because too many explanations are possible. Q's defenders, Tuckett among them, turn their smallness against the Farrer hypothesis: if Luke knew Matthew, why is the influence so slight? Goodacre has answered that objection ([[C1]]).",
+      "ref": "Kloppenborg 2023, p. 16; Goodacre 2000 (quoting Tuckett); Goodacre 2002a",
+      "basis": "read"
+    },
+    {
+      "claim": "“Papias's λόγια was Q.”",
+      "fact": "The identification goes back to Schleiermacher (1832). From Weiss (1890) onwards the source was called Q instead of “the λόγια”. Kloppenborg notes that Holtzmann's sayings source already bore little resemblance to what Papias describes, and that Papias played very little role in his argument. Goodacre counts Q's absence from ancient testimony against it ([[Q4]], [[P7]]).",
+      "ref": "Kloppenborg 2023, pp. 7–13; Goodacre 2003a",
+      "basis": "read"
+    },
+    {
+      "claim": "“The Gospel of Thomas proves that Q existed.”",
+      "fact": "Thomas shows that sayings collections existed, which answers Farrer's objection that nothing like Q is attested. Fitzmyer was among the first to make this point. It does not show that Matthew and Luke were independent of each other, which is the real question ([[Q2]]).",
+      "ref": "Goodacre 2002a; Farrer 1955",
+      "basis": "read"
+    },
+    {
+      "claim": "“Q shows a community with no interest in Jesus' death.”",
+      "fact": "Arguments from Q's silence depend on how much of Q has been reconstructed, since Matthew and Luke need not have kept all of it. The double tradition includes the saying about carrying one's cross (Luke 14:27 // Matt 10:38) and sayings on Jerusalem killing the prophets (Luke 13:34 // Matt 23:37); what it lacks is a passion narrative. The idea of a Q community with its own theology is disputed by Q's critics and also by some who keep Q: Maurice Casey, who argued for Aramaic Q material, rejected “the American Q” as a single document “cherished by its own community” ([[Q1]], [[Q3]]).",
+      "ref": "Luke 14:27 // Matt 10:38; Luke 13:34 // Matt 23:37; Head & Williams 2003, quoting Casey 2002, p. 47",
+      "basis": "reported"
+    },
+    {
+      "claim": "“On the Farrer view Luke demolished the Sermon on the Mount and scattered it at random.”",
+      "fact": "The wording comes from the case for Q: Holtzmann's “scattered the ruins to the four winds”, Streeter's “crank” and Stanton's “demolished”. Farrer scholars argue that Luke keeps the sermon's frame and places the rest in his own narrative settings. Q's defenders still regard Luke's order as a hard case for the Farrer view ([[I2]]).",
+      "ref": "Goodacre 2000; Kloppenborg 2023, pp. 16–17; Bauckham 2021",
+      "basis": "read"
+    },
+    {
+      "claim": "“The Two-Source hypothesis is a consensus that only a fringe disputes.”",
+      "fact": "It is the majority view, and Goodacre himself calls belief in Q a “near-consensus”. But the Farrer, Griesbach and Matthean Posteriority positions each have peer-reviewed monographs and conference volumes. Kloppenborg ranks the Two-Source, Farrer and Griesbach hypotheses as “the best supported” and warns against announcing that any of them has been “discredited”.",
+      "ref": "Goodacre 2002a; Kloppenborg 2023, p. 17; Reid 2016",
+      "basis": "read"
+    },
+    {
+      "claim": "“Q is collapsing; most scholars have abandoned it.”",
+      "fact": "No published survey shows this. The only count on record is an unscientific 2007 blog poll (136 votes for the Two-Source hypothesis, 108 for Farrer), which Goodacre himself called a snapshot. Reid (2016) still judges the Two-Source hypothesis probably the one most New Testament scholars prefer, and Foster observes that few now work on the Synoptic Problem at all.",
+      "ref": "Goodacre 2007a; Reid 2016, p. 9; Foster 2023a, pp. 41–42",
+      "basis": "read"
+    },
+    {
+      "claim": "“*The Critical Edition of Q* is a text like a manuscript.”",
+      "fact": "It is a reconstruction. It treats Matthew and Luke as two “witnesses” and marks its uncertain readings with sigla. Goodacre argues that the textual-criticism analogy misleads, because Matthew and Luke are authors who rewrote their source, not copyists ([[Q3]]).",
+      "ref": "Robinson, Hoffmann & Kloppenborg 2000; Goodacre 2004a",
+      "basis": "read"
+    },
+    {
+      "claim": "“Streeter's M and L are sources that everyone accepts.”",
+      "fact": "They have largely been given up. Foster's survey finds that “little significant attention” now goes to M, L or Proto-Luke, because special material cannot be securely separated from the evangelists' own composition. Q survives because the double tradition needs some explanation.",
+      "ref": "Foster 2023a, pp. 41–42",
+      "basis": "read"
+    },
+    {
+      "claim": "“The argument from order proves that Mark came first.”",
+      "fact": "Butler (1951) showed that the order data prove only that Mark is the middle term, which is equally consistent with Griesbach's Mark coming third. Kloppenborg calls Butler's point “entirely correct”. Markan priority now rests on a set of cumulative arguments ([[P1]]–[[P6]]).",
+      "ref": "Butler 1951; Kloppenborg 2023, p. 14; Carlson 2004",
+      "basis": "read"
+    },
+    {
+      "claim": "“Without Q, Luke must be late and his extra material invented.”",
+      "fact": "Neither follows. Farrer dated Matthew and Luke to “between A.D. 75 and A.D. 90”, and Goodacre gives Luke access to oral tradition. The reverse inference also fails: Q would not guarantee historicity, because it would be one more early written source. Apologists and their critics both misuse the question.",
+      "ref": "Farrer 1955, p. 56; Goodacre 2002a",
+      "basis": "read"
+    },
+    {
+      "claim": "“Q was a sayings source, so it cannot have contained narrative.”",
+      "fact": "This is a matter of definition, not evidence. Holtzmann kept narrative out of his sayings source because of Papias's λόγια, but Weisse already noticed that the double tradition includes the temptation, the centurion's servant (Q 7:1–10) and the Beelzebul controversy. Goodacre argues that this narrative sequence in Q 3–7 points to Luke following Matthew ([[C6]]).",
+      "ref": "Kloppenborg 2023, pp. 8–10; Goodacre 2003a",
+      "basis": "read"
+    },
+    {
+      "claim": "“Statistics have settled the Synoptic Problem.”",
+      "fact": "They have not. Abakuks found that Matthew and Luke tend to keep the same words of Mark, which fits contact better than independence, but his results could not tell whether Luke used Matthew or Matthew used Luke. A 2023 machine-learning study cautiously favoured the Two-Source hypothesis on a small dataset ([[S1]], [[S2]]).",
+      "ref": "Abakuks 2006; Abakuks 2012; Robert Hayek, Istas & Rey 2023",
+      "basis": "read"
+    }
+  ]
+}

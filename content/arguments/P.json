@@ -1,0 +1,738 @@
+{
+  "id": "P",
+  "title": "Which Gospel came first?",
+  "question": "Did Matthew and Luke both use Mark (Markan priority), or did Mark come last and combine Matthew and Luke (the Two-Gospel or Griesbach hypothesis)?",
+  "items": [
+    {
+      "id": "P1",
+      "title": "The order of episodes",
+      "claim": "Matthew and Luke almost never agree against Mark in the order of shared episodes; where one leaves Mark's sequence the other keeps it, which is best explained if both followed Mark.",
+      "favours": "mark-first",
+      "evidence": [
+        {
+          "text": "In the triple tradition either all three agree in sequence, or Matthew and Mark agree against Luke, or Mark and Luke agree against Matthew; Matthew and Luke rarely agree together against Mark. Goodacre calls this Mark's position as the “middle term” in order as well as in wording.",
+          "ref": "Goodacre 2001, pp. 38–39",
+          "basis": "read"
+        },
+        {
+          "text": "Streeter's formulation: “wherever Matthew departs from Mark's order Luke supports Mark, and whenever Luke departs from Mark, Matthew agrees with Mark.” He names Mark 3:31–35 as the one section placed differently in each Gospel.",
+          "ref": "Streeter 1924, ch. 7; Mark 3:31–35 // Matt 12:46–50 // Luke 8:19–21",
+          "basis": "read"
+        },
+        {
+          "text": "Matthew rearranges Mark freely in his first half but follows Mark's sequence strictly from Mark 6:14 to the end (Matt 14 onwards); Luke omits more of Mark than Matthew does but rarely changes its order.",
+          "ref": "Streeter 1924, ch. 7",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Karl Lachmann's 1835 essay is usually named as the origin of the argument, but Lachmann did not argue that Matthew and Luke copied Mark. He argued that all three reflect the order of an earlier common gospel, which Mark keeps best, and gave reasons for Matthew's and Luke's departures at particular points.",
+          "ref": "Lachmann 1835; Sanders 1969b, pp. 249 n. 2, 253 n. 1, citing Palmer 1967; Carlson 2004",
+          "basis": "reported"
+        },
+        {
+          "text": "Streeter made order one of his five reasons for Markan priority: the conjunction and alternation of Matthew and Luke in supporting Mark's content, wording and order is “only explicable” if both used a source all but identical with Mark.",
+          "ref": "Streeter 1924, ch. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Frans Neirynck argued in detail that each of Matthew's and Luke's departures from Mark's order can be explained as their own redaction, which is what the argument needs if it is to go beyond a bare pattern.",
+          "ref": "Van Belle 2013, pp. 125–126",
+          "basis": "reported"
+        },
+        {
+          "text": "Christopher Tuckett showed that the alternating pattern is what one would expect, statistically, if Matthew and Luke each departed from Mark independently and occasionally.",
+          "ref": "Tuckett 1984b; Carlson 2004",
+          "basis": "reported"
+        }
+      ],
+      "contra": [
+        {
+          "text": "B. C. Butler called Streeter's inference the “Lachmann fallacy” (Carlson suggests “middle term fallacy” is the more accurate name, since Lachmann did not commit it). Order alone shows only that Mark stands between the other two, which is equally true if Mark is the source of both, the conflator of both, or the link in a chain from Matthew to Mark to Luke.",
+          "ref": "Butler 1951, pp. 62–71; Porter & Dyer 2016, p. 18; Carlson 2004d",
+          "basis": "reported"
+        },
+        {
+          "text": "Tuckett himself later granted that the argument from order “only shows that Mark is some kind of \"middle term\" between the other two in any pattern of relationships”.",
+          "ref": "Tuckett 1995b, pp. 75–76, as quoted in Farmer 1998",
+          "basis": "reported"
+        },
+        {
+          "text": "On the Two-Gospel reading the same data show Mark following first one source and then the other: when Luke goes his own way Mark follows Matthew, and when Matthew departs Mark follows Luke. David Dungan pressed this as a pattern too regular to be coincidence on the Two-Source view.",
+          "ref": "Dungan 1970, pp. 54–74; Peabody, Cope & McNicol 2002, pp. 92–96; Dufvevind 2021, pp. 28–29",
+          "basis": "reported"
+        },
+        {
+          "text": "David Neville's history of the argument concludes that every synopsis builds in assumptions about who used whom, so arguments from order are shaped by the synopsis used. He judges Griesbach's own arrangement less biased than the synopsis behind Tuckett's reckoning, though none is neutral.",
+          "ref": "Neville 1994, pp. 207–236, as summarised in Dufvevind 2021, pp. 27–31",
+          "basis": "reported"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Markan priorists accept that the bare pattern is reversible but say the reasons are not. Matthew and Luke each have intelligible editorial reasons for leaving Mark's order and returning to it; a Mark who leaves one source's order and then returns to it has no comparable motive.",
+          "ref": "Stein 2001, p. 74, as summarised in Dufvevind 2021, pp. 27–28",
+          "basis": "reported"
+        },
+        {
+          "text": "Reply: Goodacre treats Mark's place as middle term as the fact any solution must explain, and decides between Markan priority and Markan posteriority on other grounds: omissions, harder readings and fatigue ([[P2]], [[P3]], [[P4]]).",
+          "ref": "Goodacre 2001, pp. 56–57",
+          "basis": "read"
+        }
+      ],
+      "status": "Order alone shows only that Mark is the middle term; it does not decide between Mark first and Mark last, and both sides now say so, Tuckett included. Lachmann himself never drew the inference later credited to him. Since Butler (1951) the order data carry weight for Markan priority only when combined with reasons for each evangelist's changes, and the Two-Gospel hypothesis explains the bare pattern equally well.",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "supports",
+        "MPH": "supports",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "P6",
+        "I2",
+        "C6"
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "What Mark would have left out",
+      "claim": "If Mark wrote last, he omitted the birth stories, the Sermon on the Mount, the Lord's Prayer and the resurrection appearances while lengthening the stories he kept; this makes poor sense, and better sense if Matthew and Luke expanded Mark.",
+      "favours": "mark-first",
+      "evidence": [
+        {
+          "text": "Material in both Matthew and Luke but absent from Mark includes the birth narratives (Matt 1–2; Luke 1–2), most of the Sermon on the Mount/Plain (Matt 5–7; Luke 6:20–49), the Lord's Prayer (Matt 6:9–13 // Luke 11:2–4) and the resurrection appearances. Mark's Gospel ends at 16:8.",
+          "ref": "Goodacre 2001, pp. 57–58",
+          "basis": "read"
+        },
+        {
+          "text": "Mark 11:25 has Jesus say “forgive, if you have anything against anyone; so that your Father in heaven may also forgive you your trespasses”, the same point made in Matt 6:14–15. In Matthew it follows the Lord's Prayer, but there is no prayer in Mark.",
+          "ref": "Mark 11:25 // Matt 6:14–15; Goodacre 2001, pp. 58–59",
+          "basis": "read"
+        },
+        {
+          "text": "In the stories Mark shares with Matthew, Mark is usually longer. Citing Hawkins, Streeter gives word counts for the Gadarene demoniac, Jairus's daughter and the feeding of the five thousand: Mark 325, 374 and 235 words; Matthew 136, 135 and 157.",
+          "ref": "Streeter 1924, ch. 7, citing Hawkins 1909, p. 159",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Streeter: there is nothing improbable in an abbreviated Gospel, “but only a lunatic would leave out Matthew's account of the Infancy, the Sermon on the Mount, and practically all the parables, in order to get room for purely verbal expansion of what was retained.”",
+          "ref": "Streeter 1924, ch. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre asks whether the double tradition looks un-Markan enough to explain its omission, and finds that it does not. On the Griesbach view the real question is why there is any double tradition at all, especially if Mark aimed to preserve what his two sources both attested.",
+          "ref": "Goodacre 2001, p. 58",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre argues that the supposed redactor pulls in opposite directions. He would add banal clarifications such as “for they were fishermen” (Mark 1:16) and “for it was not the season for figs” (11:13). Yet he would also rework the mockery scene subtly (14:65) and drop the clarifying question “Who is it that struck you?” shared by Matthew and Luke.",
+          "ref": "Goodacre 2001, pp. 63–65; Mark 14:65 // Matt 26:67–68 // Luke 22:63–64",
+          "basis": "read"
+        },
+        {
+          "text": "Joseph Fitzmyer asked why a Mark who used both would omit John the Baptist's preaching (Matt 3:7–10 // Luke 3:7–9), where Matthew and Luke agree closely in both order and wording.",
+          "ref": "Fitzmyer 1970, p. 136, as reported in Neville 1994, p. 180 and Dufvevind 2021, p. 29",
+          "basis": "reported"
+        },
+        {
+          "text": "William Farmer, the leading modern Griesbachian, wrote in 1998 that the one major task left was to explain “the omissions Mark has made from the Gospels of Matthew and Luke.”",
+          "ref": "Farmer 1998",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Older arguments assumed that an evangelist would not knowingly omit good material. Goodacre notes that recent scholarship gives the evangelists more creative freedom. For example, a Mark who sat lightly to the Law might drop a Sermon in which Jesus appears as a new Moses, and might see the birth narratives as unnecessary.",
+          "ref": "Goodacre 2001, pp. 57–58",
+          "basis": "read"
+        },
+        {
+          "text": "Two-Gospel scholars describe Mark's purpose as presenting what his two predecessors jointly attest. Goodacre states this rationale as the retaining of their “concurrent testimony”. On this view much of what is missing is material where Matthew and Luke diverge, not material Mark disliked.",
+          "ref": "Goodacre 2001, p. 58; Peabody, Cope & McNicol 2002",
+          "basis": "read"
+        },
+        {
+          "text": "Mattias Dufvevind argues from ancient book production that the double tradition is scattered differently through Matthew and Luke. Finding and aligning it across two scrolls would have been very laborious, while short triple-tradition pericopes could be compared and expanded more easily.",
+          "ref": "Dufvevind 2021, pp. 44–64; Derrenbacker 2005",
+          "basis": "read"
+        },
+        {
+          "text": "Some Two-Gospel advocates link Mark's selection to the patristic tradition that Mark recorded Peter's preaching in Rome. On this view Mark's Gospel was never meant to replace Matthew and Luke.",
+          "ref": "Black 2001",
+          "basis": "unchecked"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Goodacre answers that the Two-Gospel Mark has no consistent profile. If he kept only concurrent testimony, his omission of the Lord's Prayer is hard to explain; if he added freely, it is hard to see why he added so little ([[P5]]).",
+          "ref": "Goodacre 2001, pp. 61–65",
+          "basis": "read"
+        },
+        {
+          "text": "Reply: Streeter argued that, on Markan priority, Matthew's compression of Mark's stories has an obvious purpose. It leaves room for a large body of teaching that Mark lacks.",
+          "ref": "Streeter 1924, ch. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Counter-reply: Dufvevind concedes that his account depends on whether Mark could combine two sources phrase by phrase (“micro-conflation”). He finds this practice scarcely attested for texts the size of the Gospels ([[M1]]).",
+          "ref": "Dufvevind 2021, pp. 51–52, 64",
+          "basis": "read"
+        }
+      ],
+      "status": "Supporters of Markan priority regard this as one of the strongest arguments. Farmer himself acknowledged in 1998 that the omissions were the main remaining difficulty for the Two-Gospel hypothesis. Two-Gospel scholars reply by appealing to Mark's purpose and to ancient working conditions. Arguments about purpose are hard to test in either direction, so most scholars treat this as a plausibility argument rather than a proof.",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "supports",
+        "MPH": "supports",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "P5",
+        "M1",
+        "M2"
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "Harder readings and Mark's rough style",
+      "claim": "Mark has the more awkward, more embarrassing and more colloquial wording; it is easier to see Matthew and Luke smoothing Mark than Mark roughening them.",
+      "favours": "mark-first",
+      "evidence": [
+        {
+          "text": "Mark 6:5: he “could do no mighty work there” (οὐκ ἐδύνατο ἐκεῖ ποιῆσαι οὐδεμίαν δύναμιν, “he was not able to do any mighty work there”). Matt 13:58: he “did not do many mighty works there” (οὐκ ἐποίησεν ἐκεῖ δυνάμεις πολλάς, “he did not do many mighty works there”). Luke has no parallel to the verse.",
+          "ref": "Mark 6:5 // Matt 13:58; Goodacre 2001, p. 67; Streeter 1924, ch. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Mark 10:18 τί με λέγεις ἀγαθόν; (“Why do you call me good?”) becomes in Matt 19:17 τί με ἐρωτᾷς περὶ τοῦ ἀγαθοῦ; (“Why do you ask me about what is good?”). In the storm on the lake, Mark's disciples ask “Teacher, do you not care that we are perishing?” (Mark 4:38), which Matthew and Luke lack. Mark's Jesus asks “Have you still no faith?” (4:40); Matthew has “little faith” and Luke “Where is your faith?”",
+          "ref": "Mark 10:18 // Matt 19:17 // Luke 18:19; Mark 4:38–40 // Matt 8:25–26 // Luke 8:24–25; Goodacre 2001, pp. 26–27",
+          "basis": "read"
+        },
+        {
+          "text": "Hawkins counted 151 historic presents in Mark and 78 in Matthew, plus 15 in Matthew's parables. Matthew shares the historic present with Mark in only 21 places, and Luke shares it with Mark only once.",
+          "ref": "Hawkins 1909, pp. 143–149",
+          "basis": "read"
+        },
+        {
+          "text": "Streeter counted eight places where Mark keeps Jesus' Aramaic words (e.g. Mark 5:41; 7:34). Luke has none of them, and Matthew keeps only Golgotha. Both Matthew and Luke also lack Mark 3:21, where Jesus' family say “he is beside himself” (ἐξέστη, “he is out of his mind”).",
+          "ref": "Streeter 1924, ch. 7",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Streeter's fourth reason was the primitive character of Mark: phrases likely to cause offence that the others omit or tone down, roughness of style and grammar, and the preservation of Aramaic. He stressed that the argument is cumulative.",
+          "ref": "Streeter 1924, ch. 7",
+          "basis": "read"
+        },
+        {
+          "text": "On Mark 6:5, Goodacre finds it straightforward to imagine Matthew changing “could not” to “did not”, and stranger to imagine Mark making the reverse change. He calls the category “suggestive rather than decisive, plausible if not provable”.",
+          "ref": "Goodacre 2001, p. 67",
+          "basis": "read"
+        },
+        {
+          "text": "Hawkins noted that the historic present is rare in the narrative books of the Septuagint. Matthew and Luke replacing Mark's λέγει (“says”) with εἶπεν (“said”) would simply be preferring the more usual idiom.",
+          "ref": "Hawkins 1909, p. 143",
+          "basis": "read"
+        },
+        {
+          "text": "Peter Head built a reformulated christological argument, based not on what Matthew omits but on his positive and consistent handling of Jesus as teacher, Lord, Messiah, Son of God and Son of Man. He found that this makes much better sense on Markan priority than as the work of a Mark who wrote after Matthew.",
+          "ref": "Head 1995, pp. 198–200; Head 1997",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "E. P. Sanders tested the supposed laws of tradition (increasing length, increasing detail, diminishing Semitism). He concluded that later tradition moved in both directions, so these criteria alone cannot show which text is earlier.",
+          "ref": "Sanders 1969",
+          "basis": "unchecked"
+        },
+        {
+          "text": "Head himself concluded that “the christological argument as traditionally conceived does not offer a compelling argument for Markan priority”. The usual claim that Matthew avoided embarrassing phrases does not explain his redaction, and on some passages the Griesbach explanation is equally plausible.",
+          "ref": "Head 1995, pp. 198–200",
+          "basis": "read"
+        },
+        {
+          "text": "Griesbachians answer that Mark, writing last, could have added Aramaic words and healing techniques. Such words appear as formulae of power in later Christian texts.",
+          "ref": "Farmer 1964, pp. 172–174; Peabody, Cope & McNicol 2002, p. 148; Dufvevind 2021, pp. 17–19",
+          "basis": "reported"
+        },
+        {
+          "text": "Porter and Dyer note that the claim that Mark's Greek is uniformly worse has been disputed, and that critics have cited shared passages where Mark's Greek is the better.",
+          "ref": "Porter & Dyer 2016, p. 18",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Head's own conclusion is that the traditional form of the argument fails, while a redaction-critical form survives. It asks which writer's changes form a coherent and pervasive pattern, and on that test the Two-Source hypothesis wins in most of the passages he studied.",
+          "ref": "Head 1995, pp. 199–200",
+          "basis": "read"
+        },
+        {
+          "text": "Reply: Markan priorists accept that single cases can be reversed. Their claim is that the cases run overwhelmingly one way: it is easier to see why later writers would remove an inability, an insult or a colloquialism than why a later writer would add them all.",
+          "ref": "Goodacre 2001, pp. 60–61, 65–67; Streeter 1924, ch. 7",
+          "basis": "read"
+        }
+      ],
+      "status": "This argument is widely held but is now usually presented as cumulative and probable, not decisive. Sanders and Head showed that the older 'laws' of tradition and the simple embarrassment argument do not settle the question alone. The stronger current form asks which redactional picture is more coherent, a test on which most specialists, including Head, favour Markan priority.",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "supports",
+        "MPH": "supports",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "P5",
+        "P4",
+        "D2"
+      ]
+    },
+    {
+      "id": "P4",
+      "title": "Editorial fatigue in Matthew and Luke",
+      "claim": "Matthew and Luke make characteristic changes at the start of passages taken from Mark and then drift back into Mark's wording, creating small inconsistencies; Mark shows no such slips against them.",
+      "favours": "mark-first",
+      "evidence": [
+        {
+          "text": "The death of John the Baptist: Matthew correctly calls Herod Antipas “tetrarch” (ὁ τετραάρχης, Matt 14:1) and has Herod himself wish to kill John (14:5). At 14:9 he follows Mark, calling Herod “the king” and saying he was grieved (λυπηθεὶς ὁ βασιλεύς, “the king, being grieved”). The grief makes sense in Mark, where it is Herodias who wants John dead.",
+          "ref": "Matt 14:1–12 // Mark 6:14–29; Goodacre 1998, pp. 46–47; Goodacre 2001, pp. 73–74",
+          "basis": "read"
+        },
+        {
+          "text": "Two more in Matthew. At the leper, he adds “many crowds” (ὄχλοι πολλοί, Matt 8:1) yet keeps the order to “tell no one” (8:4), which makes sense only in Mark's private encounter. At the mother and brothers, he opens with his own formula (“While he was still speaking to the crowds, behold”, 12:46), yet keeps Mark's “standing outside” (ἔξω), though Matthew has put Jesus in no house; Mark has one (Mark 3:20), and Matt 13:1 has Jesus leave “the house”.",
+          "ref": "Matt 8:1–4 // Mark 1:40–45; Matt 12:46–50 // Mark 3:31–35; Goodacre 1998, pp. 47–48, 53; Goodacre 2001, pp. 71–73",
+          "basis": "read"
+        },
+        {
+          "text": "The feeding of the five thousand: Luke moves the scene to “a city called Bethsaida” (Luke 9:10). Two verses later the disciples still say “we are here in a desert place” (ὧδε ἐν ἐρήμῳ τόπῳ ἐσμέν, 9:12), as in Mark.",
+          "ref": "Luke 9:10–17 // Mark 6:30–44; Goodacre 1998, pp. 50–51",
+          "basis": "read"
+        },
+        {
+          "text": "In the sower, Luke drops Mark's “no depth of earth”, changes the cause of withering to “lack of moisture” and omits the sun (Luke 8:6); his interpretation still explains “no root” and “temptation” (8:13). In the paralytic story, Luke never puts Jesus in a house, yet the men go up on the roof and let the man down “through the tiles” (5:19).",
+          "ref": "Luke 8:4–15 // Mark 4:1–20; Luke 5:17–26 // Mark 2:1–12; Goodacre 1998, pp. 49–50; Goodacre 2001, pp. 74–75",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Goodacre's definition: “Editorial fatigue is a phenomenon that will inevitably occur when a writer is heavily dependent on another's work.” Changes made early in a pericope are not sustained, like a continuity error in film.",
+          "ref": "Goodacre 1998, p. 45",
+          "basis": "read"
+        },
+        {
+          "text": "The direction test: Goodacre argues that in his examples the slips follow a characteristic Matthean or Lukan change at the opening, and that “It is not possible to find the same phenomenon in Mark.” Mark has inconsistencies, he grants, “But this is different from the phenomenon of fatigue.”",
+          "ref": "Goodacre 1998, p. 52",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre anticipates the Griesbachian use of Markan incoherence. De Wette argued from cases like Mark 5:15 // Luke 8:35 against 8:27 that Mark used Matthew and Luke. Goodacre answers that such cases never involve Mark writing characteristically at the start of a pericope and then lapsing.",
+          "ref": "Goodacre 1998, n. 33",
+          "basis": "read"
+        },
+        {
+          "text": "The observation is older than the argument. G. M. Styler noticed the Herod example and Michael Goulder named the phenomenon, but Goodacre notes that Goulder “does not use the phenomenon as an argument” for his solution.",
+          "ref": "Goodacre 1998, nn. 5, 10; Styler 1962; Goulder 1974",
+          "basis": "read"
+        },
+        {
+          "text": "In his textbook Goodacre presents fatigue as the decisive argument, the “fingerprints on the gun” after a run of merely circumstantial indicators.",
+          "ref": "Goodacre 2001, pp. 70–76",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Harold Riley offered a counter-example of fatigue in Mark: in the same Herod story Mark has “the Baptizer” at 6:24, where Matthew has no parallel, and “the Baptist” at 6:25, where Matthew has it (Matt 14:8).",
+          "ref": "Orchard & Riley 1987, p. 100, as reported in Goodacre 1998, n. 9",
+          "basis": "reported"
+        },
+        {
+          "text": "A Two-Gospel reply: if Mark combined Matthew and Luke phrase by phrase, his fuller text is the conflation, and Matthew's and Luke's leaner versions are simply earlier. On that view the alleged inconsistencies are not slips at all; for example, Dufvevind judges that the leper's command makes slightly better sense if Matthew is earlier.",
+          "ref": "Dufvevind 2021, pp. 34–43, 51",
+          "basis": "read"
+        },
+        {
+          "text": "Dufvevind also notes that in Goodacre's fatigue passages Mark often contains features found only in Matthew alongside features found only in Luke. That pattern is what a conflator would produce, and on Markan priority it needs explaining.",
+          "ref": "Dufvevind 2021, pp. 42, 51–52",
+          "basis": "read"
+        },
+        {
+          "text": "Some cases rest on very little. Dufvevind argues that Matt 12:46 and Luke 5:19 turn on a single unmentioned house, which a reader could easily infer, and that a Mark writing last might have added the house to clarify Matthew.",
+          "ref": "Dufvevind 2021, p. 42",
+          "basis": "read"
+        },
+        {
+          "text": "Tobias Hägerland's critique of fatigue concerns Goodacre's extension of it to the double tradition, against Q ([[C4]]). He questions whether Matthew would have handled Q as he handled Mark, and whether fatigue is really absent from Matthew's double tradition.",
+          "ref": "Hägerland 2019",
+          "basis": "abstract"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Goodacre answers Riley that “Baptist” and “Baptizer” are equally correct, so Mark's variation is not the kind of lapse that Matthew's “tetrarch” and “king”, or the king's grief, would be on Matthean priority.",
+          "ref": "Goodacre 1998, n. 9",
+          "basis": "read"
+        },
+        {
+          "text": "Reply: the Two-Gospel answer depends on Mark combining two sources phrase by phrase. Dufvevind himself concedes that such “micro-conflation” is scarcely attested for texts of the Gospels' size. He says that if it is ruled out, Mark was “indeed the first Gospel” for the pericopes concerned ([[M1]], [[M2]]).",
+          "ref": "Dufvevind 2021, pp. 51–52; Derrenbacker 2005",
+          "basis": "read"
+        },
+        {
+          "text": "Reply: Goodacre framed the test as open. Those who reject Markan priority would need strong counter-examples of fatigue in Mark, and if none appear, he concludes, it may be time “to reinforce the theory of Marcan priority”.",
+          "ref": "Goodacre 1998, p. 58",
+          "basis": "read"
+        }
+      ],
+      "status": "Goodacre presents fatigue as the most direct indicator of direction, and Two-Source scholars such as Kloppenborg accept his case for Markan priority. Published Two-Gospel replies are few and brief: Riley's single counter-example (1987), which Goodacre answered, and a reversal by micro-conflation set out mainly in a student thesis (Dufvevind 2021). The main published critique of fatigue (Hägerland 2019) concerns its use against Q, not for Markan priority. No case of Markan fatigue against Matthew or Luke has gained acceptance.",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "supports",
+        "MPH": "supports",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "C4",
+        "D4",
+        "M1"
+      ]
+    },
+    {
+      "id": "P5",
+      "title": "Mark's own material",
+      "claim": "The few passages found only in Mark look like material that Matthew and Luke would both drop, not material a later writer would choose to add.",
+      "favours": "mark-first",
+      "evidence": [
+        {
+          "text": "Healing of a deaf man with spittle, groaning and the Aramaic “Ephphatha” (Mark 7:31–37). The blind man of Bethsaida, healed in two stages, who first sees “men; but they look like trees, walking” (8:22–26).",
+          "ref": "Mark 7:31–37; Mark 8:22–26; Goodacre 2001, pp. 59–60",
+          "basis": "read"
+        },
+        {
+          "text": "The young man who runs away naked (Mark 14:51–52). Jesus' family setting out to restrain him because people said he was out of his mind (3:20–21). The seed growing secretly (4:26–29). Streeter totals the passages of Mark absent from both Matthew and Luke at 31 verses.",
+          "ref": "Mark 14:51–52; 3:20–21; 4:26–29; Streeter 1924, ch. 7, additional note A",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Goodacre: nowhere in Matthew or Luke does Jesus heal with physical agents like saliva. The two Bethsaida-type healings also feature secrecy and a healing that is not instantaneous, all features Matthew and Luke play down elsewhere. Omission by both fits their known habits.",
+          "ref": "Goodacre 2001, pp. 60–61",
+          "basis": "read"
+        },
+        {
+          "text": "Streeter: with the family's attempt to restrain Jesus (3:21) and the young man in Gethsemane (14:51–52), it is harder to explain why Mark thought them worth recording than why Matthew and Luke left them out.",
+          "ref": "Streeter 1924, ch. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Streeter argued that the seed growing secretly is original to Mark because it pairs with the mustard seed as one of the twin parables characteristic of Mark.",
+          "ref": "Streeter 1924, ch. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre adds an argument from oral tradition. Matthew, Luke, Papias and Thomas all show access to plenty of extra tradition, yet a third-placed Mark would have added only a handful of unremarkable stories and almost no new sayings.",
+          "ref": "Goodacre 2001, pp. 61–62",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Goodacre states the alternative fairly: Mark “could” have added these stories, perhaps to correct the more reverent picture in Matthew and Luke, in a sense “reprimitivizing” the tradition.",
+          "ref": "Goodacre 2001, p. 61",
+          "basis": "read"
+        },
+        {
+          "text": "Two-Gospel scholars call Mark's distinctive material the “Markan overlay”. In their view it is Mark's own compositional layer, which ties his combined account together and is to be explained by his purposes, not by how his sources behaved.",
+          "ref": "Porter & Dyer 2016, p. 20; Peabody, Cope & McNicol 2002",
+          "basis": "read"
+        },
+        {
+          "text": "Healing words such as “Ephphatha” and “Talitha cum” resemble formulae found in later texts, so their presence need not mark early tradition.",
+          "ref": "Farmer 1964, pp. 172–174; Peabody, Cope & McNicol 2002, p. 148; Dufvevind 2021, p. 18",
+          "basis": "reported"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Goodacre presses the question of profile. If Mark's aim was to keep what his predecessors jointly attest, nothing makes these two healings so important that they had to be added. If he added freely, it is unclear why so little else went in.",
+          "ref": "Goodacre 2001, p. 61",
+          "basis": "read"
+        }
+      ],
+      "status": "The data are small (about 31 verses) and agreed by all. The disagreement is over which writer's behaviour is more plausible. Most scholars find omission by Matthew and Luke more natural than addition by Mark, but this is a judgment of plausibility. It gains force mainly in combination with [[P2]] and [[P3]].",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "supports",
+        "MPH": "supports",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "P2",
+        "P3"
+      ]
+    },
+    {
+      "id": "P6",
+      "title": "Mark's double expressions",
+      "claim": "Mark often says the same thing twice, and in a number of cases Matthew has one half and Luke the other; this is what one would expect if Mark combined Matthew and Luke.",
+      "favours": "matthew-first",
+      "evidence": [
+        {
+          "text": "Matt 8:16 Ὀψίας δὲ γενομένης (“When evening came”); Luke 4:40 Δύνοντος δὲ τοῦ ἡλίου (“While the sun was setting”); Mark 1:32 Ὀψίας δὲ γενομένης, ὅτε ἔδυ ὁ ἥλιος (“When evening came, when the sun set”).",
+          "ref": "Mark 1:32 // Matt 8:16 // Luke 4:40; Dufvevind 2021, p. 22",
+          "basis": "read"
+        },
+        {
+          "text": "Tuckett condensed Neirynck's 213 duplicate expressions in Mark into a table of how Matthew and Luke treat them: Matthew one half and Luke the other, 17; one has a half and the other both, 28; one has a half and the other neither, 71; both the same half, 39; both keep the whole, 6; one keeps both and the other neither, 15; neither has a parallel, 37.",
+          "ref": "Tuckett 1983, p. 20, condensing Neirynck 1972; reproduced in Stein 2001, pp. 65–66, as quoted in Dufvevind 2021, pp. 19–20",
+          "basis": "reported"
+        },
+        {
+          "text": "Neirynck's *Duality in Mark* (1972) sorted these duplications into thirty categories in four groups, running through the whole Gospel.",
+          "ref": "Neirynck 1972; Van Belle 2013, p. 127",
+          "basis": "reported"
+        }
+      ],
+      "pro": [
+        {
+          "text": "For Two-Gospel scholars the 17 split cases are direct evidence of conflation. Mark took “evening” from Matthew and “sunset” from Luke, and the same habit explains the rest. One Gospel from Two treats Mark's conflation of his sources as the basis of the hypothesis.",
+          "ref": "Peabody, Cope & McNicol 2002, pp. 92–96; Porter & Dyer 2016, p. 18",
+          "basis": "reported"
+        },
+        {
+          "text": "Streeter himself conceded the datum: when Mark has a duplicate expression, “not infrequently it happens that Matthew retains one and Luke the other”, as in Mark 1:32.",
+          "ref": "Streeter 1924, ch. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Dufvevind argues that more than the 17 cases favour conflation. In 49 cases Mark shares a full doublet with Matthew or Luke, which suggests he took doublets over from them; he also asks why Matthew and Luke would so often each drop a whole Markan doublet if they were working from Mark. He adds that on the Farrer view Luke, finding a doublet of which Matthew kept one half, would have had to choose the other half seventeen times.",
+          "ref": "Dufvevind 2021, pp. 20–21",
+          "basis": "read"
+        },
+        {
+          "text": "Bernard Orchard and Harold Riley also read Mark's duplications as evidence that Mark combined Matthew and Luke.",
+          "ref": "Orchard & Riley 1987",
+          "basis": "unchecked"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Neirynck's conclusion was that duality is a pervasive feature of Mark's own style. It is often a “two-step” expression in which the second member makes the first more precise, so it cannot be used in advance as a sign of sources and points instead to Mark's literary unity.",
+          "ref": "Neirynck 1972; Van Belle 2013, p. 127",
+          "basis": "reported"
+        },
+        {
+          "text": "Robert Stein, using Tuckett's table: “only in 17 of the 213 examples could Mark be said to conflate the different expressions found in Matthew and Luke.” Duality is common in Mark even where Matthew and Luke give no basis for conflation.",
+          "ref": "Stein 2001, pp. 65–66, using Tuckett 1983, p. 20, as quoted in Dufvevind 2021, p. 20",
+          "basis": "reported"
+        },
+        {
+          "text": "On Markan priority, a split is what one expects now and then. Two editors who each shorten a redundant pair will sometimes keep different halves. Streeter put it that one or other “usually abbreviates by leaving out one member of the pair”.",
+          "ref": "Streeter 1924, ch. 7",
+          "basis": "read"
+        },
+        {
+          "text": "Markan priorists read the same pericope as pointing the other way. In Mark 1:34 Jesus heals “many”, while Matthew has “all” and Luke “each one”. Goodacre finds it more likely that both later writers clarified Mark than that Mark weakened them.",
+          "ref": "Goodacre 2001, pp. 66–67",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Dufvevind answers Stein that the categories other than the 17 split cases are at least compatible with a Mark who took over doublets and created others by habit. He argues that the table as a whole leans slightly towards Mark's use of Matthew and Luke.",
+          "ref": "Dufvevind 2021, pp. 20–21",
+          "basis": "read"
+        },
+        {
+          "text": "Counter-reply: this makes duality Mark's habit on either hypothesis. Only the split cases discriminate between the two views, and those are few. Dufvevind also grants that phrase-level conflation is scarcely attested in ancient practice ([[M1]]).",
+          "ref": "Dufvevind 2021, pp. 51–52; Stein 2001, pp. 63–67",
+          "basis": "read"
+        }
+      ],
+      "status": "This is the Two-Gospel hypothesis's most concrete internal evidence, and the datum is not disputed: Streeter noted it in 1924. The figure of 17 split cases in 213 goes back to Tuckett's condensation of Neirynck's catalogue (1983), as reproduced by Stein. The disagreement is over how much 17 cases can carry when duality is so plainly Mark's own style. Since Neirynck (1972) and Tuckett (1983), most specialists regard the pattern as compatible with Markan priority, but Two-Gospel advocates continue to rely on it.",
+      "bearsOn": {
+        "2DH": "neutral",
+        "FH": "neutral",
+        "MPH": "neutral",
+        "2GH": "supports"
+      },
+      "seeAlso": [
+        "P1",
+        "M1",
+        "C1"
+      ]
+    },
+    {
+      "id": "P7",
+      "title": "What the early church said",
+      "claim": "Every ancient writer who states an order puts Matthew first, and one early tradition puts the Gospels with genealogies (Matthew and Luke) before Mark.",
+      "favours": "matthew-first",
+      "evidence": [
+        {
+          "text": "Papias, quoting “the presbyter” (Eusebius, HE 3.39.15–16): Mark, “having become the interpreter of Peter, wrote down accurately, though not in order” what he remembered; “Matthew wrote the oracles in the Hebrew language, and every one interpreted them as he was able.” No relative order is stated.",
+          "ref": "McGiffert 1890 (Eusebius, HE 3.39.15–16, trans. A. C. McGiffert, NPNF² 1)",
+          "basis": "read"
+        },
+        {
+          "text": "Irenaeus, Against Heresies 3.1.1: Matthew issued his Gospel among the Hebrews “while Peter and Paul were preaching at Rome”; “After their departure, Mark, the disciple and interpreter of Peter” wrote down Peter's preaching; then Luke; then John.",
+          "ref": "Roberts & Rambaut 1885 (Irenaeus, AH 3.1.1, trans. A. Roberts and W. Rambaut, ANF 1)",
+          "basis": "read"
+        },
+        {
+          "text": "Clement of Alexandria, citing “the earliest presbyters” (Eusebius, HE 6.14.5–7): “The Gospels containing the genealogies, he says, were written first.” Origen (HE 6.25.4–6) gives the order Matthew, Mark, Luke, John.",
+          "ref": "McGiffert 1890 (Eusebius, HE 6.14.5–7; 6.25.4–6, trans. A. C. McGiffert, NPNF² 1)",
+          "basis": "read"
+        },
+        {
+          "text": "Augustine, De consensu evangelistarum 1.2.3–4: the order of writing was Matthew, Mark, Luke, John, and Mark “looks like his [Matthew's] attendant and epitomizer”. In 4.10.11 he adds that, “in accordance with the more probable account of the matter”, Mark “holds a course in conjunction with both” Matthew and Luke.",
+          "ref": "Salmond 1888 (Augustine, Cons. 1.2.3–4; 4.10.11, trans. S. D. F. Salmond, NPNF¹ 6)",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Goodacre concedes the strength of the testimony. All early Christian writers who expressed an opinion, from the late second century on, favour Matthew's priority, a consensus he calls “far stronger than the current scholarly one”. He describes it as one of the strongest elements in favour of the Griesbach theory.",
+          "ref": "Goodacre 2001, p. 76",
+          "basis": "read"
+        },
+        {
+          "text": "Clement's tradition from “the earliest presbyters” that the Gospels with genealogies came first is the ancient testimony Two-Gospel scholars most often cite. It puts Matthew and Luke before Mark, which is exactly their order.",
+          "ref": "Carlson 2001; McGiffert 1890 (Eusebius, HE 6.14.5–7)",
+          "basis": "abstract"
+        },
+        {
+          "text": "David Peabody argued that Augustine, by the end of De consensu, preferred a view in which Mark combined Matthew and Luke. On this reading Augustine himself anticipated Griesbach.",
+          "ref": "Peabody 1983, pp. 37–64, as reported in Farmer 1998",
+          "basis": "reported"
+        },
+        {
+          "text": "Porter and Dyer note that the Two-Gospel hypothesis has the longest pedigree of the proposed solutions and can claim external as well as internal support.",
+          "ref": "Porter & Dyer 2016, p. 21",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Goodacre argues that the Fathers were concerned with who wrote the Gospels rather than when. Priority went to the one Gospel bearing an apostle's name, and the consensus breaks down over Mark and Luke: Origen and Augustine put Mark second, Clement puts him third.",
+          "ref": "Goodacre 2001, pp. 77–80",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre: our earliest witness, Papias, says nothing about relative order. He also argues that internal evidence has to decide, using the analogy of a plagiarism charge that must be checked against the work itself.",
+          "ref": "Goodacre 2001, pp. 76–81",
+          "basis": "read"
+        },
+        {
+          "text": "Stephen Carlson argues that Clement's verb προγεγράφθαι should be translated “were openly published”, not “were written first”. If so, Clement's elders were not giving an order of composition.",
+          "ref": "Carlson 2001; Carlson 2006",
+          "basis": "abstract"
+        },
+        {
+          "text": "Augustine's main statement (1.2.4) makes Mark the epitomizer of Matthew, not of Luke, and puts Mark second. It is the source of the Augustinian hypothesis rather than of Griesbach's. Book 4.10.11 comes within a symbolic discussion of the Gospel symbols (lion, ox, man), and its weight as a source-critical claim is disputed.",
+          "ref": "Reicke 1978; Salmond 1888 (Augustine, Cons. 1.2.4; 4.10.11)",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Goodacre does not dismiss the evidence. It “needs to be taken seriously”, but where the earliest witness is silent and later ones favour the apostolic Gospel, he advises treating it “with a pinch of salt”.",
+          "ref": "Goodacre 2001, pp. 80–81",
+          "basis": "read"
+        },
+        {
+          "text": "Reply from the Two-Gospel side: Clement attributes his tradition to elders before him, so the Matthew–Luke–Mark order is not merely Clement's own inference.",
+          "ref": "McGiffert 1890 (Eusebius, HE 6.14.5); Carlson 2001",
+          "basis": "abstract"
+        }
+      ],
+      "status": "The ancient witnesses do agree that Matthew came first, and Markan priorists concede this. They disagree over whether the Fathers had independent knowledge of the order or were inferring it from apostolic authorship. Since Clement and Origen disagree about Mark and Luke, the testimony supports Matthew-first in general more clearly than the specific Two-Gospel order. Carlson's re-reading of Clement and the dispute over Augustine's 4.10.11 remain live points.",
+      "bearsOn": {
+        "2DH": "strains",
+        "FH": "strains",
+        "MPH": "strains",
+        "2GH": "supports"
+      },
+      "seeAlso": [
+        "Q4",
+        "M5"
+      ]
+    },
+    {
+      "id": "P8",
+      "title": "Hints of date",
+      "claim": "Matthew and Luke seem to know of the fall of Jerusalem in 70 CE more clearly than Mark does, and Mark names people his readers apparently knew, so the few internal hints of date point to Mark as the earliest.",
+      "favours": "mark-first",
+      "evidence": [
+        {
+          "text": "In the parable of the wedding feast the king “sent his troops and destroyed those murderers and burned their city” (Matt 22:7), an element absent from Luke's and Thomas's versions of the story.",
+          "ref": "Matt 22:1–10 // Luke 14:15–24; Goodacre 2001, p. 69",
+          "basis": "read"
+        },
+        {
+          "text": "Where Mark speaks obliquely of “the desolating sacrilege set up where it ought not to be” (Mark 13:14), Luke has “Jerusalem surrounded by armies”, falling “by the edge of the sword” and “trodden down by the Gentiles” (Luke 21:20–24). Luke 19:43–44 also describes a siege with ramparts and the city levelled.",
+          "ref": "Mark 13:14–20 // Matt 24:15–22 // Luke 21:20–24; Luke 19:43–44; Goodacre 2001, pp. 69–70",
+          "basis": "read"
+        },
+        {
+          "text": "Only Mark identifies Simon of Cyrene as “the father of Alexander and Rufus” (Mark 15:21); Matthew and Luke name Simon alone.",
+          "ref": "Mark 15:21 // Matt 27:32 // Luke 23:26; Goodacre 2001, p. 70",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Goodacre: it would seem that “of all the evangelists, Mark is the least explicit about the events of 70”. Matthew's burning of the city intrudes into a story that can be told without it, and may reflect the fall of Jerusalem.",
+          "ref": "Goodacre 2001, pp. 69–70",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre on Mark 15:21: it is “not standard practice to mention a given individual's children”; the obvious reason is that the sons were known to Mark's readers. Mark then does not see itself as far in time from the events it narrates, and Matthew and Luke have no such hint.",
+          "ref": "Goodacre 2001, pp. 70–71",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Goodacre himself calls the 70 CE evidence “only a potential indicator of Markan Priority. It is not decisive”, and grants that the Alexander and Rufus note “may not count for a great deal”. The note dates Mark relative to the events, not relative to Matthew and Luke.",
+          "ref": "Goodacre 2001, pp. 70–71",
+          "basis": "read"
+        },
+        {
+          "text": "Mark 13 may itself reflect the war. Martin Hengel dated Mark to 69–70, and Kloppenborg has argued from the Roman rite of evocatio that Mark writes after the Temple's destruction. If so, the contrast is one of explicitness among post-war or war-time texts, which does not settle their order.",
+          "ref": "Hengel 2000, as reported in Blomberg's review; Kloppenborg 2005b",
+          "basis": "unchecked"
+        },
+        {
+          "text": "Arguments from the detail of prophecies are weak. C. H. Dodd argued that Luke's two siege oracles (19:42–44; 21:20–24) are composed from the Septuagint's language about the Babylonian capture of Jerusalem, not from the events of 70. John A. T. Robinson used such arguments to date all three Synoptics before 70, which would leave the passages no evidence of order.",
+          "ref": "Dodd 1947; Robinson 1976",
+          "basis": "unchecked"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Goodacre does not rest Markan priority on dates. His claim is only that “in so far as there is any indicator present, it goes in the direction of Markan Priority”, adding to the cumulative case from omissions, harder readings and Mark's own material ([[P2]], [[P3]], [[P5]]).",
+          "ref": "Goodacre 2001, pp. 70–71",
+          "basis": "read"
+        }
+      ],
+      "status": "A minor, supporting argument. Its advocate, Goodacre, calls it suggestive and not decisive. The data are not in dispute; their weight depends on contested dates for Mark 13 and on whether prophetic detail reflects events at all. Dating questions bearing on Luke and Matthew are treated in [[M5]].",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "supports",
+        "MPH": "supports",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "M5",
+        "P2",
+        "P3"
+      ]
+    }
+  ]
+}

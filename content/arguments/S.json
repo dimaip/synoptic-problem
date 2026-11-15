@@ -1,0 +1,197 @@
+{
+  "id": "S",
+  "title": "Counting",
+  "question": "Can counting words, agreements and stylistic features decide between the hypotheses, and what have the attempts to do so found?",
+  "items": [
+    {
+      "id": "S1",
+      "title": "Statistical models of verbal agreement",
+      "claim": "Formal statistical models of the verbal agreements between the Gospels give evidence on Synoptic relationships that does not depend on any one critic's literary judgement.",
+      "favours": "open",
+      "evidence": [
+        {
+          "text": "Honoré (1968) counted verbal agreements across the three Gospels and fitted a “triple-link” model, in which each Gospel may draw on each of the others. Re-specifying it, Abakuks found a very good fit for the two orders that put Luke last (Matthew–Mark–Luke and Mark–Matthew–Luke). With Honoré's extra criterion the preferred order is Mark–Matthew–Luke, the Farrer order. With an alternative criterion it is Matthew–Mark–Luke, the Augustinian order.",
+          "ref": "Abakuks 2006, pp. 58–59; Honoré 1968",
+          "basis": "read"
+        },
+        {
+          "text": "Assuming Markan priority, Abakuks coded each word of Mark as kept unchanged or not by Matthew (43%) and by Luke (28%). The two evangelists keep the same words far more often than independence predicts: a naive chi-square of 749 on 1 degree of freedom, which he notes is not strictly valid, and a strong dependence in his logistic-regression models.",
+          "ref": "Abakuks 2012, §§2, 5",
+          "basis": "read"
+        },
+        {
+          "text": "Jeffrey Tripp classified Matthew's and Luke's changes to Mark as transpositions, subtractions, additions and substitutions. They make the same choices “far more often than we would expect if they were truly independent”. A further test with conditional probabilities found, where results were clear, that Luke is an influential variable on Matthew but Matthew is not one on Luke.",
+          "ref": "Tripp 2021; Tripp 2023",
+          "basis": "read"
+        },
+        {
+          "text": "A 2023 machine-learning study (random-forest two-sample tests on Luke's pericopes) found that Luke's style in the double tradition differs from his style in the triple tradition, and that Luke's triple-tradition style is closer to Mark's than to Matthew's. It reported these results as support for the Two-Source hypothesis.",
+          "ref": "Robert Hayek, Istas & Rey 2023",
+          "basis": "read"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Abakuks's 2012 result tests directly an assumption of the Two-Source hypothesis. He concludes that the dependence between Matthew's and Luke's retention of Mark's words is “natural” if one used the other, “but it is more problematic for the two-source hypothesis”. He asks how its proponents account for it.",
+          "ref": "Abakuks 2012, §5",
+          "basis": "read"
+        },
+        {
+          "text": "Tripp argues that statistical testing is designed to tell coincidence from significance, which case-by-case debate over the minor agreements cannot do ([[C1]]). He reads his result as fitting Matthean posteriority, and as unlikely on both the Two-Source and the Farrer hypotheses.",
+          "ref": "Tripp 2021",
+          "basis": "read"
+        },
+        {
+          "text": "Abakuks's 2006 re-analysis improved on Honoré's calculations and overturned O'Rourke's objection that the triple-link model could not fit the data, showing that a good fit is possible.",
+          "ref": "Abakuks 2006, pp. 49–50, 58",
+          "basis": "read"
+        },
+        {
+          "text": "Reviewers on both sides of the debate took Abakuks's book seriously. Bartholomew wrote that the analysis shows it is not necessary to postulate Q, though Q is not ruled out. Adams called it a formidable statistical argument against Q. Mealand called it careful and rigorous and its conclusions cautiously stated.",
+          "ref": "Abakuks 2015",
+          "basis": "abstract"
+        }
+      ],
+      "contra": [
+        {
+          "text": "John Poirier's survey of every published statistical study of the verbal agreements asked whether the approach can substantially advance the field. He concluded that the studies had “too often amounted to coded expressions of their user's commitments”.",
+          "ref": "Poirier 2008, as quoted in Robert Hayek, Istas & Rey 2023",
+          "basis": "reported"
+        },
+        {
+          "text": "Dependence is not direct use. Abakuks warns that Matthew and Luke could share criteria for keeping Mark's words, or similar oral traditions, without either knowing the other, and that statistics on overall word counts cannot give definitive answers. Tripp likewise grants that shared ideology or similar education could produce the overlap.",
+          "ref": "Abakuks 2006, pp. 53, 58–59; Abakuks 2012, §§1, 5; Tripp 2021",
+          "basis": "read"
+        },
+        {
+          "text": "The results point different ways. Abakuks's 2012 models cannot say whether Matthew used Luke or Luke used Matthew, though his simpler 2006 and 2007 models fitted the Farrer direction slightly better. Tripp's points to Matthew using Luke, the 2023 machine-learning study to the 2DH. One reviewer found Abakuks's many models “fragmented” and inconclusive.",
+          "ref": "Abakuks 2012, §5; Tripp 2021; Robert Hayek, Istas & Rey 2023; Robert 2015",
+          "basis": "read"
+        },
+        {
+          "text": "David Gentile's 2026 statistical study, a preprint on Qeios that has not been through conventional peer review, supports the Three-Source hypothesis. Reviewing it there, Poirier objects that its evidence for Markan priority shows only that Mark is the middle term, and that it overlooks Luke carrying a source's vocabulary forward into his own material.",
+          "ref": "Gentile 2026; Poirier 2026",
+          "basis": "read"
+        },
+        {
+          "text": "The figures depend on what counts as an agreement. Carlston and Norlin found average Matthew–Luke agreement of 71% in the double tradition and 56% in the triple; Honoré, counting identical forms only, found 39.1% and 30.7%. How such figures bear on oral tradition is treated in [[M3]] and [[C9]].",
+          "ref": "Mournet 2003, pp. 55–58; Carlston & Norlin 1971; Honoré 1968",
+          "basis": "reported"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: Abakuks tested the obvious explanation for the dependence, that both evangelists keep Jesus' direct speech and treat particular pericopes alike. Adding a covariate for direct speech and a factor for pericope “had little effect” on the dependence.",
+          "ref": "Abakuks 2012, §5",
+          "basis": "read"
+        },
+        {
+          "text": "Counter-reply: the 2023 study tested whether Matthew and Luke edit Mark differently and found no significant result (lowest p = 0.07), which its authors read as a weak tendency towards difference. They note that 156 narrative and 96 sayings pericopes give the test low power.",
+          "ref": "Robert Hayek, Istas & Rey 2023",
+          "basis": "read"
+        }
+      ],
+      "status": "The statistical literature has grown more rigorous since Honoré, but its results are modest and do not agree. Two analyses, Abakuks's peer-reviewed models and Tripp's tests built partly on them, find that Matthew and Luke treat Mark's wording alike far more often than independence predicts, which strains the independence the 2DH assumes ([[C1]]). They disagree on direction: Abakuks leaves it open, Tripp favours Matthew's use of Luke. Both grant that dependence could have causes other than copying, and Poirier's survey (2008) warns that such studies tend to reflect their authors' assumptions. The figures supplement close reading of the texts and cannot replace it.",
+      "bearsOn": {
+        "2DH": "neutral",
+        "FH": "neutral",
+        "MPH": "neutral",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "S2",
+        "C1",
+        "C9",
+        "M3"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Stylometry of the Q material",
+      "claim": "Measured by style and vocabulary, the double tradition differs from the material each evangelist wrote or chose himself, which suggests that it came from a separate source.",
+      "favours": "independence",
+      "evidence": [
+        {
+          "text": "Mealand tested whether, within Matthew, Q material differs in style from M. He used correspondence analysis on larger samples, then counts of the five commonest words in smaller samples with three further methods (GLM, discriminant and cluster analysis). About 80% of samples were assigned to the expected source. Luke was not part of the test.",
+          "ref": "Mealand 2011",
+          "basis": "abstract"
+        },
+        {
+          "text": "In Luke, a random-forest classifier separated double- from triple-tradition pericopes with 91% accuracy on unseen pericopes (p = 0.03). Restricted to sayings only, it still found a difference (75% accuracy, p = 0.05).",
+          "ref": "Robert Hayek, Istas & Rey 2023",
+          "basis": "read"
+        },
+        {
+          "text": "Bergemann found that Matthew–Luke verbal agreement varies from 8% to 100% from pericope to pericope, spread almost evenly across the range. He attributed only the high-agreement pericopes (roughly above 70%) to a single written Q.",
+          "ref": "Bergemann 1993, p. 56, as reported in Mournet 2003, pp. 203–204",
+          "basis": "reported"
+        }
+      ],
+      "pro": [
+        {
+          "text": "Mealand concludes that his result “permits a cautious preference for the Two Source Theory against the theory upheld by Farrer, Goulder and Goodacre”. On the Farrer view, Matthew's Q and M passages are both Matthew's own text, so a stylistic difference between them needs explaining.",
+          "ref": "Mealand 2011",
+          "basis": "abstract"
+        },
+        {
+          "text": "The 2023 study argues that if Luke had copied his double tradition from Matthew, editorial fatigue would lead one to expect Matthew's style to carry over. Instead, Luke's double tradition stands apart, and his triple tradition is closer to Mark than to Matthew.",
+          "ref": "Robert Hayek, Istas & Rey 2023",
+          "basis": "read"
+        },
+        {
+          "text": "In a preprint not yet through conventional peer review, Gentile reports that uniquely Matthean and uniquely Lukan vocabulary predict the shared double-tradition vocabulary with nearly equal weight (β = .1576 and .1484). He argues that this symmetry is what a shared source produces, whereas the Farrer view predicts that the Matthean link would dominate.",
+          "ref": "Gentile 2026, as quoted in Poirier 2026",
+          "basis": "read"
+        }
+      ],
+      "contra": [
+        {
+          "text": "Genre confounds the comparison. The double tradition is mostly sayings, which every evangelist reproduces more faithfully than narrative. Mattila made this point against Carlston and Norlin. Linmans found that once genre is controlled, the sources cannot be clearly told apart.",
+          "ref": "Mattila 1994, as reported in Mournet 2003, p. 55; Linmans 1998, as reported in Robert Hayek, Istas & Rey 2023",
+          "basis": "reported"
+        },
+        {
+          "text": "Goodacre argues that on the Farrer view the Q/M division is itself made by Luke's choices: Q is the “Luke-pleasing” part of Matthew's non-Markan material and M what Luke left behind, so the two should differ in profile. He makes the point about content and theology, and adds that “It is impossible, for example, to distinguish between the style of some of the units of M material and some of the units of Q.”",
+          "ref": "Goodacre 2001, pp. 141–142",
+          "basis": "read"
+        },
+        {
+          "text": "Reconstructed Q tends to be less Matthean than it really is. Goulder pointed to characteristically Matthean phrases present in both Matthew's and Luke's versions of Q passages, such as “O ye of little faith” and “weeping and gnashing of teeth”. He argued that the rule of removing Matthean language when reconstructing Q makes Q look less Matthean than it was.",
+          "ref": "Goulder 1996; Goodacre 2002b",
+          "basis": "read"
+        },
+        {
+          "text": "Poirier points out that an author can adopt a source's words so that they become characteristic of him. A vocabulary profile built from each evangelist's “own” material can therefore mislead about where shared words came from.",
+          "ref": "Poirier 2026",
+          "basis": "read"
+        }
+      ],
+      "rejoinder": [
+        {
+          "text": "Reply: the 2023 study tested sayings alone and still found a significant difference (p = 0.05), which suggests genre is not the whole explanation. Carlston and Norlin had also argued that greater agreement in the double tradition appears in narrative and in non-Jesus speech too.",
+          "ref": "Robert Hayek, Istas & Rey 2023; Carlston & Norlin 1971, pp. 71–72, as quoted in Mournet 2003, p. 55 n. 136",
+          "basis": "reported"
+        },
+        {
+          "text": "Reply on Bergemann: Kloppenborg answered that Matthew and Luke vary just as widely when they both copy Mark. That shows only that the evangelists sometimes intervened heavily and sometimes did not; it is no reason to divide Q into several sources.",
+          "ref": "Kloppenborg 2000, pp. 62–63, as reported in Mournet 2003",
+          "basis": "reported"
+        }
+      ],
+      "status": "Mealand 2011 and the 2023 machine-learning study both lean cautiously towards a separate source, and both rest on small samples. Neither models the Farrer alternative: on that view a difference between Q and M is produced by Luke's selection, and common-word counts track genre (sayings against narrative and legend) as well as source. The measured differences are modest, so this favours independence only weakly.",
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "strains",
+        "MPH": "strains",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "S1",
+        "Q1",
+        "C5",
+        "C4",
+        "M3"
+      ]
+    }
+  ]
+}

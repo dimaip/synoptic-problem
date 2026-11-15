@@ -1,0 +1,38 @@
+{
+  "kicker": "The Synoptic Problem",
+  "title": "Was There a Q?",
+  "subtitle": "How Matthew, Mark and Luke are related: the data, the hypotheses, the arguments",
+  "lede": "Matthew, Mark and Luke tell much of the same story in the same order and often in the same Greek words, so somebody copied somebody. Most scholars hold that Matthew and Luke each used Mark and a lost collection of sayings called Q. A substantial minority, whose leading voice is Mark Goodacre, holds that Luke used Matthew as well as Mark and that Q never existed; others do without Q by having Matthew use Luke, or Mark use both. This page sets out the evidence and every main argument on each side, with the replies, so the reasoning can be followed step by step.",
+  "sides": [
+    {
+      "id": "q",
+      "label": "A lost source",
+      "name": "Q",
+      "gloss": "Matthew and Luke never saw each other's work. What they share beyond Mark, about 230 verses and mostly sayings of Jesus, comes from a written source that has not survived.",
+      "heldBy": "The majority since the 1860s: Holtzmann, Streeter, Kloppenborg, Tuckett",
+      "classic": "The Two-Source hypothesis"
+    },
+    {
+      "id": "noq",
+      "label": "No lost source",
+      "name": "Luke read Matthew",
+      "gloss": "Luke had Matthew's Gospel as well as Mark's. What Matthew and Luke share beyond Mark is what Luke took from Matthew, and Q is not needed.",
+      "heldBy": "Farrer, Goulder, Goodacre, Watson, Eve. Others turn it round: Matthew read Luke",
+      "classic": "The Farrer hypothesis"
+    }
+  ],
+  "basisLegend": {
+    "read": "Checked directly in the publication's own text while building this page",
+    "abstract": "Known from the abstract, publisher's summary or table of contents only",
+    "reported": "Reported by another scholar or a review; not checked in the publication itself",
+    "unchecked": "From general knowledge of the literature; not yet confirmed against any source"
+  },
+  "intros": {
+    "arguments": "Forty-two arguments in seven groups. Each gives the evidence, the case for, the case against, the replies, and where it stands. An argument counts for or against a whole hypothesis only together with the others; the tags show which way each one pulls."
+  },
+  "credits": [
+    "Greek text: SBL Greek New Testament, © 2010 Society of Biblical Literature and Logos Bible Software, CC BY 4.0. Lemmas: MorphGNT, CC BY-SA 3.0.",
+    "English renderings of the Greek are working translations made for this page.",
+    "Modelled on the companion page on Mark 1:41."
+  ]
+}

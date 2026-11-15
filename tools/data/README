@@ -1,0 +1,19 @@
+MorphGNT SBLGNT data files used by tools/build_synopsis.py
+
+  61-Mt-morphgnt.txt  62-Mk-morphgnt.txt  63-Lk-morphgnt.txt
+
+Source: https://github.com/morphgnt/sblgnt (raw files from the master branch),
+downloaded 2026-11-15. Files are unmodified.
+
+Licences:
+  - Greek text: The Greek New Testament: SBL Edition (SBLGNT), © 2010 Society of
+    Biblical Literature and Logos Bible Software. Licensed CC BY 4.0
+    (https://creativecommons.org/licenses/by/4.0/).
+  - Morphological parsing and lemmatisation: MorphGNT (James K. Tauber and
+    contributors). Licensed CC BY-SA 3.0
+    (https://creativecommons.org/licenses/by-sa/3.0/).
+
+Format: one word per line, seven space-separated columns:
+  book/chapter/verse (BBCCVV), part of speech, parsing code, text (with
+  punctuation and SBLGNT apparatus sigla), word (no punctuation), normalised
+  form, lemma.
