@@ -49,8 +49,8 @@
       ],
       "contra": [
         {
-          "text": "B. C. Butler called Streeter's inference the “Lachmann fallacy” (Carlson suggests “middle term fallacy” is the more accurate name, since Lachmann did not commit it). Order alone shows only that Mark stands between the other two, which is equally true if Mark is the source of both, the conflator of both, or the link in a chain from Matthew to Mark to Luke.",
-          "ref": "Butler 1951, pp. 62–71; Porter & Dyer 2016, p. 18; Carlson 2004d",
+          "text": "B. C. Butler called Streeter's inference the “Lachmann fallacy”, a point Kloppenborg, a Two-Source advocate, calls “entirely correct” (Carlson suggests “middle term fallacy” as the more accurate name, since Lachmann did not commit it). Order alone shows only that Mark stands between the other two, which is equally true if Mark is the source of both, the conflator of both, or the link in a chain from Matthew to Mark to Luke.",
+          "ref": "Butler 1951, pp. 62–71; Porter & Dyer 2016, p. 18; Carlson 2004d; Kloppenborg 2023, p. 14",
           "basis": "reported"
         },
         {
@@ -352,8 +352,8 @@
           "basis": "reported"
         },
         {
-          "text": "A Two-Gospel reply: if Mark combined Matthew and Luke phrase by phrase, his fuller text is the conflation, and Matthew's and Luke's leaner versions are simply earlier. On that view the alleged inconsistencies are not slips at all; for example, Dufvevind judges that the leper's command makes slightly better sense if Matthew is earlier.",
-          "ref": "Dufvevind 2021, pp. 34–43, 51",
+          "text": "A Two-Gospel reply: on that hypothesis Mark combined Matthew and Luke, tying them together with his own “Markan overlay”, so his fuller text is the conflation and Matthew's and Luke's leaner versions are simply earlier. The alleged inconsistencies are then not slips at all; Dufvevind, for example, judges that the leper's command makes slightly better sense if Matthew is earlier.",
+          "ref": "Porter & Dyer 2016, pp. 18 n. 23, 20; Dufvevind 2021, pp. 34–43, 51",
           "basis": "read"
         },
         {
@@ -367,9 +367,9 @@
           "basis": "read"
         },
         {
-          "text": "Tobias Hägerland's critique of fatigue concerns Goodacre's extension of it to the double tradition, against Q ([[C4]]). He questions whether Matthew would have handled Q as he handled Mark, and whether fatigue is really absent from Matthew's double tradition.",
-          "ref": "Hägerland 2019",
-          "basis": "abstract"
+          "text": "Tobias Hägerland's critique of fatigue concerns only Goodacre's extension of it to the double tradition, against Q ([[C4]]). He holds that fatigue “works well to establish Markan priority”, but questions whether Matthew would have handled Q as he handled Mark or as Luke handled Q, and whether fatigue is really absent from Matthew's double tradition.",
+          "ref": "Hägerland 2019, pp. 197, 205",
+          "basis": "read"
         }
       ],
       "rejoinder": [
@@ -379,8 +379,8 @@
           "basis": "read"
         },
         {
-          "text": "Reply: the Two-Gospel answer depends on Mark combining two sources phrase by phrase. Dufvevind himself concedes that such “micro-conflation” is scarcely attested for texts of the Gospels' size. He says that if it is ruled out, Mark was “indeed the first Gospel” for the pericopes concerned ([[M1]], [[M2]]).",
-          "ref": "Dufvevind 2021, pp. 51–52; Derrenbacker 2005",
+          "text": "Reply: the Two-Gospel answer depends on Mark combining two sources phrase by phrase, which Kloppenborg counts among the hypothesis's key difficulties, “unattested in other ancient authors”. Dufvevind himself concedes that such “micro-conflation” is scarcely attested for texts of the Gospels' size, and says that if it is ruled out, Mark was “indeed the first Gospel” for the pericopes concerned ([[M1]], [[M2]]).",
+          "ref": "Dufvevind 2021, pp. 51–52; Derrenbacker 2005; Kloppenborg 2023, p. 16",
           "basis": "read"
         },
         {
@@ -389,7 +389,7 @@
           "basis": "read"
         }
       ],
-      "status": "Goodacre presents fatigue as the most direct indicator of direction, and Two-Source scholars such as Kloppenborg accept his case for Markan priority. Published Two-Gospel replies are few and brief: Riley's single counter-example (1987), which Goodacre answered, and a reversal by micro-conflation set out mainly in a student thesis (Dufvevind 2021). The main published critique of fatigue (Hägerland 2019) concerns its use against Q, not for Markan priority. No case of Markan fatigue against Matthew or Luke has gained acceptance.",
+      "status": "Goodacre presents fatigue as the most direct indicator of direction, and Two-Source scholars such as Kloppenborg accept his case for Markan priority. The Two-Gospel reply is that Mark, conflating Matthew and Luke, wrote the fuller text, so the supposed slips are Matthew's and Luke's earlier wording; its case-by-case application to Goodacre's examples (Dufvevind 2021) concedes that this needs phrase-by-phrase conflation, which Kloppenborg calls unattested. Riley's counter-example of fatigue in Mark (1987) was answered by Goodacre, and the main published critique of fatigue (Hägerland 2019) concerns its use against Q, not for Markan priority. No case of Markan fatigue against Matthew or Luke has gained acceptance.",
       "bearsOn": {
         "2DH": "supports",
         "FH": "supports",

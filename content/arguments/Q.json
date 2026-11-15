@@ -45,12 +45,17 @@
       "contra": [
         {
           "text": "On the Farrer hypothesis the double tradition would have a distinctive profile anyway: it is the part of Matthew's non-Markan material that most appealed to Luke, “(Matthew minus Mark) divided by ‘Luke-pleasingness’”. Matthew's special material should then look Luke-displeasing, and it does: the coin in the fish's mouth, the sheep and the goats, a Jewish-Christian focus against Q's more pro-Gentile profile.",
-          "ref": "Goodacre 2001, pp. 141–142",
+          "ref": "Goodacre 2001, pp. 141–142; Goodacre 2002, pp. 68–71",
           "basis": "read"
         },
         {
-          "text": "Studying the double tradition apart from its contexts tends to confirm the starting point. Some M units cannot be told apart in style from some Q units, and proposed Q passages found only in Luke (Luke 11:27–28; 12:15–21; 15:8–10) read as thoroughly Lukan.",
-          "ref": "Goodacre 2001, pp. 140–141",
+          "text": "Goodacre answers Kloppenborg's claim that Q's main themes “do not derive from the main redactional themes of either Matthew or Luke” by testing one of them, the announcement of judgement. It suits Matthew, whose own “brood of vipers” invective (Matt 12:34; 23:33) and fire imagery (5:22; 13:40; 25:41) match Q 3:7–9, and it suits Luke, who keeps both of Mark's prophetic threats (Luke 9:26; 20:45–47) and adds the woes (6:24–26).",
+          "ref": "Goodacre 2002, pp. 71–74, quoting Kloppenborg 2000, pp. 163–164",
+          "basis": "read"
+        },
+        {
+          "text": "Studying the double tradition apart from its contexts tends to confirm the starting point; Goodacre recalls Streeter's and Taylor's Proto-Luke, which also looked like a coherent gospel once Mark was removed and which no one now holds. Some M units cannot be told apart in style from some Q units (Matt 5:17–20), and proposed Q passages found only in Luke (Luke 11:27–28; 12:15–21; 15:8–10) read as thoroughly Lukan.",
+          "ref": "Goodacre 2002, pp. 67–68, 71, 74; Goodacre 2001, pp. 140–141",
           "basis": "read"
         },
         {
@@ -59,8 +64,8 @@
           "basis": "read"
         },
         {
-          "text": "The “Q community” has come under attack along with Gospel communities in general. Walsh treats the evangelists as literate specialists working within Greco-Roman literary culture, not voices of communities, and reads Q itself as such a literary product; a document need not imply a community behind it.",
-          "ref": "Walsh 2021; Nongbri 2021; Kirk 2023c, pp. 470–471, as reported in Wikipedia 2025",
+          "text": "The “Q community” has come under attack along with Gospel communities in general. Walsh treats the evangelists as literate specialists working within Greco-Roman literary culture, not voices of communities, and reads Q itself as such a literary product; a document need not imply a community behind it. Kirk, though he defends Q, has criticised the “Galilean Q community” as a construct inherited from nineteenth-century Orientalist scholarship.",
+          "ref": "Walsh 2021; Nongbri 2021; Kirk 2023c, pp. 470–471, as reported in Wikipedia 2025; Kirk 2023d",
           "basis": "reported"
         }
       ],
@@ -76,7 +81,7 @@
           "basis": "reported"
         }
       ],
-      "status": "Both sides agree that the double tradition has a recognisable profile. They disagree whether that profile is evidence of a source or follows from how the material is defined: on the Farrer view, the non-Markan parts of Matthew that Luke chose to use. Goodacre's “Luke-pleasingness” account explains why that material differs from Matthew's special material; Kloppenborg's narrower claim, that Q's organising themes are neither Matthew's nor Luke's, is the part least directly answered. Work on a “Q community” presupposes Q and cannot be used to support it.",
+      "status": "Both sides agree that the double tradition has a recognisable profile. They disagree whether that profile is evidence of a source or follows from how the material is defined: on the Farrer view, the non-Markan parts of Matthew that Luke chose to use. Goodacre's “Luke-pleasingness” account explains why that material differs from Matthew's special material. Kloppenborg's narrower claim, that Q's organising themes are neither Matthew's nor Luke's, was answered in *The Case Against Q* for the theme of judgement, which Goodacre shows to be congenial to both evangelists; the Lot cycle and the Deuteronomistic view of the prophets, which Kloppenborg pressed again in 2003, have had less direct reply. Work on a “Q community” presupposes Q and cannot be used to support it.",
       "bearsOn": { "2DH": "supports", "FH": "strains", "MPH": "strains", "2GH": "strains" },
       "seeAlso": ["Q2", "Q5", "C6", "I3", "S2"]
     },
@@ -112,12 +117,12 @@
       "contra": [
         {
           "text": "Farrer argued from genre: “We have no reason to suppose documents of the Q type to have been plentiful… in postulating Q we are postulating the unique”, which offends against economy of explanation.",
-          "ref": "Farrer 1955, p. 325, as quoted in Kloppenborg 2003, p. 211 n. 7",
-          "basis": "reported"
+          "ref": "Farrer 1955, p. 58; Kloppenborg 2003, p. 211 n. 7 (citing the reprint, p. 325)",
+          "basis": "read"
         },
         {
-          "text": "Thomas does not look like Q. Thomas is “made up of disparate sayings, rarely lengthy, with no easily discernible order”, whereas Q consists of thematic discourses and its first third has a narrative sequence. That sequence follows the places where Matthew 3–11 departs from Mark, as expected if Luke were following Matthew there ([[C6]]). Thomas also overlaps Mark, M and L as much as the double tradition.",
-          "ref": "Goodacre 2002a; Goodacre 2001, pp. 151–152",
+          "text": "Thomas does not look like Q. Thomas is “made up of disparate sayings, rarely lengthy, with no easily discernible order”, whereas Q consists of thematic discourses and its first third has a narrative sequence. That sequence follows the places where Matthew 3–11 departs from Mark, as expected if Luke were following Matthew there ([[C6]]). Thomas also overlaps Mark, M and L as much as the double tradition. Q's narrative even presupposes stories it does not tell: Jesus' answer to John (Q 7:18–23) assumes miracles narrated in Matthew 8–9, outside Q.",
+          "ref": "Goodacre 2002a; Goodacre 2001, pp. 151–152; Goodacre 2002, pp. 184–185",
           "basis": "read"
         },
         {
@@ -174,9 +179,9 @@
           "basis": "reported"
         },
         {
-          "text": "Weaks reconstructed Mark from Matthew and Luke alone, as if Mark were lost and only its two users survived, and compared the result (“MarQ”) with the real Mark, including a stylometric comparison. He concludes that a reconstructed text lacks features pervasive in the original, has features of its own with no basis in the original, and, when the original is a narrative, contains more sayings material than the original did. Goodacre, a member of his committee, reported that the presentation showed “just how much we would lose from scholarship on Mark”.",
-          "ref": "Weaks 2010; Goodacre 2008",
-          "basis": "abstract"
+          "text": "Weaks reconstructed Mark from the material Matthew and Luke share with it, as if Mark were lost, and compared the result (“MarQ”) with the real Mark. MarQ has 418 verses and 5,754 words: 63% of Mark's verses but only 52% of its words, and the doubly attested words, the most secure half of MarQ, make up just 21% of Mark. Key pericopes and many of Mark's “principle theological and literary features” are lost, while features prominent in MarQ have no counterpart in Mark.",
+          "ref": "Weaks 2010, pp. 230, 243–244, 348–349",
+          "basis": "read"
         }
       ],
       "pro": [
@@ -191,14 +196,14 @@
           "basis": "read"
         },
         {
-          "text": "Kloppenborg's stratification is a literary analysis, not a claim about which sayings are earliest or most authentic. Robinson described a sapiential collection followed by a Deuteronomistic redaction as having “become a general assumption” of Q scholarship.",
-          "ref": "Robinson, Hoffmann & Kloppenborg 2000, p. lxvi (Robinson's introduction), as reported in Head & Williams 2003, p. 130 n. 23",
-          "basis": "reported"
+          "text": "Kloppenborg's stratification is a literary analysis, not a history of ideas or a claim about which sayings are earliest or most authentic: the literary stratification of a document “cannot be extrapolated into a general history of ideas” and should proceed “by attending to literary markers”. Simon Joseph calls stratification “a lasting legacy of Q Studies”, still being refined in recent monographs by Andrejevs and Howes.",
+          "ref": "Kloppenborg 2014, p. 339; Joseph 2023, p. 58",
+          "basis": "read"
         }
       ],
       "contra": [
         {
-          "text": "Head and Williams, examining the shortest Q verse (Q 4:13) in detail, conclude that the wording of Q “can never be reconstructed with any certainty”. The edition gives ratings without arguments.",
+          "text": "Head and Williams, examining the shortest Q verse (Q 4:13) in detail, conclude that the wording of Q “can never be reconstructed with any certainty”. The one-volume *Critical Edition* prints ratings without the arguments, which are set out in the *Documenta Q* volumes, of which only some have appeared.",
           "ref": "Head & Williams 2003, pp. 125–126",
           "basis": "read"
         },
@@ -230,7 +235,7 @@
           "basis": "read"
         }
       ],
-      "status": "Few now claim that the wording of Q can be recovered with the precision of a critical text, and critics of the IQP's method and of Kloppenborg's layers include Q scholars as well as sceptics. Weaks's and Eve's reconstructed-Mark experiments show what a reconstruction from two users can lose or invent; Andrejevs replies that sayings material survives better than narrative, so the analogy overstates the loss. None of this bears on whether Q existed. It limits what can be built on Q: its exact wording, its theology, its layers and its community.",
+      "status": "Few now claim that the wording of Q can be recovered with the precision of a critical text, and critics of the IQP's method and of Kloppenborg's layers include Q scholars as well as sceptics. Weaks's and Eve's reconstructed-Mark experiments show what a reconstruction from two users can lose or invent: Weaks's MarQ has about half of Mark's words, and he concludes that its resemblance to the real Mark is “Not very”. Andrejevs replies that sayings material survives better than narrative, so the analogy overstates the loss. None of this bears on whether Q existed, as Weaks himself, who works within the Two-Source hypothesis, insists: an inference from unreliable reconstruction to no Q “would be premature, given that Mark can not be reliably reconstructed either” (2010, p. 347 n. 141). It limits what can be built on Q: its exact wording, its theology, its layers and its community.",
       "bearsOn": { "2DH": "neutral", "FH": "neutral", "MPH": "neutral", "2GH": "neutral" },
       "seeAlso": ["Q1", "Q5", "I3", "C5"]
     },

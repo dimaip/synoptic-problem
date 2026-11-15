@@ -53,7 +53,7 @@
       "points": [
         "Matthew and Luke agree against Mark in placing the water-baptism clause first, in “and fire”, and in the whole of Matt 3:12 // Luke 3:17, which Mark does not have.",
         "On the Two-Source hypothesis this is a Mark–Q overlap: Q had its own version, and Matthew and Luke each conflated it with Mark.",
-        "On the Farrer hypothesis these are simply places where Luke follows Matthew's expanded version rather than Mark's."
+        "On the Farrer hypothesis these are places where Luke follows Matthew's expanded version rather than Mark's."
       ],
       "usedBy": ["C3", "I1"]
     },
@@ -127,7 +127,7 @@
       "points": [
         "Matthew agrees with Mark on the smallest-of-seeds and greater-than-garden-plants contrast that Luke lacks, and with Luke on the man who took it, the tree and nesting in its branches, which Mark lacks.",
         "The Two-Source hypothesis reads this as Matthew conflating Mark with a Q version that Luke reproduces on its own.",
-        "The Farrer hypothesis reads it as Matthew expanding Mark and Luke choosing Matthew's non-Markan wording, which removes the need for a second source."
+        "The Farrer hypothesis reads it as Matthew expanding Mark and Luke choosing Matthew's non-Markan wording."
       ],
       "usedBy": ["C3", "M1"]
     },
@@ -179,7 +179,7 @@
       "alignNote": "Luke 11:16 (the request for a sign) has no counterpart here and is left unmatched.",
       "points": [
         "Matt 12:27–28 and 12:30 agree almost word for word with Luke 11:19–20 and 11:23 and have nothing in Mark; in the strong-man saying, by contrast, Matthew follows Mark and Luke goes his own way.",
-        "Matt 12:28 has “by the Spirit of God”, Luke 11:20 “by the finger of God”: Q scholars usually take Luke's “finger” as original, while Goodacre argues that Luke changed Matthew's “Spirit”.",
+        "Matt 12:28 has “by the Spirit of God”, Luke 11:20 “by the finger of God”: Q scholars usually take Luke's “finger” as original; Farrer argued that it could be Luke's own allusion to Exod 8:19, and Kloppenborg presses the case against Goodacre as one that oral tradition does not explain.",
         "Both sides agree that Matthew combines Mark with another text here; they disagree on whether that text was Q or whether Luke is the one combining Mark with Matthew."
       ],
       "usedBy": ["C3", "M1", "I3"]
@@ -246,7 +246,7 @@
       "points": [
         "Luke lacks “our … who is in the heavens”, the petition for God's will, and the deliverance from evil; where both have a petition, much of the wording is identical, including the rare word ἐπιούσιος.",
         "Q scholars usually judge Luke's shorter form the more original in length and Matthew's the more original in some wording.",
-        "Farrer scholars point to Luke's “sins … everyone indebted to us” as a trace of Matthew's “debts” left behind when Luke edited it."
+        "Some Farrer scholars point to Luke's “sins … everyone indebted to us” as a trace of Matthew's “debts” left behind when Luke edited it; Q scholars read the same datum as a trace of “debts” in Q. Goodacre instead explains Luke's shorter prayer from the form familiar in his own church."
       ],
       "usedBy": ["I3", "D2"]
     },
@@ -338,8 +338,8 @@
       "alignNote": "Matt 25:16–18 and Luke 19:11, 14 have no counterpart and are left unmatched.",
       "points": [
         "Verbal agreement is much lower than in passages such as Matt 3:7–10 // Luke 3:7–9; the closest agreement is in the master's verdict on the third servant (Matt 25:26–29 // Luke 19:22–26).",
-        "Luke has ten servants given ten minas (19:13), yet only three report, called “the first”, “the second” and “the other” (ὁ ἕτερος, “the other of two”), and the bystanders protest that the first “has ten minas” (19:25), where Matthew's servant has ten talents (25:28).",
-        "Goodacre reads these as editorial fatigue, Luke drifting back into Matthew's three-servant version; critics reply that Luke's ten servants and throne-claimant frame (19:12, 14, 27) may be his own additions to a three-servant parable in Q, which would produce the same unevenness without Matthew."
+        "Luke has ten servants given ten minas (19:13), yet only three report, called “the first”, “the second” and “the other” (ὁ ἕτερος, “the other”), and the bystanders protest that the first “has ten minas” (19:25), where Matthew's servant has ten talents (25:28).",
+        "Goodacre reads these as editorial fatigue, Luke drifting back into Matthew's three-servant version, and argues that the article in ὁ ἕτερος marks the third of three rather than “another” of ten; critics reply that Luke's ten servants and throne-claimant frame (19:12, 14, 27) may be his own additions to a three-servant parable in Q, which would produce the same unevenness without Matthew."
       ],
       "usedBy": ["C4", "M3"]
     },

@@ -37,8 +37,8 @@
           "basis": "read"
         },
         {
-          "text": "Some agreements carry Matthew's own style or vocabulary, such as ὕστερον for Mark's ἔσχατον, which Matthew also writes at 21:37 where Mark 12:6 has ἔσχατον. This suggests that Matthew changed Mark in his usual way and Luke followed him, giving away his knowledge of Matthew without meaning to.",
-          "ref": "Goodacre 2001, pp. 146–147",
+          "text": "Some agreements carry Matthew's style, such as ὕστερον (“later”) for Mark's ἔσχατον, which Matthew also writes at 21:37 where Mark 12:6 has ἔσχατον. Neirynck concedes that the figures for ὕστερον (7/0/1) “are impressive” but says coincidence “cannot be excluded”; Goodacre answers that independent redaction must rest on plausibility, not mere possibility. Nor can Luke's κλίνη (“bed”) for Mark's κράβαττος be put down to dislike of a “vulgar word”, since Luke writes κράβαττος at Acts 5:15 and 9:33, as Tuckett concedes.",
+          "ref": "Goodacre 2001, pp. 146–147; Goodacre 2002, pp. 154–157 (quoting Neirynck 1997, p. 89, and Tuckett 1984, p. 133)",
           "basis": "read"
         },
         {
@@ -47,8 +47,8 @@
           "basis": "read"
         },
         {
-          "text": "Statistical tests point the same way. Abakuks concludes that the dependence he measured is natural if one evangelist used the other “but it is more problematic for the two-source hypothesis”, and allowing for direct speech and pericope “had little effect” on it. Jeffrey Tripp, sorting the changes into transpositions, omissions, additions and substitutions, found that Matthew and Luke make the same choices “far more often than we would expect if they were truly independent”. Both studies have limits: Tripp notes that shared schooling or outlook could also produce similar choices, and neither settles direction; Tripp's conditional-probability tests point to Luke influencing Matthew (see [[D4]]).",
-          "ref": "Abakuks 2012, §5; Tripp 2021; Garrow n.d. (Tripp's account); Tripp 2023",
+          "text": "Statistical tests point the same way. Abakuks concludes that the dependence he measured is natural if one evangelist used the other “but it is more problematic for the two-source hypothesis”, and Jeffrey Tripp, treating the changes as paraphrase, finds the number of minor agreements “significantly higher than we would expect from purely independent treatments of Mark”. Both have limits: Kloppenborg replies that Abakuks codes words mechanically, although a story's shape forces both evangelists to keep many of the same words; Tripp grants that shared education or outlook could also push them together, and his conditional-probability tests point to Luke influencing Matthew, which he finds inconsistent with the Farrer as well as the Two-Source hypothesis (see [[D4]]).",
+          "ref": "Abakuks 2012, §5; Kloppenborg 2015, pp. 232–233; Tripp 2023, pp. 418, 431, 439–440",
           "basis": "read"
         }
       ],
@@ -59,13 +59,13 @@
           "basis": "read"
         },
         {
-          "text": "For the rest Streeter allowed Q's influence only where independent evidence shows Mark and Q overlapped (see [[C3]]), and traced the remaining striking cases to scribes assimilating parallel passages, which can create the same corruption in several lines of manuscripts. Kloppenborg adds that no Gospel's Greek text can be reconstructed with absolute precision, so small agreements are a weak base for a theory.",
-          "ref": "Streeter 1924, ch. 11; Goodacre 2010 (quoting Kloppenborg)",
+          "text": "For the rest Streeter allowed Q's influence only where independent evidence shows Mark and Q overlapped (see [[C3]]), and traced the remaining striking cases to scribes assimilating parallel passages, which can create the same corruption in several lines of manuscripts. Kloppenborg adds that “it is impossible to reconstruct with absolute precision the Greek text of any of the gospels”, nor is it known in what form Matthew and Luke knew Mark, so small agreements may be a recensional or text-critical problem. Daniel Smith notes that the reconstructed pre-Marcionite Gospel lacks many minor agreements, including the “fringe” of Luke 8:44, which if sustained would point to later assimilation of Luke to Matthew.",
+          "ref": "Streeter 1924, ch. 11; Kloppenborg 2000, p. 36, as quoted in Goodacre 2002, p. 161; Smith 2018, as reported in Kloppenborg 2023, p. 21",
           "basis": "read"
         },
         {
-          "text": "Frans Neirynck held that the agreements are “post-Markan: if not improvements on Mark, at least changes of the text of Mark”, explicable as independent editing. If Luke did recall Matthew while copying Mark, he added, the same subsidiary reminiscences would be expected where Luke copied Q, so Q would still be needed. Kloppenborg treats them as anomalies of the kind “every Synoptic theory has to accommodate”.",
-          "ref": "Neirynck 1974; Neirynck 1991, p. 40, as quoted in Friedrichsen 2002; Goulder 1996, p. 670; Kloppenborg 2003, p. 225",
+          "text": "Frans Neirynck held that the agreements are “post-Markan: if not improvements on Mark, at least changes of the text of Mark”, explicable as independent editing. If Luke did recall Matthew while copying Mark, he added, the same subsidiary reminiscences would be expected where Luke copied Q, so Q would still be needed. Tuckett turns the agreements' smallness against the Farrer hypothesis: it is hard to believe that Luke was influenced by Matthew in trivial ways but never by Matthew's substantive additions to Mark.",
+          "ref": "Neirynck 1974; Neirynck 1991, p. 40, as quoted in Friedrichsen 2002; Neirynck 1991, p. 34, as quoted in Goodacre 2002, p. 166; Goulder 1996, p. 670; Tuckett 1996, p. 28, as quoted in Goodacre 2002, p. 163",
           "basis": "read"
         },
         {
@@ -74,15 +74,15 @@
           "basis": "reported"
         },
         {
-          "text": "Gerald Downing points out that the argument depends on judging coincidence very improbable, yet no one has tried to put a number on how improbable. For the hardest case he builds a plausible independent route (see [[C2]]), and he concludes that “a better imagining of the possible itself always remains possible”.",
-          "ref": "Downing 2017, pp. 315–319",
-          "basis": "read"
+          "text": "Olegs Andrejevs has re-examined one of the agreements Goulder and Goodacre read as Luke copying Matthew: the paralytic is brought ἐπὶ κλίνης (“on a bed”, Matt 9:2 // Luke 5:18) where Mark has κράβαττος, after which Luke switches to κλινίδιον. He argues that κλίνη and κλινίδιον were interchangeable, so Luke made no error to be corrected and the agreement is no trace of copying.",
+          "ref": "Mark 2:3–4 // Matt 9:2, 6 // Luke 5:18–19, 24; Andrejevs 2023b",
+          "basis": "abstract"
         }
       ],
       "rejoinder": [
         {
-          "text": "Reply to Neirynck: Goodacre says the Farrer argument from the minor agreements “is not and has never been an argument from analogy”; it is concrete evidence that Luke knew Matthew, which removes the premise of Q. Goulder calls Neirynck's point “true but irrelevant”, because Luke's use of Mark is a fact while Q is only a postulate.",
-          "ref": "Goodacre 2001, p. 145 n. 11; Goulder 1996, p. 670",
+          "text": "Reply to Neirynck: Goodacre says the Farrer argument from the minor agreements “is not an argument from analogy or inference”; the independence of Matthew and Luke is the foundational premise of Q, so evidence that Luke knew Matthew “takes away the very reason for postulating the other theory, Q”. It then presses the standard objections to Luke's use of Matthew, as Farrer and Goulder went on to address. Goulder calls Neirynck's point “true but irrelevant”, because Luke's use of Mark is a fact while Q is only a postulate.",
+          "ref": "Goodacre 2001, p. 145 n. 11; Goodacre 2002, pp. 166–168; Goulder 1996, p. 670",
           "basis": "read"
         },
         {
@@ -91,12 +91,22 @@
           "basis": "read"
         },
         {
-          "text": "Reply on textual uncertainty: Goodacre accepts that the critical text only approximates the originals, but argues that corruption could remove minor agreements as well as create them, especially given scribes' well-known habit of harmonising Mark to Matthew. Appealing to unseen evidence therefore cannot settle the matter in favour of Q.",
-          "ref": "Goodacre 2010, quoting Goodacre 2002, pp. 161–162",
+          "text": "Reply on textual uncertainty: Goodacre accepts that the critical text only approximates the originals, but argues that corruption could remove minor agreements as well as create them, especially given the “clear and well-known scribal tendency to harmonize Mark's text toward that of Matthew”. Appealing to unseen evidence therefore cannot settle the matter in favour of Q unless there are grounds to think the absent evidence would favour it, “which there are not”.",
+          "ref": "Goodacre 2002, pp. 161–162",
+          "basis": "read"
+        },
+        {
+          "text": "Reply to Tuckett: Goodacre calls the “so slight” objection a “trick of the light”. Luke does take over Matthew's substantive additions to Mark, in the passages filed as Mark–Q overlaps, so the minor agreements are one end of a continuum of Matthean influence that runs through the overlaps to the double tradition (see [[C3]]).",
+          "ref": "Goodacre 2002, pp. 163–165 (revising Goodacre 2000)",
+          "basis": "read"
+        },
+        {
+          "text": "Counter-reply: Foster calls Goodacre's logic “somewhat faulty”. The independence of Matthew and Luke does imply a common source for the double tradition, but the converse, that if they are dependent at some points they cannot share a common source, “is obviously false”; and most Q supporters think the minor agreements can be handled without positing contact at all.",
+          "ref": "Foster 2003, p. 326",
           "basis": "read"
         }
       ],
-      "status": "Both camps agree that most minor agreements are improvements two editors of Mark could make independently, and Kloppenborg grants that they pose no problem for the Farrer hypothesis, since there they are simply Matthew's influence on Luke. The dispute is over a residue whose size depends on counting and on textual decisions. Kloppenborg now calls the agreements a challenge for the Two-Source hypothesis “not because they are technically insolvable but rather because there are too many possible solutions”. Statistical work finds more shared editing than independence predicts, but it does not show which Gospel used which.",
+      "status": "Both camps agree that most minor agreements are improvements two editors of Mark could make independently, and Kloppenborg grants that they pose no problem for the Farrer hypothesis, since there they are simply Matthew's influence on Luke. The dispute is over a residue whose size depends on counting and on textual decisions. Kloppenborg now calls the agreements a challenge for the Two-Source hypothesis “not because they are technically insolvable but rather because there are too many possible solutions”, and grants the symmetry: counter-examples do not disprove the Farrer hypothesis “any more than a few ‘minor agreements’ cause the 2DH to collapse”. Statistical work finds more shared editing than independence predicts, but it does not show which Gospel used which.",
       "bearsOn": {
         "2DH": "strains",
         "FH": "supports",
@@ -140,8 +150,8 @@
       ],
       "pro": [
         {
-          "text": "Goodacre: because the passage is in the passion narrative, the agreement cannot come from Q, which none of its defenders thinks had a passion narrative. Five shared words with a verb rare in both Gospels are unlikely to come from common oral tradition. The obvious scenario is that Matthew explains Mark's darkly ironic scene, in which Jesus is taunted to prophesy while his own prophecy is being fulfilled, and Luke follows him.",
-          "ref": "Goodacre 2001, pp. 145–146; Goodacre 2002, pp. 152–169",
+          "text": "Goodacre: because the passage is in the passion narrative, the agreement cannot come from Q, which none of its defenders thinks had a passion narrative. Five shared words in the same place, with a verb found nowhere else in either Gospel, are “the kind of evidence that normally inclines one strongly in favor of direct literary dependence”. The obvious scenario is that Matthew explains Mark's darkly ironic scene, in which Jesus is taunted to prophesy while his own prophecies (10:34; 14:30) are being fulfilled, and Luke follows him.",
+          "ref": "Goodacre 2001, pp. 145–146; Goodacre 2002, pp. 157–160",
           "basis": "read"
         },
         {
@@ -150,8 +160,8 @@
           "basis": "read"
         },
         {
-          "text": "Goodacre argues that Mark's covering of the face signals shame before crucifixion rather than a blindfold game, citing Cicero, *Pro Rabirio* 13 and 16. The *Gospel of Peter* 3.9, where they spit into Jesus' eyes, shows that a mocking without a veil is unsurprising. Luke's blind-man's-buff reading combines Mark's veil with Matthew's question.",
-          "ref": "Goodacre 2010, summarising Goodacre 2002, pp. 159–160",
+          "text": "Goodacre argues that Matthew's text makes sense as it stands: his mockers spit “into his face”, and in the *Gospel of Peter* 3.9 they spit in Jesus' eyes with no veil at all. Later he added that Mark's covering of the face signals shame before crucifixion rather than a blindfold game, citing Cicero, *Pro Rabirio* 13 and 16, so that Luke's blind-man's-buff reading combines Mark's veil with Matthew's question.",
+          "ref": "Goodacre 2002, p. 159 and n. 26; Goodacre 2010",
           "basis": "read"
         },
         {
@@ -167,13 +177,13 @@
           "basis": "read"
         },
         {
-          "text": "Neirynck argued at length that τίς ἐστιν ὁ παίσας σε; is a scribal addition to Matthew, and Goodacre reports Tuckett as sharing this view. Steve Black, a Two-Source advocate, judges it the most difficult minor agreement, and finds the textual and narrative solutions reasonable but “not satisfying”, a reminder “that the synoptic problem is still a problem”.",
-          "ref": "Neirynck 1987; Neirynck 1997; Goodacre 2003a; Black 2010, abstract as quoted in Goodacre 2010",
-          "basis": "reported"
+          "text": "Neirynck argued at length that τίς ἐστιν ὁ παίσας σε; is a scribal addition to Matthew, because without Luke's blindfold the question is incoherent; Tuckett supports the emendation. Foster calls the agreement “perhaps the best evidence” for Luke's use of Matthew but not fatal: the earliest manuscripts of Matt 26:68 are the fourth-century ℵ and B, leaving “a significant period of unevidenced textual history”, and an unattested reading is warranted where it best explains the evidence. Steve Black, another Two-Source advocate, finds such solutions reasonable but “not satisfying”.",
+          "ref": "Neirynck 1987, as summarised in Goodacre 2002, p. 159 and n. 23; Foster 2003, pp. 324–326 and n. 58; Black 2010, abstract as quoted in Goodacre 2010",
+          "basis": "read"
         },
         {
-          "text": "Downing argues that Matthew and Luke could have reached the same wording separately. The form τίς ἐστιν ὁ is common in both Gospels, and Luke prefers it at 20:2. παίω appears in Job 16:10 LXX (ἔπαισέν με, “he struck me”), a passage plausibly in mind in early passion tellings. Luke reads Mark's veil as a guessing game, and nothing else in Luke's sequence echoes Matthew.",
-          "ref": "Downing 2017, pp. 316–319",
+          "text": "Downing notes that the argument depends on judging coincidence very improbable, yet no one has tried to put a number on how improbable, and he builds a plausible independent route: τίς ἐστιν ὁ is common in both Gospels (Luke prefers it at 20:2), παίω appears in Job 16:10 LXX (ἔπαισέν με, “he struck me”), a passage plausibly in mind in early passion tellings, and Luke reads Mark's veil as a guessing game. He concludes that “a better imagining of the possible itself always remains possible”.",
+          "ref": "Downing 2017, pp. 315–319",
           "basis": "read"
         },
         {
@@ -182,15 +192,15 @@
           "basis": "reported"
         },
         {
-          "text": "The other cases have their own answers. The International Q Project puts Nazara at Q 4:16, a one-word Mark–Q overlap. Streeter gave redactional or textual answers for the rest: γνῶναι is the obvious word to add, and some witnesses lack τοῦ κρασπέδου and καὶ διεστραμμένη in Luke, Luke 22:62 entirely, and νομικός in Matthew. Daniel Smith notes that the reconstructed Gospel of Marcion lacks the “fringe” in Luke 8:44, which may point to assimilation of Luke to Matthew.",
-          "ref": "Goodacre 2018, p. 213 n. 32; Robinson, Hoffmann & Kloppenborg 2000; Streeter 1924, ch. 11; Smith 2018, as reported in Kloppenborg 2023, p. 21",
+          "text": "The other cases have their own answers. The International Q Project puts Nazara at Q 4:16, a one-word Mark–Q overlap, and Andrejevs defends Neirynck's independent-redaction account of the agreements in the early Galilean summaries, Ναζαρά included. Streeter gave redactional or textual answers for the rest (γνῶναι is the obvious word to add; some witnesses lack τοῦ κρασπέδου and καὶ διεστραμμένη in Luke, Luke 22:62 entirely, and νομικός in Matthew), and Daniel Smith notes that the reconstructed Gospel of Marcion lacks the “fringe” in Luke 8:44 (see [[C1]]).",
+          "ref": "Goodacre 2018, p. 213 n. 32; Robinson, Hoffmann & Kloppenborg 2000; Streeter 1924, ch. 11; Smith 2018, as reported in Kloppenborg 2023, p. 21; Andrejevs 2023c",
           "basis": "reported"
         }
       ],
       "rejoinder": [
         {
-          "text": "Reply: no manuscript of Matthew lacks the words, so removing them is conjectural emendation. Goodacre notes that gospel scholars practise it sparingly, and that here its main motive is to defend an already troubled synoptic theory.",
-          "ref": "Goodacre 2001, p. 146",
+          "text": "Reply: no manuscript or patristic citation of Matthew lacks the words, so removing them is conjectural emendation, which is normally used only when a text makes no sense and its witnesses are few and late. Matthew's text has many early witnesses and makes sense without it, and the principle of the harder reading “rebels against it”; Goodacre calls the emendation “a desperate response to data that do not fit the two-source theory”.",
+          "ref": "Goodacre 2001, p. 146; Goodacre 2002, pp. 158–159",
           "basis": "read"
         },
         {
@@ -204,7 +214,7 @@
           "basis": "reported"
         }
       ],
-      "status": "Both sides treat Matt 26:68 // Luke 22:64 as the hardest single minor agreement for the Two-Source hypothesis; Kloppenborg still cites it first. Its defenders divide between scribal assimilation in every manuscript of Matthew, a separate passion source for Luke, and coincident expansion. Whether the agreement shows Luke using Matthew or Matthew using Luke is open, and Goodacre's own early stylistic verdict leans slightly Lukan. Ναζαρά is answered by putting it in Q, which Farrer advocates count as a cost; no other case is decisive alone.",
+      "status": "Both sides treat Matt 26:68 // Luke 22:64 as the hardest single minor agreement for the Two-Source hypothesis; Kloppenborg still cites it first. Its defenders offer, with Foster insisting that textual problems be judged on their merits,, singly or together, scribal assimilation in every manuscript of Matthew (in Streeter's form combined with a separate passion source for Luke) and coincident expansion; the most often cited solution requires a reading found in no manuscript of Matthew. Whether the agreement shows Luke using Matthew or Matthew using Luke is open, and Goodacre's early stylistic verdict leaned slightly Lukan, though his case for Matthean origin rests on the narrative (Matthew explaining Mark's ironic scene), not on vocabulary. Ναζαρά is answered by putting it in Q, which Farrer advocates count as a cost; no other case is decisive alone.",
       "bearsOn": {
         "2DH": "strains",
         "FH": "supports",
@@ -252,12 +262,12 @@
         },
         {
           "text": "The label “Mark–Q overlap” describes the data in the terms of one theory, as if Farrer advocates called minor agreements “Luke's minor borrowing from Matthew”. Goodacre calls for its “mandatory retirement” in favour of “major agreements between Matthew and Luke against Mark”. Sanders had already judged that the overlaps “show the weakness of the two-document hypothesis”.",
-          "ref": "Goodacre 2018, pp. 209–210; Sanders 1973, p. 463, as quoted there",
+          "ref": "Goodacre 2002, pp. 164–165; Goodacre 2018, pp. 209–210; Sanders 1973, p. 463, as quoted there",
           "basis": "read"
         },
         {
           "text": "Minor agreements, major agreements and the double tradition form one continuum of Matthew's influence on Luke, “a difference in degree and not a difference in kind”. Where Matthew is fuller than Mark, Luke sometimes takes Matthew as his main source, so major agreements with Matthew and minor ones with Mark reverse the usual pattern.",
-          "ref": "Goodacre 2001, pp. 150–151; Goodacre 2018, pp. 210–211, 217–218",
+          "ref": "Goodacre 2001, pp. 150–151; Goodacre 2002, pp. 163–165; Goodacre 2018, pp. 210–211, 217–218",
           "basis": "read"
         },
         {
@@ -273,8 +283,8 @@
       ],
       "contra": [
         {
-          "text": "Q defenders reply that two independent tellings of the Jesus tradition would naturally cover some of the same events and sayings. Kloppenborg says the overlaps “really pose little difficulty”, and Tuckett that a Mark–Q overlap “is surely not an inherent problem”. Kloppenborg adds that the “never” argument still stands for Matthean additions Luke lacks (Matt 3:15; 12:5–7; 13:14–17; 19:19b; 27:19, 24).",
-          "ref": "Kloppenborg 2008, p. 34, as quoted in Goodacre 2018, p. 209; Tuckett 2011, p. 46, as quoted in Goodacre 2018, p. 209 n. 19; Kloppenborg 2003, p. 219",
+          "text": "Q defenders reply that two independent tellings of the Jesus tradition would naturally cover some of the same events and sayings. Kloppenborg says the overlaps “really pose little difficulty”, and Tuckett that a Mark–Q overlap “is surely not an inherent problem”. Kloppenborg and Foster add that the “never” argument still stands for Matthean additions Luke lacks (among them Matt 3:14–15; 12:5–7; 13:14–17; 16:17–19; 19:19b; 21:14–16; 27:19, 24–25, 51b–53), and Foster takes Matthew's doublet of the Beelzebul accusation (9:32–34; 12:22–30) as evidence that he knew that story from two sources.",
+          "ref": "Kloppenborg 2008, p. 34, as quoted in Goodacre 2018, p. 209; Tuckett 2011, p. 46, as quoted in Goodacre 2018, p. 209 n. 19; Kloppenborg 2003, p. 219; Foster 2003, pp. 326–328",
           "basis": "read"
         },
         {
@@ -300,12 +310,12 @@
       ],
       "rejoinder": [
         {
-          "text": "Reply: the Farrer objection is not to overlapping sources but to what the concession implies. In these passages Matthew and Luke are “manifestly editing Mark in identical ways”, with substantial agreement in wording and order, which the Two-Source model is built not to expect.",
-          "ref": "Goodacre 2018, pp. 208–209",
+          "text": "Reply: the Farrer objection is not to overlapping sources but to what the concession implies. In these passages Matthew and Luke are “manifestly editing Mark in identical ways”, with substantial agreement in wording and order, which the Two-Source model is built not to expect. In *The Case Against Q* he adds that a key piece of evidence for a second source in these passages is the Matthew–Luke agreement itself, so the label presupposes the independence it is used to protect.",
+          "ref": "Goodacre 2018, pp. 208–209; Goodacre 2002, p. 164 n. 39",
           "basis": "read"
         },
         {
-          "text": "Reply to Tuckett on clustering: some ordinary triple-tradition pericopes have more Matthew–Luke agreement than the weakest overlap passage, the baptism (7%): the question about authority (8%), the five thousand (9%), the trial (9.5%) and the great commandment (25%). The categories therefore overlap rather than form two clusters.",
+          "text": "Reply to Tuckett on clustering: some ordinary triple-tradition pericopes have more Matthew–Luke agreement than the weakest overlap passage, the baptism (7%): the question about authority (8%), the five thousand (9%), the trial (9.5%) and the great commandment (25%). The categories therefore overlap rather than form two clusters. The 2018 essay itself supplies the passage-by-passage analysis Tuckett had found missing in 2004.",
           "ref": "Goodacre 2018, pp. 211–213",
           "basis": "read"
         },
@@ -318,9 +328,14 @@
           "text": "Reply to Kloppenborg's objection that Luke would not have dropped the exchange between John and Jesus at the baptism (Matt 3:14–15): Luke has already taken John off the stage with his arrest at Luke 3:18–20, so he is unlikely to bring him back.",
           "ref": "Goodacre 2018, pp. 215–216 n. 36, replying to Kloppenborg 2003, pp. 219–220",
           "basis": "read"
+        },
+        {
+          "text": "Counter-reply: Olegs Andrejevs has questioned Goodacre's redescription of the overlaps as “major agreements” (2022). With David Sloan he revisits Downing's 1965 test cases, the Beelzebul accusation and John's appearance, against Olson's and Eve's Farrer readings, and tabulates the “unpicking” the Farrer Luke would need (see [[M1]]).",
+          "ref": "Andrejevs 2022c; Andrejevs & Sloan 2022",
+          "basis": "abstract"
         }
       ],
-      "status": "Both sides accept that these passages contain substantial Matthew–Luke agreement against Mark that independent editing of Mark cannot explain. Two-Source scholars assign it to a second source, supported for some sayings by doublets; Farrer scholars treat it as Luke sometimes preferring Matthew, so that the “never” argument for Q fails. How sharp the line between minor and major agreements is depends partly on which passages are assigned to Q: Kloppenborg does not put the baptism (Goodacre's lowest overlap, 7%) in Q, while the great commandment (25%) has sometimes been put there. Whether Luke's handling is plausible on the Farrer view is the open “unpicking” debate (see [[M1]]), and Goodacre notes that historical-Jesus arguments from Mark–Q multiple attestation, as for Jesus' baptism or John's preaching, lapse if Luke knew Matthew.",
+      "status": "Both sides accept that these passages contain substantial Matthew–Luke agreement against Mark that independent editing of Mark cannot explain. Two-Source scholars assign it to a second source, supported for some sayings by doublets; Farrer scholars treat it as Luke sometimes preferring Matthew, so that the “never” argument for Q fails. How sharp the line between minor and major agreements is depends partly on which passages are assigned to Q: Kloppenborg does not put the baptism (Goodacre's lowest overlap, 7%) in Q, while the great commandment (25%) has sometimes been put there. Whether Luke's handling is plausible on the Farrer view is the open “unpicking” debate, reopened by Andrejevs and Sloan against Olson's and Eve's answers (see [[M1]]), and Goodacre notes that historical-Jesus arguments from Mark–Q multiple attestation, as for Jesus' baptism or John's preaching, lapse if Luke knew Matthew.",
       "bearsOn": {
         "2DH": "strains",
         "FH": "supports",
@@ -392,19 +407,19 @@
           "basis": "read"
         },
         {
-          "text": "On the Two-Source reading Luke is fatigued with Q. The International Q Project reconstructs Q 19:24 exactly as Matthew and Luke have it and gives ἕτερος at Q 19:20 a lower rating; it rates “that town” at Q 10:10 only {C}. Luke's ten servants are then his own addition to Q.",
-          "ref": "Goodacre 1998, nn. 38, 40, 42 (reporting the IQP's reports in JBL 114)",
-          "basis": "reported"
+          "text": "On the Two-Source reading Luke is fatigued with Q. Foster agrees that the Pounds “almost certainly” shows Luke fatigued, but it is “far from certain” that the source was Matthew: following Fitzmyer, Q may have had ten servants, which Matthew reduced to three. He treats the centurion's παῖς as stylistic variation and Luke 9:4–5, which follows Mark's wording, as a Mark–Q overlap too tangled to show fatigue.",
+          "ref": "Foster 2003, pp. 329–330 and n. 76",
+          "basis": "read"
         },
         {
-          "text": "Hägerland challenges Goodacre's assumptions that Matthew would treat Q as he treats Mark and as Luke treats Q, and his claim that Matthew is never fatigued in the double tradition. He concludes that the argument from fatigue cannot establish that the existence of Q is improbable.",
-          "ref": "Hägerland 2019",
-          "basis": "abstract"
+          "text": "Hägerland accepts fatigue as evidence of Markan priority and agrees that Luke's Pounds is fatigued with a source, but rejects Goodacre's assumptions that Matthew should handle Q as he handles Mark and as Luke handles Q. Fatigue arises mainly in narrative, while the double tradition is mostly sayings (Luke 10:23–24 cannot show which version came first); and Matthew, who gathers Q into discourses, has fewer occasions to tire than Luke, whose lapses at 9:4–5 and 17:1–2 come from conflating sources in a narrative.",
+          "ref": "Hägerland 2019, pp. 196–202",
+          "basis": "read"
         },
         {
-          "text": "Hägerland's counter-example, developing Davies and Allison's suggestion of “imperfect editing”, is the Baptist's preaching: Matthew changes the audience to “Pharisees and Sadducees” (Matt 3:7), where Luke has “the crowds”, and is later caught out by an address that suits the crowds. Since he holds Matthew's use of Luke unlikely “on other grounds”, he takes Q to be Matthew's source and concludes that the distribution of fatigue “speaks not against the existence of Q, but in its favour.”",
-          "ref": "Hägerland 2019, pp. 203–6, as quoted and summarised in Garrow 2019 and Garrow 2023a, pp. 294–96; Davies & Allison 1988",
-          "basis": "reported"
+          "text": "Hägerland's counter-example, developing Davies and Allison's “imperfect editing”, is the Baptist's preaching: Matthew changes the audience to “Pharisees and Sadducees” (Matt 3:7), then has John promise them baptism “in holy spirit and fire” (3:11). Since “Matthew's use of Luke remains unlikely on other grounds”, he takes Q as the source and concludes that the distribution of fatigue “speaks not against the existence of Q, but in its favour”. Foster had proposed Matt 12:28's un-Matthean “kingdom of God” as Matthean fatigue in Q; Hägerland judges that, and MacEwen's examples, unconvincing.",
+          "ref": "Hägerland 2019, pp. 202–206; Foster 2003, pp. 330–332; Davies & Allison 1988",
+          "basis": "read"
         },
         {
           "text": "Writers who hold that Matthew used Luke reverse the Pounds. Garrow replies that there is no case of Luke adding a ten to a source, so ten-to-one is not demonstrably Lukan, and that Luke's subplot about a claimant to a throne suggests an independent source which Matthew tidied. Huggins's 2022 paper, as its abstract states, likewise has Matthew simplifying Luke's disordered version; MacEwen asks whether some apparent fatigue is “editorial alertness”. See [[D4]].",
@@ -419,8 +434,8 @@
           "basis": "read"
         },
         {
-          "text": "Reply: Goodacre has narrowed the claim. In 1998 he wrote that between Luke and Matthew “there is no issue here of direction of dependence”; by 2018 he held fatigue weak against Q but “more useful” on direction. On Matthean posteriority Luke's “that town” (Luke 9:5) is incomprehensible, “while Matthew presciently fixes the problem ahead of time by supplying the antecedent. Luke's use of Matthew is the stronger hypothesis.”",
-          "ref": "Goodacre 1998, p. 57; Goodacre 2018, pp. 218–19 and n. 40",
+          "text": "Reply: in 1998 the only alternatives Goodacre weighed were Luke's use of Matthew or Q, so “there is no issue here of direction of dependence”, and he already judged the double-tradition cases “not as straightforward” as the triple-tradition ones. Once Matthean posteriority was revived he held fatigue only suggestive against Q but “more useful” on direction: on that hypothesis Luke's “that town” (Luke 9:5) is incomprehensible, “while Matthew presciently fixes the problem ahead of time by supplying the antecedent. Luke's use of Matthew is the stronger hypothesis.”",
+          "ref": "Goodacre 1998, pp. 56–57; Goodacre 2018, pp. 218–19 and n. 40",
           "basis": "read"
         },
         {
@@ -432,9 +447,14 @@
           "text": "Counter-reply: Garrow argues that Hägerland's own example has Matthew fatigued with a Luke-like source, and that the “other grounds” on which Hägerland rejects Matthew's use of Luke are never specified; on his reading the example favours Matthean posteriority rather than Q.",
           "ref": "Garrow 2019; Garrow 2023a, pp. 295–96",
           "basis": "read"
+        },
+        {
+          "text": "Counter-reply to the Matthean-posteriority reading of the Pounds: Hägerland, though a Q defender, judges Matthew's tidying of Luke “a very cumbersome strategy”, since Matthew would have scrapped the royal subplot and changed the sums and profits merely to save a command he could easily have reworded.",
+          "ref": "Hägerland 2019, p. 196",
+          "basis": "read"
         }
       ],
-      "status": "Both sides accept that Luke's Pounds, Centurion and mission charge contain seams that look like traces of a source. Goodacre concedes that against the Two-Source hypothesis these are only suggestive, since Luke may have been fatigued with a Q that Matthew follows closely. What remains contested is whether Matthew is ever fatigued in the double tradition (Hägerland points to Matt 3:7–12; Goodacre's 2022 restatement keeps the one-way claim), and which way the seams point between Matthew and Luke, where Matthean-posteriority writers reverse Goodacre's examples. The argument carries more weight on direction than on the existence of Q.",
+      "status": "Both sides accept that Luke's Pounds, Centurion and mission charge contain seams that look like traces of a source, though Foster and Hägerland discount the Centurion and the mission charge. Goodacre concedes that against the Two-Source hypothesis these are only suggestive, since Luke may have been fatigued with a Q that Matthew follows closely. What remains contested is whether Matthew is ever fatigued in the double tradition (Foster points to Matt 12:28, Hägerland to Matt 3:7–12; Goodacre's 2022 restatement keeps the one-way claim without engaging them), and whether Matthew, who mostly sets Q in discourses, should be expected to show it. The argument carries more weight on direction than on the existence of Q.",
       "bearsOn": {
         "2DH": "strains",
         "FH": "supports",
@@ -484,11 +504,6 @@
         {
           "text": "Goodacre adds that one of the things that makes a word distinctively Matthean is Luke's omission of it, so Luke's rewriting of Matthew would itself make Luke's version look “original”. The apparent primitivity of Luke is then partly an artefact of the method.",
           "ref": "Goodacre 2001, pp. 134–35; Goodacre 2000",
-          "basis": "read"
-        },
-        {
-          "text": "On the large scale, Goodacre argues that Matthew was the catalyst for Luke. The Two-Source hypothesis has to suppose that two writers, independently and at about the same time, each rewrote Mark to a similar length, framed it with birth and resurrection stories, and added much of the same sayings material.",
-          "ref": "Goodacre 2001, pp. 127–28, 165–66",
           "basis": "read"
         }
       ],
@@ -564,7 +579,7 @@
       "evidence": [
         {
           "text": "The sequence, using only material the International Q Project includes: John appears in the region of the Jordan (Q 3:3), preaches repentance (3:7–9) and a coming one (3:16–17); Jesus is baptised as “son” (3:21–22) and tested as “son” (4:1–13), appears at Ναζαρά (4:16), preaches a Sermon (6:20–49), finishes and enters Capernaum, where the centurion's boy is healed (7:1–10); John's messengers ask whether he is the coming one (7:18–35).",
-          "ref": "Goodacre 2001, pp. 151–52 and n. 13",
+          "ref": "Goodacre 2001, pp. 151–52 and n. 13; Goodacre 2002, pp. 172–176",
           "basis": "read"
         },
         {
@@ -590,20 +605,20 @@
           "basis": "read"
         },
         {
-          "text": "The sequence corresponds to the places where Matthew departs from Mark's order in Matt 3–11, while from Matt 12 Matthew follows Mark closely. If Luke drew his non-Markan material from Matthew, an early narrative sequence in “Q” and its later absence is “simply a source-critical inevitability”. On the double-tradition order as a whole, see [[I6]].",
-          "ref": "Goodacre 2001, pp. 152–53; Goodacre 2002, p. 181, as quoted in Kloppenborg 2003, p. 232",
-          "basis": "reported"
+          "text": "The sequence corresponds to the places where Matthew restructures Mark in Matt 3–11, while from Matt 12 Matthew follows Mark closely; all the sequenced Q material sits in Luke 3:1–4:16 and 6:20–7:35 and is paralleled in Matt 3–11. If Luke drew his non-Markan material from Matthew, an early narrative sequence in “Q” and its later absence is “simply a source-critical inevitability”. On the double-tradition order as a whole, see [[I6]].",
+          "ref": "Goodacre 2001, pp. 152–53; Goodacre 2002, pp. 180–181",
+          "basis": "read"
         },
         {
-          "text": "One link bears Matthew's mark: the segue from Sermon to Capernaum (Matt 7:28; 8:5 // Luke 7:1) echoes the formula Matthew uses to end all five discourses (see [[C5]]). In *The Case Against Q* Goodacre also argues that Q 7:18–35 presupposes Matthean narrative (John in prison, a range of healings, Jesus eating with toll collectors); Kloppenborg, reporting this, adds two further points in its favour (the centurion's servant does not fit the list in Q 7:22, and Q never says how Jesus gained disciples).",
-          "ref": "Goodacre 2001, p. 153; Goodacre 2002, ch. 9, as summarised in Kloppenborg 2003, pp. 233–34",
-          "basis": "reported"
+          "text": "One link bears Matthew's mark: the segue from Sermon to Capernaum (Matt 7:28; 8:5 // Luke 7:1) echoes the formula Matthew uses to end all five discourses (see [[C5]]). Goodacre also lists five things Q presupposes but never narrates (a baptism of repentance, John in the wilderness, John's arrest, many miracles, Jesus' company with toll collectors and sinners), all narrated in the triple tradition; the miracles of Q 7:22 are each told in Matt 8–9 except “the deaf hear”. Kloppenborg, reporting this, adds two further points in its favour (the centurion's servant does not fit the list in Q 7:22, and Q never says how Jesus gained disciples).",
+          "ref": "Goodacre 2001, p. 153; Goodacre 2002, pp. 181–184 and n. 32; Kloppenborg 2003, pp. 233–34",
+          "basis": "read"
         }
       ],
       "contra": [
         {
-          "text": "Kloppenborg accepts that Q 3–7 is a proto-narrative with geographical and logical progressions (he had argued this himself) and calls the chapter the book's “most innovative and challenging”. He adds that a fresh progression begins at Q 9:57–10:24, which on the Farrer view would be remnants of Matthew's framework in Matt 8–11.",
-          "ref": "Kloppenborg 2003, pp. 231–32; Kloppenborg 2002",
+          "text": "Kloppenborg accepts that Q 3–7 is a proto-narrative with geographical and logical progressions (he had argued this himself) and calls the chapter the book's “most innovative and challenging”. On genre, he adds that ancient sayings collections often begin quasi-biographically and continue with miscellaneous sayings (Ankhsheshonq, the Sentences of Secundus), so an opening narrative that later fades is normal, and that Farrer could say otherwise only because he did not investigate other gnomic collections (see [[Q2]]). Foster calls Goodacre's use of the contrast with Thomas “rather disingenuous”: Thomas and the narrative Gospels mark two ends of a continuum, and a genre for Q between them is plausible.",
+          "ref": "Kloppenborg 2003, pp. 211 n. 7, 231–32 and n. 51; Kloppenborg 2002; Foster 2003, pp. 323–324",
           "basis": "read"
         },
         {
@@ -617,13 +632,13 @@
           "basis": "read"
         },
         {
-          "text": "On genre, ancient sayings collections often begin quasi-biographically and continue with miscellaneous sayings (Ankhsheshonq, the Sentences of Secundus; Proverbs 1–9 against 10–22), so an opening narrative that later fades is normal for the genre. Kloppenborg says Farrer could say otherwise only because he did not investigate other gnomic collections (see [[Q2]]).",
-          "ref": "Kloppenborg 2003, p. 211 n. 7, p. 232 n. 51",
-          "basis": "read"
+          "text": "Two-Source scholars also read the sequence as Q's own design. Harry Fleddermann treats Q 3:7–7:35 as a coherent narrative first part of Q, and Olegs Andrejevs finds a macro-chiasm in the double tradition of Luke 3–7, which he argues bears on Q's existence and order.",
+          "ref": "Fleddermann 2021; Andrejevs 2021",
+          "basis": "abstract"
         },
         {
-          "text": "For Matthean posteriority, Garrow reverses the segue: Matthew, supplying the teaching Mark 1:21–22 lacks, closed his Sermon by combining Mark's coda with Luke 7:1, then reused the formula for his later discourses.",
-          "ref": "Garrow 2023a, pp. 297–98",
+          "text": "On the Two-Source view the correlation with Matthew's departures from Mark runs the other way. Streeter held that Matthew's rearrangement of Mark in chs. 3–11 was, “at any rate partly”, “determined by the necessity of combining Mark with Q”: Q's order “suggested to him to anticipate the place of the Mission Charge in Mark”, and the late place of the Mustard Seed and Leaven in Q led him “to postpone Mark's collection of parables”. A Q sequence that matches Matthew's departures is then expected on both hypotheses.",
+          "ref": "Streeter 1924, ch. 10",
           "basis": "read"
         }
       ],
@@ -634,17 +649,27 @@
           "basis": "read"
         },
         {
-          "text": "Reply: Goodacre argues that Q's defenders play its narrative down. Kirk calls Q a “non-narrative source” and does not discuss Q 4:16 (Nazara), although Matthew's real task on the Two-Source view was “integrating Q's narrative sequence with Mark's”.",
-          "ref": "Goodacre 2017, p. 231",
+          "text": "Reply: Goodacre had already answered the view that Q was moving towards biography: this is “no mere narrative prologue” but a sequence running from John's introduction to his messengers, “the whole of the first third of Q”, which then dissipates at Q 7:35. In 2017 he added that Kirk calls Q a “non-narrative source” and does not discuss Q 4:16 (Nazara), although Matthew's real task on the Two-Source view was “integrating Q's narrative sequence with Mark's”.",
+          "ref": "Goodacre 2002, pp. 178–179; Goodacre 2017, p. 231",
           "basis": "read"
         },
         {
-          "text": "Counter-reply: in 2004 Goodacre wrote that he had still to write his own response to Kloppenborg's article. His later remarks (2015, 2017) restate the Matthean segue and Q's narrative character rather than take up the argument from Luke 11–19.",
-          "ref": "Goodacre 2004b; Goodacre 2015; Goodacre 2017",
+          "text": "Reply to Kloppenborg on settings: Goodacre argues that however much Luke admired Matthew's new sayings material, “he is unlikely to have admired the locations Matthew provides for it, in an extended Galilean ministry, in which Jesus frequently pauses to talk for extended discourses”. He shows Luke resetting Matthean material “on the road” to Jerusalem, as with Matt 8:18–20 at Luke 9:57–58 and the mission speech of Matt 10 at Luke 10.",
+          "ref": "Goodacre 2016a, pp. 36, 38–41",
+          "basis": "read"
+        },
+        {
+          "text": "Counter-reply: in 2023 Kloppenborg still listed Matthew's framing as a difficulty that Farrer advocates had only begun to face. On the Farrer view Luke detaches the woes from the Markan context Matthew gave them (Matt 23) although he takes over that Markan pericope at Luke 20:45–47, and moves the Jerusalem lament to a point where Jesus is nowhere near Jerusalem.",
+          "ref": "Kloppenborg 2023, p. 17",
+          "basis": "read"
+        },
+        {
+          "text": "Counter-reply: in 2025 Goodacre added that Luke's special material made Matthew's locations “practically impossible” to keep. Luke sets double-tradition sayings beside related L material, as with the Lost Sheep, the Lost Coin and the Prodigal Son in Luke 15, and doing so in Matthew's settings would have turned Matthew's discourses into “monster discourses” (see [[I2]]).",
+          "ref": "Goodacre 2025b",
           "basis": "read"
         }
       ],
-      "status": "Both sides agree that the first part of reconstructed Q has narrative and geographical progression, which sets it apart from Thomas. They disagree over whether that structure is Matthew's framework showing through Luke or Q's own proto-narrative, which Matthew expanded; Matthean-posteriority writers read the shared segue as Luke's, taken up by Matthew. Kloppenborg's point that Luke keeps none of Matthew's framing for the later double tradition is the strongest reply on the Q side and has not been answered in detail.",
+      "status": "Both sides agree that the first part of reconstructed Q has narrative and geographical progression, which sets it apart from Thomas. They disagree over whether that structure is Matthew's framework showing through Luke or Q's own proto-narrative, which Matthew followed; since Streeter explained Matthew's departures from Mark as caused by Q's order, the correlation the Farrer argument relies on is claimed by both sides, and Matthean-posteriority writers read the shared segue as Luke's ([[D4]]). Kloppenborg's point that Luke keeps none of Matthew's framing for the Matt 23–25 material is the strongest reply on the Q side. Goodacre's answers (2016a, 2025b) give general reasons for Luke's relocations but have not been worked through passage by passage for those chapters.",
       "bearsOn": {
         "2DH": "strains",
         "FH": "supports",
@@ -654,8 +679,10 @@
       "seeAlso": [
         "Q2",
         "I6",
+        "I2",
         "Q1",
-        "C5"
+        "C5",
+        "D4"
       ]
     },
     {
@@ -682,13 +709,13 @@
           "basis": "read"
         },
         {
-          "text": "Goodacre reads the preface as critical of predecessors and as stressing order. On the Two-Source view Luke largely keeps the orders of Mark and Q, so the stress on order has little point; on the Farrer view Luke “is making clear that he is critical of his predecessors' work and that his radical reordering of Matthew is in Theophilus's best interests.”",
-          "ref": "Goodacre 2001, p. 127; Goodacre 2000",
+          "text": "Goodacre reads the preface as critical of predecessors and as stressing order: “The mystery for two-source theorists has been why Luke should so stress this writing in order”, since on their view his order is essentially Mark's plus Q's. On the Farrer view Luke “is making clear that he is critical of his predecessors' work and that his radical reordering of Matthew is in Theophilus's best interests.”",
+          "ref": "Goodacre 2002, pp. 103–104; Goodacre 2001, p. 127; Goodacre 2000",
           "basis": "read"
         },
         {
           "text": "Goodacre also uses Luke 1:2 (“handed down by those who from the beginning were eyewitnesses”) for his view that Luke worked with oral tradition as well as written sources, which is how he explains the occasional more primitive Lukan saying.",
-          "ref": "Goodacre 2000; Goodacre 2001, pp. 138–39",
+          "ref": "Goodacre 2000; Goodacre 2001, pp. 138–39; Goodacre 2002, p. 65",
           "basis": "read"
         },
         {
@@ -699,9 +726,9 @@
       ],
       "contra": [
         {
-          "text": "Foster calls Goodacre's reading a “radical over-interpretation”: καθεξῆς is “one fleeting, and rather enigmatic, statement that may refer to Luke's own ordering of his material without necessarily being critical of the purposes of the other sources”. He links Luke's predecessors positively with the eyewitnesses of 1:2.",
-          "ref": "Foster 2003, p. 319, as quoted in Carlson 2004a (Part 5)",
-          "basis": "reported"
+          "text": "Foster calls Goodacre's reading a “radical over-interpretation”: καθεξῆς is “one fleeting, and rather enigmatic, statement that may refer to Luke's own ordering of his material without necessarily being critical of the purposes of the other sources”, and Goodacre does not tell his readers that its meaning is debated. He also objects that Farrer reduces the “many” of Luke 1:1 to Mark and one other gospel, a “sleight of hand”.",
+          "ref": "Foster 2003, pp. 315, 320 and n. 38",
+          "basis": "read"
         },
         {
           "text": "Carlson, who is sympathetic to the Farrer theory, treats the preface as a conventional historiographical opening whose vagueness should not be pressed: Goodacre's point about “in order” is consistent with the Farrer theory but not solid enough to count as evidence, and the lack of explicit criticism is no evidence against it either.",
@@ -763,13 +790,8 @@
           "basis": "read"
         },
         {
-          "text": "Goodacre ends his textbook case with Occam's razor: of two theories built on Markan priority, one needing a hypothetical document and one not, “there is no point in continuing to appeal to an hypothetical document to explain data that is better explained without it.” His FAQ puts it in one line: “if one can make sense of Luke on the assumption of his knowledge of Matthew (as well as Mark), then Occam's Razor shaves away the need for a Q.”",
-          "ref": "Goodacre 2001, p. 160; Goodacre 2002a",
-          "basis": "read"
-        },
-        {
-          "text": "Answering Kloppenborg's conclusion that Q is “at least as plausible”, Goodacre denied that the theories compete on a par, since one adds a hypothetical document and the other does not: “This is where I think that Occam's Razor genuinely has a role to play in Synoptic studies.”",
-          "ref": "Goodacre 2004b",
+          "text": "Goodacre ends his textbook case with Occam's razor: of two theories built on Markan priority, one needing a hypothetical document and one not, “there is no point in continuing to appeal to an hypothetical document to explain data that is better explained without it.” Answering Kloppenborg's verdict that Q is “at least as plausible”, he denied that the two compete on a par: “This is where I think that Occam's Razor genuinely has a role to play in Synoptic studies.” In *The Case Against Q* he puts it structurally: Q, as an element in the working model, “has an inherent vulnerability to Occam's Razor in a way that its sometime sister postulate Markan Priority does not”.",
+          "ref": "Goodacre 2001, p. 160; Goodacre 2004b; Goodacre 2002, pp. 18, 77",
           "basis": "read"
         },
         {
@@ -778,9 +800,14 @@
           "basis": "read"
         },
         {
-          "text": "Watson states the burden methodologically: the Q hypothesis is verified only if it yields a more plausible account of Matthew's and Luke's redaction than the corresponding account of Luke's use of Mark and Matthew.",
-          "ref": "Watson 2009",
-          "basis": "abstract"
+          "text": "Goodacre further claims that the Farrer theory explains why each Gospel was written: Matthew both embraces and reacts against Mark, and Luke, seeing Matthew's attempt to “fix” Mark, “imitates but also improves on Matthew”. The Two-Source theory must suppose that Matthew and Luke independently “came up with the same plan at the same time”: a new version of Mark of the same length, framed with birth and resurrection stories, and adding much of the same substance.",
+          "ref": "Goodacre 2001, pp. 164–166",
+          "basis": "read"
+        },
+        {
+          "text": "Goodacre's last two “reasons to question Q” are historiographical. Q belongs to “an age in which scholars solved every problem by postulating another written source”; most scholars have since given up Streeter's written M and L, and “The time has now come to get up-to-date, and to dispense with Q too.” Belief in Q has also been “an impediment to the proper appreciation of Luke's literary ability”, because Luke's order was explained as conservative copying of Q.",
+          "ref": "Goodacre 2003a; Goodacre 2001, pp. 160–161; Goodacre 2002, p. 104",
+          "basis": "read"
         }
       ],
       "contra": [
@@ -795,14 +822,14 @@
           "basis": "read"
         },
         {
-          "text": "Against Farrer's “unique”, Kloppenborg points to many ancient sayings collections in Near Eastern, Greek and Latin literature, and, citing Farrer's own condition for a common source to compete on equal terms, argues that the double tradition has a coherence that does not derive from Matthew. Goodacre grants that the Gospel of Thomas “apparently helps the Q theorist to dispense with one of Farrer's arguments against Q”.",
+          "text": "Against Farrer's “unique”, Kloppenborg points to many ancient sayings collections in Near Eastern, Greek and Latin literature, and, citing Farrer's own condition for a common source to compete on equal terms, argues that the double tradition has a coherence that does not derive from Matthew. Goodacre grants that the Gospel of Thomas “apparently helps the Q theorist to dispense with one of Farrer's arguments against Q”, while adding that Thomas does not touch the question whether Matthew and Luke were independent ([[Q2]]).",
           "ref": "Kloppenborg 2003, p. 211 n. 7, pp. 225–26 and n. 37; Goodacre 2002a",
           "basis": "read"
         },
         {
-          "text": "Foster argues that the Farrer theory has its own unproven assumption: Matthew must have been written, and circulated widely enough, early enough to reach Luke.",
-          "ref": "Foster 2003, as reported in Goodacre 2004c",
-          "basis": "reported"
+          "text": "Foster argues that the Farrer theory has its own unproven assumption: Matthew must have existed “long enough” and circulated widely enough to reach Luke, which Farrer's picture of Matthew as a Gentile-Christian work does not secure. Nor does it dispense with hypotheticals, since a Luke critical of Matthew and Goodacre's “living stream of oral tradition” are themselves unattested; and he asks what internal evidence Farrer advocates would accept for a lost common source.",
+          "ref": "Foster 2003, pp. 315, 321–322, 332, 337",
+          "basis": "read"
         },
         {
           "text": "Tuckett, answering Goulder's appeal to falsifiability, argued that no Synoptic theory is falsifiable in the strict sense, so the absence of a manuscript is not a special weakness of Q.",
@@ -837,7 +864,7 @@
           "basis": "read"
         }
       ],
-      "status": "Both sides agree that Q stands or falls with the plausibility of Luke's use of Matthew, which is Farrer's framing and which Kloppenborg calls the right one. They disagree over whether parsimony should break a tie: Goodacre says a theory without a hypothetical document should be preferred when both are plausible, while Kloppenborg holds that all dependency relations are hypothetical and that fewer documents bought with ad hoc explanations is not a simpler account. Economy is the last step of the Farrer case, not evidence for it.",
+      "status": "Both sides agree that Q stands or falls with the plausibility of Luke's use of Matthew, which is Farrer's framing and which Kloppenborg calls the right one. They disagree over whether parsimony should break a tie: Goodacre says a theory without a hypothetical document should be preferred when both are plausible, while Kloppenborg holds that all dependency relations are hypothetical and that fewer documents bought with ad hoc explanations is not a simpler account. Economy is the last step of the Farrer case, not evidence for it; Goodacre's companion claims, that the Farrer theory better explains why each Gospel was written and that Q is a relic of scissors-and-paste criticism, are judgements of plausibility rather than data.",
       "bearsOn": {
         "2DH": "strains",
         "FH": "supports",
@@ -908,9 +935,9 @@
       ],
       "contra": [
         {
-          "text": "For Kloppenborg, high verbatim agreement shows that Q was a written document, not oral tradition, and two evangelists copying a written source conservatively is, on the Two-Source view, not anomalous. Goodacre agrees on the first point but notes that Kloppenborg discusses these data only in relation to Q, without testing other hypotheses.",
-          "ref": "Kloppenborg 2000, pp. 56–72; Kloppenborg 2007; Goodacre 2015, pp. 88–89; Goodacre 2007c",
-          "basis": "reported"
+          "text": "For Kloppenborg, high verbatim agreement shows that Q was written: Matthew and Luke come closer to the copying of a rule book than to historians, whose verbal debt to a source “would rarely exceed 40%”. Answering Goodacre in 2015, he grants that the pattern's import “is not sufficiently recognized”, but notes that Q has far more sayings than Mark, often in long strings (Mark has such strings only in chs. 4 and 13), so a fair test would compare Mark's “Q type” sayings with Q, and both with ancient authors using two sources, although that data set may be too small to be meaningful.",
+          "ref": "Kloppenborg 2007, repr. in Kloppenborg 2014, pp. 91, 115–116; Kloppenborg 2015, pp. 241–243",
+          "basis": "read"
         },
         {
           "text": "The genre objection (Sharon Mattila): the comparison is skewed because the double tradition “is overwhelmingly sayings material, and thus would only be expected to be more conservative than the Triple tradition, which contains a large proportion of narrative material”. Goodacre calls this perhaps the strongest point in her critique, and concedes that the contrast may be explained “as much by form as by source”.",
@@ -923,9 +950,9 @@
           "basis": "reported"
         },
         {
-          "text": "The double tradition also has passages of very low agreement, such as the talents/pounds (Matt 25:14–30 // Luke 19:11–27) and the wedding banquet/great supper (Matt 22:1–14 // Luke 14:15–24). Kloppenborg argues that ancient authors had no consistent rate of reproducing written sources; Diodorus' use of Ephorus varies widely. Variation, high or low, is thus no sure sign of how a source was used (see [[M3]]).",
-          "ref": "Goodacre 2015, p. 86 n. 12; Kloppenborg 2007, abstract",
-          "basis": "abstract"
+          "text": "The double tradition also has passages of very low agreement, such as the talents/pounds (Matt 25:14–30 // Luke 19:11–27) and the wedding banquet/great supper (Matt 22:1–14 // Luke 14:15–24). Kloppenborg argues that ancient authors had no consistent rate of reproducing written sources: Diodorus takes strings of Ephorus' words almost unchanged and elsewhere paraphrases so freely that little wording survives. Variation, high or low, is thus no sure sign of how a source was used (see [[M3]]).",
+          "ref": "Goodacre 2015, p. 86 n. 12; Kloppenborg 2007, repr. in Kloppenborg 2014, pp. 101–105; Kloppenborg 2015, p. 243",
+          "basis": "read"
         }
       ],
       "rejoinder": [
@@ -955,7 +982,7 @@
           "basis": "read"
         }
       ],
-      "status": "Both camps agree that the double tradition's verbatim agreement rules out a purely oral source and points to written text. The dispute is whether it exceeds what two writers independently copying a written Q would produce; that rests on contested counts, on how much weight form (sayings against narrative) carries, and on how variable ancient copying was. Goodacre calls the statistics only suggestive and puts his weight on the number of near-verbatim passages. The argument shows Matthew–Luke contact at most, not its direction.",
+      "status": "Both camps agree that the double tradition's verbatim agreement rules out a purely oral source and points to written text. The dispute is whether it exceeds what two writers independently copying a written Q would produce; that rests on contested counts, on how much weight form (sayings against narrative) carries, and on how variable ancient copying was. Kloppenborg's 2015 response grants that the pattern deserves attention and proposes a like-for-like comparison of Mark's Q-type sayings with Q, which neither side has yet carried out. Goodacre calls the statistics only suggestive and puts his weight on the number of near-verbatim passages. The argument shows Matthew–Luke contact at most, not its direction.",
       "bearsOn": {
         "2DH": "strains",
         "FH": "supports",

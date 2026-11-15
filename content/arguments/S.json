@@ -20,8 +20,8 @@
           "basis": "read"
         },
         {
-          "text": "Jeffrey Tripp classified Matthew's and Luke's changes to Mark as transpositions, subtractions, additions and substitutions. They make the same choices “far more often than we would expect if they were truly independent”. A further test with conditional probabilities found, where results were clear, that Luke is an influential variable on Matthew but Matthew is not one on Luke.",
-          "ref": "Tripp 2021; Tripp 2023",
+          "text": "Jeffrey Tripp counted Matthew's and Luke's treatment of Mark's 11,082 words. Matthew omits 37.8% and Luke 53.6%; independence predicts that both keep 30% and both omit 20%, but the actual figures are 35% and 26% (p < 0.001%). Conditional tests found Luke an influential variable on Matthew, most clearly in omissions, but not enough evidence for the reverse.",
+          "ref": "Tripp 2021; Tripp 2023, pp. 431, 433–435, 439–440",
           "basis": "read"
         },
         {
@@ -59,8 +59,8 @@
           "basis": "reported"
         },
         {
-          "text": "Dependence is not direct use. Abakuks warns that Matthew and Luke could share criteria for keeping Mark's words, or similar oral traditions, without either knowing the other, and that statistics on overall word counts cannot give definitive answers. Tripp likewise grants that shared ideology or similar education could produce the overlap.",
-          "ref": "Abakuks 2006, pp. 53, 58–59; Abakuks 2012, §§1, 5; Tripp 2021",
+          "text": "Dependence is not direct use. Abakuks warns that Matthew and Luke could share criteria for keeping Mark's words, or similar oral traditions, without either knowing the other. Tripp grants that shared ideology or similar education could produce the overlap, that his tests treat every word as equally liable to change, that the Lukan samples are small, and that a different synopsis could alter the counts.",
+          "ref": "Abakuks 2006, pp. 53, 58–59; Abakuks 2012, §§1, 5; Tripp 2021; Tripp 2023, pp. 431, 441–442",
           "basis": "read"
         },
         {
@@ -91,7 +91,7 @@
           "basis": "read"
         }
       ],
-      "status": "The statistical literature has grown more rigorous since Honoré, but its results are modest and do not agree. Two analyses, Abakuks's peer-reviewed models and Tripp's tests built partly on them, find that Matthew and Luke treat Mark's wording alike far more often than independence predicts, which strains the independence the 2DH assumes ([[C1]]). They disagree on direction: Abakuks leaves it open, Tripp favours Matthew's use of Luke. Both grant that dependence could have causes other than copying, and Poirier's survey (2008) warns that such studies tend to reflect their authors' assumptions. The figures supplement close reading of the texts and cannot replace it.",
+      "status": "The statistical literature has grown more rigorous since Honoré, but its results are modest and do not agree. Two analyses, Abakuks's peer-reviewed models and Tripp's tests built partly on them, find that Matthew and Luke treat Mark's wording alike far more often than independence predicts, which strains the independence the 2DH assumes ([[C1]]). They disagree on direction: Abakuks leaves it open, Tripp favours Matthew's use of Luke. Tripp's 2024 test of the double tradition's order finds it significant but not decisive between Q and direct dependence ([[I6]]). Both grant that dependence could have causes other than copying, and Poirier's survey (2008) warns that such studies tend to reflect their authors' assumptions. The figures supplement close reading of the texts and cannot replace it.",
       "bearsOn": {
         "2DH": "neutral",
         "FH": "neutral",
@@ -176,6 +176,11 @@
           "text": "Reply on Bergemann: Kloppenborg answered that Matthew and Luke vary just as widely when they both copy Mark. That shows only that the evangelists sometimes intervened heavily and sometimes did not; it is no reason to divide Q into several sources.",
           "ref": "Kloppenborg 2000, pp. 62–63, as reported in Mournet 2003",
           "basis": "reported"
+        },
+        {
+          "text": "Reply to Goulder: Kirk answers that on the Two-Source hypothesis Q's phrases became part of Matthew's own idiom (“you of little faith”, “brood of vipers”, “weeping and gnashing of teeth”), as the formulaic language of the priestly source became the Temple Scroll author's own, so Matthean colouring in Q is expected.",
+          "ref": "Kirk 2023b, p. 231",
+          "basis": "read"
         }
       ],
       "status": "Mealand 2011 and the 2023 machine-learning study both lean cautiously towards a separate source, and both rest on small samples. Neither models the Farrer alternative: on that view a difference between Q and M is produced by Luke's selection, and common-word counts track genre (sayings against narrative and legend) as well as source. The measured differences are modest, so this favours independence only weakly.",

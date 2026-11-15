@@ -16,7 +16,7 @@
         },
         {
           "text": "Matthew's woes repeatedly open with the same formula (“Woe to you, scribes and Pharisees, hypocrites”); in Luke the parallel sayings are fewer, have varied openings, and are split between two chapters.",
-          "ref": "Matt 23:13–36 // Luke 11:39–52; 20:46; Garrow n.d. (Huggins)",
+          "ref": "Matt 23:13–36 // Luke 11:39–52; 20:46; Huggins 2023a, pp. 86–88",
           "basis": "read"
         },
         {
@@ -47,8 +47,13 @@
           "basis": "read"
         },
         {
-          "text": "Matthew's discourses grow from Markan cores, so expanding Luke's Sermon on the Plain into the Sermon on the Mount is in character. The reverse requires Luke, a conservative editor wherever he can be checked against Mark, to break the Sermon up across chapters 8, 11, 12, 13, 14 and 16.",
-          "ref": "MacEwen 2018; Garrow n.d. (Huggins)",
+          "text": "Matthew's discourses grow from Markan cores, so expanding Luke's Sermon on the Plain into the Sermon on the Mount is in character. The reverse requires Luke, a conservative editor wherever he can be checked against Mark, to scatter the Sermon across six chapters. Ronald Huggins, who abandoned the Farrer hypothesis on this ground, calls it a “Jekyll and Hyde transformation” into “a veritable tradition-scattering, freewheeling, editorial party animal”.",
+          "ref": "MacEwen 2018; Huggins 2023a, pp. 93–95",
+          "basis": "read"
+        },
+        {
+          "text": "Robert Derrenbacker, a Two-Source advocate, observes that on the Farrer hypothesis Luke treats the polished, carefully structured Matthew as freely as the less finished Mark. If Q were dispensed with and Markan priority kept, “Matthew's use of Luke … actually makes the best sense of the material in a Mark-without-Q scenario”.",
+          "ref": "Derrenbacker 2023, p. 193",
           "basis": "read"
         }
       ],
@@ -59,9 +64,9 @@
           "basis": "reported"
         },
         {
-          "text": "Luke's reworking of the Sermon is a deliberate creative choice to abbreviate, relocate and redistribute it and to give it biographical plausibility. Jesus films do the same thing.",
-          "ref": "Goodacre 2002, p. 130, as quoted in Garrow 2023b, p. 293",
-          "basis": "reported"
+          "text": "Luke's reworking of the Sermon is a deliberate creative choice “to abbreviate, to relocate, to redistribute, to restructure” and to add “dramatic, biographical plausibility”. Jesus films do the same thing ([[M4]]).",
+          "ref": "Goodacre 2002, p. 130; Garrow 2023b, p. 293",
+          "basis": "read"
         },
         {
           "text": "Tuckett, in the most recent Two-Source reply to Matthean Posteriority, questions its advocates' claims that the theory is “simple”, and argues that Matthew's non-use of much of Luke counts against it ([[D3]]).",
@@ -74,8 +79,8 @@
           "basis": "read"
         },
         {
-          "text": "Kloppenborg disputes that an ancient author could keep two sources in view at once, which conflation with simultaneous visual contact would require.",
-          "ref": "Kloppenborg 2019, as reported in Garrow 2023b, p. 279",
+          "text": "Kloppenborg disputes that an ancient author could keep two sources in view at once, which conflation with simultaneous visual contact would require. In 2023 he judged such micro-conflation “nearly impossible” for Griesbach's Mark without writing surfaces large enough to hold two exemplars.",
+          "ref": "Kloppenborg 2019, as reported in Garrow 2023b, p. 279; Kloppenborg 2023, p. 20",
           "basis": "reported"
         }
       ],
@@ -91,7 +96,7 @@
           "basis": "read"
         }
       ],
-      "status": "Matthew's gathering of scattered material is the main positive argument for Matthean Posteriority, and the same observation is the core of the Two-Source case against Luke's use of Matthew ([[M1]]). Farrer scholars reply that whoever reordered the double tradition did equivalent work in reverse; Tuckett questions the claimed simplicity. Downing's argument from refused common witness tells against every third-evangelist model alike, and Garrow answers that no ancient author tracked agreements that way. Whether gathering really differs in kind from scattering is still the live question.",
+      "status": "Matthew's gathering of scattered material is the main positive argument for Matthean Posteriority, and the same observation is the core of the Two-Source case against Luke's use of Matthew ([[M1]]); Huggins came to Matthean posteriority by that route, and Derrenbacker, from the Two-Source side, grants that it beats the Farrer hypothesis if Q is dropped. Farrer scholars reply that whoever reordered the double tradition did equivalent work in reverse; Tuckett questions the claimed simplicity. Downing's argument from refused common witness tells against every third-evangelist model alike, and Garrow answers that no ancient author tracked agreements that way. Whether gathering really differs in kind from scattering is still the live question.",
       "bearsOn": {
         "2DH": "neutral",
         "FH": "strains",
@@ -140,8 +145,8 @@
           "basis": "read"
         },
         {
-          "text": "The Critical Edition of Q gives Matthew the original order in only eleven places. Even in those, such as the Temptation and the two builders, Matthew's priority is not obvious.",
-          "ref": "Garrow n.d. (Huggins)",
+          "text": "Huggins notes that the Critical Edition of Q lists only eleven places where Matthew's order is judged more original. In wording too, what Luke lacks is what Matthew likes to add: Matthew calls God πάτερ 43 times to Luke's 16 and pairs “Father” with “in the heavens”, a phrase Luke would have had to strip out consistently, though he has no aversion to either word.",
+          "ref": "Huggins 2023a, pp. 83–85, 95",
           "basis": "read"
         },
         {
@@ -180,6 +185,11 @@
           "text": "Appealing to a further source whenever Matthew looks primitive makes the hypothesis hard to test. Goodacre argued that high verbatim agreement does not show an author working from one source, and low agreement does not show two, since Matthew can produce a low-agreement passage from a single source.",
           "ref": "Goodacre 2017a, as reported in Garrow 2018",
           "basis": "reported"
+        },
+        {
+          "text": "Andrejevs replies to Garrow that alternating primitivity occurs in thirty-six of thirty-eight double-tradition pericopes, often in both directions within one pericope. Once even one non-Markan shared source is granted, “the MPH sacrifices its claim to superior simplicity”, since Q is simply “replaced by some other source(s) or tradition(s)”.",
+          "ref": "Andrejevs 2023, pp. 161–162",
+          "basis": "read"
         }
       ],
       "rejoinder": [
@@ -196,6 +206,11 @@
         {
           "text": "Reply: the Didache supplies a check. At Matt 5:38–48, where Matthew departs from Luke, his wording matches Did. 1.2–5a, a concrete case of Matthew drawing on Luke's source (see [[D5]]).",
           "ref": "Garrow 2016b, pp. 411–415",
+          "basis": "read"
+        },
+        {
+          "text": "Reply: in the Centurion's Servant MacEwen finds the alternating primitivity argument “vitiated by the alternating use of Matthew's and Luke's characteristic vocabulary in the reconstructed Q version”, so the reconstruction itself mixes the two evangelists' styles.",
+          "ref": "MacEwen 2023, p. 329",
           "basis": "read"
         }
       ],
@@ -254,6 +269,11 @@
           "text": "Foster names Matthew's omissions of Lukan material, and his apparent ignorance of Luke's additions to Mark in the triple tradition, as difficulties for Matthean Posteriority. On that hypothesis Matthew uses less than a quarter of Luke.",
           "ref": "Foster 2003, pp. 333–336, as reported in Garrow 2020, p. 131 n. 4; Garrow 2023b, p. 294 n. 58",
           "basis": "reported"
+        },
+        {
+          "text": "Andrejevs argues that the “rejection of congenial materials” cuts against Matthean posteriority as it does against the Farrer hypothesis. Matthew would have kept a “block policy” in the passion, steering clear of Luke's additions to Mark, many of them congenial to him, while still reproducing the minor agreements; appealing to the evangelist's prerogative “hardly goes beyond redescribing the problem”.",
+          "ref": "Andrejevs 2023, pp. 163–164",
+          "basis": "read"
         }
       ],
       "contra": [
@@ -288,9 +308,19 @@
           "text": "Reply to Goodacre: Luke 3:1–2 heralds John, whom Matthew plays down, and Matthew uses the details that bear on Jesus (Caiaphas, Pilate the governor, Herod the tetrarch). MacEwen adds that Matthew never mentions political leaders unless they are part of his story; choosing Mark's “Philip” keeps the fuller detail.",
           "ref": "Garrow 2023a, pp. 298–300; MacEwen 2018",
           "basis": "read"
+        },
+        {
+          "text": "Counter-reply: Andrejevs answered Garrow on Peter in 2024, taking on also the reading of Matthew's Peter by Robert Gundry on which Garrow had drawn.",
+          "ref": "Andrejevs 2024",
+          "basis": "abstract"
+        },
+        {
+          "text": "Counter-reply on women characters (against West's explanation): Andrejevs, Livesay and Rittle note that Matthew keeps all but two of Mark's women and adds five of his own, yet on Matthean posteriority would have left out all eleven women Luke introduces, including Joanna, Susanna, Martha and Mary, and would have taken away Mary's consent in the annunciation. They judge Matthew's use of Luke “less than probable statistically” and at odds with his handling of Mark.",
+          "ref": "Andrejevs, Livesay & Rittle 2026, §§4, 7",
+          "basis": "read"
         }
       ],
-      "status": "The objection mirrors the main Two-Source argument against Luke's use of Matthew ([[I4]]), and each side presses arguments from omission against the other. Matthean Posteriority advocates give case-by-case reasons (concision, Mark's Galilean ending, Matthew's own priorities); Tuckett and Goodacre reply that some of what Matthew passes over would have suited him well. The unshared infancy and resurrection narratives remain hard data for both MPH and the Farrer hypothesis.",
+      "status": "The objection mirrors the main Two-Source argument against Luke's use of Matthew ([[I4]]), and each side presses arguments from omission against the other. Matthean Posteriority advocates give case-by-case reasons (concision, Mark's Galilean ending, Matthew's own priorities); Tuckett and Goodacre reply that some of what Matthew passes over would have suited him well. Andrejevs, Livesay and Rittle's count of women characters (2026) is the newest data set pressed against Matthean Posteriority. The unshared infancy and resurrection narratives remain hard data for both MPH and the Farrer hypothesis.",
       "bearsOn": {
         "2DH": "supports",
         "FH": "neutral",
@@ -307,7 +337,7 @@
       "id": "D4",
       "title": "Fatigue and other direction indicators",
       "claim": "Goodacre's direction indicators (fatigue, Matthean wording in Luke, Matthean structure in Luke) can be reversed, and some features point from Luke to Matthew.",
-      "favours": "matthew-used-luke",
+      "favours": "open",
       "evidence": [
         {
           "text": "In the Pounds, Luke's nobleman gives a mina to each of ten servants, but only three report, and the third is called “the other” (ὁ ἕτερος). Matthew's Talents has three servants throughout.",
@@ -332,9 +362,9 @@
       ],
       "pro": [
         {
-          "text": "Hägerland argues that the fatigue argument wrongly assumes Matthew handled Q as he handled Mark, and wrongly claims there is no fatigue in Matthew's double tradition. His example: Matthew sends John's “brood of vipers” speech to “Pharisees and Sadducees” (Matt 3:7), yet his narrative goes on to imply Luke's audience, “the crowds” (Luke 3:7).",
-          "ref": "Hägerland 2019; Hägerland 2019, pp. 203–205, as reported in Garrow 2023a, p. 295",
-          "basis": "abstract"
+          "text": "Hägerland, a Two-Source advocate, argues that Goodacre wrongly assumes Matthew handled Q as he handled Mark, and as Luke handled Q, and that fatigue is absent from Matthew's double tradition. In Matt 3:7–12 John addresses “Pharisees and Sadducees” yet tells them “I baptise you in water”, where Luke's repentant crowds fit. Hägerland reads this as Matthew's fatigue in using Q; Garrow uses the same example for Matthew's use of Luke.",
+          "ref": "Hägerland 2019, pp. 197, 203–205; Garrow 2023a, p. 295",
+          "basis": "read"
         },
         {
           "text": "Luke's Pounds has a throne-claimant subplot that probably came from an earlier setting (cf. Archelaus in 4 BCE). On that reading Matthew, who tidies, removed every distracting feature, and the incoherence is not Luke's fatigue.",
@@ -347,8 +377,8 @@
           "basis": "read"
         },
         {
-          "text": "Tripp tested the minor agreements statistically by type of change (transposition, omission, addition, substitution). Matthew and Luke make the same choices more often than independence predicts, and where the results are clear Luke is an influential variable on Matthew, not the reverse.",
-          "ref": "Garrow n.d. (Tripp); Tripp 2023",
+          "text": "Tripp counted Matthew's and Luke's changes to Mark word by word. Matthew omits 50.9% of Mark's words in passages Luke leaves out but 36.4% where Luke keeps them, a difference he finds highly significant; Luke's comparable shift (43.5% against 54.0%) is not significant (p = 27.3%). On his reading Luke is an “influential variable” on Matthew but not the reverse.",
+          "ref": "Tripp 2023, pp. 433–435, 439–440",
           "basis": "read"
         }
       ],
@@ -376,13 +406,13 @@
       ],
       "rejoinder": [
         {
-          "text": "Reply: a single word such as ὕστερον is fragile evidence; Neirynck reads Luke's bare ὕστερον, against Matthew's ὕστερον πάντων, as independent editing. Goodacre himself once judged τίς ἐστιν ὁ παίσας σε (“Who is it that struck you?”) “a little more Lukan in style than it is Matthean”.",
+          "text": "Reply: a single word such as ὕστερον is fragile evidence; Neirynck reads Luke's bare ὕστερον, against Matthew's ὕστερον πάντων, as independent editing. Goodacre himself once judged τίς ἐστιν ὁ παίσας σε (“Who is it that struck you?”) “a little more Lukan in style than it is Matthean”, though his case for Matthew as its origin rests on the narrative (Matthew explaining Mark's ironic scene), not on vocabulary.",
           "ref": "Garrow 2023a, pp. 291–292, 294 n. 30; Neirynck 1997; Goodacre 1996, p. 106",
           "basis": "reported"
         },
         {
-          "text": "Reply: MacEwen accepts that fatigue is important but asks whether Matthew never fatigues when using Luke, and whether some cases are really “editorial alertness”, one evangelist removing the other's awkwardness.",
-          "ref": "MacEwen 2018",
+          "text": "Reply: MacEwen accepts that fatigue is important but asks whether Matthew never fatigues when using Luke, and whether some cases are really “editorial alertness”. In 2023 he added that Luke's παῖς at 7:7 is deliberate and that Matthew fatigues elsewhere in the double tradition, though Hägerland, who rejects Goodacre's argument, finds MacEwen's Matthean examples unconvincing.",
+          "ref": "MacEwen 2018; MacEwen 2023, p. 329; Hägerland 2019, pp. 202–203",
           "basis": "read"
         },
         {
@@ -391,11 +421,11 @@
           "basis": "read"
         }
       ],
-      "status": "These are the most concrete direction tests, and they are disputed case by case. Goodacre reads fatigue, Matthean wording and Matthean structure in Luke as running from Matthew to Luke; Garrow, MacEwen and Hägerland reply that the criteria are reversible and that Matt 3:7 runs the other way, and Tripp's statistics point from Luke to Matthew. Both sides accept that fatigue must be tested in both directions with the same criteria, which has not yet been done across the whole double tradition.",
+      "status": "These are the most concrete direction tests, and they are disputed case by case. Goodacre reads fatigue, Matthean wording and Matthean structure in Luke as running from Matthew to Luke; Garrow and MacEwen reply that the criteria are reversible, and Tripp's statistics point from Luke to Matthew. Hägerland's case of Matthean fatigue at Matt 3:7–12 is offered for Q, not for Matthew's use of Luke, and he concludes that fatigue, if anything, favours Q. Goodacre searched Matthew's double tradition for fatigue and found none (1998); no systematic study has yet applied the same criteria to Matthew's use of Luke and to each evangelist's use of a reconstructed Q.",
       "bearsOn": {
         "2DH": "neutral",
-        "FH": "supports",
-        "MPH": "strains",
+        "FH": "neutral",
+        "MPH": "neutral",
         "2GH": "neutral"
       },
       "seeAlso": [
@@ -476,6 +506,11 @@
           "text": "The proposal stands or falls with a contested reconstruction of the Didache's growth. The Didache is usually dated after the Gospels and refers to “the gospel” (8.2; 11.3; 15.3–4); Garrow places Did. 1.3–5a early only by separating it from later layers.",
           "ref": "Garrow 2016b, pp. 402–403, 416–417",
           "basis": "read"
+        },
+        {
+          "text": "Other proposed survivals have fared no better. Michael Kok shows that the baptism account of the Gospel of the Ebionites reproduces Matthean and Lukan redaction, so it is a harmony of the Gospels, not, as David Sloan and James Edwards proposed, a source behind Q or L.",
+          "ref": "Kok 2024",
+          "basis": "abstract"
         }
       ],
       "rejoinder": [
@@ -485,7 +520,7 @@
           "basis": "read"
         }
       ],
-      "status": "This is the most concrete attempt to name a surviving source for part of the double tradition, but it has persuaded few beyond Matthean Posteriority circles. Most Didache scholars hold either that its Jesus sayings come from shared tradition or that they depend on the Gospels, and Garrow's 2026 book has not yet been tested in reviews. Other “extant Q” candidates (Marcion's Gospel, Thomas) belong to minority models; see [[Q2]].",
+      "status": "This is the most concrete attempt to name a surviving source for part of the double tradition, but it has persuaded few beyond Matthean Posteriority circles. Most Didache scholars hold either that its Jesus sayings come from shared tradition or that they depend on the Gospels, and Garrow's 2026 book has not yet been tested in reviews. Other candidates fare no better: the Gospel of the Ebionites looks like a harmony (Kok 2024), Thomas is treated in [[Q2]], and Marcion's Gospel matters chiefly because its reconstructed text lacks several minor agreements ([[C1]], [[C2]]).",
       "bearsOn": {
         "2DH": "neutral",
         "FH": "strains",
