@@ -138,6 +138,11 @@
           "basis": "read"
         },
         {
+          "text": "The Nestle–Aland apparatus (28th edition) records no variant of any kind at Matt 26:68. At Mark 14:65 it lists the addition of Χριστέ, τίς ἐστιν ὁ παίσας σε in N, W, Δ, Θ, family 13, 33, 565, 579, 700, 892 and 1424, with part of the Syriac and Coptic tradition. Scribes did carry the question across from Matthew, but into Mark.",
+          "ref": "Nestle–Aland, 28th edition, apparatus at Mark 14:65 and Matt 26:68, read in the transcription used by Synoptic Canvas",
+          "basis": "read"
+        },
+        {
           "text": "Matthew and Luke both bring Jesus to Nazareth before Capernaum (Matt 4:13; Luke 4:16, 31), against Mark's order. Both use the form Ναζαρά (“Nazara”), which occurs only at Matt 4:13 and Luke 4:16 in the critical text.",
           "ref": "Matt 4:12–13 // Mark 1:14, 21 // Luke 4:14, 16, 31; Goodacre 2003a",
           "basis": "read"
@@ -904,6 +909,16 @@
           "text": "Honoré found that Matthew and Luke agree in 39.21% and 39.08% of their double-tradition words, against 29.86% and 31.57% in the triple tradition. Carlston and Norlin, counting more loosely, found 71.0% against 56.0%, higher in each form: narrative 53.7% against 48.5%, words of Jesus 71.5% against 65.8%, other sayings 84.1% against 58.5%. They judged the use of Q “possibly something like 27 per cent more conservative” than the use of Mark.",
           "ref": "Goodacre 2015, pp. 90–93 (Table 1 from Honoré 1968, p. 112, Table 2 from Carlston & Norlin 1971, pp. 71, 77)",
           "basis": "read"
+        },
+        {
+          "text": "A first run of the comparison Kloppenborg proposed (see below), counted for this page. In the sayings strings he names, 41% of Luke's words are identical with Matthew's in the double tradition (Luke 3:7–9, 16–17; 6:20–49; 7:24–35; 12:2–12, 22–34) and 27% in Luke's parallels to Mark 4 and Mark 13. Across every verse of Luke that is mostly words of Jesus the figures are 41% for Q material (3,145 words) and 27% for the triple tradition (2,199 words): a gap of 14 points, with a 95% interval of 4 to 25. Seven of the 27 double-tradition strings of 40 words or more reach 70%, against one of 15 Markan strings. Without those seven the gap is 7 points and the interval includes zero, so the typical string is copied about as closely in both and the difference lies in a group of near-identical passages. If passages are sorted by Aland's parallels alone, with the Mark–Q overlaps counted as triple tradition, the gap is 6 points and the interval again includes zero. Only identical inflected forms are counted, so these percentages run lower than Carlston and Norlin's.",
+          "ref": "tools/kloppenborg_test.py and its output in this page's repository; Greek text OpenGNT 3.3, parallels after Aland, word alignment from Synoptic Canvas",
+          "basis": "computed"
+        },
+        {
+          "text": "The same count by kind of text, as a check on the objection from form. Share of Luke's words identical with Matthew's: words of Jesus, 42% in Q material and 28% in the triple tradition; speech by others (John, the centurion, the devil), 70% and 24%; the narrator's words, 17% and 11%. Where Luke copies Mark's sayings, 33% of his words are identical with Mark's. Matthew's words are identical with Mark's in 55% of the Markan sayings and with Luke's in 48% of the double-tradition sayings; that last figure covers only verses with a clear Lukan counterpart and so runs high.",
+          "ref": "tools/kloppenborg_test.py and its output in this page's repository; Greek text OpenGNT 3.3, parallels after Aland, word alignment from Synoptic Canvas",
+          "basis": "computed"
         }
       ],
       "pro": [
@@ -982,7 +997,7 @@
           "basis": "read"
         }
       ],
-      "status": "Both camps agree that the double tradition's verbatim agreement rules out a purely oral source and points to written text. The dispute is whether it exceeds what two writers independently copying a written Q would produce; that rests on contested counts, on how much weight form (sayings against narrative) carries, and on how variable ancient copying was. Kloppenborg's 2015 response grants that the pattern deserves attention and proposes a like-for-like comparison of Mark's Q-type sayings with Q, which neither side has yet carried out. Goodacre calls the statistics only suggestive and puts his weight on the number of near-verbatim passages. The argument shows Matthew–Luke contact at most, not its direction.",
+      "status": "Both camps agree that the double tradition's verbatim agreement rules out a purely oral source and points to written text. The dispute is whether it exceeds what two writers independently copying a written Q would produce; that rests on contested counts, on how much weight form (sayings against narrative) carries, and on how variable ancient copying was. Kloppenborg's 2015 response grants that the pattern deserves attention and proposes a like-for-like comparison of Mark's Q-type sayings with Q, which neither side has yet carried out. A first count made for this page (above) finds that the gap narrows but does not close, and that it rests on a group of near-identical passages. Set against each evangelist's known copying of Mark's sayings, the double tradition's agreement is about what direct copying in either direction would give. On the Two-Source hypothesis both evangelists must have kept Q's wording more closely than they kept Mark's, which its defenders can put down to the kind of material. The argument shows Matthew–Luke contact at most, not its direction.",
       "bearsOn": {
         "2DH": "strains",
         "FH": "supports",
@@ -995,7 +1010,243 @@
         "S1",
         "D1",
         "D4"
-      ]
+      ],
+      "figure": {
+        "type": "strips",
+        "title": "Share of Luke's words identical with Matthew's, in each string of Jesus' sayings of 40 words or more",
+        "band": {
+          "from": 70
+        },
+        "rows": [
+          {
+            "label": "Double tradition (Q material): 27 strings",
+            "tone": "ml",
+            "pooled": 41.1,
+            "pooledLabel": "all sayings 41%",
+            "items": [
+              [
+                0.0,
+                "Luke 12:51–53",
+                58
+              ],
+              [
+                4.6,
+                "Luke 14:17–24",
+                151
+              ],
+              [
+                11.5,
+                "Luke 14:26–27",
+                52
+              ],
+              [
+                13.3,
+                "Luke 17:33–35",
+                45
+              ],
+              [
+                14.0,
+                "Luke 22:28–30",
+                43
+              ],
+              [
+                17.6,
+                "Luke 19:15–26",
+                187
+              ],
+              [
+                18.4,
+                "Luke 6:27–33",
+                103
+              ],
+              [
+                19.8,
+                "Luke 15:4–7",
+                81
+              ],
+              [
+                23.2,
+                "Luke 6:35–37",
+                56
+              ],
+              [
+                23.8,
+                "Luke 6:21–23",
+                63
+              ],
+              [
+                25.0,
+                "Luke 13:26–29",
+                76
+              ],
+              [
+                31.3,
+                "Luke 11:46–52",
+                131
+              ],
+              [
+                34.7,
+                "Luke 12:58–59",
+                49
+              ],
+              [
+                35.4,
+                "Luke 6:40–49",
+                240
+              ],
+              [
+                38.4,
+                "Luke 11:40–44",
+                86
+              ],
+              [
+                39.0,
+                "Luke 12:2–9",
+                146
+              ],
+              [
+                40.2,
+                "Luke 10:2–16",
+                254
+              ],
+              [
+                50.0,
+                "Luke 7:31–35",
+                76
+              ],
+              [
+                54.5,
+                "Luke 11:2–4",
+                44
+              ],
+              [
+                58.6,
+                "Luke 12:23–31",
+                140
+              ],
+              [
+                70.7,
+                "Luke 11:9–13",
+                75
+              ],
+              [
+                75.0,
+                "Luke 11:34–35",
+                40
+              ],
+              [
+                76.4,
+                "Luke 12:42–46",
+                106
+              ],
+              [
+                83.0,
+                "Luke 13:34–35",
+                53
+              ],
+              [
+                83.3,
+                "Luke 7:25–28",
+                72
+              ],
+              [
+                94.3,
+                "Luke 11:23–26",
+                70
+              ],
+              [
+                94.5,
+                "Luke 11:31–32",
+                55
+              ]
+            ]
+          },
+          {
+            "label": "Sayings both took from Mark: 15 strings",
+            "tone": "mk",
+            "pooled": 26.7,
+            "pooledLabel": "all sayings 27%",
+            "items": [
+              [
+                0.0,
+                "Luke 4:23–27",
+                108
+              ],
+              [
+                0.0,
+                "Luke 7:45–47",
+                47
+              ],
+              [
+                11.3,
+                "Luke 20:10–15",
+                97
+              ],
+              [
+                20.5,
+                "Luke 8:10–18",
+                195
+              ],
+              [
+                20.7,
+                "Luke 21:11–28",
+                276
+              ],
+              [
+                21.8,
+                "Luke 9:3–5",
+                55
+              ],
+              [
+                25.4,
+                "Luke 20:35–38",
+                67
+              ],
+              [
+                29.6,
+                "Luke 22:10–12",
+                54
+              ],
+              [
+                30.9,
+                "Luke 5:35–39",
+                97
+              ],
+              [
+                32.6,
+                "Luke 18:29–30",
+                43
+              ],
+              [
+                38.2,
+                "Luke 8:5–8",
+                76
+              ],
+              [
+                50.0,
+                "Luke 21:8–9",
+                42
+              ],
+              [
+                61.8,
+                "Luke 9:22–27",
+                131
+              ],
+              [
+                62.2,
+                "Luke 5:23–24",
+                45
+              ],
+              [
+                70.9,
+                "Luke 21:30–33",
+                55
+              ]
+            ]
+          }
+        ],
+        "note": "Each dot is one unbroken run of sayings in Luke. The line marks the rate for all sayings verses together, and the shaded band is 70% or more. Seven of the double-tradition strings fall in it and one of the Markan strings. Hover over a dot, or open the figures, for the passage."
+      }
     }
   ]
 }

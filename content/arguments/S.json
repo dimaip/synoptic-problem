@@ -28,6 +28,11 @@
           "text": "A 2023 machine-learning study (random-forest two-sample tests on Luke's pericopes) found that Luke's style in the double tradition differs from his style in the triple tradition, and that Luke's triple-tradition style is closer to Mark's than to Matthew's. It reported these results as support for the Two-Source hypothesis.",
           "ref": "Robert Hayek, Istas & Rey 2023",
           "basis": "read"
+        },
+        {
+          "text": "Counted for this page with a stricter rule (identical inflected forms only), the pattern Abakuks and Tripp report appears again and holds within each kind of text. Of Mark's 9,744 words in passages that both Matthew and Luke parallel, Matthew keeps 35% and Luke 21%. Both keep the same word 12.5% of the time, where independent choices would give 7.6%. Within Jesus' words the figures are 19.6% against 14.0%, and within the narrator's words 5.7% against 3.5%. The excess is therefore not produced by mixing sayings, which both copy closely, with narrative, which both copy freely. It may still reflect words that any editor would keep.",
+          "ref": "tools/kloppenborg_test.py and its output in this page's repository; Greek text OpenGNT 3.3, parallels after Aland, word alignment from Synoptic Canvas",
+          "basis": "computed"
         }
       ],
       "pro": [

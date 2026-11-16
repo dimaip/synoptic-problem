@@ -1,0 +1,83 @@
+== 0. Check against published counts ==
+Luke 3:7-9 identical with Matthew:    60/72     83.3%   (Kloppenborg: 61 of 72, 85%)
+Luke 16:13:                           27/28     96.4%   (Morgenthaler/Kloppenborg: 98%)
+Luke 11:24-26:                        51/55     92.7%   (93%)
+Luke 10:13-15:                        44/49     89.8%   (90%)
+Luke 13:34-35:                        44/53     83.0%   (85%)
+
+== A. The passages Kloppenborg names ==
+Share of Luke's words identical with Matthew's:
+  Q string    Luke 3:7-9, 16-17                             95/130    73.1%  longest run 24
+  Q string    Luke 6:20-49                                 151/580    26.0%  longest run 14
+  Q string    Luke 7:24-35                                 112/202    55.4%  longest run 19
+  Q string    Luke 12:2-12                                  71/202    35.1%  longest run 8
+  Q string    Luke 12:22-34                                111/211    52.6%  longest run 13
+  Mark string Luke 8:5-8, 10-18 (Mark 4:3-9, 11-25)         69/271    25.5%  longest run 7   (identical with Mark: 33.9%)
+  Mark string Luke 21:8-36 (Mark 13:5-37)                  124/452    27.4%  longest run 13   (identical with Mark: 27.7%)
+  Q strings together      540/1325   40.8%
+  Mark strings together   193/723    26.7%
+
+Same passages, from Mark's side (share of Mark's words kept unchanged):
+  Mark 4:3-9, 11-25    words 361: Matthew keeps 38.5%, Luke keeps 28.0%, both keep 16.9% (independence would give 10.8%)
+  Mark 13:5-37         words 530: Matthew keeps 63.4%, Luke keeps 26.6%, both keep 24.0% (independence would give 16.9%)
+
+== B. All of Luke, verses that are at least 80% words of Jesus ==
+Share of Luke's words identical with Matthew's, with a 95% interval from resampling runs of verses:
+  -- all sayings verses
+     Q                verses  173   1294/3145   41.1%  [33.2, 49.8]   content words only 41.1%   identical with Mark  0.1%
+     triple           verses  125    587/2199   26.7%  [20.3, 33.9]   content words only 26.9%   identical with Mark 32.8%
+     Q+Mark overlap   verses   12     83/217    38.2%  [31.7, 44.9]   content words only 37.9%   identical with Mark 26.3%
+  -- in strings of 5+ verses
+     Q                verses  158   1061/2840   37.4%  [29.6, 45.5]   content words only 37.2%   identical with Mark  0.1%
+     triple           verses   67    273/1205   22.7%  [11.4, 35.1]   content words only 22.1%   identical with Mark 26.9%
+     Q+Mark overlap   verses    9     60/155    38.7%  [32.3, 46.5]   content words only 39.0%   identical with Mark 25.2%
+  -- isolated, strings of 1-4
+     Q                verses   15    233/305    76.4%  [58.8, 87.9]   content words only 74.9%   identical with Mark  0.0%
+     triple           verses   58    314/994    31.6%  [25.1, 38.4]   content words only 32.7%   identical with Mark 39.9%
+     Q+Mark overlap   verses    3     23/62     37.1%  [22.7, 45.0]   content words only 35.3%   identical with Mark 29.0%
+
+== C. Distribution: how many sayings strings reach high agreement ==
+  Q       strings of 40+ words: 27; median 35%; at 70% or more: 7; at 50% or more: 10
+        top: Luke 13:34-35  83%
+        top: Luke 7:25-28  83%
+        top: Luke 11:23-26  94%
+        top: Luke 11:31-32  95%
+  triple  strings of 40+ words: 15; median 30%; at 70% or more: 1; at 50% or more: 4
+        top: Luke 21:8-9  50%
+        top: Luke 9:22-27  62%
+        top: Luke 5:23-24  62%
+        top: Luke 21:30-33  71%
+
+== D. Narrative for comparison (verses under 20% words of Jesus) ==
+     Q                verses   25    212/454    46.7%
+     triple           verses  282    616/4619   13.3%
+
+== E. Robustness: Q minus triple, sayings of Jesus, points of Luke-Matthew agreement ==
+  verses >= 80% Jesus (main)                           Q 41.1% (3145 w)  triple 26.7% (2199 w)  diff +14.5 [ +3.9, +24.9]  share of resamples <= 0: 0.004
+  verses 100% Jesus                                    Q 40.3% (2936 w)  triple 24.8% (1797 w)  diff +15.5 [ +5.0, +26.5]  share of resamples <= 0: 0.002
+  verses >= 50% Jesus                                  Q 41.1% (3371 w)  triple 26.3% (3007 w)  diff +14.8 [ +5.4, +25.0]  share of resamples <= 0: 0.001
+  >= 80%, without Luke 21 (possible special source)    Q 41.1% (3145 w)  triple 25.7% (1811 w)  diff +15.5 [ +4.9, +26.4]  share of resamples <= 0: 0.003
+  >= 80%, without Luke 22-24 (passion)                 Q 41.5% (3102 w)  triple 28.1% (1891 w)  diff +13.4 [ +2.0, +24.4]  share of resamples <= 0: 0.011
+  >= 80%, Q without the Sermon (Luke 6)                Q 43.3% (2683 w)  triple 26.3% (2171 w)  diff +17.1 [ +5.8, +28.6]  share of resamples <= 0: 0.002
+  >= 80%, Q without its 7 strings at 70%+              Q 34.0% (2674 w)  triple 26.7% (2199 w)  diff  +7.3 [ -2.5, +16.7]  share of resamples <= 0: 0.071
+  Aland parallels alone, no Q list (overlaps in triple) Q 37.7% (2209 w)  triple 31.3% (3643 w)  diff  +6.4 [ -4.6, +18.9]  share of resamples <= 0: 0.130
+
+== F. Each hypothesis read against Luke's and Matthew's known copying of Mark's sayings ==
+  Luke, Markan sayings: identical with Mark   721/2199   32.8%; identical with Matthew   587/2199   26.7%
+  Luke, Q sayings:      identical with Matthew  1294/3145   41.1%
+  Matthew, Q         sayings verses  141: identical with Luke  1263/2614   48.3%; identical with Mark     0/2614    0.0%
+  Matthew, triple    sayings verses  133: identical with Luke   622/2496   24.9%; identical with Mark  1382/2496   55.4%
+  Matthew, mark-only sayings verses    3: identical with Luke     0/71      0.0%; identical with Mark    23/71     32.4%
+
+== G. Three kinds of text, all of Luke (word level) ==
+  Q       words of Jesus   1396/3298   42.3%
+  Q       other speech      178/255    69.8%
+  Q       narrator           61/353    17.3%
+  triple  words of Jesus    780/2778   28.1%
+  triple  other speech      236/973    24.3%
+  triple  narrator          449/4149   10.8%
+
+== H. Mark's words in the triple tradition: who keeps them ==
+  all words        9744 words: Matthew keeps 35.4%, Luke keeps 21.4%, both keep 12.5%; independent choices would give  7.6%
+  words of Jesus   3570 words: Matthew keeps 48.0%, Luke keeps 29.3%, both keep 19.6%; independent choices would give 14.0%
+  narrator         4892 words: Matthew keeps 25.0%, Luke keeps 13.9%, both keep  5.7%; independent choices would give  3.5%

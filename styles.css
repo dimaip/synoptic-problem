@@ -121,6 +121,7 @@ h1 { font-size: clamp(2.3rem, 5vw, 3.6rem); letter-spacing: -0.01em; }
 .basis.b-reported { border-style: dotted; border-color: var(--edge); }
 .basis.b-unchecked { border: 1px dotted var(--rule); color: var(--faint); font-style: italic; background: repeating-linear-gradient(135deg, transparent 0 3px, var(--panel) 3px 5px); }
 .basis.b-unchecked::after { content: "?"; margin-left: .15em; }
+.basis.b-computed { border-style: double; border-width: 3px; border-color: var(--edge); color: var(--ink); }
 
 /* ---------- sticky bar ---------- */
 .bar { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--rule); border-top: 1px solid var(--rule); }
@@ -649,3 +650,27 @@ details.fallback[open] > summary { margin-bottom: .6rem; }
 .see-sep { color: var(--faint); }
 .arg-link.missing { color: var(--faint); font-weight: 400; cursor: help; }
 .nw { white-space: nowrap; }
+
+/* ---------- strip plot inside an argument (figureHTML) ---------- */
+.strips { margin: 1.1rem 0 .6rem; }
+.strips figcaption { font-weight: 600; font-size: .95rem; margin-bottom: .5rem; }
+.strip-row.tone-ml { --tone: var(--ml); }
+.strip-row.tone-mk { --tone: var(--mk); }
+.strip-row { --tone: var(--neutral); }
+.strip-label { margin: .7rem 0 .15rem; font-size: .85rem; color: var(--muted); }
+.strip-track { position: relative; margin: 0 7px; border-bottom: 1px solid var(--edge); border-right: 1px solid var(--rule);
+  background-image: linear-gradient(to right, var(--rule) 1px, transparent 1px); background-size: 20% 100%; }
+.strip-band { position: absolute; top: 0; bottom: 0; right: 0; background: var(--neutral-tint); opacity: .8; }
+.strip-pool { position: absolute; top: 0; bottom: 0; border-left: 2px solid var(--tone); }
+.strip-pool span { position: absolute; top: -1px; left: 5px; font-size: .75rem; line-height: 1.2; white-space: nowrap; color: var(--ink); }
+.strip-dot { position: absolute; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: var(--tone); box-shadow: 0 0 0 2px var(--bg); }
+.strip-dot:hover { box-shadow: 0 0 0 2px var(--ink); }
+.strip-axis { position: relative; height: 1.5em; margin: 3px 7px 0; font-size: .75rem; color: var(--faint); }
+.strip-axis span { position: absolute; transform: translateX(-50%); }
+.strip-axis span:first-child { transform: none; }
+.strip-axis span:last-child { transform: translateX(-100%); }
+.strip-note { font-size: .85rem; color: var(--muted); margin: .4rem 0; }
+.strip-table summary { font-size: .85rem; cursor: pointer; color: var(--muted); }
+.strip-table table { border-collapse: collapse; font-size: .8rem; margin-top: .4rem; }
+.strip-table th, .strip-table td { text-align: left; padding: .15rem .9rem .15rem 0; border-bottom: 1px solid var(--rule); }
+.canvas-link { font-size: .9rem; color: var(--muted); margin: .9rem 0 0; }

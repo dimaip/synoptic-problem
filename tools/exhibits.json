@@ -3,6 +3,7 @@
   "exhibits": [
     {
       "id": "john-preaching",
+      "canvas": "matthew-3-7",
       "title": "John's preaching of repentance",
       "kind": "double",
       "lede": "A passage found in Matthew and Luke but not in Mark. After the different introductions, John's words run almost word for word in both.",
@@ -28,6 +29,7 @@
     },
     {
       "id": "john-coming-one",
+      "canvas": "matthew-3-11",
       "title": "John on the one who is coming",
       "kind": "overlap",
       "lede": "Mark has a shorter version of this saying. Matthew and Luke share wording that Mark lacks, above all “and fire” and the whole winnowing-fork verse.",
@@ -59,6 +61,7 @@
     },
     {
       "id": "who-struck-you",
+      "canvas": "matthew-26-57",
       "title": "“Who is it that struck you?”",
       "kind": "minor-agreement",
       "lede": "In the mockery scene Matthew and Luke share a five-word question, “who is it that struck you?”, that Mark lacks.",
@@ -84,6 +87,7 @@
     },
     {
       "id": "mysteries",
+      "canvas": "matthew-13-10",
       "title": "The mysteries of the kingdom",
       "kind": "minor-agreement",
       "lede": "Matthew and Luke both have “it has been given to know the mysteries”, against Mark's “the mystery has been given”.",
@@ -106,6 +110,7 @@
     },
     {
       "id": "mustard-seed",
+      "canvas": "matthew-13-31",
       "title": "The mustard seed",
       "kind": "overlap",
       "lede": "Matthew mixes Mark's wording with wording he shares with Luke alone: a man “took and sowed/threw” the seed, it became a “tree”, and the birds nest “in its branches”.",
@@ -133,6 +138,7 @@
     },
     {
       "id": "beelzebul",
+      "canvas": "matthew-12-22",
       "title": "The Beelzebul controversy",
       "kind": "overlap",
       "lede": "A Mark–Q overlap. Matthew and Luke share a healing that opens the scene, the saying on “your sons”, “the finger/Spirit of God”, and “whoever is not with me”, none of it in Mark.",
@@ -186,6 +192,7 @@
     },
     {
       "id": "peter-confession",
+      "canvas": "matthew-16-13",
       "title": "Peter's confession",
       "kind": "addition",
       "lede": "Matthew adds a blessing of Peter (16:17–19) to the Markan scene. Luke follows Mark and has none of it.",
@@ -226,6 +233,7 @@
     },
     {
       "id": "lords-prayer",
+      "canvas": "matthew-6-7",
       "title": "The Lord's Prayer",
       "kind": "primitivity",
       "lede": "Luke's prayer is shorter. Where the two overlap the wording is close, but Matthew has “debts” where Luke has “sins”, then “debtors” where Luke has “everyone indebted to us”.",
@@ -252,6 +260,7 @@
     },
     {
       "id": "beatitude-poor",
+      "canvas": "matthew-5-3",
       "title": "Blessed are the poor",
       "kind": "primitivity",
       "lede": "Matthew's beatitudes speak of “the poor in spirit” in the third person; Luke's speak of “the poor” in the second person, and Luke has fewer of them.",
@@ -281,6 +290,7 @@
     },
     {
       "id": "talents-pounds",
+      "canvas": "matthew-25-14",
       "title": "The talents and the pounds",
       "kind": "fatigue",
       "lede": "Two versions of one parable with much lower verbal agreement than most double tradition. Watch the servants: Luke introduces ten, but only three report back.",
@@ -345,6 +355,7 @@
     },
     {
       "id": "herod-fatigue",
+      "canvas": "matthew-14-1",
       "title": "Herod: tetrarch or king?",
       "kind": "fatigue",
       "lede": "Mark calls Herod “king” throughout. Matthew corrects the title to “tetrarch” at the start (14:1), but at 14:9, where he is following Mark 6:26 closely, Herod is “the king” again.",
@@ -398,6 +409,7 @@
     },
     {
       "id": "evening-sunset",
+      "canvas": "matthew-8-16",
       "title": "“When evening had come, when the sun set”",
       "kind": "dual-expression",
       "lede": "Mark gives a double time-note. Matthew has its first half and Luke its second.",
@@ -421,6 +433,7 @@
     },
     {
       "id": "mighty-work",
+      "canvas": "matthew-13-53",
       "title": "“He could do no mighty work there”",
       "kind": "harder-reading",
       "lede": "At Nazareth Mark says Jesus “could not” do any mighty work. Matthew says he “did not” do many.",
@@ -441,6 +454,7 @@
     },
     {
       "id": "serve-two-masters",
+      "canvas": "matthew-6-24",
       "title": "No one can serve two masters",
       "kind": "double",
       "lede": "A double-tradition saying in which Matthew and Luke differ by a single word.",

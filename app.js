@@ -635,6 +635,11 @@ function renderData() {
   $('#data').innerHTML = sectionHead('2', 'The data', P?.intro || intro('data')) + body;
 }
 
+// Each exhibit can be opened in Synoptic Canvas, which shows the whole passage in all four Gospels.
+const CANVAS_URL = 'https://synoptic-canvas.vercel.app/';
+const canvasLink = ex => ex && /^(mark|matthew|luke)-\d+-\d+$/.test(ex.canvas || '')
+  ? `<p class="canvas-link"><a href="${CANVAS_URL}?view=1&amp;passage=${esc(ex.canvas)}&amp;lang=opengnt" target="_blank" rel="noopener">Open this passage in Synoptic Canvas</a> to read it in its full context in all four Gospels.</p>` : '';
+
 function exhibitGallery() {
   if (!EXHIBITS.length) return NOT_YET;
   return `
@@ -646,7 +651,7 @@ function exhibitGallery() {
           <span class="exh-refs">${arr(ex.columns).filter(c => c && gosp(c.gospel)).map(c => `${esc(gosp(c.gospel).name)} ${esc(c.ref)}`).join(' // ')}</span>
           ${ex.lede ? `<span class="exh-lede">${rich(ex.lede)}</span>` : ''}
         </summary>
-        <div class="exh-body">${synopsisHTML(ex, 'syn')}</div>
+        <div class="exh-body">${synopsisHTML(ex, 'syn')}${canvasLink(ex)}</div>
       </details>`).join('')}
     </div>
     ${synopsis?.credit ? `<p class="credit">${rich(synopsis.credit)}</p>` : ''}`;
@@ -916,6 +921,43 @@ const point = p => {
 };
 const points = xs => arr(xs).filter(Boolean);
 
+// A strip plot: one row per group, one dot per item, placed by percentage. Plain HTML so it
+// reflows with the page; dots that would collide are stacked.
+function figureHTML(f) {
+  if (!f || f.type !== 'strips') return '';
+  const rows = arr(f.rows).filter(Boolean);
+  const from = Number(f.band?.from);
+  const rowHTML = r => {
+    const placed = [];
+    const dots = arr(r.items).slice().sort((x, y) => x[0] - y[0]).map(([p, ref, w]) => {
+      let lane = 0;
+      while (placed.some(q => q.lane === lane && Math.abs(q.p - p) < 3.2)) lane++;
+      placed.push({ p, lane });
+      return { p, ref, w, lane };
+    });
+    const lanes = Math.max(0, ...dots.map(d => d.lane)) + 1;
+    return `<div class="strip-row tone-${esc(r.tone || 'n')}">
+      <p class="strip-label">${rich(r.label)}</p>
+      <div class="strip-track" style="height:${lanes * 13 + 32}px">
+        ${Number.isFinite(from) ? `<span class="strip-band" style="left:${from}%"></span>` : ''}
+        ${r.pooled != null ? `<span class="strip-pool" style="left:${Number(r.pooled)}%"><span>${esc(r.pooledLabel || '')}</span></span>` : ''}
+        ${dots.map(d => `<span class="strip-dot" style="left:${d.p}%;bottom:${5 + d.lane * 13}px" title="${esc(d.ref)}: ${Math.round(d.p)}%, ${esc(d.w)} words"></span>`).join('')}
+      </div>
+    </div>`;
+  };
+  return `<figure class="strips">
+    <figcaption>${rich(f.title)}</figcaption>
+    ${rows.map(rowHTML).join('')}
+    <div class="strip-axis" aria-hidden="true">${[0, 20, 40, 60, 80, 100].map(t => `<span style="left:${t}%">${t}%</span>`).join('')}</div>
+    ${f.note ? `<p class="strip-note">${rich(f.note)}</p>` : ''}
+    <details class="strip-table"><summary>The figures</summary>
+      <table><thead><tr><th>Passage</th><th>Group</th><th>Identical</th><th>Words</th></tr></thead><tbody>
+      ${rows.map(r => arr(r.items).map(([p, ref, w]) => `<tr><td>${esc(ref)}</td><td>${esc(String(r.label).split(':')[0])}</td><td>${Math.round(p)}%</td><td>${esc(w)}</td></tr>`).join('')).join('')}
+      </tbody></table>
+    </details>
+  </figure>`;
+}
+
 function argItem(a) {
   const open = state.open.has(a.id);
   const bear = state.model ? bearOf(a, state.model) : null;
@@ -938,8 +980,9 @@ function argItem(a) {
       <span class="arg-chev" aria-hidden="true"></span>
     </button>
     <div class="arg-body" id="argb-${esc(a.id)}" ${open ? '' : 'hidden'}>
-      ${ev.length || exs.length ? `<div class="evidence"><h4>The evidence</h4>
+      ${ev.length || exs.length || a.figure ? `<div class="evidence"><h4>The evidence</h4>
         ${ev.length ? `<ul>${ev.map(point).join('')}</ul>` : ''}
+        ${a.figure ? figureHTML(a.figure) : ''}
         ${exs.length ? `<p class="ev-ex">${exs.map(x => `<a href="#ex-${esc(x.id)}" class="ex-link">See the Greek: ${rich(x.title || x.id)}</a>`).join('<br>')}</p>` : ''}
       </div>` : ''}
       <div class="procon">

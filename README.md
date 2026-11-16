@@ -38,6 +38,9 @@ tools/
   build_synopsis.py builds content/synopsis.json and content/chapters.json
   exhibits.json     hand-written specification of each exhibit (passages, title, lede, points, usedBy)
   data/             MorphGNT SBLGNT data for Matthew, Mark and Luke (unmodified; see tools/data/README)
+  kloppenborg_test.py   counts of verbal agreement behind the "computed" points in arguments C9 and S1;
+                        needs the public/data folder of Synoptic Canvas (synoptic-canvas.vercel.app)
+  kloppenborg_test.txt  its output, as cited on the page
 assets/icon.svg     repository icon
 ```
 

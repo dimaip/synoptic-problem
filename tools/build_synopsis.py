@@ -368,6 +368,8 @@ def build_exhibit(ex, books):
     res = {"id": ex["id"], "title": ex["title"], "kind": ex["kind"], "lede": ex["lede"],
            "columns": out_cols, "stats": stats, "counts": counts,
            "points": ex["points"], "usedBy": ex["usedBy"]}
+    if ex.get("canvas"):          # passage id on synoptic-canvas.vercel.app, for the "open in" link
+        res["canvas"] = ex["canvas"]
     return res, cols
 
 
