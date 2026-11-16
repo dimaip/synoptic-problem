@@ -31,7 +31,7 @@
         },
         {
           "text": "A strict count made for this page, outside the Mark–Q overlap passages: 31 places where Matthew and Luke share two or more consecutive identical words that Mark lacks, including a word found nowhere in Mark's version, in 23 of 79 episodes. The list, with the apparatus notes on each verse, is in [[E4]]. In the same episodes about a fifth of the wording Matthew and Luke share is not in Mark ([[E5]]).",
-          "ref": "tools/research_minor_agreements.py, tools/research_hide_mark.py and their output in this page's repository",
+          "ref": "Counted for this page from the Greek text",
           "basis": "computed"
         }
       ],
@@ -144,7 +144,7 @@
         },
         {
           "text": "The Nestle–Aland apparatus (28th edition) records no variant of any kind at Matt 26:68. At Mark 14:65 it lists the addition of Χριστέ, τίς ἐστιν ὁ παίσας σε in N, W, Δ, Θ, family 13, 33, 565, 579, 700, 892 and 1424, with part of the Syriac and Coptic tradition. Scribes did carry the question across from Matthew, but into Mark.",
-          "ref": "Nestle–Aland, 28th edition, apparatus at Mark 14:65 and Matt 26:68, read in the transcription used by Synoptic Canvas",
+          "ref": "Nestle–Aland, 28th edition, apparatus at Mark 14:65 and Matt 26:68",
           "basis": "read"
         },
         {
@@ -265,7 +265,7 @@
         },
         {
           "text": "A count made for this page of how many of Matthew's words Luke has in six of these passages, divided into the words Matthew shares with Mark (Luke has 31%) and Matthew's other words (47%). See [[E3]].",
-          "ref": "tools/research_overlaps.py and its output in this page's repository",
+          "ref": "Counted for this page from the Greek text",
           "basis": "computed"
         }
       ],
@@ -922,7 +922,7 @@
         },
         {
           "text": "A first run of the comparison Kloppenborg proposed (see below), counted for this page and corrected after review. In sayings, 41.1% of Luke's words are identical with Matthew's in the double tradition. In the sayings both took from Mark the figure is 31.4% to 34.5%, once verses that Luke added to Markan passages are set aside: a gap of 7 to 10 points, with intervals that include zero. Seven of 27 double-tradition strings are 70% identical or more, against one of 14 Markan strings. See [[E1]].",
-          "ref": "tools/kloppenborg_test.py, tools/research_review_checks.py and their output in this page's repository",
+          "ref": "Counted for this page from the Greek text",
           "basis": "computed"
         }
       ],

@@ -1197,7 +1197,7 @@ function experimentHTML(x) {
       ${tables}
       ${arr(x.reading).length ? `<div class="exp-part status exp-reading"><h4>What can be drawn from it</h4>${paras(x.reading)}</div>` : ''}
       ${limits.length ? `<details class="exp-more"><summary>Limits</summary><ul>${limits.map(point).join('')}</ul></details>` : ''}
-      ${files.length ? `<details class="exp-more"><summary>Script and output</summary><ul>${files.map(f => `<li>${fileLink(String(f))}</li>`).join('')}</ul></details>` : ''}
+      ${files.length ? `<details class="exp-more"><summary>For specialists: the calculations</summary><ul>${files.map(f => `<li>${fileLink(String(f))}</li>`).join('')}</ul></details>` : ''}
     </div>
   </article>`;
 }

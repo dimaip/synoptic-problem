@@ -26,14 +26,14 @@
     "abstract": "Known from the abstract, publisher's summary or table of contents only",
     "reported": "Reported by another scholar or a review; not checked in the publication itself",
     "unchecked": "From general knowledge of the literature; not yet confirmed against any source",
-    "computed": "Counted for this page from the Greek text; the script and its output are in the repository's tools folder"
+    "computed": "Counted for this page from the Greek text of the Gospels"
   },
   "intros": {
     "arguments": "Forty-two arguments in seven groups. Each gives the evidence, the case for, the case against, the replies, and where it stands. An argument counts for or against a whole hypothesis only together with the others; the tags show which way each one pulls."
   },
   "credits": [
     "Greek text: SBL Greek New Testament, © 2010 Society of Biblical Literature and Logos Bible Software, CC BY 4.0. Lemmas: MorphGNT, CC BY-SA 3.0.",
-    "Counts of verbal agreement made for this page (arguments C9 and S1): OpenGNT 3.3 (CC BY-SA 4.0), Aland's parallels from the aland-gospel-synopsis data set, and the word alignment of Synoptic Canvas (synoptic-canvas.vercel.app), where each passage shown here can also be read in its full context.",
+    "The counts in the Experiments section use the Open Greek New Testament (CC BY-SA 4.0), Aland's table of parallel passages, and the word-by-word matching of the Gospels made for Synoptic Canvas (synoptic-canvas.vercel.app), where each passage shown here can be read in full.",
     "English renderings of the Greek are working translations made for this page.",
     "Modelled on the companion page on Mark 1:41."
   ]

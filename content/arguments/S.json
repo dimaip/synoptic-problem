@@ -31,7 +31,7 @@
         },
         {
           "text": "Counted for this page with a stricter rule (identical inflected forms only), the pattern Abakuks and Tripp report appears again. Of Mark's 9,744 words in passages that both Matthew and Luke parallel, Matthew keeps 35% and Luke 21%. Both keep the same word 12.5% of the time, where independent choices over equally likely words would give 7.6%. Allowing that some words are kept more readily than others raises the expected figure to between 8.6% and 9.5%, depending on how words are grouped, so part of the excess is of that kind and part remains. What remains may still reflect words that any editor would keep. See [[E1]].",
-          "ref": "tools/kloppenborg_test.py, tools/research_review_checks.py and their output in this page's repository",
+          "ref": "Counted for this page from the Greek text",
           "basis": "computed"
         }
       ],
@@ -172,7 +172,7 @@
         },
         {
           "text": "Tests run for this page. Counts of common words could not tell Matthew's special sayings from Luke's. Classifiers reading sequences of letters and grammatical forms could (70% to 79%), but no difference they found between Q sayings and special-Matthew sayings survives correction for the number of tests made, and the control for Luke's selection was too small to read. See [[E2]].",
-          "ref": "tools/research_stylometry2.py, tools/research_stylometry2_posthoc.py and their output in this page's repository",
+          "ref": "Counted for this page from the Greek text",
           "basis": "computed"
         }
       ],

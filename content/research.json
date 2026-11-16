@@ -1,6 +1,6 @@
 {
   "title": "Experiments",
-  "intro": "Counts and tests run for this page on open data. The scripts and their full output are in the repository's tools folder. They have not been peer reviewed. Each was put through two hostile reviews by a second AI system, one recomputing the figures and one attacking the conclusions, and several first conclusions did not survive; what is reported here is what did. A further test, of which evangelist rearranged the double tradition, failed its own check and is left out.",
+  "intro": "Five small tests we ran for this page by counting words in the Greek Gospels. They are not peer-reviewed research. Each was checked by a separate AI model that redid the counts and argued against the conclusions; several first conclusions did not survive, and what is shown here is what did. One further test, of which evangelist rearranged the sayings, could not give an answer and is left out.",
   "items": [
     {
       "id": "E1",
@@ -266,8 +266,8 @@
         "It does not remove the group of near-identical passages, which is where Goodacre himself puts the weight. A common-source account has to say why both evangelists copied Q almost word for word in those places and loosely elsewhere. At most this shows contact of some kind, through a source or directly. It says nothing about direction."
       ],
       "limits": [
-        "The text is OpenGNT and the alignment automatic. Only identical forms count, so the percentages run lower than published ones.",
-        "The extent of Q follows Kloppenborg's list. Which of Luke's verses restate Mark and which are his own additions is a judgement, published with the scripts.",
+        "Only words in exactly the same form count, so these percentages run lower than those in published studies, which also count near matches.",
+        "Which verses count as Q follows Kloppenborg's list. Which of Luke's verses restate Mark and which are his own additions was decided by reading each one.",
         "The other half of Kloppenborg's proposal, a comparison with ancient writers who used two sources, was not attempted."
       ],
       "files": [
@@ -416,7 +416,7 @@
       ],
       "limits": [
         "Six passages, chosen for this page. Two of them, Beelzebul and the mission charge, carry much of the result.",
-        "The alignment is automatic, only identical forms count, and narrative and speech are pooled."
+        "Only words in exactly the same form count, and narrative and speech are counted together."
       ],
       "files": [
         "tools/research_overlaps.py",
@@ -439,12 +439,12 @@
         "Counts of the minor agreements run from a few hundred to more than a thousand, depending on who counts and how, and this page had only second-hand figures ([[C1]])."
       ],
       "method": [
-        "In every episode found in all three Gospels, leaving out those that touch the double tradition, we listed each run of two or more identical words that Matthew and Luke share and Mark lacks, where at least one of the words appears nowhere in Mark's version. Each was then checked for a note in the Nestle–Aland apparatus."
+        "In every episode found in all three Gospels, leaving out those that touch the double tradition, we listed each run of two or more identical words that Matthew and Luke share and Mark lacks, where at least one of the words appears nowhere in Mark's version. Each was then checked against the list of manuscript variants in the standard edition (Nestle–Aland)."
       ],
       "results": [
         "31 phrases: 18 of two words, 5 of three, 4 of four, 3 of five and one of nine.",
         "The question at the mocking is among them, as a check required.",
-        "23 of the 31 stand in a verse with some apparatus note that mentions one of their words. That is a search for strings and marks unrelated variants, so it overstates how many are textually doubtful."
+        "23 of the 31 stand in a verse with some apparatus note that mentions one of their words. That check is crude and also catches unrelated variants, so it overstates how many are textually doubtful."
       ],
       "table": {
         "caption": "The ten strongest multi-word agreements of Matthew and Luke against Mark, outside the overlap passages",
@@ -535,7 +535,7 @@
       ],
       "limits": [
         "Agreements in what both omit, in word order and in changed inflection are not counted.",
-        "The alignment is automatic, and the apparatus is a selection of variants, not a full collation."
+        "Passages were matched by computer and can be misplaced, and the apparatus lists a selection of variants, not every manuscript reading."
       ],
       "files": [
         "tools/research_minor_agreements.py",
@@ -612,7 +612,7 @@
         "The method is the barest possible. A scholar reconstructing a text uses far more than identical words, and Weaks recovered about half of Mark. The figures show the scale of the loss, not its exact size."
       ],
       "limits": [
-        "Only identical forms in runs of two or more count.",
+        "Only words in exactly the same form, in runs of two or more, count.",
         "Mark's narrative is no stand-in for Q, which is mostly sayings. The sayings row is the relevant one."
       ],
       "files": [
