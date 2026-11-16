@@ -1,8 +1,8 @@
 {
-  "title": "Where the argument stands",
-  "label": "A provisional judgement, offered for discussion",
-  "verdict": "Mark came first; that half of the problem is as settled as such questions get. Whether Matthew and Luke wrote independently of each other is not settled. The Two-Source hypothesis remains the majority view, and its leading defender judges independent use of Q at least as plausible as Luke's use of Matthew. The Farrer case, as Goodacre has restated it, is stronger than its minority standing suggests. Neither side has yet answered the other's best arguments in full.",
-  "odds": "Roughly even between a lost shared source and one evangelist's direct use of the other, with scholarly opinion still weighted towards the lost source. A judgement, not a calculation.",
+  "title": "Where the argument comes out",
+  "label": "The site's own judgement. The other sections set out each side; this one takes a position.",
+  "verdict": "Mark came first. Luke probably knew Matthew's Gospel as well as Mark's, and a single lost document that can be recovered word by word probably never existed. But Luke also had sayings of Jesus that did not reach him through Matthew, so the Farrer hypothesis in its pure form asks one source to explain too much. This is a minority conclusion: most specialists still hold the Two-Source hypothesis, and its leading defender judges independent use of Q at least as plausible as Luke's use of Matthew.",
+  "odds": "About two to one that Matthew and Luke were not independent, as the Two-Source hypothesis needs them to be. If they were not, about two to one that Luke used Matthew and not the reverse. These are judgements, not calculations.",
   "steps": [
     {
       "when": "Copying",
@@ -15,24 +15,24 @@
       "text": "Matthew and Luke used Mark. No single argument proves it, and the argument from order proves less than textbooks once said ([[P1]]), but the others converge: what Mark would have had to leave out ([[P2]]), his harder wording ([[P3]]), and above all the places where Matthew and Luke start to change a story and lapse back into Mark ([[P4]]). The Two-Gospel hypothesis's own evidence (Mark's alternating agreement with Matthew and Luke, his double expressions, the order given by ancient writers: [[P1]], [[P6]], [[P7]]) is judged weaker by most specialists."
     },
     {
-      "when": "Independence",
-      "tone": "open",
-      "text": "Whether Matthew and Luke were wholly independent is the live question. Against independence stand the question at the mocking ([[C2]]), the passages where the two agree at length against Mark, which the Two-Source hypothesis has to assign to a Q that overlapped with Mark ([[C3]]), and counts suggesting that they keep the same words of Mark more often than chance predicts ([[C1]], [[S1]]). Each has an answer within the Two-Source hypothesis. Kloppenborg's own description is that the minor agreements have too many possible solutions, not too few."
+      "when": "Contact",
+      "tone": "probable",
+      "text": "Matthew and Luke were probably not independent. Three things carry this judgement. First, at the mocking of Jesus both add the same five Greek words to Mark, in the Passion, where Q as reconstructed has nothing. The defences compete with one another, and the one most often cited needs a reading found in no manuscript of Matthew ([[C2]]). Second, to cover the passages where the two agree at length against Mark, Q has to overlap with Mark and to open with a narrative that follows Matthew's departures from Mark. The more Q is made to do this, the more it resembles Matthew ([[C3]], [[C6]]). Third, a lost document should be posited only when direct use has been excluded ([[C8]]). The arguments that exclude it are mostly judgements about what Luke would have wanted to keep ([[I1]], [[I2]], [[I4]]), while the evidence for contact is in the wording. Counts of how the two edit Mark point the same way without settling it ([[C1]], [[S1]]), and the later Luke is dated, the harder it is to suppose he had never seen Matthew ([[M5]])."
     },
     {
-      "when": "No Q at all",
-      "tone": "open",
-      "text": "Whether Luke's use of Matthew explains the whole double tradition is open. For it: those agreements, the near-identical wording of some passages ([[C9]]), and a ‘Q’ that begins like Matthew's non-Markan narrative ([[C6]]). Against it: Luke's handling of the passages where Matthew combines Mark with other material ([[M1]]), Matthew's additions that Luke lacks and might have liked ([[I1]]), the sayings where Luke's form looks older ([[I3]]), and themes in the double tradition that are not obviously either evangelist's own ([[Q1]]). Both sides accept that Q stands or falls here ([[C8]])."
+      "when": "Not Matthew alone",
+      "tone": "probable",
+      "text": "Luke probably had sayings tradition beyond Matthew. In several sayings Luke's form looks older (‘the finger of God’, the first beatitude, the shorter Lord's Prayer), and it is easier to believe that Luke knew them in another form than that he made each of them sound older ([[I3]]). Goodacre allows Luke oral tradition and denies that this is a ‘closet Q’. The judgement here is that the allowance is right and costs more than he grants: once Luke has non-Matthean forms of sayings in the double tradition, a shared source besides Matthew is back, though not one that can be reconstructed. Matthew's additions to Mark that Luke lacks and might have liked remain a difficulty without a convincing answer ([[I1]])."
     },
     {
       "when": "Direction",
       "tone": "open",
-      "text": "If there was contact, which way it ran is also open. Editorial fatigue is claimed to point from Matthew to Luke ([[C4]]), and Matthean phrasing in the shared material is read both ways ([[C5]], [[D4]]). Ancient habits of combining sources and Luke's shorter forms are claimed for the reverse ([[D1]], [[D2]]). Each direction must explain why the later evangelist passed over the other's best-known material ([[I4]], [[D3]])."
+      "text": "If there was contact, Luke's use of Matthew is the likelier direction, though not by much. Matthean phrasing and composition in the shared wording point that way ([[C5]]), as do the seams in Luke's parable of the Pounds ([[C4]]). Against it, gathering scattered sayings into discourses is the easier editorial act ([[D1]]), Luke's older-looking forms fit Matthew as the borrower ([[D2]]), and the claim that fatigue runs only one way now has two published counter-examples ([[C4]], [[D4]]). Each direction must still explain why the later evangelist passed over the other's best-known material ([[I4]], [[D3]])."
     },
     {
-      "when": "Q as a text",
+      "when": "No recoverable Q",
       "tone": "probable",
-      "text": "Even if Q existed, less can be built on it than was claimed in the 1990s. Its wording, its extent, its layers and the community behind it are inferences on top of an inference, and scholars who accept Q are among those who say so ([[Q3]], [[Q5]])."
+      "text": "Whatever Matthew and Luke shared beyond Mark, the Q of the critical editions is unlikely to be it. Its wording, its extent, its layers and the community behind it are inferences on top of an inference, and scholars who accept Q are among those who say so ([[Q3]], [[Q5]]). If Luke knew Matthew at all, the rule of treating the less Matthean wording as the original loses its footing ([[C5]])."
     }
   ],
   "columns": [
@@ -46,21 +46,22 @@
       ]
     },
     {
-      "title": "Where the case against Q is weakest",
+      "title": "Where this judgement is most exposed",
       "items": [
-        "Luke's procedure where Matthew combines Mark with other material. Critics say Luke must have separated Matthew's additions from Mark's words. Olson, Eve and Goodacre reply that Luke's versions keep Markan wording and simply prefer Matthew's fuller form. The exchange continues ([[M1]], [[C3]], [[M6]]).",
+        "Luke's procedure where Matthew combines Mark with other material. Critics say Luke must have separated Matthew's additions from Mark's words. Olson, Eve and Goodacre reply that Luke's versions keep Markan wording and simply prefer Matthew's fuller form. The exchange continues, and recent work has reopened it ([[M1]], [[C3]], [[M6]]).",
         "Luke keeps almost none of Matthew's settings for the sayings, and moves sayings that Matthew had attached to Markan stories. Goodacre explains this by Luke's dislike of Matthew's long Galilean discourses and by Luke's large stock of material of his own; Kloppenborg argues that it turns the narrative-sequence argument round ([[I2]], [[C6]]).",
         "Matthew's additions to Mark that might have suited Luke, and the two very different sets of birth and resurrection stories, despite a shared outline and one identical sentence ([[I1]], [[I4]]).",
-        "Where Luke's form of a saying looks older, the Farrer case needs two answers: that judgements of what is older are partly an artefact of method, and that Luke also knew oral forms. Critics say the second brings back an unseen source; Goodacre denies that it is a ‘closet Q’. Others read the same evidence as Matthew using Luke ([[I3]], [[M3]], [[D2]]).",
-        "The double tradition's own recurring themes. Goodacre has answered for the theme of judgement, but the Lot cycle and the killing of the prophets, which are not obviously Matthew's or Luke's interests, have had no direct reply ([[Q1]])."
+        "The double tradition's own recurring themes. Goodacre has answered for the theme of judgement, but the Lot cycle and the killing of the prophets, which are not obviously Matthew's or Luke's interests, have had no direct reply ([[Q1]]).",
+        "The middle position is untidy. It gives up the economy that is the Farrer hypothesis's chief attraction ([[C8]]), and a hypothesis with a known source and an unknown one can absorb almost any counter-example."
       ]
     },
     {
       "title": "What would change this",
       "items": [
         "Any ancient copy of, or reference to, a collection like Q; or a text shown to be a source of both Matthew and Luke ([[D5]]).",
+        "An account of Matt 26:68 // Luke 22:64 from the manuscripts, or one on which Two-Source scholars agree ([[C2]]).",
+        "The comparison Kloppenborg proposed in 2015 between Mark's sayings of the Q type and Q, which would show whether the double tradition agrees too closely for independent copying. Neither side has carried it out ([[C9]]).",
         "A systematic study of editorial fatigue with one set of criteria in every direction. Goodacre found no fatigue in Matthew's double tradition; Foster and Hägerland have each offered a counter-example; no one has yet tested Matthew's use of Luke, and each evangelist's use of a reconstructed Q, in the same way ([[C4]], [[D4]]).",
-        "An account of the minor agreements on which Two-Source scholars agree, or an account of Luke's order and older-looking forms on which Farrer scholars agree.",
         "Stylometric or statistical work that models what Luke's selection from Matthew would predict, which has not yet been done ([[S2]])."
       ]
     }
@@ -68,7 +69,8 @@
   "closingTitle": "What to take away",
   "closing": [
     "There are two questions, not one. Did Matthew and Luke use Mark? Almost certainly. Did they write independently of each other? That is the live question, and Q is the name for one answer to it. Rejecting Q does not mean rejecting Markan priority.",
-    "The two camps agree on more than their labels suggest. Goodacre gives Luke oral tradition as well as Matthew; Kloppenborg grants that the argument is rightly framed as a question about Luke's use of Matthew and says the minor agreements have too many possible solutions, not too few. Much current work sits between the pure positions: Luke knew Matthew and other shared tradition, or Matthew knew Luke and a few shared sources.",
-    "It matters beyond source criticism. If there was no Q, sayings counted as attested by both Mark and Q have one early witness fewer, the ‘Q community’ with no passion story disappears, and Luke becomes Matthew's first interpreter. If there was a Q, it is the earliest window on Jesus' teaching, though a less clear one than its reconstructions imply."
+    "The two camps agree on more than their labels suggest. Goodacre gives Luke oral tradition as well as Matthew; Kloppenborg grants that the argument is rightly framed as a question about Luke's use of Matthew and says the minor agreements have too many possible solutions, not too few. Much current work sits between the pure positions: Luke knew Matthew and other shared tradition, or Matthew knew Luke and a few shared sources. The conclusion reached here belongs with the first of these.",
+    "It matters beyond source criticism. If there was no Q, sayings counted as attested by both Mark and Q have one early witness fewer, the ‘Q community’ with no passion story disappears, and Luke becomes Matthew's first interpreter. If Luke also had sayings from elsewhere, some of that early witness survives, but it cannot be separated out with any confidence.",
+    "This judgement goes against the majority of specialists, and it rests on the published arguments as set out above, some of them checked only at second hand (see the markers on each point). A reader who weighs Luke's omissions and older-looking forms more heavily than the agreements against Mark will reasonably come out for Q."
   ]
 }

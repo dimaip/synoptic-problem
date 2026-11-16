@@ -12,7 +12,7 @@ marked by which Gospels share each word), four main hypotheses and eight minor
 ones with diagrams, the arguments grouped by question (each with its evidence,
 the case for and against, the rejoinder and where it stands, plus a hypothesis
 selector that shows how each argument bears on a chosen hypothesis), who holds
-which position, claims to retire, a provisional assessment and a bibliography.
+which position, claims to retire, an assessment that takes a position, and a bibliography.
 It is a sibling of [*Angry or Compassionate? Mark 1:41*](https://dimaip.github.io/mark-1-41/)
 and follows its layout and conventions.
 
@@ -32,7 +32,7 @@ content/
   positions.json    who stands where, in period groups
   history.json      how the question developed (timeline)
   corrections.json  claims to retire
-  assessment.json   the provisional assessment (optional: until it exists the section says "Not yet written")
+  assessment.json   the site's own assessment (optional: until it exists the section says "Not yet written")
   bibliography.json every work cited: key, citation, optional url, basis
 tools/
   build_synopsis.py builds content/synopsis.json and content/chapters.json
