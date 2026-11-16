@@ -82,8 +82,19 @@
         }
       ],
       "status": "Both sides agree that the double tradition has a recognisable profile. They disagree whether that profile is evidence of a source or follows from how the material is defined: on the Farrer view, the non-Markan parts of Matthew that Luke chose to use. Goodacre's “Luke-pleasingness” account explains why that material differs from Matthew's special material. Kloppenborg's narrower claim, that Q's organising themes are neither Matthew's nor Luke's, was answered in *The Case Against Q* for the theme of judgement, which Goodacre shows to be congenial to both evangelists; the Lot cycle and the Deuteronomistic view of the prophets, which Kloppenborg pressed again in 2003, have had less direct reply. Work on a “Q community” presupposes Q and cannot be used to support it.",
-      "bearsOn": { "2DH": "supports", "FH": "strains", "MPH": "strains", "2GH": "strains" },
-      "seeAlso": ["Q2", "Q5", "C6", "I3", "S2"]
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "strains",
+        "MPH": "strains",
+        "2GH": "strains"
+      },
+      "seeAlso": [
+        "Q2",
+        "Q5",
+        "C6",
+        "I3",
+        "S2"
+      ]
     },
     {
       "id": "Q2",
@@ -159,8 +170,17 @@
         }
       ],
       "status": "Neither side disputes that sayings collections were a common ancient form, so Q is not implausible on grounds of genre, and Goodacre does not rest his case on genre. Whether Thomas is a close, independent parallel to Q is contested: since 2012 the case that Thomas knew the Synoptics has gained ground, including with Tuckett, while Kloppenborg and Patterson resist it. Q's narrative opening sets it apart from Thomas, though Kloppenborg cites other collections with biographical openings. The argument shows that a document like Q could have existed, not that one did.",
-      "bearsOn": { "2DH": "supports", "FH": "neutral", "MPH": "neutral", "2GH": "neutral" },
-      "seeAlso": ["C6", "Q1", "Q3"]
+      "bearsOn": {
+        "2DH": "supports",
+        "FH": "neutral",
+        "MPH": "neutral",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "C6",
+        "Q1",
+        "Q3"
+      ]
     },
     {
       "id": "Q3",
@@ -182,6 +202,11 @@
           "text": "Weaks reconstructed Mark from the material Matthew and Luke share with it, as if Mark were lost, and compared the result (“MarQ”) with the real Mark. MarQ has 418 verses and 5,754 words: 63% of Mark's verses but only 52% of its words, and the doubly attested words, the most secure half of MarQ, make up just 21% of Mark. Key pericopes and many of Mark's “principle theological and literary features” are lost, while features prominent in MarQ have no counterpart in Mark.",
           "ref": "Weaks 2010, pp. 230, 243–244, 348–349",
           "basis": "read"
+        },
+        {
+          "text": "A small version of the same test, run for this page. With Mark set aside, the identical wording Matthew and Luke share in 79 triple-tradition episodes recovers 11.8% of Mark's words: 21.5% of the words of Jesus and 5.1% of the narrator's. A source that certainly existed is thus poorly recovered by the barest method, which bears on how far a reconstruction can be trusted and not on whether the source existed. See [[E5]].",
+          "ref": "tools/research_hide_mark.py and its output in this page's repository",
+          "basis": "computed"
         }
       ],
       "pro": [
@@ -236,8 +261,18 @@
         }
       ],
       "status": "Few now claim that the wording of Q can be recovered with the precision of a critical text, and critics of the IQP's method and of Kloppenborg's layers include Q scholars as well as sceptics. Weaks's and Eve's reconstructed-Mark experiments show what a reconstruction from two users can lose or invent: Weaks's MarQ has about half of Mark's words, and he concludes that its resemblance to the real Mark is “Not very”. Andrejevs replies that sayings material survives better than narrative, so the analogy overstates the loss. None of this bears on whether Q existed, as Weaks himself, who works within the Two-Source hypothesis, insists: an inference from unreliable reconstruction to no Q “would be premature, given that Mark can not be reliably reconstructed either” (2010, p. 347 n. 141). It limits what can be built on Q: its exact wording, its theology, its layers and its community.",
-      "bearsOn": { "2DH": "neutral", "FH": "neutral", "MPH": "neutral", "2GH": "neutral" },
-      "seeAlso": ["Q1", "Q5", "I3", "C5"]
+      "bearsOn": {
+        "2DH": "neutral",
+        "FH": "neutral",
+        "MPH": "neutral",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "Q1",
+        "Q5",
+        "I3",
+        "C5"
+      ]
     },
     {
       "id": "Q4",
@@ -298,8 +333,17 @@
         }
       ],
       "status": "Both sides agree there is no manuscript and no ancient reference, and that the Papias link that helped launch the hypothesis has been dropped. They differ on how much the silence matters: early losses were common, and a source absorbed into later Gospels had little reason to survive. The silence does not refute Q, but it leaves Q resting entirely on the source-critical argument. It weighs against Q only as a matter of economy ([[C8]]) and favours no single rival.",
-      "bearsOn": { "2DH": "strains", "FH": "neutral", "MPH": "neutral", "2GH": "neutral" },
-      "seeAlso": ["C8", "M5", "Q2"]
+      "bearsOn": {
+        "2DH": "strains",
+        "FH": "neutral",
+        "MPH": "neutral",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "C8",
+        "M5",
+        "Q2"
+      ]
     },
     {
       "id": "Q5",
@@ -365,8 +409,17 @@
         }
       ],
       "status": "Nearly everyone agrees that Q's edges are uncertain, and the more flexible Q becomes, the harder it is to test. If Mark knew Q, Q stops being an independent second source beside Mark: in the overlap passages Mark becomes a redactor of Q, and Q a source used by all three evangelists. Fleddermann accepts that and would extend the Two-Source hypothesis accordingly; most Q scholars keep Mark and Q independent; Goodacre takes Q's dependence on Mark's wording as a sign that the “Q” in these passages is Matthew's expansion of Mark.",
-      "bearsOn": { "2DH": "strains", "FH": "neutral", "MPH": "neutral", "2GH": "neutral" },
-      "seeAlso": ["C3", "Q3", "Q1"]
+      "bearsOn": {
+        "2DH": "strains",
+        "FH": "neutral",
+        "MPH": "neutral",
+        "2GH": "neutral"
+      },
+      "seeAlso": [
+        "C3",
+        "Q3",
+        "Q1"
+      ]
     }
   ]
 }

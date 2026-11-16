@@ -1,0 +1,56 @@
+Experiment E2, version 2: does Luke's selection alone produce the Q/M style difference?
+permutations 5000, bootstrap 2000, classifier permutations 1000, seed 20261116
+Version 2 applies a written revision of the design made AFTER version 1 stopped at its power gate and
+BEFORE any of the ten comparisons had been computed (version 1 output: research_stylometry_v1.txt).
+Changes: (A) selection classes by shared words per verse, plus M*/L*; (B) power gate = M vs L sayings;
+(C) bias-corrected bootstrap interval for E; (D) E(1)-E(2), E(5)-E(6) with paired-bootstrap intervals;
+(E) classifier descriptive only, "too few chunks" under 6 chunks in a class.
+
+== 1. Morphology tag inventory (prefix before the first hyphen), Matthew+Mark+Luke ==
+  V 11087, N 9132, T 6948, CONJ 6894, P 4524, PREP 3497, A 2905, PRT 1111, ADV 1074, D 592, R 457, I 300, INJ 175, X 136, F 131, HEB 58, K 42, S 23, Q 20, C 19, ARAM 7
+  Function-word prefixes used: ADV C COND CONJ D F I INJ K P PREP PRT Q R S T X.
+  Added beyond the specification: INJ (interjections, a closed class with its own prefix here).
+  COND does not occur (conditionals are tagged CONJ). HEB and ARAM (indeclinable foreign words) -> OTHER.
+  Verb class = V- + tense letter + mood letter, the "2" of second tenses ignored (V-2AAI-3S -> V-AI).
+  Rare pooling: function lemmas under 20 -> RARE-FUNC; verb classes under 20 -> V-RARE; other coarse under 20 -> OTHER.
+  Link counts (mk, lk, lkQ, mt) use all tokens of the verse; scripture tokens are dropped only from features.
+
+  vocabulary matthew : 52 features after pooling; top 30: N ο A και RARE-FUNC V-PI συ αυτος V-AI V-FI δε V-PP εν V-AS εγω ου V-AP εις V-AM V-AN μη οτι ος, η γαρ V-PM ουτος επι η εαν απο
+  vocabulary luke    : 49 features after pooling; top 30: N ο και A RARE-FUNC V-PI συ αυτος V-AI V-FI V-PP δε εν V-AS εγω V-AP ου ος, η V-AN ουτος εις V-AM οτι μη V-PM επι τις V-II γαρ απο
+  vocabulary mark    : 34 features after pooling; top 30: N ο RARE-FUNC και A V-PI αυτος V-FI V-AI V-AS συ V-RARE εις ου V-PP ος, η δε εν V-AN V-PM εγω μη επι ουτος αλλα οτι γαρ η V-RI τις
+
+== 2. Class counts (sayings verses >= 80% words of Jesus; words exclude scripture) ==
+  Matthew: DT lkQ>=2 & mk<3; MK+L mk>=3 & lk>=2; MK-L mk>=3 & lk==0; M mk==lk==0 & no Aland Mk/Lk parallel;
+           M* mk==lk==0 (any Aland status; superset of M). Luke mirror with mt; DT = CL "Q" (checked first);
+           L* mk==mt==0 and not DT. Mark: taken = >=2 tokens linked, not taken = 0 linked.
+  matthew  DT               verses  141  words  2581  passages  61
+  matthew  MK+L             verses   83  words  1511  passages  53
+  matthew  MK-L             verses   47  words   817  passages  35
+  matthew  M                verses   88  words  1596  passages  16
+  matthew  M*               verses  229  words  3797  passages  75
+  luke     DT               verses  173  words  3128  passages  50
+  luke     MK+M             verses   79  words  1440  passages  54
+  luke     MK-M             verses    6  words    92  passages   5
+  luke     L                verses  115  words  2169  passages  29
+  luke     L*               verses  176  words  3117  passages  66
+  mark     taken by Lk      verses   94  words  1688  passages  51
+  mark     not taken by Lk  verses   80  words  1167  passages  39
+  mark     taken by Mt      verses  139  words  2401  passages  61
+  mark     not taken by Mt  verses   35  words   473  passages  23
+  (Luke MK+M includes 12 verses that kloppenborg_test.py classes as "Q+Mark overlap".)
+
+== 3. Sanity checks ==
+  Null check: M passages (16) split at random in two halves 200 times; share of p < 0.05 = 3.5%  (mean p 0.511)
+  Version 1 check, failed (kept for the record; not a gate in version 2): all Matthew sayings vs all Luke sayings
+  PWR1 Mt/Lk      Mt all sayings vs Lk all sayings   words  9037/8038  pass  79/98  D 0.0454 null 0.0301 E +0.0154 [-0.0059, +0.0440] p 0.0530  acc  57.5% (chunks 90/79, p 0.096)
+  Version 2 power gate: M (Matthew) sayings vs L (Luke) sayings, joint Matthew+Luke vocabulary; gate D p < 0.01
+  PWR2 Mt/Lk                Mt M vs Lk L             words  1596/2169  pass  16/29  D 0.0777 null 0.0826 E -0.0048 [-0.0770, +0.1058] p 0.5343  acc  53.1% (chunks 16/22, p 0.350)
+  Power gate FAILED: D p = 0.5343; classifier balanced accuracy (not a gate) = 53.1% (classifier p 0.350)
+  Informational check (not a gate): MK+L in Matthew vs MK+M in Luke, both editing the same Markan sayings
+  PWR3 Mt/Lk             Mt MK+L vs Lk MK+M          words  1511/1440  pass  53/54  D 0.0474 null 0.0693 E -0.0218 [-0.0681, +0.0361] p 0.9106  acc  40.0% (chunks 18/17, p 0.814)
+
+== 3b. Post hoc diagnostics (not pre-specified; run after the gate failed) ==
+  POST1 Mt             Mt sayings vs Mt narrative     words  9037/6963  pass  79/120 D 0.3017 null 0.0388 E +0.2629 [+0.1769, +0.3581] p 0.0002  acc  87.6% (chunks 90/72, p 0.001)
+  POST2 Mt/Lk        Mt narrative vs Lk narrative     words  6963/9273  pass 120/137 D 0.0931 null 0.0257 E +0.0674 [+0.0426, +0.0950] p 0.0002  acc  75.9% (chunks 72/94, p 0.001)
+  POST3 Mt/Lk               Mt M* vs Lk L*            words  3797/3117  pass  75/66  D 0.1001 null 0.0544 E +0.0457 [+0.0014, +0.1025] p 0.0048  acc  67.5% (chunks 40/36, p 0.005)
+  The instrument cannot see style: experiment void.

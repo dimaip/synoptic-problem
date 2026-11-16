@@ -1,0 +1,35 @@
+Experiment E2: does Luke's selection alone produce the Q/M style difference?
+permutations 5000, bootstrap 2000, classifier permutations 1000, seed 20261116
+
+== 1. Morphology tag inventory (prefix before the first hyphen), Matthew+Mark+Luke ==
+  V 11087, N 9132, T 6948, CONJ 6894, P 4524, PREP 3497, A 2905, PRT 1111, ADV 1074, D 592, R 457, I 300, INJ 175, X 136, F 131, HEB 58, K 42, S 23, Q 20, C 19, ARAM 7
+  Function-word prefixes used: ADV C COND CONJ D F I INJ K P PREP PRT Q R S T X.
+  Added beyond the specification: INJ (interjections, a closed class with its own prefix here).
+  COND does not occur (conditionals are tagged CONJ). HEB and ARAM (indeclinable foreign words) -> OTHER.
+  Verb class = V- + tense letter + mood letter, the "2" of second tenses ignored (V-2AAI-3S -> V-AI).
+  Rare pooling: function lemmas under 20 -> RARE-FUNC; verb classes under 20 -> V-RARE; other coarse under 20 -> OTHER.
+  Link counts (mk, lk, lkQ, mt) use all tokens of the verse; scripture tokens are dropped only from features.
+
+  vocabulary matthew : 52 features after pooling; top 30: N ο A και RARE-FUNC V-PI συ αυτος V-AI V-FI δε V-PP εν V-AS εγω ου V-AP εις V-AM V-AN μη οτι ος, η γαρ V-PM ουτος επι η εαν απο
+  vocabulary luke    : 49 features after pooling; top 30: N ο και A RARE-FUNC V-PI συ αυτος V-AI V-FI V-PP δε εν V-AS εγω V-AP ου ος, η V-AN ουτος εις V-AM οτι μη V-PM επι τις V-II γαρ απο
+  vocabulary mark    : 34 features after pooling; top 30: N ο RARE-FUNC και A V-PI αυτος V-FI V-AI V-AS συ V-RARE εις ου V-PP ος, η δε εν V-AN V-PM εγω μη επι ουτος αλλα οτι γαρ η V-RI τις
+
+== 2. Class counts (sayings verses >= 80% words of Jesus; words exclude scripture) ==
+  matthew  DT               verses  141  words  2581  passages  61
+  matthew  MK+L             verses  121  words  2137  passages  65
+  matthew  MK-L             verses    2  words    61  passages   2
+  matthew  M                verses   88  words  1596  passages  16
+  luke     DT               verses  173  words  3128  passages  50
+  luke     MK+M             verses   71  words  1278  passages  44
+  luke     MK-M             verses    2  words    37  passages   1
+  luke     L                verses  115  words  2169  passages  29
+  mark     taken by Lk      verses   87  words  1572  passages  52
+  mark     not taken by Lk  verses   15  words   259  passages   7
+  mark     taken by Mt      verses  132  words  2313  passages  65
+  mark     not taken by Mt  verses    9  words   143  passages   4
+
+== 3. Sanity checks ==
+  Null check: M passages (16) split at random in two halves 200 times; share of p < 0.05 = 3.5%  (mean p 0.511)
+   PWR Mt/Lk      Mt all sayings vs Lk all sayings   words  9037/8038  pass  79/98  D 0.0454 null 0.0301 E +0.0154 [+0.0213, +0.0712] p 0.0530  acc  57.5% (chunks 90/79, p 0.096)
+  Power check FAILED (criterion fixed before running: D p < 0.01 and accuracy > 60%): D p = 0.0530, classifier balanced accuracy = 57.5% (classifier p 0.096)
+  The instrument cannot see style: experiment void.

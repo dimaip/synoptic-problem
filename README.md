@@ -12,7 +12,7 @@ marked by which Gospels share each word), four main hypotheses and eight minor
 ones with diagrams, the arguments grouped by question (each with its evidence,
 the case for and against, the rejoinder and where it stands, plus a hypothesis
 selector that shows how each argument bears on a chosen hypothesis), who holds
-which position, claims to retire, an assessment that takes a position, and a bibliography.
+which position, claims to retire, experiments run for the page, an assessment that takes a position, and a bibliography.
 It is a sibling of [*Angry or Compassionate? Mark 1:41*](https://dimaip.github.io/mark-1-41/)
 and follows its layout and conventions.
 
@@ -32,15 +32,23 @@ content/
   positions.json    who stands where, in period groups
   history.json      how the question developed (timeline)
   corrections.json  claims to retire
+  research.json     experiments run for this page: each with question, method, results, optional figure and table(s), reading, limits, files; plus planned tests
   assessment.json   the site's own assessment (optional: until it exists the section says "Not yet written")
   bibliography.json every work cited: key, citation, optional url, basis
 tools/
   build_synopsis.py builds content/synopsis.json and content/chapters.json
   exhibits.json     hand-written specification of each exhibit (passages, title, lede, points, usedBy)
   data/             MorphGNT SBLGNT data for Matthew, Mark and Luke (unmodified; see tools/data/README)
-  kloppenborg_test.py   counts of verbal agreement behind the "computed" points in arguments C9 and S1;
-                        needs the public/data folder of Synoptic Canvas (synoptic-canvas.vercel.app)
-  kloppenborg_test.txt  its output, as cited on the page
+  kloppenborg_test.py      experiment E1 (verbal agreement); kloppenborg_test.txt is its output
+  research_stylometry*.py  experiment E2 (style of Q and special Matthew), two rounds, with outputs
+  research_overlaps.py     experiment E3 (Luke's words in the Mark-Q overlap passages)
+  research_minor_agreements.py  experiment E4 (a checkable list of minor agreements)
+  research_hide_mark.py    experiment E5 (recovering Mark from Matthew and Luke)
+  research_order.py        a test of who rearranged the double tradition; failed its check, not on the page
+  research_review_checks.py  the reviewers' checks, with research_e1_verses.json (verse-by-verse judgements)
+  research_common.py       loader shared by the scripts; they need the public/data folder of Synoptic Canvas
+  review/                  the two adversarial review reports (AUDIT.md, REVIEW.md); they use the
+                           experiments' first numbering (E1-E7), before the page was condensed
 assets/icon.svg     repository icon
 ```
 
@@ -50,7 +58,8 @@ Fix a date, add a reference or change wording in `content/`; the page is
 rendered from these files at load time, so no layout code needs to change.
 
 - Text fields accept plain text, `*italic*`, Greek (tagged automatically for
-  the Greek font) and `[[C3]]`, which becomes a link that opens argument C3.
+  the Greek font) and `[[C3]]`, which becomes a link that opens argument C3
+  (`[[E1]]` links to experiment E1 in the same way).
   A link to an argument that does not exist yet is shown greyed out, not broken.
 - Bibliography entries are linked automatically wherever a reference contains
   an entry's `key` (e.g. `Goodacre 2002, ch. 8`). The longest key wins, so
@@ -64,7 +73,7 @@ rendered from these files at load time, so no layout code needs to change.
 - A missing or invalid file does not break the page: its section shows
   "Not yet written".
 
-Links: `#arg-C3` opens an argument, `#ex-john-preaching` opens an exhibit,
+Links: `#arg-C3` opens an argument, `#exp-E1` jumps to an experiment, `#ex-john-preaching` opens an exhibit,
 `#bib-goodacre-2002` jumps to a bibliography entry, and `?model=FH` traces a
 hypothesis through the arguments.
 

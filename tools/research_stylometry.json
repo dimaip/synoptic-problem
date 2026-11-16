@@ -1,0 +1,240 @@
+{
+ "settings": {
+  "permutations": 5000,
+  "bootstrap": 2000,
+  "classifier_permutations": 1000,
+  "null_splits": 200,
+  "seed": 20261116
+ },
+ "class_counts": [
+  {
+   "gospel": "matthew",
+   "cls": "DT",
+   "verses": 141,
+   "words": 2581,
+   "passages": 61
+  },
+  {
+   "gospel": "matthew",
+   "cls": "MK+L",
+   "verses": 83,
+   "words": 1511,
+   "passages": 53
+  },
+  {
+   "gospel": "matthew",
+   "cls": "MK-L",
+   "verses": 47,
+   "words": 817,
+   "passages": 35
+  },
+  {
+   "gospel": "matthew",
+   "cls": "M",
+   "verses": 88,
+   "words": 1596,
+   "passages": 16
+  },
+  {
+   "gospel": "matthew",
+   "cls": "M*",
+   "verses": 229,
+   "words": 3797,
+   "passages": 75
+  },
+  {
+   "gospel": "luke",
+   "cls": "DT",
+   "verses": 173,
+   "words": 3128,
+   "passages": 50
+  },
+  {
+   "gospel": "luke",
+   "cls": "MK+M",
+   "verses": 79,
+   "words": 1440,
+   "passages": 54
+  },
+  {
+   "gospel": "luke",
+   "cls": "MK-M",
+   "verses": 6,
+   "words": 92,
+   "passages": 5
+  },
+  {
+   "gospel": "luke",
+   "cls": "L",
+   "verses": 115,
+   "words": 2169,
+   "passages": 29
+  },
+  {
+   "gospel": "luke",
+   "cls": "L*",
+   "verses": 176,
+   "words": 3117,
+   "passages": 66
+  },
+  {
+   "gospel": "mark",
+   "cls": "taken by Lk",
+   "verses": 94,
+   "words": 1688,
+   "passages": 51
+  },
+  {
+   "gospel": "mark",
+   "cls": "not taken by Lk",
+   "verses": 80,
+   "words": 1167,
+   "passages": 39
+  },
+  {
+   "gospel": "mark",
+   "cls": "taken by Mt",
+   "verses": 139,
+   "words": 2401,
+   "passages": 61
+  },
+  {
+   "gospel": "mark",
+   "cls": "not taken by Mt",
+   "verses": 35,
+   "words": 473,
+   "passages": 23
+  }
+ ],
+ "sanity": {
+  "null_check": {
+   "splits": 200,
+   "share_p_below_05": 0.035,
+   "mean_p": 0.511044,
+   "passages": 16
+  },
+  "power_check_v1_failed": {
+   "id": "PWR1",
+   "gospel": "Mt/Lk",
+   "a": "Mt all sayings",
+   "b": "Lk all sayings",
+   "wordsA": 9037,
+   "wordsB": 8038,
+   "passagesA": 79,
+   "passagesB": 98,
+   "D": 0.045446,
+   "permMean": 0.030074,
+   "E": 0.015372,
+   "Elo": -0.00591,
+   "Ehi": 0.044011,
+   "p": 0.052989,
+   "acc": 0.574754,
+   "chunksA": 90,
+   "chunksB": 79,
+   "accP": 0.095904
+  },
+  "power_check": {
+   "id": "PWR2",
+   "gospel": "Mt/Lk",
+   "a": "Mt M",
+   "b": "Lk L",
+   "wordsA": 1596,
+   "wordsB": 2169,
+   "passagesA": 16,
+   "passagesB": 29,
+   "D": 0.077731,
+   "permMean": 0.082554,
+   "E": -0.004822,
+   "Elo": -0.07698,
+   "Ehi": 0.105797,
+   "p": 0.534293,
+   "acc": 0.53125,
+   "chunksA": 16,
+   "chunksB": 22,
+   "accP": 0.34965
+  },
+  "power_passed": false,
+  "power_check_informational": {
+   "id": "PWR3",
+   "gospel": "Mt/Lk",
+   "a": "Mt MK+L",
+   "b": "Lk MK+M",
+   "wordsA": 1511,
+   "wordsB": 1440,
+   "passagesA": 53,
+   "passagesB": 54,
+   "D": 0.047449,
+   "permMean": 0.069264,
+   "E": -0.021815,
+   "Elo": -0.0681,
+   "Ehi": 0.036138,
+   "p": 0.910618,
+   "acc": 0.400327,
+   "chunksA": 18,
+   "chunksB": 17,
+   "accP": 0.814186
+  }
+ },
+ "post_hoc": [
+  {
+   "id": "POST1",
+   "gospel": "Mt",
+   "a": "Mt sayings",
+   "b": "Mt narrative",
+   "wordsA": 9037,
+   "wordsB": 6963,
+   "passagesA": 79,
+   "passagesB": 120,
+   "D": 0.301738,
+   "permMean": 0.038825,
+   "E": 0.262913,
+   "Elo": 0.176929,
+   "Ehi": 0.358142,
+   "p": 0.0002,
+   "acc": 0.876389,
+   "chunksA": 90,
+   "chunksB": 72,
+   "accP": 0.000999
+  },
+  {
+   "id": "POST2",
+   "gospel": "Mt/Lk",
+   "a": "Mt narrative",
+   "b": "Lk narrative",
+   "wordsA": 6963,
+   "wordsB": 9273,
+   "passagesA": 120,
+   "passagesB": 137,
+   "D": 0.093068,
+   "permMean": 0.025673,
+   "E": 0.067395,
+   "Elo": 0.042552,
+   "Ehi": 0.095025,
+   "p": 0.0002,
+   "acc": 0.758717,
+   "chunksA": 72,
+   "chunksB": 94,
+   "accP": 0.000999
+  },
+  {
+   "id": "POST3",
+   "gospel": "Mt/Lk",
+   "a": "Mt M*",
+   "b": "Lk L*",
+   "wordsA": 3797,
+   "wordsB": 3117,
+   "passagesA": 75,
+   "passagesB": 66,
+   "D": 0.100145,
+   "permMean": 0.05441,
+   "E": 0.045735,
+   "Elo": 0.001388,
+   "Ehi": 0.102501,
+   "p": 0.004799,
+   "acc": 0.675,
+   "chunksA": 40,
+   "chunksB": 36,
+   "accP": 0.004995
+  }
+ ]
+}

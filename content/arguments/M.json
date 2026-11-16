@@ -23,6 +23,11 @@
           "text": "On the Two-Source hypothesis Luke takes over Mark and Q in alternating blocks, while Matthew builds new blocks of narrative and discourse and weaves Mark and Q together most closely in the Mark–Q overlap passages.",
           "ref": "Derrenbacker 2001, abstract and Conclusion",
           "basis": "read"
+        },
+        {
+          "text": "Counted for this page in six overlap passages: Luke has 31% of the words Matthew shares with Mark and 47% of Matthew's other words, a ratio of 0.66 (interval 0.44 to 1.03). Five of the six passages have a ratio under 1; the mustard seed shows no difference. Luke therefore does not lack Matthew's Markan words, but has them less often than the rest. The count does not show why, and each hypothesis has an account of it. See [[E3]].",
+          "ref": "tools/research_overlaps.py and its output in this page's repository",
+          "basis": "computed"
         }
       ],
       "pro": [

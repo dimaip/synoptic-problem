@@ -1,0 +1,265 @@
+{
+  "Methods": {
+    "run_gap_interval": "6000 draws, random.Random(7), exact diff_boot",
+    "chapter_gap_interval": "4000 draws, random.Random(1), sorted indices 100 and 3900; independent chapter samples for Q and triple",
+    "order": "PARTNER last-link mapping; minimum total votes across targets; plurality, earliest target tie-break; tau-a; gap2 source step 1-2 and target step 0-2; first pair positions",
+    "limitations": [
+      "Mark-link filter selects on agreement with Mark and overstates triple rate",
+      "Manual correspondence judgements, UNCLEAR retained as a sensitivity",
+      "Intervals measure composition under assumed clusters",
+      "Strata are crude stratifications, not a fitted model"
+    ]
+  },
+  "Provenance": {
+    "data": "/Users/dimaip/Documents/ChatGPT/gospel/public/data",
+    "sha256": {
+      "opengnt.json": "8e0c769ba4d58c80b4eaadafdbf0c260bd6382b79a6dc766c06d8ca7549540e1",
+      "net.json": "9f4c52cfe8278d1c4c2252fd0881c6b8e2aeb739cab4695e959399219815d99d"
+    },
+    "greek": "OpenGNT CC BY-SA 4.0",
+    "judgement": "Manual bounded correspondence judgements, not source assignments"
+  },
+  "A1 Q fixed": {
+    "verses": 173,
+    "hits": 1294,
+    "words": 3145,
+    "rate": 41.14467408585055
+  },
+  "A1 triple fixed class and speech; minimum Mark-linked tokens=0": {
+    "verses": 125,
+    "hits": 587,
+    "words": 2199,
+    "rate": 26.693951796271033
+  },
+  "A1 triple fixed class and speech; minimum Mark-linked tokens=1": {
+    "verses": 80,
+    "hits": 570,
+    "words": 1500,
+    "rate": 38.0
+  },
+  "A1 triple fixed class and speech; minimum Mark-linked tokens=2": {
+    "verses": 77,
+    "hits": 570,
+    "words": 1458,
+    "rate": 39.09465020576132
+  },
+  "A1 triple fixed class and speech; minimum Mark-linked tokens=3": {
+    "verses": 71,
+    "hits": 556,
+    "words": 1354,
+    "rate": 41.06351550960118
+  },
+  "A2 judgement counts": {
+    "ADDITION": 23,
+    "UNCLEAR": 11,
+    "RENDERS": 11
+  },
+  "A3 Q fixed strings": {
+    "total": 27,
+    "at70": 7,
+    "at50": 10
+  },
+  "A3 published": {
+    "verses": 125,
+    "hits": 587,
+    "words": 2199,
+    "rate": 26.693951796271033,
+    "gap": 14.45072228957952,
+    "run_ci": [
+      3.883534455886135,
+      24.915949620729332
+    ],
+    "chapter_cluster_sensitivity_ci": [
+      0.9256720905553557,
+      27.406776180459918
+    ],
+    "strings": {
+      "total": 15,
+      "at70": 1,
+      "at50": 4
+    }
+  },
+  "A3 exclude ADDITION": {
+    "verses": 102,
+    "hits": 575,
+    "words": 1831,
+    "rate": 31.403604587657018,
+    "gap": 9.741069498193536,
+    "run_ci": [
+      -0.9330436827930981,
+      20.30558583687622
+    ],
+    "chapter_cluster_sensitivity_ci": [
+      -4.267626732088804,
+      21.501240062987613
+    ],
+    "strings": {
+      "total": 14,
+      "at70": 1,
+      "at50": 4
+    }
+  },
+  "A3 exclude ADDITION and UNCLEAR": {
+    "verses": 91,
+    "hits": 573,
+    "words": 1663,
+    "rate": 34.45580276608539,
+    "gap": 6.688871319765163,
+    "run_ci": [
+      -3.7927690005277555,
+      17.544280856157858
+    ],
+    "chapter_cluster_sensitivity_ci": [
+      -6.8549791711556445,
+      18.6200039367893
+    ],
+    "strings": {
+      "total": 14,
+      "at70": 1,
+      "at50": 4
+    }
+  },
+  "B1 common verse sample; published Q exclusion; MT; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 68,
+    "tau": 0.9205443371378402
+  },
+  "B2 own eligible verse sample; published Q exclusion; MT; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 132,
+    "tau": 0.8476752255378209
+  },
+  "B2 common verse sample published gap2; published Q exclusion; MT; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 38,
+    "tau": 0.8662873399715505
+  },
+  "B1 common verse sample; published Q exclusion; LK; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 68,
+    "tau": 0.9350307287093942
+  },
+  "B2 own eligible verse sample; published Q exclusion; LK; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 76,
+    "tau": 0.9364912280701755
+  },
+  "B2 common verse sample published gap2; published Q exclusion; LK; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 40,
+    "tau": 0.9384615384615385
+  },
+  "B1 common verse sample; include all Luke classes; MT; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 77,
+    "tau": 0.8451811346548188
+  },
+  "B2 own eligible verse sample; include all Luke classes; MT; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 132,
+    "tau": 0.8476752255378209
+  },
+  "B2 common verse sample published gap2; include all Luke classes; MT; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 45,
+    "tau": 0.804040404040404
+  },
+  "B1 common verse sample; include all Luke classes; LK-inclusive; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 77,
+    "tau": 0.8851674641148325
+  },
+  "B2 own eligible verse sample; include all Luke classes; LK-inclusive; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 87,
+    "tau": 0.8746324512162523
+  },
+  "B2 common verse sample published gap2; include all Luke classes; LK-inclusive; token-weighted >=80% Jesus; minimum3 links": {
+    "units": 49,
+    "tau": 0.858843537414966
+  },
+  "B3 fixed published mapping and gap2; MT; all": {
+    "units": 125,
+    "tau": 0.8523870967741936
+  },
+  "B3 fixed published mapping and gap2; MT; published unweighted sayings": {
+    "units": 34,
+    "tau": 0.5614973262032086
+  },
+  "B3 fixed published mapping and gap2; MT; token-weighted sayings": {
+    "units": 36,
+    "tau": 0.5936507936507937
+  },
+  "B3 fixed published mapping and gap2; LK; all": {
+    "units": 93,
+    "tau": 0.8992519869097709
+  },
+  "B3 fixed published mapping and gap2; LK; published unweighted sayings": {
+    "units": 22,
+    "tau": 0.948051948051948
+  },
+  "B3 fixed published mapping and gap2; LK; token-weighted sayings": {
+    "units": 22,
+    "tau": 0.948051948051948
+  },
+  "B3 fixed published mapping and gap2; LK-inclusive; all": {
+    "units": 108,
+    "tau": 0.8482173762547595
+  },
+  "B3 fixed published mapping and gap2; LK-inclusive; published unweighted sayings": {
+    "units": 32,
+    "tau": 0.7701612903225806
+  },
+  "B3 fixed published mapping and gap2; LK-inclusive; token-weighted sayings": {
+    "units": 32,
+    "tau": 0.7701612903225806
+  },
+  "B4 DT fixed published sayings blocks and same draws; denominator change only": {
+    "units": 76,
+    "tau": 0.44456140350877194,
+    "published_ci": [
+      0.26735087719298245,
+      0.5888070175438594
+    ],
+    "exclude_duplicate_identity_pairs_ci": [
+      0.2700767575507096,
+      0.5978046162289951
+    ],
+    "seed": 20261127,
+    "draws": 2000
+  },
+  "B4 MT fixed published sayings blocks and same draws; denominator change only": {
+    "units": 34,
+    "tau": 0.5614973262032086,
+    "published_ci": [
+      0.2851604278074866,
+      0.7683155080213901
+    ],
+    "exclude_duplicate_identity_pairs_ci": [
+      0.294327347026562,
+      0.7948884758364311
+    ],
+    "seed": 20261129,
+    "draws": 2000
+  },
+  "B4 LK fixed published sayings blocks and same draws; denominator change only": {
+    "units": 22,
+    "tau": 0.948051948051948,
+    "published_ci": [
+      0.8008658008658008,
+      0.961038961038961
+    ],
+    "exclude_duplicate_identity_pairs_ci": [
+      0.8447488584474886,
+      1.0
+    ],
+    "seed": 20261131,
+    "draws": 2000
+  },
+  "C fixed 9744 Mark tokens; observed and unstratified": {
+    "words": 9744,
+    "observed": 12.458949096880131,
+    "unstratified": 7.590720220906436
+  },
+  "C fixed tokens; independence within lemma": {
+    "strata": 1225,
+    "expected_percent": 8.621520887273967
+  },
+  "C fixed tokens; independence within verse": {
+    "strata": 577,
+    "expected_percent": 9.346060594799049
+  },
+  "C fixed tokens; independence within lemma within speech kind": {
+    "strata": 1823,
+    "expected_percent": 9.505403084567075
+  }
+}

@@ -1,0 +1,1025 @@
+[
+ {
+  "name": "G2  Matthew M* vs Luke L*",
+  "kind": "char",
+  "chunks": [
+   40,
+   36
+  ],
+  "fixed_acc": 0.7611111111111111,
+  "fixed_confusion": [
+   [
+    32,
+    8
+   ],
+   [
+    10,
+    26
+   ]
+  ],
+  "weighted_acc": 0.788888888888889,
+  "weighted_confusion": [
+   [
+    32,
+    8
+   ],
+   [
+    8,
+    28
+   ]
+  ],
+  "weighted_p": 0.0033222591362126247
+ },
+ {
+  "name": "G2  Matthew M* vs Luke L*",
+  "kind": "masked",
+  "chunks": [
+   40,
+   36
+  ],
+  "fixed_acc": 0.7430555555555556,
+  "fixed_confusion": [
+   [
+    35,
+    5
+   ],
+   [
+    14,
+    22
+   ]
+  ],
+  "weighted_acc": 0.7513888888888889,
+  "weighted_confusion": [
+   [
+    29,
+    11
+   ],
+   [
+    8,
+    28
+   ]
+  ],
+  "weighted_p": 0.0033222591362126247
+ },
+ {
+  "name": "G2  Matthew M* vs Luke L*",
+  "kind": "tags",
+  "chunks": [
+   40,
+   36
+  ],
+  "fixed_acc": 0.6875,
+  "fixed_confusion": [
+   [
+    35,
+    5
+   ],
+   [
+    18,
+    18
+   ]
+  ],
+  "weighted_acc": 0.6958333333333333,
+  "weighted_confusion": [
+   [
+    29,
+    11
+   ],
+   [
+    12,
+    24
+   ]
+  ],
+  "weighted_p": 0.0033222591362126247
+ },
+ {
+  "name": "1   Matthew DT vs M*",
+  "kind": "char",
+  "chunks": [
+   30,
+   40
+  ],
+  "fixed_acc": 0.48750000000000004,
+  "fixed_confusion": [
+   [
+    9,
+    21
+   ],
+   [
+    13,
+    27
+   ]
+  ],
+  "weighted_acc": 0.4708333333333333,
+  "weighted_confusion": [
+   [
+    11,
+    19
+   ],
+   [
+    17,
+    23
+   ]
+  ],
+  "weighted_p": 0.5083056478405316
+ },
+ {
+  "name": "1   Matthew DT vs M*",
+  "kind": "masked",
+  "chunks": [
+   30,
+   40
+  ],
+  "fixed_acc": 0.475,
+  "fixed_confusion": [
+   [
+    0,
+    30
+   ],
+   [
+    2,
+    38
+   ]
+  ],
+  "weighted_acc": 0.4666666666666667,
+  "weighted_confusion": [
+   [
+    10,
+    20
+   ],
+   [
+    16,
+    24
+   ]
+  ],
+  "weighted_p": 0.5415282392026578
+ },
+ {
+  "name": "1   Matthew DT vs M*",
+  "kind": "tags",
+  "chunks": [
+   30,
+   40
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    0,
+    30
+   ],
+   [
+    0,
+    40
+   ]
+  ],
+  "weighted_acc": 0.5416666666666667,
+  "weighted_confusion": [
+   [
+    13,
+    17
+   ],
+   [
+    14,
+    26
+   ]
+  ],
+  "weighted_p": 0.23255813953488372
+ },
+ {
+  "name": "1s  Matthew DT vs M",
+  "kind": "char",
+  "chunks": [
+   30,
+   16
+  ],
+  "fixed_acc": 0.5625,
+  "fixed_confusion": [
+   [
+    30,
+    0
+   ],
+   [
+    14,
+    2
+   ]
+  ],
+  "weighted_acc": 0.5604166666666667,
+  "weighted_confusion": [
+   [
+    28,
+    2
+   ],
+   [
+    13,
+    3
+   ]
+  ],
+  "weighted_p": 0.053156146179401995
+ },
+ {
+  "name": "1s  Matthew DT vs M",
+  "kind": "masked",
+  "chunks": [
+   30,
+   16
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    30,
+    0
+   ],
+   [
+    16,
+    0
+   ]
+  ],
+  "weighted_acc": 0.6520833333333333,
+  "weighted_confusion": [
+   [
+    26,
+    4
+   ],
+   [
+    9,
+    7
+   ]
+  ],
+  "weighted_p": 0.0033222591362126247
+ },
+ {
+  "name": "1s  Matthew DT vs M",
+  "kind": "tags",
+  "chunks": [
+   30,
+   16
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    30,
+    0
+   ],
+   [
+    16,
+    0
+   ]
+  ],
+  "weighted_acc": 0.6229166666666667,
+  "weighted_confusion": [
+   [
+    28,
+    2
+   ],
+   [
+    11,
+    5
+   ]
+  ],
+  "weighted_p": 0.009966777408637873
+ },
+ {
+  "name": "2   Matthew MK+L vs MK-L",
+  "kind": "char",
+  "chunks": [
+   18,
+   11
+  ],
+  "fixed_acc": 0.4722222222222222,
+  "fixed_confusion": [
+   [
+    17,
+    1
+   ],
+   [
+    11,
+    0
+   ]
+  ],
+  "weighted_acc": 0.4065656565656566,
+  "weighted_confusion": [
+   [
+    13,
+    5
+   ],
+   [
+    10,
+    1
+   ]
+  ],
+  "weighted_p": 0.7209302325581395
+ },
+ {
+  "name": "2   Matthew MK+L vs MK-L",
+  "kind": "masked",
+  "chunks": [
+   18,
+   11
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    18,
+    0
+   ],
+   [
+    11,
+    0
+   ]
+  ],
+  "weighted_acc": 0.452020202020202,
+  "weighted_confusion": [
+   [
+    13,
+    5
+   ],
+   [
+    9,
+    2
+   ]
+  ],
+  "weighted_p": 0.5182724252491694
+ },
+ {
+  "name": "2   Matthew MK+L vs MK-L",
+  "kind": "tags",
+  "chunks": [
+   18,
+   11
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    18,
+    0
+   ],
+   [
+    11,
+    0
+   ]
+  ],
+  "weighted_acc": 0.46969696969696967,
+  "weighted_confusion": [
+   [
+    12,
+    6
+   ],
+   [
+    8,
+    3
+   ]
+  ],
+  "weighted_p": 0.4750830564784053
+ },
+ {
+  "name": "3   Matthew Markan vs DT",
+  "kind": "char",
+  "chunks": [
+   30,
+   30
+  ],
+  "fixed_acc": 0.7166666666666667,
+  "fixed_confusion": [
+   [
+    24,
+    6
+   ],
+   [
+    11,
+    19
+   ]
+  ],
+  "weighted_acc": 0.7166666666666667,
+  "weighted_confusion": [
+   [
+    24,
+    6
+   ],
+   [
+    11,
+    19
+   ]
+  ],
+  "weighted_p": 0.0033222591362126247
+ },
+ {
+  "name": "3   Matthew Markan vs DT",
+  "kind": "masked",
+  "chunks": [
+   30,
+   30
+  ],
+  "fixed_acc": 0.6166666666666667,
+  "fixed_confusion": [
+   [
+    18,
+    12
+   ],
+   [
+    11,
+    19
+   ]
+  ],
+  "weighted_acc": 0.6166666666666667,
+  "weighted_confusion": [
+   [
+    18,
+    12
+   ],
+   [
+    11,
+    19
+   ]
+  ],
+  "weighted_p": 0.046511627906976744
+ },
+ {
+  "name": "3   Matthew Markan vs DT",
+  "kind": "tags",
+  "chunks": [
+   30,
+   30
+  ],
+  "fixed_acc": 0.6499999999999999,
+  "fixed_confusion": [
+   [
+    19,
+    11
+   ],
+   [
+    10,
+    20
+   ]
+  ],
+  "weighted_acc": 0.6499999999999999,
+  "weighted_confusion": [
+   [
+    19,
+    11
+   ],
+   [
+    10,
+    20
+   ]
+  ],
+  "weighted_p": 0.013289036544850499
+ },
+ {
+  "name": "4   Matthew Markan vs M*",
+  "kind": "char",
+  "chunks": [
+   30,
+   40
+  ],
+  "fixed_acc": 0.675,
+  "fixed_confusion": [
+   [
+    15,
+    15
+   ],
+   [
+    6,
+    34
+   ]
+  ],
+  "weighted_acc": 0.7,
+  "weighted_confusion": [
+   [
+    18,
+    12
+   ],
+   [
+    8,
+    32
+   ]
+  ],
+  "weighted_p": 0.009966777408637873
+ },
+ {
+  "name": "4   Matthew Markan vs M*",
+  "kind": "masked",
+  "chunks": [
+   30,
+   40
+  ],
+  "fixed_acc": 0.4875,
+  "fixed_confusion": [
+   [
+    0,
+    30
+   ],
+   [
+    1,
+    39
+   ]
+  ],
+  "weighted_acc": 0.625,
+  "weighted_confusion": [
+   [
+    18,
+    12
+   ],
+   [
+    14,
+    26
+   ]
+  ],
+  "weighted_p": 0.036544850498338874
+ },
+ {
+  "name": "4   Matthew Markan vs M*",
+  "kind": "tags",
+  "chunks": [
+   30,
+   40
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    0,
+    30
+   ],
+   [
+    0,
+    40
+   ]
+  ],
+  "weighted_acc": 0.6291666666666667,
+  "weighted_confusion": [
+   [
+    16,
+    14
+   ],
+   [
+    11,
+    29
+   ]
+  ],
+  "weighted_p": 0.03322259136212625
+ },
+ {
+  "name": "5   Luke DT vs L*",
+  "kind": "char",
+  "chunks": [
+   34,
+   36
+  ],
+  "fixed_acc": 0.6683006535947713,
+  "fixed_confusion": [
+   [
+    19,
+    15
+   ],
+   [
+    8,
+    28
+   ]
+  ],
+  "weighted_acc": 0.6691176470588236,
+  "weighted_confusion": [
+   [
+    20,
+    14
+   ],
+   [
+    9,
+    27
+   ]
+  ],
+  "weighted_p": 0.009966777408637873
+ },
+ {
+  "name": "5   Luke DT vs L*",
+  "kind": "masked",
+  "chunks": [
+   34,
+   36
+  ],
+  "fixed_acc": 0.5800653594771241,
+  "fixed_confusion": [
+   [
+    13,
+    21
+   ],
+   [
+    8,
+    28
+   ]
+  ],
+  "weighted_acc": 0.6119281045751634,
+  "weighted_confusion": [
+   [
+    18,
+    16
+   ],
+   [
+    11,
+    25
+   ]
+  ],
+  "weighted_p": 0.0664451827242525
+ },
+ {
+  "name": "5   Luke DT vs L*",
+  "kind": "tags",
+  "chunks": [
+   34,
+   36
+  ],
+  "fixed_acc": 0.582516339869281,
+  "fixed_confusion": [
+   [
+    16,
+    18
+   ],
+   [
+    11,
+    25
+   ]
+  ],
+  "weighted_acc": 0.6429738562091503,
+  "weighted_confusion": [
+   [
+    22,
+    12
+   ],
+   [
+    13,
+    23
+   ]
+  ],
+  "weighted_p": 0.036544850498338874
+ },
+ {
+  "name": "7   Luke Markan vs DT",
+  "kind": "char",
+  "chunks": [
+   19,
+   34
+  ],
+  "fixed_acc": 0.47058823529411764,
+  "fixed_confusion": [
+   [
+    0,
+    19
+   ],
+   [
+    2,
+    32
+   ]
+  ],
+  "weighted_acc": 0.4791021671826625,
+  "weighted_confusion": [
+   [
+    2,
+    17
+   ],
+   [
+    5,
+    29
+   ]
+  ],
+  "weighted_p": 0.5415282392026578
+ },
+ {
+  "name": "7   Luke Markan vs DT",
+  "kind": "masked",
+  "chunks": [
+   19,
+   34
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    0,
+    19
+   ],
+   [
+    0,
+    34
+   ]
+  ],
+  "weighted_acc": 0.3382352941176471,
+  "weighted_confusion": [
+   [
+    0,
+    19
+   ],
+   [
+    11,
+    23
+   ]
+  ],
+  "weighted_p": 0.9667774086378738
+ },
+ {
+  "name": "7   Luke Markan vs DT",
+  "kind": "tags",
+  "chunks": [
+   19,
+   34
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    0,
+    19
+   ],
+   [
+    0,
+    34
+   ]
+  ],
+  "weighted_acc": 0.5696594427244581,
+  "weighted_confusion": [
+   [
+    6,
+    13
+   ],
+   [
+    6,
+    28
+   ]
+  ],
+  "weighted_p": 0.2026578073089701
+ },
+ {
+  "name": "8   Luke Markan vs L*",
+  "kind": "char",
+  "chunks": [
+   19,
+   36
+  ],
+  "fixed_acc": 0.5913742690058479,
+  "fixed_confusion": [
+   [
+    4,
+    15
+   ],
+   [
+    1,
+    35
+   ]
+  ],
+  "weighted_acc": 0.6425438596491228,
+  "weighted_confusion": [
+   [
+    7,
+    12
+   ],
+   [
+    3,
+    33
+   ]
+  ],
+  "weighted_p": 0.026578073089700997
+ },
+ {
+  "name": "8   Luke Markan vs L*",
+  "kind": "masked",
+  "chunks": [
+   19,
+   36
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    0,
+    19
+   ],
+   [
+    0,
+    36
+   ]
+  ],
+  "weighted_acc": 0.6008771929824561,
+  "weighted_confusion": [
+   [
+    7,
+    12
+   ],
+   [
+    6,
+    30
+   ]
+  ],
+  "weighted_p": 0.09966777408637874
+ },
+ {
+  "name": "8   Luke Markan vs L*",
+  "kind": "tags",
+  "chunks": [
+   19,
+   36
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    0,
+    19
+   ],
+   [
+    0,
+    36
+   ]
+  ],
+  "weighted_acc": 0.6549707602339181,
+  "weighted_confusion": [
+   [
+    8,
+    11
+   ],
+   [
+    4,
+    32
+   ]
+  ],
+  "weighted_p": 0.026578073089700997
+ },
+ {
+  "name": "9   Mark taken vs not taken by Luke",
+  "kind": "char",
+  "chunks": [
+   20,
+   14
+  ],
+  "fixed_acc": 0.5107142857142857,
+  "fixed_confusion": [
+   [
+    19,
+    1
+   ],
+   [
+    13,
+    1
+   ]
+  ],
+  "weighted_acc": 0.5785714285714286,
+  "weighted_confusion": [
+   [
+    16,
+    4
+   ],
+   [
+    9,
+    5
+   ]
+  ],
+  "weighted_p": 0.06312292358803986
+ },
+ {
+  "name": "9   Mark taken vs not taken by Luke",
+  "kind": "masked",
+  "chunks": [
+   20,
+   14
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    20,
+    0
+   ],
+   [
+    14,
+    0
+   ]
+  ],
+  "weighted_acc": 0.5642857142857143,
+  "weighted_confusion": [
+   [
+    14,
+    6
+   ],
+   [
+    8,
+    6
+   ]
+  ],
+  "weighted_p": 0.16279069767441862
+ },
+ {
+  "name": "9   Mark taken vs not taken by Luke",
+  "kind": "tags",
+  "chunks": [
+   20,
+   14
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    20,
+    0
+   ],
+   [
+    14,
+    0
+   ]
+  ],
+  "weighted_acc": 0.5535714285714286,
+  "weighted_confusion": [
+   [
+    15,
+    5
+   ],
+   [
+    9,
+    5
+   ]
+  ],
+  "weighted_p": 0.21262458471760798
+ },
+ {
+  "name": "10  Mark taken vs not taken by Matthew",
+  "kind": "char",
+  "chunks": [
+   26,
+   6
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    26,
+    0
+   ],
+   [
+    6,
+    0
+   ]
+  ],
+  "weighted_acc": 0.5,
+  "weighted_confusion": [
+   [
+    26,
+    0
+   ],
+   [
+    6,
+    0
+   ]
+  ],
+  "weighted_p": 0.42857142857142855
+ },
+ {
+  "name": "10  Mark taken vs not taken by Matthew",
+  "kind": "masked",
+  "chunks": [
+   26,
+   6
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    26,
+    0
+   ],
+   [
+    6,
+    0
+   ]
+  ],
+  "weighted_acc": 0.5,
+  "weighted_confusion": [
+   [
+    26,
+    0
+   ],
+   [
+    6,
+    0
+   ]
+  ],
+  "weighted_p": 0.33554817275747506
+ },
+ {
+  "name": "10  Mark taken vs not taken by Matthew",
+  "kind": "tags",
+  "chunks": [
+   26,
+   6
+  ],
+  "fixed_acc": 0.5,
+  "fixed_confusion": [
+   [
+    26,
+    0
+   ],
+   [
+    6,
+    0
+   ]
+  ],
+  "weighted_acc": 0.5,
+  "weighted_confusion": [
+   [
+    26,
+    0
+   ],
+   [
+    6,
+    0
+   ]
+  ],
+  "weighted_p": 0.3853820598006645
+ }
+]

@@ -1,0 +1,637 @@
+{
+  "title": "Experiments",
+  "intro": "Counts and tests run for this page on open data. The scripts and their full output are in the repository's tools folder. They have not been peer reviewed. Each was put through two hostile reviews by a second AI system, one recomputing the figures and one attacking the conclusions, and several first conclusions did not survive; what is reported here is what did. A further test, of which evangelist rearranged the double tradition, failed its own check and is left out.",
+  "items": [
+    {
+      "id": "E1",
+      "title": "Verbal agreement, like for like",
+      "question": "Do Matthew and Luke agree in wording more closely in the double tradition's sayings than in the sayings both took from Mark?",
+      "date": "16 November 2026",
+      "basis": "computed",
+      "bearsOn": [
+        "C9",
+        "S1"
+      ],
+      "summary": "A little, and perhaps not at all: 41% of Luke's words against 31% to 34%. What holds firmly is that near-identical passages are common in the double tradition and rare where both follow Mark.",
+      "why": [
+        "Goodacre argues that Matthew and Luke agree too closely in the double tradition for two writers who each copied a lost Q without seeing the other's work ([[C9]]). The standing reply is that the double tradition is mostly sayings, and sayings are copied more closely than stories. In 2015 Kloppenborg proposed the fair test, sayings against sayings. It had not been run."
+      ],
+      "method": [
+        "In every verse of Luke that is mostly words of Jesus, we counted the share of Luke's words that are identical in form with Matthew's parallel: once for Q material, once for sayings both took from Mark. Verses that Luke added to Markan passages were set aside after reading them one by one."
+      ],
+      "results": [
+        "Double tradition: 41.1% of Luke's 3,145 words are identical with Matthew's.",
+        "Sayings from Mark: 31.4% of 1,831 words, or 34.5% if doubtful verses are left out as well. The gap is 7 to 10 points, and in both cases its interval includes zero.",
+        "Seven of the 27 double-tradition strings of 40 words or more are at least 70% identical. One of the 14 Markan strings is.",
+        "Of Mark's words in passages that both parallel, Matthew and Luke keep the same word 12.5% of the time. Independent choices would give 7.6%, or 8.6% to 9.5% once it is allowed that some words are kept more readily than others ([[S1]])."
+      ],
+      "figure": {
+        "type": "strips",
+        "title": "Share of Luke's words identical with Matthew's, in each string of Jesus' sayings of 40 words or more",
+        "band": {
+          "from": 70
+        },
+        "rows": [
+          {
+            "label": "Double tradition (Q material): 27 strings",
+            "tone": "ml",
+            "pooled": 41.1,
+            "pooledLabel": "all sayings 41%",
+            "items": [
+              [
+                0.0,
+                "Luke 12:51–53",
+                58
+              ],
+              [
+                4.6,
+                "Luke 14:17–24",
+                151
+              ],
+              [
+                11.5,
+                "Luke 14:26–27",
+                52
+              ],
+              [
+                13.3,
+                "Luke 17:33–35",
+                45
+              ],
+              [
+                14.0,
+                "Luke 22:28–30",
+                43
+              ],
+              [
+                17.6,
+                "Luke 19:15–26",
+                187
+              ],
+              [
+                18.4,
+                "Luke 6:27–33",
+                103
+              ],
+              [
+                19.8,
+                "Luke 15:4–7",
+                81
+              ],
+              [
+                23.2,
+                "Luke 6:35–37",
+                56
+              ],
+              [
+                23.8,
+                "Luke 6:21–23",
+                63
+              ],
+              [
+                25.0,
+                "Luke 13:26–29",
+                76
+              ],
+              [
+                31.3,
+                "Luke 11:46–52",
+                131
+              ],
+              [
+                34.7,
+                "Luke 12:58–59",
+                49
+              ],
+              [
+                35.4,
+                "Luke 6:40–49",
+                240
+              ],
+              [
+                38.4,
+                "Luke 11:40–44",
+                86
+              ],
+              [
+                39.0,
+                "Luke 12:2–9",
+                146
+              ],
+              [
+                40.2,
+                "Luke 10:2–16",
+                254
+              ],
+              [
+                50.0,
+                "Luke 7:31–35",
+                76
+              ],
+              [
+                54.5,
+                "Luke 11:2–4",
+                44
+              ],
+              [
+                58.6,
+                "Luke 12:23–31",
+                140
+              ],
+              [
+                70.7,
+                "Luke 11:9–13",
+                75
+              ],
+              [
+                75.0,
+                "Luke 11:34–35",
+                40
+              ],
+              [
+                76.4,
+                "Luke 12:42–46",
+                106
+              ],
+              [
+                83.0,
+                "Luke 13:34–35",
+                53
+              ],
+              [
+                83.3,
+                "Luke 7:25–28",
+                72
+              ],
+              [
+                94.3,
+                "Luke 11:23–26",
+                70
+              ],
+              [
+                94.5,
+                "Luke 11:31–32",
+                55
+              ]
+            ]
+          },
+          {
+            "label": "Sayings both took from Mark: 15 strings (14 once Luke's additions are set aside)",
+            "tone": "mk",
+            "pooled": 31.4,
+            "pooledLabel": "all sayings 31% (corrected)",
+            "items": [
+              [
+                0.0,
+                "Luke 4:23–27",
+                108
+              ],
+              [
+                0.0,
+                "Luke 7:45–47",
+                47
+              ],
+              [
+                11.3,
+                "Luke 20:10–15",
+                97
+              ],
+              [
+                20.5,
+                "Luke 8:10–18",
+                195
+              ],
+              [
+                20.7,
+                "Luke 21:11–28",
+                276
+              ],
+              [
+                21.8,
+                "Luke 9:3–5",
+                55
+              ],
+              [
+                25.4,
+                "Luke 20:35–38",
+                67
+              ],
+              [
+                29.6,
+                "Luke 22:10–12",
+                54
+              ],
+              [
+                30.9,
+                "Luke 5:35–39",
+                97
+              ],
+              [
+                32.6,
+                "Luke 18:29–30",
+                43
+              ],
+              [
+                38.2,
+                "Luke 8:5–8",
+                76
+              ],
+              [
+                50.0,
+                "Luke 21:8–9",
+                42
+              ],
+              [
+                61.8,
+                "Luke 9:22–27",
+                131
+              ],
+              [
+                62.2,
+                "Luke 5:23–24",
+                45
+              ],
+              [
+                70.9,
+                "Luke 21:30–33",
+                55
+              ]
+            ]
+          }
+        ],
+        "note": "Each dot is one unbroken run of sayings in Luke. The line marks the rate for all sayings verses together; for the Markan sayings it is drawn at the corrected figure, with Luke's own additions set aside. The shaded band is 70% or more. Seven of the double-tradition strings fall in it and one of the Markan strings. Hover over a dot, or open the figures, for the passage."
+      },
+      "reading": [
+        "On average Matthew and Luke agree only a little more closely in Q sayings than in Markan sayings, and the difference may be chance. Comparing like with like removes most of the old contrast.",
+        "It does not remove the group of near-identical passages, which is where Goodacre himself puts the weight. A common-source account has to say why both evangelists copied Q almost word for word in those places and loosely elsewhere. At most this shows contact of some kind, through a source or directly. It says nothing about direction."
+      ],
+      "limits": [
+        "The text is OpenGNT and the alignment automatic. Only identical forms count, so the percentages run lower than published ones.",
+        "The extent of Q follows Kloppenborg's list. Which of Luke's verses restate Mark and which are his own additions is a judgement, published with the scripts.",
+        "The other half of Kloppenborg's proposal, a comparison with ancient writers who used two sources, was not attempted."
+      ],
+      "files": [
+        "tools/kloppenborg_test.py",
+        "tools/kloppenborg_test.txt",
+        "tools/research_review_checks.py",
+        "tools/research_review_checks.txt",
+        "tools/research_e1_verses.json"
+      ]
+    },
+    {
+      "id": "E2",
+      "title": "Can style tell Q from special Matthew?",
+      "question": "Published studies find that Q passages differ in style from Matthew's special material. Would Luke's choice of passages alone produce that difference?",
+      "date": "16 November 2026",
+      "basis": "computed",
+      "bearsOn": [
+        "S2"
+      ],
+      "summary": "No answer. The tools could be made to tell Matthew's sayings from Luke's, but they found no difference between Q and special Matthew that held up, and the text available for the control is too short.",
+      "why": [
+        "Mealand (2011) and a study of 2023 lean towards Q on grounds of style ([[S2]]). Neither asks what the rival view predicts. If Luke used Matthew, Q is simply the part of Matthew's non-Markan sayings that Luke took, and a difference in style might come from his selection."
+      ],
+      "method": [
+        "Two rounds: first counts of common words and grammatical forms, then classifiers that read sequences of letters and of grammatical forms, with settings fixed beforehand. In each round the tool first had to tell Matthew's sayings from Luke's. The control was Matthew's Markan sayings, split into those Luke shares words with and those he does not. Those have one source and one editor, so any difference between them comes from Luke's selection alone."
+      ],
+      "results": [
+        "Counts of common words failed the check. They could not tell Matthew's special sayings from Luke's (p = 0.53), though they separate sayings from narrative with ease.",
+        "The sequence classifiers passed it, telling the two evangelists' unparalleled sayings apart 70% to 79% of the time.",
+        "They found no difference between Q and special Matthew that survives correction for the 33 comparisons made.",
+        "The control group has 817 words, too few to measure what selection alone would do."
+      ],
+      "reading": [
+        "Nothing follows for or against Q. On sayings, with texts this short, the question cannot be settled this way.",
+        "The lesson is one of caution. Style measured on sayings should carry little weight on either side until a method is shown to separate the form of a saying from its source."
+      ],
+      "limits": [
+        "The design was revised once after the first check failed. The sequence run had a fault with groups of unequal size, corrected in a repeat that was not planned in advance.",
+        "The groups are small: 11 to 40 chunks of about 100 words."
+      ],
+      "files": [
+        "tools/research_stylometry.py",
+        "tools/research_stylometry.txt",
+        "tools/research_stylometry_v1.txt",
+        "tools/research_stylometry2.py",
+        "tools/research_stylometry2.txt",
+        "tools/research_stylometry2_posthoc.py",
+        "tools/research_stylometry2_posthoc.txt"
+      ]
+    },
+    {
+      "id": "E3",
+      "title": "Did Luke strip Mark's words out of Matthew?",
+      "question": "In the passages where Matthew's text carries both Mark's wording and other wording, does Luke have the other wording and lack the Markan?",
+      "date": "16 November 2026",
+      "basis": "computed",
+      "bearsOn": [
+        "M1",
+        "C3"
+      ],
+      "summary": "No, though there is a tendency that way. In six such passages Luke has 31% of the words Matthew shares with Mark and 47% of Matthew's other words. The count does not decide between the hypotheses.",
+      "why": [
+        "Where Mark and the double tradition overlap, Matthew's version combines both. A standing objection to Luke's use of Matthew is that Luke's versions have the non-Markan parts and lack the Markan, so that he would have had to pick Mark's words out of Matthew's text, which no ancient writer is known to have done ([[M1]]). Those who hold that Luke used Matthew reply that his versions keep Markan wording. That can be counted."
+      ],
+      "method": [
+        "Six passages, fixed in advance, where Matthew has one version standing in Mark's context: John on the coming one, the temptation, Beelzebul, blasphemy against the Spirit, the mustard seed and the mission charge. Every word of Matthew was sorted by whether Mark has it and whether Luke has it."
+      ],
+      "results": [
+        "Luke has 31.0% of Matthew's Markan words and 46.6% of Matthew's other words: a ratio of 0.66, with an interval of 0.44 to 1.03.",
+        "Five of the six passages have a ratio under 1. The mustard seed, the usual textbook case, shows no difference (37.5% and 38.2%).",
+        "Luke also has 14.6% of the words of Mark that Matthew lacks, so in places he drew on Mark directly."
+      ],
+      "table": {
+        "caption": "The six main passages: how many of Matthew's words Luke also has",
+        "head": [
+          "Passage",
+          "Matthew's Markan words",
+          "Luke has",
+          "Matthew's other words",
+          "Luke has",
+          "Ratio"
+        ],
+        "rows": [
+          [
+            "John on the coming one (Matt 3:11–12)",
+            "13",
+            "84.6%",
+            "44",
+            "65.9%",
+            "1.28"
+          ],
+          [
+            "Temptation (Matt 4:1–11)",
+            "11",
+            "36.4%",
+            "173",
+            "57.8%",
+            "0.63"
+          ],
+          [
+            "Beelzebul (Matt 12:22–30)",
+            "45",
+            "31.1%",
+            "120",
+            "54.2%",
+            "0.57"
+          ],
+          [
+            "Blasphemy against the Spirit (Matt 12:31–32)",
+            "7",
+            "0.0%",
+            "44",
+            "15.9%",
+            "0.00"
+          ],
+          [
+            "Mustard seed (Matt 13:31–32)",
+            "16",
+            "37.5%",
+            "34",
+            "38.2%",
+            "0.98"
+          ],
+          [
+            "Mission charge (Matt 10:1, 7–16)",
+            "34",
+            "11.8%",
+            "149",
+            "32.9%",
+            "0.36"
+          ],
+          [
+            "All six",
+            "126",
+            "31.0%",
+            "564",
+            "46.6%",
+            "0.66"
+          ]
+        ],
+        "note": "‘Markan words’ are words of Matthew identical in form with a word of Mark's parallel. The ratio is the first percentage divided by the second."
+      },
+      "reading": [
+        "The objection as usually put is wrong on the facts. Luke does not lack Matthew's Markan words; he has nearly a third of them.",
+        "A tendency remains in five passages of six, but it does not test Luke's use of Matthew. A Luke who also knew Mark could take what Matthew adds and render the common core from Mark. A common source that shared words with Mark would give the same table, and so would Matthew combining Mark with Luke. The count narrows what each account has to explain."
+      ],
+      "limits": [
+        "Six passages, chosen for this page. Two of them, Beelzebul and the mission charge, carry much of the result.",
+        "The alignment is automatic, only identical forms count, and narrative and speech are pooled."
+      ],
+      "files": [
+        "tools/research_overlaps.py",
+        "tools/research_overlaps.txt",
+        "tools/research_overlaps.json"
+      ]
+    },
+    {
+      "id": "E4",
+      "title": "A list of minor agreements that can be checked",
+      "question": "Outside the overlap passages, where do Matthew and Luke share a phrase that Mark lacks?",
+      "date": "16 November 2026",
+      "basis": "computed",
+      "bearsOn": [
+        "C1",
+        "C2"
+      ],
+      "summary": "Thirty-one phrases, in 23 of 79 episodes. This is a list for inspection, not a new argument.",
+      "why": [
+        "Counts of the minor agreements run from a few hundred to more than a thousand, depending on who counts and how, and this page had only second-hand figures ([[C1]])."
+      ],
+      "method": [
+        "In every episode found in all three Gospels, leaving out those that touch the double tradition, we listed each run of two or more identical words that Matthew and Luke share and Mark lacks, where at least one of the words appears nowhere in Mark's version. Each was then checked for a note in the Nestle–Aland apparatus."
+      ],
+      "results": [
+        "31 phrases: 18 of two words, 5 of three, 4 of four, 3 of five and one of nine.",
+        "The question at the mocking is among them, as a check required.",
+        "23 of the 31 stand in a verse with some apparatus note that mentions one of their words. That is a search for strings and marks unrelated variants, so it overstates how many are textually doubtful."
+      ],
+      "table": {
+        "caption": "The ten strongest multi-word agreements of Matthew and Luke against Mark, outside the overlap passages",
+        "head": [
+          "Matthew",
+          "Luke",
+          "Shared words",
+          "In English",
+          "Apparatus note on the verse"
+        ],
+        "rows": [
+          [
+            "26:75",
+            "22:62",
+            "καὶ ἐξελθὼν ἔξω ἔκλαυσεν πικρῶς",
+            "and going outside he wept bitterly",
+            "no"
+          ],
+          [
+            "21:44–45",
+            "20:18–19",
+            "συνθλασθήσεται· ἐφ᾽ ὃν δ᾽ ἂν πέσῃ λικμήσει αὐτόν. Καὶ",
+            "will be shattered; and on whomever it falls, it will crush him. And",
+            "yes"
+          ],
+          [
+            "26:68",
+            "22:64",
+            "τίς ἐστιν ὁ παίσας σε",
+            "who is it that struck you?",
+            "yes (not on these words in Matthew)"
+          ],
+          [
+            "16:21",
+            "9:22",
+            "τῇ τρίτῃ ἡμέρᾳ ἐγερθῆναι",
+            "on the third day be raised",
+            "yes"
+          ],
+          [
+            "9:7",
+            "5:25",
+            "ἀπῆλθεν εἰς τὸν οἶκον αὐτοῦ",
+            "he went away to his house",
+            "no"
+          ],
+          [
+            "12:48",
+            "8:21",
+            "Ὁ δὲ ἀποκριθεὶς εἶπεν",
+            "but he answered and said",
+            "yes"
+          ],
+          [
+            "27:58",
+            "23:52",
+            "οὗτος προσελθὼν τῷ Πιλάτῳ",
+            "this man went to Pilate",
+            "yes"
+          ],
+          [
+            "14:1",
+            "9:7",
+            "Ἡρῴδης ὁ τετραάρχης",
+            "Herod the tetrarch",
+            "yes"
+          ],
+          [
+            "8:27",
+            "8:25",
+            "ἐθαύμασαν λέγοντες",
+            "they marvelled, saying",
+            "yes"
+          ],
+          [
+            "8:23–24",
+            "8:22",
+            "οἱ μαθηταὶ αὐτοῦ. καὶ",
+            "his disciples. And",
+            "yes"
+          ]
+        ],
+        "note": "‘Apparatus note’ means only that some note on the verse mentions one of the words. It does not mean the agreement is textually doubtful."
+      },
+      "reading": [
+        "The strong cases are the ones the literature already discusses, such as Peter's weeping and the question at the mocking ([[C2]]). A phrase that Mark lacks is not thereby one evangelist's invention: set phrases, oral tradition and later harmonising of the manuscripts all give the same pattern.",
+        "The count is low because the rule is strict. Its use is that anyone can inspect the cases and dispute them."
+      ],
+      "limits": [
+        "Agreements in what both omit, in word order and in changed inflection are not counted.",
+        "The alignment is automatic, and the apparatus is a selection of variants, not a full collation."
+      ],
+      "files": [
+        "tools/research_minor_agreements.py",
+        "tools/research_minor_agreements.txt",
+        "tools/research_minor_agreements.json"
+      ]
+    },
+    {
+      "id": "E5",
+      "title": "Hide Mark and try to recover it",
+      "question": "If Mark were lost, how much of it could be recovered from the wording Matthew and Luke share?",
+      "date": "16 November 2026",
+      "basis": "computed",
+      "bearsOn": [
+        "Q3",
+        "Q5"
+      ],
+      "summary": "About an eighth: a fifth of its sayings and a twentieth of its narrative. Mark certainly existed, so a source can be real and still be poorly recovered from its two users.",
+      "why": [
+        "One argument against building on Q is that its wording cannot be reliably reconstructed ([[Q3]]). That is easily heard as an argument that Q did not exist. Mark offers a test, because there the source survives. Joseph Weaks ran it at length; this is a small version on this page's data, with sayings and narrative kept apart."
+      ],
+      "method": [
+        "With Mark set aside, a bare ‘source’ was formed from the words of Matthew that match identical words of Luke in runs of two or more, across 79 episodes found in all three Gospels. Mark was then brought back and the two compared."
+      ],
+      "results": [
+        "Recovered: 11.8% of Mark's words in those episodes, and 8.5% of the whole of Mark.",
+        "By kind of text: 21.5% of the words of Jesus, 5.1% of the narrator's.",
+        "64% of Mark's verses in those episodes leave no recovered word.",
+        "About a fifth of what Matthew and Luke share there is not in Mark at all."
+      ],
+      "table": {
+        "caption": "How much of Mark the shared wording of Matthew and Luke recovers",
+        "head": [
+          "Kind of text",
+          "Recovered",
+          "95% interval",
+          "Accuracy",
+          "95% interval"
+        ],
+        "rows": [
+          [
+            "All words",
+            "11.8%",
+            "9.6 to 14.3",
+            "80.8%",
+            "76.3 to 84.7"
+          ],
+          [
+            "Words of Jesus",
+            "21.5%",
+            "16.8 to 26.5",
+            "87.5%",
+            "82.3 to 91.7"
+          ],
+          [
+            "Other speech",
+            "16.1%",
+            "10.3 to 22.9",
+            "89.8%",
+            "79.1 to 96.7"
+          ],
+          [
+            "Narrator",
+            "5.1%",
+            "3.8 to 6.5",
+            "64.9%",
+            "56.8 to 72.2"
+          ]
+        ],
+        "note": "Recovered is a share of Mark's words; accuracy is a share of the reconstructed words. Kinds of text follow Mark's speech marking for recovery and Matthew's for accuracy."
+      },
+      "reading": [
+        "Whether a source existed and whether its wording can be recovered are separate questions. The uncertainty of Q's reconstruction is a reason not to build much on the reconstructed text. It is not evidence against Q.",
+        "The method is the barest possible. A scholar reconstructing a text uses far more than identical words, and Weaks recovered about half of Mark. The figures show the scale of the loss, not its exact size."
+      ],
+      "limits": [
+        "Only identical forms in runs of two or more count.",
+        "Mark's narrative is no stand-in for Q, which is mostly sayings. The sayings row is the relevant one."
+      ],
+      "files": [
+        "tools/research_hide_mark.py",
+        "tools/research_hide_mark.txt",
+        "tools/research_hide_mark.json"
+      ]
+    }
+  ],
+  "planned": [
+    {
+      "title": "Editorial fatigue, by one checklist in both directions",
+      "text": "The cases this page cites, with an equal number of accepted cases from Mark as a check ([[C4]], [[D4]]).",
+      "status": "not started"
+    },
+    {
+      "title": "How closely did other ancient writers copy sources that survive?",
+      "text": "The second half of Kloppenborg's proposal ([[E1]]), above all cases of two writers using one surviving source.",
+      "status": "not started"
+    }
+  ]
+}

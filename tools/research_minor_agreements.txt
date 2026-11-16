@@ -1,0 +1,611 @@
+Apparatus-screened minor-agreement phrase audit
+Frozen E4 exclusions: drop entire group intersecting any listed verse in any Synoptic book.
+Raw per-group greekAlignment only; no SUPPLEMENT. Both partners must lack Mark links. Original token-ID adjacency prevents bridging removed Scripture.
+Single-word looser count includes qualifying words inside multiword runs, deduplicated by Matthew ID.
+Apparatus: accent-insensitive substring search including function words; omission/addition units intersect matching printed NA28 token positions (insertion signs within two token slots), including spanning units. No witness interpretation.
+Sort: descending content words, then length, then Matthew token IDs. First ten frozen for contextual review, not independently validated discoveries.
+Lemma frequency: unique non-Scripture tokens in examined episodes, all three books, stratified by speech/narrative.
+OpenGNT 3.3 (CC BY-SA 4.0); apparatus NA28, Deutsche Bibelgesellschaft. Editions differ.
+
+{
+  "episodes_examined": 79,
+  "episodes_with_candidates": 23,
+  "multiword": {
+    "before": 31,
+    "after_apparatus": 8,
+    "alignment_flagged": 0
+  },
+  "looser_singleword": {
+    "before": 54,
+    "after_apparatus": 38,
+    "alignment_flagged": 0
+  },
+  "counts_by_length": {
+    "5": 3,
+    "9": 1,
+    "4": 4,
+    "3": 5,
+    "2": 18
+  },
+  "counts_by_episode": {
+    "aland-13": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-17": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-18": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-25": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-30": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-32": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-33": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-37": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-38": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-40": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-42": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-43": {
+      "before": 3,
+      "after_apparatus": 3
+    },
+    "aland-44": {
+      "before": 1,
+      "after_apparatus": 1
+    },
+    "aland-45": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-46": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-47": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-48": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-90": {
+      "before": 2,
+      "after_apparatus": 0
+    },
+    "aland-91": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-95": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-96": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-113": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-114": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-121": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-122": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-124": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-143": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-144": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-146": {
+      "before": 1,
+      "after_apparatus": 1
+    },
+    "aland-155": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-158": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-159": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-161": {
+      "before": 1,
+      "after_apparatus": 1
+    },
+    "aland-164": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-167": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-174": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-182": {
+      "before": 2,
+      "after_apparatus": 1
+    },
+    "aland-195": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-253": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-254": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-262": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-263": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-264": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-269": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-271": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-273": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-276": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-278": {
+      "before": 4,
+      "after_apparatus": 0
+    },
+    "aland-280": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-281": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-283": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-287": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-288": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-290": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-292": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-293": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-305": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-307": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-308": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-310": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-311": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-315": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-330": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-331": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-332": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-333": {
+      "before": 1,
+      "after_apparatus": 1
+    },
+    "aland-334": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-336": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-339": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-341": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-343": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-344": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-345": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-346": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-347": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-348": {
+      "before": 0,
+      "after_apparatus": 0
+    },
+    "aland-350": {
+      "before": 2,
+      "after_apparatus": 0
+    },
+    "aland-352": {
+      "before": 1,
+      "after_apparatus": 0
+    },
+    "aland-353": {
+      "before": 0,
+      "after_apparatus": 0
+    }
+  },
+  "known_answer": {
+    "passed": true,
+    "records": [
+      {
+        "matthew": "26:68",
+        "luke": "22:64",
+        "mark": "14:53, 14:54, 14:55, 14:56, 14:57, 14:58, 14:59, 14:60, 14:61, 14:62, 14:63, 14:64, 14:65",
+        "phrase": "τίς ἐστιν ὁ παίσας σε;",
+        "matthew_ids": [
+          16889,
+          16890,
+          16891,
+          16892,
+          16893
+        ],
+        "luke_ids": [
+          47359,
+          47360,
+          47361,
+          47362,
+          47363
+        ],
+        "length": 5,
+        "content_words": 3,
+        "absent_lemmas": [
+          "παίω"
+        ],
+        "speech_or_narrative": "speech",
+        "alignment_flag": false,
+        "apparatus_touched": true,
+        "apparatus": [
+          {
+            "book": "luke",
+            "chapter": 22,
+            "verse": 64,
+            "entry": "V-AP-B42K22V64",
+            "text": " • 64 ⸀ p) αυτον ετυπτον αυτου το προσωπον και (- 579) A (D) N W Γ Δ Θ Ψ ƒ13 565. 579. 700. 892. 1424 𝔐 lat syh  ¦  ετυπτον αυτον και 2542. l844  ¦  αυτου το προσωπον 070 ƒ1 (a f q r1) sys.c.p sa  ¦  - ℵ (cf ⸂)  ¦  txt 𝔓75 B K L T 1241 bo  |  ⸂ ελεγον D syp  ¦  επηρωτων αυτον λεγοντες ℵ A N W Γ Δ Θ Ψ ƒ1.13 565. 579. 700. 892. 1241. 1424. 2542. l844 𝔐 lat syh  ¦  txt 𝔓75 B K L T 070",
+            "matched_forms": [
+              "ο"
+            ],
+            "localized_omission_addition": false
+          }
+        ],
+        "episodes": [
+          "aland-332"
+        ],
+        "lemma_frequency": [
+          {
+            "lemma": "τίς",
+            "stratum": "speech",
+            "occurrences": 131
+          },
+          {
+            "lemma": "εἰμί",
+            "stratum": "speech",
+            "occurrences": 251
+          },
+          {
+            "lemma": "παίω",
+            "stratum": "speech",
+            "occurrences": 2
+          }
+        ]
+      }
+    ]
+  },
+  "negative_controls": [
+    {
+      "episode": "aland-146",
+      "length": 12,
+      "matthew_ids": [
+        8359,
+        8360,
+        8361,
+        8362,
+        8363,
+        8364,
+        8365,
+        8366,
+        8367,
+        8368,
+        8369,
+        8370
+      ],
+      "matthew": "14:19",
+      "luke": "9:16",
+      "mark": "6:41",
+      "phrase": "τοὺς πέντε ἄρτους καὶ τοὺς δύο ἰχθύας, ἀναβλέψας εἰς τὸν οὐρανὸν εὐλόγησεν",
+      "listed_as_candidate": false
+    },
+    {
+      "episode": "aland-290",
+      "length": 11,
+      "matthew_ids": [
+        14461,
+        14462,
+        14463,
+        14464,
+        14465,
+        14466,
+        14467,
+        14468,
+        14469,
+        14470,
+        14471
+      ],
+      "matthew": "24:19",
+      "luke": "21:23",
+      "mark": "13:17",
+      "phrase": "ταῖς ἐν γαστρὶ ἐχούσαις καὶ ταῖς θηλαζούσαις ἐν ἐκείναις ταῖς ἡμέραις.",
+      "listed_as_candidate": false
+    },
+    {
+      "episode": "aland-293",
+      "length": 10,
+      "matthew_ids": [
+        14728,
+        14729,
+        14730,
+        14731,
+        14732,
+        14733,
+        14734,
+        14735,
+        14736,
+        14737
+      ],
+      "matthew": "24:34",
+      "luke": "21:32",
+      "mark": "13:30",
+      "phrase": "ἀμὴν λέγω ὑμῖν ὅτι οὐ μὴ παρέλθῃ ἡ γενεὰ αὕτη",
+      "listed_as_candidate": false
+    }
+  ]
+}
+
+Matthew | Luke | Mark passage | Greek phrase | absent lemmas | speech/narrative | apparatus touched | content words | length | alignment flagged
+26:75 | 22:62 | 14:66, 14:67, 14:68, 14:69, 14:70, 14:71, 14:72 | καὶ ἐξελθὼν ἔξω ἔκλαυσεν πικρῶς. | ['πικρῶς'] | narrative | False | 4 | 5 | False
+21:44, 21:45 | 20:18, 20:19 | 12:1, 12:2, 12:3, 12:4, 12:5, 12:6, 12:7, 12:8, 12:9, 12:10, 12:12 | συνθλασθήσεται· ἐφ᾽ ὃν δ᾽ ἂν πέσῃ λικμήσει αὐτόν. Καὶ | ['λικμάω', 'πίπτω', 'συνθλάω', 'ἄν', 'ἐπί'] | narrative/speech | True | 3 | 9 | False
+  Apparatus {"book": "luke", "chapter": 20, "verse": 19, "entry": "V-AP-B42K20V19", "text": " • 19 ⸂ 4 5 3 1 2 ℵ D N Γ Δ Ψ 565. 579. 700. 892. 1241. 1424 𝔐 lat sys.c.p sa  ¦  οι γραμματεις και οι Φαρισαιοι C  ¦  txt A B K L W Θ ƒ1.13 33. 2542 e syh bo  |  ⸄ 2–4 1 A C K N W Γ Δ Θ Ψ ƒ1 33. 565. 700. 1241. 1424 𝔐 syh  ¦  2 3 1 579  ¦  ειρηκεν την παραβολην αυτην D  ¦  txt ℵ B L ƒ13 892. 2542 latt", "matched_forms": ["και"], "localized_omission_addition": false}
+  Apparatus {"book": "matthew", "chapter": 21, "verse": 44, "entry": "V-AP-B40K21V44", "text": " • 44 ⸋ D 33 it sys; Or Eussyr  ¦  txt ℵ B C K L W Z Δ (- και Θ) 0102 ƒ1.13 565. 579. 700. 892. 1241. 1424. l844 𝔐 lat syc.p.h co", "matched_forms": ["δ"], "localized_omission_addition": true}
+26:68 | 22:64 | 14:53, 14:54, 14:55, 14:56, 14:57, 14:58, 14:59, 14:60, 14:61, 14:62, 14:63, 14:64, 14:65 | τίς ἐστιν ὁ παίσας σε; | ['παίω'] | speech | True | 3 | 5 | False
+  Apparatus {"book": "luke", "chapter": 22, "verse": 64, "entry": "V-AP-B42K22V64", "text": " • 64 ⸀ p) αυτον ετυπτον αυτου το προσωπον και (- 579) A (D) N W Γ Δ Θ Ψ ƒ13 565. 579. 700. 892. 1424 𝔐 lat syh  ¦  ετυπτον αυτον και 2542. l844  ¦  αυτου το προσωπον 070 ƒ1 (a f q r1) sys.c.p sa  ¦  - ℵ (cf ⸂)  ¦  txt 𝔓75 B K L T 1241 bo  |  ⸂ ελεγον D syp  ¦  επηρωτων αυτον λεγοντες ℵ A N W Γ Δ Θ Ψ ƒ1.13 565. 579. 700. 892. 1241. 1424. 2542. l844 𝔐 lat syh  ¦  txt 𝔓75 B K L T 070", "matched_forms": ["ο"], "localized_omission_addition": false}
+16:21 | 9:22 | 8:31, 8:32, 8:33 | τῇ τρίτῃ ἡμέρᾳ ἐγερθῆναι. | ['τρίτος', 'ἐγείρω'] | narrative/speech | True | 3 | 4 | False
+  Apparatus {"book": "luke", "chapter": 9, "verse": 22, "entry": "V-AP-B42K9V22", "text": " • 22 ⸂ τριτη 𝔓75*  ¦  p) μεθ ημερας τρεις D it; McionA, (E)  |  ⸀ αναστηναι A C D K ƒ1 565 pm; McionA", "matched_forms": ["ημερα", "τη", "τριτη"], "localized_omission_addition": false}
+  Apparatus {"book": "matthew", "chapter": 16, "verse": 21, "entry": "V-AP-B40K16V21", "text": " • 21 ⸂ Ιησους Χριστος ℵ* B* samss mae bo  ¦  - ℵ2a 579. 892; Irlat  ¦  txt ℵ2b C K L W Γ Δ Θ ƒ1.13 565. 700. 1241. 1424 (- ο B2 D) 𝔐 latt sy sams bomss  |  ⸉ C K L W Γ Δ 565 𝔐 lat  ¦  txt ℵ B D Θ ƒ1.13 33. 579. 700. 892. 1241. 1424 e sy; (Irlat)  |  ⸆ του λαου Θ ƒ1.13 1424 mae  |  ⸄ p) μετα τρεις ημερας αναστηναι D (it) bo", "matched_forms": ["ημερα", "τη"], "localized_omission_addition": false}
+9:7 | 5:25 | 2:1, 2:2, 2:3, 2:4, 2:5, 2:6, 2:7, 2:8, 2:9, 2:10, 2:11, 2:12 | ἀπῆλθεν εἰς τὸν οἶκον αὐτοῦ. | ['ἀπέρχομαι'] | narrative | False | 2 | 5 | False
+12:48 | 8:21 | 3:31, 3:32, 3:33, 3:34, 3:35 | Ὁ δὲ ἀποκριθεὶς εἶπεν | ['δέ', 'ἔπω, ἐρῶ, εἶπον'] | narrative | True | 2 | 4 | False
+  Apparatus {"book": "luke", "chapter": 8, "verse": 21, "entry": "V-AP-B42K8V21", "text": " • 21 ⸀ αυτον 𝔓75 b*", "matched_forms": ["ο"], "localized_omission_addition": false}
+  Apparatus {"book": "matthew", "chapter": 12, "verse": 48, "entry": "V-AP-B40K12V48", "text": " • 48 ⸂ τω ειποντι αυτω C K L Γ Δ Θ ƒ1.13 565. 579. 700 𝔐  ¦  τω λεγοντι Z  ¦  - W  ¦  txt ℵ B D 33. 892. 1424  |  ⸀ η D W Θ it sys mae bo  |  ° W  |  °1 B*", "matched_forms": ["ο"], "localized_omission_addition": false}
+27:58 | 23:52 | 15:42, 15:43, 15:44, 15:45, 15:46, 15:47 | οὗτος προσελθὼν τῷ Πιλάτῳ | ['οὗτος', 'προσέρχομαι'] | narrative | True | 2 | 4 | False
+  Apparatus {"book": "matthew", "chapter": 27, "verse": 58, "entry": "V-AP-B40K27V58", "text": " • 58 ⸆ το σωμα A C D K W Γ Δ Θ ƒ13 565. 579. 700. 1241. l844 𝔐 lat syp.h  ¦  το σωμα τω Ιωσηφ 1424  ¦  txt ℵ B L ƒ1 33. 892 bo", "matched_forms": ["τω"], "localized_omission_addition": false}
+14:1 | 9:7 | 6:14, 6:15, 6:16 | Ἡρῴδης ὁ τετραάρχης | ['τετράρχης'] | narrative | True | 2 | 3 | False
+  Apparatus {"book": "luke", "chapter": 9, "verse": 7, "entry": "V-AP-B42K9V7", "text": " • 7 ⸀ ακουσας D  |  ⸆ υπ αυτου A C3 K W Γ Δ Θ Ψ ƒ1 33. 565. 700. 892. 1424 𝔐 lat syp.h  ¦  txt 𝔓75 ℵ B C* D L Ξ ƒ13 579. 1241. 2542 it sys.c co  |  ⸂ ηπορειτο D  |  ⸄ εγηγερται εκ νεκρων A K N W Γ Δ Θ Ψ 565 𝔐  ¦  εκ νεκρων ανεστη D c e  ¦  ηγερθη απο των νεκρων ƒ13 1241  ¦  txt 𝔓75 ℵ B C L Ξ ƒ1 33. 579. 700. 892. 1424. 2542", "matched_forms": ["ο"], "localized_omission_addition": false}
+8:27 | 8:25 | 4:35, 4:36, 4:37, 4:38, 4:39, 4:40, 4:41 | ἐθαύμασαν λέγοντες· | ['θαυμάζω'] | narrative | True | 2 | 2 | False
+  Apparatus {"book": "luke", "chapter": 8, "verse": 25, "entry": "V-AP-B42K8V25", "text": " • 25 ⸆ εστιν D K Γ Δ ƒ13 33. 565. 892c. 1424 𝔐  ¦  txt 𝔓75vid ℵ A B L W Θ Ψ 1. 579. 700. 892*. 2542  |  ⸂ οι δε φοβηθεντες ℵ L 33. 892. 1241  |  ⸄ προς αλληλους λεγοντες L Ξ Ψ 33. 579. 892. 1241. 1424. 2542 it vgcl  ¦  λεγοντες ℵ sams  |  ⸋ 𝔓75 B 700 aeth", "matched_forms": ["λεγοντεσ"], "localized_omission_addition": false}
+8:23, 8:24 | 8:22 | 4:35, 4:36, 4:37, 4:38, 4:39, 4:40, 4:41 | οἱ μαθηταὶ αὐτοῦ. καὶ | ['μαθητής'] | narrative | True | 1 | 4 | False
+  Apparatus {"book": "luke", "chapter": 8, "verse": 22, "entry": "V-AP-B42K8V22", "text": " • 22 ⸂ και αυτος (- 𝔓75) ανεβη 𝔓75 L Θ ƒ13 syh  ¦  αναβηναι αυτον D (e)", "matched_forms": ["και"], "localized_omission_addition": false}
+9:23 | 8:51 | 5:21, 5:22, 5:23, 5:24, 5:25, 5:26, 5:27, 5:28, 5:29, 5:30, 5:31, 5:32, 5:33, 5:34, 5:35, 5:36, 5:37, 5:38, 5:39, 5:40, 5:41, 5:42, 5:43 | εἰς τὴν οἰκίαν | ['οἰκία'] | narrative | True | 1 | 3 | False
+  Apparatus {"book": "luke", "chapter": 8, "verse": 51, "entry": "V-AP-B42K8V51", "text": " • 51 ⸂ ουκ αφηκεν εισελθειν ουδενα A C3 K W Γ Δ Ψ ƒ1 (565). 700 𝔐 sys.c; Irlat vid  ¦  ουκ αφηκεν εισελθειν ουδενα συν αυτω L Θ 892. 1424 syh  ¦  ουδενα αφηκεν συνεισελθειν αυτω ℵ  ¦  ουκ αφηκεν (+ τινα ƒ13) συνελθειν αυτω ουδενα (- ƒ13) ƒ13 2542  ¦  1–3 5 6 4 D  ¦  txt B C* 0291. 33. 579. 1241  |  ⸄ p) Ιακωβον και Ιωαννην ℵ A L 33. 700. 892. 1241. 1424. 2542 vgcl sys.c.p sams bo", "matched_forms": ["εισ"], "localized_omission_addition": false}
+22:36 | 10:26 | 12:28, 12:29, 12:30, 12:31, 12:32, 12:33, 12:34 | ἐν τῷ νόμῳ; | ['νόμος', 'ἐν'] | speech | False | 1 | 3 | False
+26:18 | 22:10 | 14:12, 14:13, 14:14, 14:15, 14:16, 14:17 | Ὁ δὲ εἶπεν· | ['δέ'] | narrative | True | 1 | 3 | False
+  Apparatus {"book": "luke", "chapter": 22, "verse": 10, "entry": "V-AP-B42K22V10", "text": " • 10 ⸀ υπαντησει C L 892. 1241. l844  ¦  απαντησει D 2542  |  ⸂ οὗ D W Γ Δ Θ ƒ1.13 565. 700. 2542 𝔐  ¦  οὗ (ε)αν A K N P 1424  ¦  txt 𝔓75vid ℵ B C L Ψ 579. 892. 1241. l844 lat", "matched_forms": ["ο"], "localized_omission_addition": false}
+  Apparatus {"book": "matthew", "chapter": 26, "verse": 18, "entry": "V-AP-B40K26V18", "text": " • 18 ⸋ A", "matched_forms": [], "localized_omission_addition": true}
+26:40 | 22:45 | 14:32, 14:33, 14:34, 14:35, 14:36, 14:37, 14:38, 14:39, 14:40, 14:41, 14:42 | πρὸς τοὺς μαθητὰς | ['πρός'] | narrative | True | 1 | 3 | False
+  Apparatus {"book": "matthew", "chapter": 26, "verse": 40, "entry": "V-AP-B40K26V40", "text": " • 40 ⸂ αυτους Dc  ¦  τους μαθητας αυτου D* it vgcl sys.p bo", "matched_forms": ["μαθητασ", "τουσ"], "localized_omission_addition": false}
+8:2 | 5:12 | 1:40, 1:41, 1:42, 1:43, 1:44, 1:45 | καὶ ἰδοὺ | ['ἰδού'] | narrative | True | 1 | 2 | False
+  Apparatus {"book": "luke", "chapter": 5, "verse": 12, "entry": "V-AP-B42K5V12", "text": " • 12 ⸂ p) λεπρος D  |  ⸄ ιδων 700 aur f  ¦  και ιδων A C D K L W Γ Δ Θ Ψ ƒ1.13 33. 565. 892. 1241. 2542. l2211 𝔐  ¦  προσελθων και ιδων 1424  ¦  txt ℵ B 579 e  |  ⸀ επεσεν D e r1  |  ⸋ D e r1", "matched_forms": ["και"], "localized_omission_addition": false}
+9:2 | 5:18 | 2:1, 2:2, 2:3, 2:4, 2:5, 2:6, 2:7, 2:8, 2:9, 2:10, 2:11, 2:12 | Καὶ ἰδοὺ | ['ἰδού'] | narrative | False | 1 | 2 | False
+9:2 | 5:18 | 2:1, 2:2, 2:3, 2:4, 2:5, 2:6, 2:7, 2:8, 2:9, 2:10, 2:11, 2:12 | ἐπὶ κλίνης | ['κλίνη'] | narrative | False | 1 | 2 | False
+9:11 | 5:30 | 2:13, 2:14, 2:15, 2:16, 2:17 | Διὰ τί | ['διά', 'τίς'] | speech | False | 1 | 2 | False
+14:13 | 9:11 | 6:32, 6:33, 6:34, 6:35, 6:36, 6:37, 6:38, 6:39, 6:40, 6:41, 6:42, 6:43, 6:44 | ἠκολούθησαν αὐτῷ | ['ἀκολουθέω'] | narrative | False | 1 | 2 | False
+16:16 | 9:20 | 8:27, 8:28, 8:29, 8:30 | τοῦ Θεοῦ | ['θεός'] | narrative/speech | True | 1 | 2 | False
+  Apparatus {"book": "luke", "chapter": 9, "verse": 20, "entry": "V-AP-B42K9V20", "text": " • 20 ⸆ (+ τον 892) υιον D 892 it boms", "matched_forms": [], "localized_omission_addition": true}
+  Apparatus {"book": "matthew", "chapter": 16, "verse": 16, "entry": "V-AP-B40K16V16", "text": " • 16 ⸆ αυτω D (ff1) boms  |  ⸂ του σωζοντος D*", "matched_forms": ["του"], "localized_omission_addition": false}
+17:3 | 9:30 | 9:2, 9:3, 9:4, 9:5, 9:6, 9:7, 9:8, 9:9, 9:10 | Καὶ ἰδοὺ | ['ἰδού'] | narrative | False | 1 | 2 | False
+20:19 | 18:33 | 10:32, 10:33, 10:34 | τῇ τρίτῃ | ['τρίτος'] | speech | True | 1 | 2 | False
+  Apparatus {"book": "matthew", "chapter": 20, "verse": 19, "entry": "V-AP-B40K20V19", "text": " • 19 ⸀ p) αναστησεται B C2 D K W Γ Δ Θ 085 ƒ1.13 33. 565. 700. 1241. 1424. l844 𝔐  ¦  txt ℵ C* L N Z 579. 892; Or", "matched_forms": ["τη"], "localized_omission_addition": false}
+21:3 | 19:31 | 11:1, 11:2, 11:3, 11:4, 11:5, 11:6, 11:7, 11:8, 11:9, 11:10 | ἐρεῖτε ὅτι | ['ὅτι'] | speech | True | 1 | 2 | False
+  Apparatus {"book": "luke", "chapter": 19, "verse": 31, "entry": "V-AP-B42K19V31", "text": " • 31 ⸋ p) D it  |  ⸆ αυτω A K N W Γ Δ Θ Ψ ƒ1.13 565. 700. 892. 1424 𝔐 lat sy  ¦  txt ℵ B D L 579. 1241. 2542. l844 it co", "matched_forms": [], "localized_omission_addition": true}
+21:44 | 20:18 | 12:1, 12:2, 12:3, 12:4, 12:5, 12:6, 12:7, 12:8, 12:9, 12:10, 12:12 | ὁ πεσὼν | ['πίπτω'] | speech | True | 1 | 2 | False
+  Apparatus {"book": "matthew", "chapter": 21, "verse": 44, "entry": "V-AP-B40K21V44", "text": " • 44 ⸋ D 33 it sys; Or Eussyr  ¦  txt ℵ B C K L W Z Δ (- και Θ) 0102 ƒ1.13 565. 579. 700. 892. 1241. 1424. l844 𝔐 lat syc.p.h co", "matched_forms": [], "localized_omission_addition": true}
+21:44 | 20:18 | 12:1, 12:2, 12:3, 12:4, 12:5, 12:6, 12:7, 12:8, 12:9, 12:10, 12:12 | τὸν λίθον | ['λίθος'] | speech | True | 1 | 2 | False
+  Apparatus {"book": "matthew", "chapter": 21, "verse": 44, "entry": "V-AP-B40K21V44", "text": " • 44 ⸋ D 33 it sys; Or Eussyr  ¦  txt ℵ B C K L W Z Δ (- και Θ) 0102 ƒ1.13 565. 579. 700. 892. 1241. 1424. l844 𝔐 lat syc.p.h co", "matched_forms": [], "localized_omission_addition": true}
+21:45 | 20:19 | 12:1, 12:2, 12:3, 12:4, 12:5, 12:6, 12:7, 12:8, 12:9, 12:10, 12:12 | οἱ ἀρχιερεῖς | ['ἀρχιερεύς'] | narrative | True | 1 | 2 | False
+  Apparatus {"book": "luke", "chapter": 20, "verse": 19, "entry": "V-AP-B42K20V19", "text": " • 19 ⸂ 4 5 3 1 2 ℵ D N Γ Δ Ψ 565. 579. 700. 892. 1241. 1424 𝔐 lat sys.c.p sa  ¦  οι γραμματεις και οι Φαρισαιοι C  ¦  txt A B K L W Θ ƒ1.13 33. 2542 e syh bo  |  ⸄ 2–4 1 A C K N W Γ Δ Θ Ψ ƒ1 33. 565. 700. 1241. 1424 𝔐 syh  ¦  2 3 1 579  ¦  ειρηκεν την παραβολην αυτην D  ¦  txt ℵ B L ƒ13 892. 2542 latt", "matched_forms": ["οι"], "localized_omission_addition": false}
+27:59 | 23:53 | 15:42, 15:43, 15:44, 15:45, 15:46, 15:47 | ἐνετύλιξεν αὐτὸ | ['ἐντυλίσσω'] | narrative | True | 1 | 2 | False
+  Apparatus {"book": "luke", "chapter": 23, "verse": 53, "entry": "V-AP-B42K23V53", "text": " • 53 ⸂ αυτο ενετυλιξεν W Γ Θ Ψ ƒ1 (b q)  ¦  αυτο ενετυλιξεν αυτο A K P Δ 565. 700. 892. 1424 𝔐 sy  ¦  ενετυλιξεν το σωμα του Ιησου εν D  ¦  ενετυλιξεν αυτον 1241. (⸉ 2542)  ¦  txt 𝔓75 ℵ B C L 070 ƒ13 33. 579 (a ff2)  |  ⸀ αυτο 𝔓75 A K L P W Γ Δ Θ Ψ 070. 33. 565. 579. 700. 892. 1241. 1424. 2542 𝔐 c  ¦  - ƒ1.13  ¦  txt ℵ B C D lat  |  ⸄ μνημειω λελατομημενω D  |  ⸂1 ουδεις ουδεπω ℵ C K P W Θ ƒ13 33. 892 (⸉ Γ Δ Ψ 565. 700. 1424 𝔐)  ¦  ουπω ουδεις D 070  ¦  txt 𝔓75 A B L ƒ1 579. 1241. 2542  |  ⸆ p) και προσεκυλισεν λιθον μεγαν επι την θυραν του μνημειου ƒ13 700 bo  ¦  και θεντος αυτου επεθηκεν (επεθηκαν 070) τω μνημειω λιθον (+ μεγαν 070) ον μογις εικοσι (+ ανδρας 070) εκυλιον D 070 c (sa)", "matched_forms": ["αυτο", "ενετυλιξεν"], "localized_omission_addition": false}
+28:2 | 24:4 | 16:1, 16:2, 16:3, 16:4, 16:5, 16:6, 16:7, 16:8 | Καὶ ἰδοὺ | ['ἰδού'] | narrative | True | 1 | 2 | False
+  Apparatus {"book": "luke", "chapter": 24, "verse": 4, "entry": "V-AP-B42K24V4", "text": " • 4 ⸀ διαπορεισθαι A K W Γ Δ Θ Ψ ƒ13 33. 565. 579. 700. 892. 1241. 1424. l2211 𝔐  ¦  διαπορειν ƒ1 2542  ¦  txt 𝔓75 ℵ B C D L 070. l844  |  ⸂ αυτου D  |  ⸄ εσθησεσιν αστραπτουσαις (λευκαις L) A C K L W Γ Δ Θ Ψ (070) ƒ1.13 33. 565. 579. 700. 892. 1241. 1424. 2542. l844. l2211 𝔐 syh  ¦  txt 𝔓75 ℵ B D lat sys.c.p", "matched_forms": ["και"], "localized_omission_addition": false}
+  Apparatus {"book": "matthew", "chapter": 28, "verse": 2, "entry": "V-AP-B40K28V2", "text": " • 2 ° A D K Γ Δ Θ ƒ1.13 565. 579. 700. 892. 1241. 1424. l844 𝔐 syh  ¦  txt ℵ B C L W 33. l2211  |  ⸆ απο της θυρας A C K W Δ 579. 1424 pm f h q syp  ¦  απο της θυρας του μνημειου L Γ Θ ƒ1.13 33. 565. 1241. l844c vid pm syh mae bo; Eus  ¦  txt ℵ B D 700. 892. l844*. l2211 lat sys sa", "matched_forms": [], "localized_omission_addition": true}
+9:17 | 5:37 | 2:18, 2:19, 2:20, 2:21, 2:22 | μή γε, | ['μή(γε)'] | speech | True | 0 | 2 | False
+  Apparatus {"book": "matthew", "chapter": 9, "verse": 17, "entry": "V-AP-B40K9V17", "text": " • 17 ° B co  |  ⸂ p) ρησσει ο οινος ο νεος τους ασκους D (g1 k μ sys)  |  ⸄ p) απολλυται και οι ασκοι D (a) k  |  ⸂1 1 3–6 2 7 C 1424. l844c (- 4 l844*) . l2211  ¦  1 3 4 2 5–7 892  ¦  p) αλλ 3–7 βλητεον ℵ", "matched_forms": [], "localized_omission_addition": true}
+22:37 | 10:27 | 12:28, 12:29, 12:30, 12:31, 12:32, 12:33, 12:34 | Ὁ δὲ | ['δέ'] | narrative | True | 0 | 2 | False
+  Apparatus {"book": "luke", "chapter": 10, "verse": 27, "entry": "V-AP-B42K10V27", "text": " • 27 ° B*  |  ⸂ 1 2 4 𝔓75 B Ξ 070. l844  ¦  εν ολη τη (- ƒ1 l2211) καρδια D ƒ1 l2211 it  ¦  txt ℵ A C K L N W Γ Δ Θ Ψ ƒ13 33. 565. 579. 700. 892. 1241. 1424. 2542 𝔐 lat  |  °1 𝔓75 B  |  ⸄ εξ ολης της ψυχης σου και εξ ολης της ισχυος σου και εξ ολης της διανοιας σου A C K N W Δ Θ Ψ ƒ13 33. 565. 700. 892. 1424. l844 𝔐 lat sy (c)  ¦  εξ ολης της ψυχης σου και εξ ολης της ισχυος σου Γ  ¦  εν ολη τη ψυχη σου και εν ολη τη διανοια σου 1241 boms  ¦  εν ολη τη ψυχη σου και εξ ολης της ισχυος σου και εν ολη τη διανοια σου 070  ¦  εν ολη τη ψυχη σου και εν ολη τη ισχυι σου D it; McionT  ¦  txt 𝔓75 ℵ B L Ξ (ƒ1) 579. 2542. l2211", "matched_forms": ["ο"], "localized_omission_addition": false}
+  Apparatus {"book": "matthew", "chapter": 22, "verse": 37, "entry": "V-AP-B40K22V37", "text": " • 37 ⸂ ο δε Ιησους εφη (ειπεν W Θ ƒ13 700) αυτω K W Γ Δ Θ 0102. 0161 ƒ1.13 565. 579. 700. 1241. 1424 𝔐 q syp.h mae  ¦  εφη αυτω Ιησους D lat boms  ¦  txt ℵ B L 33. 892 sa bo  |  ° ℵ* B W Γ Δ Θ 0102. 0107vid. 0161 ƒ13 579. 700. 1241 pm  |  °1 B W Γ Δ Θ 0102. 0107vid. 579. 700 pm  |  ⸀ ισχυι c sys.c  ¦  p) ισχυι σου και εν ολη τη διανοια Θ 0107 ƒ13 (33) (syp) bomss", "matched_forms": ["δε", "ο"], "localized_omission_addition": false}
+24:34 | 21:32 | 13:28, 13:29, 13:30, 13:31, 13:32 | ἕως ἂν | ['ἄν', 'ἕως'] | speech | True | 0 | 2 | False
+  Apparatus {"book": "luke", "chapter": 21, "verse": 32, "entry": "V-AP-B42K21V32", "text": " • 32 ° ℵ D 33  |  ⸀ ταυτα παντα D ƒ13 579. 892 l sys.c.p bo?  ¦  παντα ταυτα Ψ 070", "matched_forms": ["αν"], "localized_omission_addition": true}
+  Apparatus {"book": "matthew", "chapter": 24, "verse": 34, "entry": "V-AP-B40K24V34", "text": " • 34 ° ℵ K W Γ Δ 0281. 565. 579. 1241. l2211 𝔐  ¦  txt B D L Θ ƒ1.13 33. 700. 892. 1424 latt  |  °1 ℵ 1241  |  ⸂ ταυτα παντα D L Θ ƒ13 l2211 it sys.p  ¦  παντα 1424 aur b f ff1 vgmss", "matched_forms": ["αν"], "localized_omission_addition": true}
+
+Looser single-word count (includes words within multiword phrases)
+{"matthew": "8:2", "luke": "5:12", "mark": "1:40, 1:41, 1:42, 1:43, 1:44, 1:45", "phrase": "ἰδοὺ", "matthew_ids": [3660], "luke_ids": [33260], "length": 1, "content_words": 1, "absent_lemmas": ["ἰδού"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-42"], "lemma_frequency": [{"lemma": "ἰδού", "stratum": "narrative", "occurrences": 36}]}
+{"matthew": "8:2", "luke": "5:12", "mark": "1:40, 1:41, 1:42, 1:43, 1:44, 1:45", "phrase": "Κύριε,", "matthew_ids": [3666], "luke_ids": [33274], "length": 1, "content_words": 1, "absent_lemmas": ["κύριος"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-42"], "lemma_frequency": [{"lemma": "κύριος", "stratum": "speech", "occurrences": 30}]}
+{"matthew": "9:2", "luke": "5:18", "mark": "2:1, 2:2, 2:3, 2:4, 2:5, 2:6, 2:7, 2:8, 2:9, 2:10, 2:11, 2:12", "phrase": "ἰδοὺ", "matthew_ids": [4246], "luke_ids": [33384], "length": 1, "content_words": 1, "absent_lemmas": ["ἰδού"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-43"], "lemma_frequency": [{"lemma": "ἰδού", "stratum": "narrative", "occurrences": 36}]}
+{"matthew": "9:2", "luke": "5:18", "mark": "2:1, 2:2, 2:3, 2:4, 2:5, 2:6, 2:7, 2:8, 2:9, 2:10, 2:11, 2:12", "phrase": "κλίνης", "matthew_ids": [4251], "luke_ids": [33388], "length": 1, "content_words": 1, "absent_lemmas": ["κλίνη"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-43"], "lemma_frequency": [{"lemma": "κλίνη", "stratum": "narrative", "occurrences": 2}]}
+{"matthew": "9:7", "luke": "5:25", "mark": "2:1, 2:2, 2:3, 2:4, 2:5, 2:6, 2:7, 2:8, 2:9, 2:10, 2:11, 2:12", "phrase": "ἀπῆλθεν", "matthew_ids": [4340], "luke_ids": [33536], "length": 1, "content_words": 1, "absent_lemmas": ["ἀπέρχομαι"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-43"], "lemma_frequency": [{"lemma": "ἀπέρχομαι", "stratum": "narrative", "occurrences": 31}]}
+{"matthew": "9:11", "luke": "5:30", "mark": "2:13, 2:14, 2:15, 2:16, 2:17", "phrase": "τί", "matthew_ids": [4412], "luke_ids": [33620], "length": 1, "content_words": 1, "absent_lemmas": ["τίς"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-44"], "lemma_frequency": [{"lemma": "τίς", "stratum": "speech", "occurrences": 131}]}
+{"matthew": "9:12", "luke": "5:31", "mark": "2:13, 2:14, 2:15, 2:16, 2:17", "phrase": "εἶπεν·", "matthew_ids": [4425], "luke_ids": [33633], "length": 1, "content_words": 1, "absent_lemmas": ["ἔπω, ἐρῶ, εἶπον"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 9, "verse": 12, "entry": "V-AP-B40K9V12", "text": " • 12 ⸆ p) Ιησους C K L N W Γ Δ Θ ƒ1.13 33. 565. 579. 700. 1424. l844. l2211 𝔐 lat syp.h bo  ¦  txt ℵ B D 0281. 892 sys sa mae  |  ⸇ p) αυτοις C3 K L N W Γ Δ Θ ƒ1.13 33. 565. 579. 700. l844. l2211 𝔐 a f h q vgmss syp.h mae bo  ¦  txt ℵ B C* 892. 1424 lat sys sa", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-44"], "lemma_frequency": [{"lemma": "ἔπω, ἐρῶ, εἶπον", "stratum": "narrative", "occurrences": 227}]}
+{"matthew": "8:23", "luke": "8:22", "mark": "4:35, 4:36, 4:37, 4:38, 4:39, 4:40, 4:41", "phrase": "μαθηταὶ", "matthew_ids": [4035], "luke_ids": [36036], "length": 1, "content_words": 1, "absent_lemmas": ["μαθητής"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-90"], "lemma_frequency": [{"lemma": "μαθητής", "stratum": "narrative", "occurrences": 71}]}
+{"matthew": "8:25", "luke": "8:24", "mark": "4:35, 4:36, 4:37, 4:38, 4:39, 4:40, 4:41", "phrase": "προσελθόντες", "matthew_ids": [4056], "luke_ids": [36065], "length": 1, "content_words": 1, "absent_lemmas": ["προσέρχομαι"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 8, "verse": 25, "entry": "V-AP-B40K8V25", "text": " • 25 ⸆ οι μαθηται C2 K L Γ Δ ƒ13 565. 579. 700 𝔐 h; Eus  ¦  οι μαθηται αυτου C* W Θ ƒ1 1424 b g1 (q) vgcl sy mae  ¦  txt ℵ B 33vid. 892. l844. l2211 lat sa bo  |  ⸇ ημας K L W Γ Δ Θ 0242vid. 565. 579. 700. 1424. l844. l2211 𝔐 latt syp.h; Eus  ¦  txt ℵ B C ƒ1.13 33. 892 bomss", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-90"], "lemma_frequency": [{"lemma": "προσέρχομαι", "stratum": "narrative", "occurrences": 36}]}
+{"matthew": "8:27", "luke": "8:25", "mark": "4:35, 4:36, 4:37, 4:38, 4:39, 4:40, 4:41", "phrase": "ἐθαύμασαν", "matthew_ids": [4085], "luke_ids": [36098], "length": 1, "content_words": 1, "absent_lemmas": ["θαυμάζω"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-90"], "lemma_frequency": [{"lemma": "θαυμάζω", "stratum": "narrative", "occurrences": 12}]}
+{"matthew": "9:20", "luke": "8:41", "mark": "5:21, 5:22, 5:23, 5:24, 5:25, 5:26, 5:27, 5:28, 5:29, 5:30, 5:31, 5:32, 5:33, 5:34, 5:35, 5:36, 5:37, 5:38, 5:39, 5:40, 5:41, 5:42, 5:43", "phrase": "ἰδοὺ", "matthew_ids": [4596], "luke_ids": [36426], "length": 1, "content_words": 1, "absent_lemmas": ["ἰδού"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-95"], "lemma_frequency": [{"lemma": "ἰδού", "stratum": "narrative", "occurrences": 36}]}
+{"matthew": "9:20", "luke": "8:44", "mark": "5:21, 5:22, 5:23, 5:24, 5:25, 5:26, 5:27, 5:28, 5:29, 5:30, 5:31, 5:32, 5:33, 5:34, 5:35, 5:36, 5:37, 5:38, 5:39, 5:40, 5:41, 5:42, 5:43", "phrase": "προσελθοῦσα", "matthew_ids": [4601], "luke_ids": [36492], "length": 1, "content_words": 1, "absent_lemmas": ["προσέρχομαι"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 9, "verse": 20, "entry": "V-AP-B40K9V20", "text": " • 20 ⸆ (J 5,5) εχουσα εν τη ασθενεια L", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-95"], "lemma_frequency": [{"lemma": "προσέρχομαι", "stratum": "narrative", "occurrences": 36}]}
+{"matthew": "9:20", "luke": "8:44", "mark": "5:21, 5:22, 5:23, 5:24, 5:25, 5:26, 5:27, 5:28, 5:29, 5:30, 5:31, 5:32, 5:33, 5:34, 5:35, 5:36, 5:37, 5:38, 5:39, 5:40, 5:41, 5:42, 5:43", "phrase": "κρασπέδου", "matthew_ids": [4605], "luke_ids": [36496], "length": 1, "content_words": 1, "absent_lemmas": ["κράσπεδον"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "luke", "chapter": 8, "verse": 44, "entry": "V-AP-B42K8V44", "text": " • 44 ° D Ψ  |  ⸋ p) D it", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-95"], "lemma_frequency": [{"lemma": "κράσπεδον", "stratum": "narrative", "occurrences": 2}]}
+{"matthew": "9:23", "luke": "8:51", "mark": "5:21, 5:22, 5:23, 5:24, 5:25, 5:26, 5:27, 5:28, 5:29, 5:30, 5:31, 5:32, 5:33, 5:34, 5:35, 5:36, 5:37, 5:38, 5:39, 5:40, 5:41, 5:42, 5:43", "phrase": "οἰκίαν", "matthew_ids": [4649], "luke_ids": [36616], "length": 1, "content_words": 1, "absent_lemmas": ["οἰκία"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-95"], "lemma_frequency": [{"lemma": "οἰκία", "stratum": "narrative", "occurrences": 15}]}
+{"matthew": "12:47", "luke": "8:20", "mark": "3:31, 3:32, 3:33, 3:34, 3:35", "phrase": "ἑστήκασιν", "matthew_ids": [6943], "luke_ids": [35997], "length": 1, "content_words": 1, "absent_lemmas": ["ἵστημι"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 12, "verse": 47, "entry": "V-AP-B40K12V47", "text": " • 47 ⸋ ℵ* B L Γ ff1 k sys.c sa  ¦  txt C K W Z Δ Θ ƒ13 565. 579. 700. (ℵ1 D ƒ1 33. 892. 1424: cf ⸀ et ⸂) 𝔐 lat syp.h mae bo  |  ⸀ των μαθητων αυτου (+ προς αυτον 892) ℵ1 892 (bo)  |  ⸂ εξω ζητουσιν σε ℵ1  ¦  εστηκεισαν εξω ζητουντες λαλησαι σοι D*.(1)  ¦  εστηκασιν (+ εξω 33) ζητουντες σοι λαλησαι ƒ1 33  ¦  εστηκασιν εξω ζητουντες σε ιδειν 1424", "matched_forms": ["εστηκασιν"], "localized_omission_addition": true}], "episodes": ["aland-121"], "lemma_frequency": [{"lemma": "ἵστημι", "stratum": "speech", "occurrences": 5}]}
+{"matthew": "12:48", "luke": "8:21", "mark": "3:31, 3:32, 3:33, 3:34, 3:35", "phrase": "εἶπεν", "matthew_ids": [6950], "luke_ids": [36005], "length": 1, "content_words": 1, "absent_lemmas": ["ἔπω, ἐρῶ, εἶπον"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-121"], "lemma_frequency": [{"lemma": "ἔπω, ἐρῶ, εἶπον", "stratum": "narrative", "occurrences": 227}]}
+{"matthew": "14:1", "luke": "9:7", "mark": "6:14, 6:15, 6:16", "phrase": "τετραάρχης", "matthew_ids": [8086], "luke_ids": [36794], "length": 1, "content_words": 1, "absent_lemmas": ["τετράρχης"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-143"], "lemma_frequency": [{"lemma": "τετράρχης", "stratum": "narrative", "occurrences": 3}]}
+{"matthew": "14:13", "luke": "9:11", "mark": "6:32, 6:33, 6:34, 6:35, 6:36, 6:37, 6:38, 6:39, 6:40, 6:41, 6:42, 6:43, 6:44", "phrase": "ἠκολούθησαν", "matthew_ids": [8268], "luke_ids": [36864], "length": 1, "content_words": 1, "absent_lemmas": ["ἀκολουθέω"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-146"], "lemma_frequency": [{"lemma": "ἀκολουθέω", "stratum": "narrative", "occurrences": 30}]}
+{"matthew": "16:16", "luke": "9:20", "mark": "8:27, 8:28, 8:29, 8:30", "phrase": "Θεοῦ", "matthew_ids": [9491], "luke_ids": [37063], "length": 1, "content_words": 1, "absent_lemmas": ["θεός"], "speech_or_narrative": "narrative/speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-158"], "lemma_frequency": [{"lemma": "θεός", "stratum": "narrative", "occurrences": 16}]}
+{"matthew": "16:21", "luke": "9:22", "mark": "8:31, 8:32, 8:33", "phrase": "τρίτῃ", "matthew_ids": [9615], "luke_ids": [37094], "length": 1, "content_words": 1, "absent_lemmas": ["τρίτος"], "speech_or_narrative": "narrative/speech", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "luke", "chapter": 9, "verse": 22, "entry": "V-AP-B42K9V22", "text": " • 22 ⸂ τριτη 𝔓75*  ¦  p) μεθ ημερας τρεις D it; McionA, (E)  |  ⸀ αναστηναι A C D K ƒ1 565 pm; McionA", "matched_forms": ["τριτη"], "localized_omission_addition": false}], "episodes": ["aland-159"], "lemma_frequency": [{"lemma": "τρίτος", "stratum": "narrative", "occurrences": 5}]}
+{"matthew": "16:21", "luke": "9:22", "mark": "8:31, 8:32, 8:33", "phrase": "ἐγερθῆναι.", "matthew_ids": [9617], "luke_ids": [37096], "length": 1, "content_words": 1, "absent_lemmas": ["ἐγείρω"], "speech_or_narrative": "narrative/speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-159"], "lemma_frequency": [{"lemma": "ἐγείρω", "stratum": "narrative", "occurrences": 11}]}
+{"matthew": "17:3", "luke": "9:30", "mark": "9:2, 9:3, 9:4, 9:5, 9:6, 9:7, 9:8, 9:9, 9:10", "phrase": "ἰδοὺ", "matthew_ids": [9821], "luke_ids": [37243], "length": 1, "content_words": 1, "absent_lemmas": ["ἰδού"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-161"], "lemma_frequency": [{"lemma": "ἰδού", "stratum": "narrative", "occurrences": 36}]}
+{"matthew": "17:4", "luke": "9:33", "mark": "9:2, 9:3, 9:4, 9:5, 9:6, 9:7, 9:8, 9:9, 9:10", "phrase": "εἶπεν", "matthew_ids": [9834], "luke_ids": [37297], "length": 1, "content_words": 1, "absent_lemmas": ["ἔπω, ἐρῶ, εἶπον"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-161"], "lemma_frequency": [{"lemma": "ἔπω, ἐρῶ, εἶπον", "stratum": "narrative", "occurrences": 227}]}
+{"matthew": "17:22", "luke": "9:44", "mark": "9:30, 9:31, 9:32", "phrase": "Μέλλει", "matthew_ids": [10150], "luke_ids": [37531], "length": 1, "content_words": 1, "absent_lemmas": ["μέλλω"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-164"], "lemma_frequency": [{"lemma": "μέλλω", "stratum": "speech", "occurrences": 6}]}
+{"matthew": "22:36", "luke": "10:26", "mark": "12:28, 12:29, 12:30, 12:31, 12:32, 12:33, 12:34", "phrase": "νόμῳ;", "matthew_ids": [13405], "luke_ids": [38337], "length": 1, "content_words": 1, "absent_lemmas": ["νόμος"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-182"], "lemma_frequency": [{"lemma": "νόμος", "stratum": "speech", "occurrences": 4}]}
+{"matthew": "16:6", "luke": "12:1", "mark": "8:14, 8:15", "phrase": "προσέχετε", "matthew_ids": [9337], "luke_ids": [39634], "length": 1, "content_words": 1, "absent_lemmas": ["προσέχω"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-195"], "lemma_frequency": [{"lemma": "προσέχω", "stratum": "speech", "occurrences": 3}]}
+{"matthew": "19:22", "luke": "18:23", "mark": "10:17, 10:18, 10:19, 10:20, 10:21, 10:22", "phrase": "Ἀκούσας", "matthew_ids": [11303], "luke_ids": [44054], "length": 1, "content_words": 1, "absent_lemmas": ["ἀκούω"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-254"], "lemma_frequency": [{"lemma": "ἀκούω", "stratum": "narrative", "occurrences": 40}]}
+{"matthew": "20:17", "luke": "18:31", "mark": "10:32, 10:33, 10:34", "phrase": "εἶπεν", "matthew_ids": [11729], "luke_ids": [44176], "length": 1, "content_words": 1, "absent_lemmas": ["ἔπω, ἐρῶ, εἶπον"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-262"], "lemma_frequency": [{"lemma": "ἔπω, ἐρῶ, εἶπον", "stratum": "narrative", "occurrences": 227}]}
+{"matthew": "20:19", "luke": "18:33", "mark": "10:32, 10:33, 10:34", "phrase": "τρίτῃ", "matthew_ids": [11763], "luke_ids": [44213], "length": 1, "content_words": 1, "absent_lemmas": ["τρίτος"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-262"], "lemma_frequency": [{"lemma": "τρίτος", "stratum": "speech", "occurrences": 9}]}
+{"matthew": "21:2", "luke": "19:30", "mark": "11:1, 11:2, 11:3, 11:4, 11:5, 11:6, 11:7, 11:8, 11:9, 11:10", "phrase": "ἀγάγετέ", "matthew_ids": [12051], "luke_ids": [44814], "length": 1, "content_words": 1, "absent_lemmas": ["ἄγω"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-269"], "lemma_frequency": [{"lemma": "ἄγω", "stratum": "speech", "occurrences": 4}]}
+{"matthew": "21:8", "luke": "19:36", "mark": "11:1, 11:2, 11:3, 11:4, 11:5, 11:6, 11:7, 11:8, 11:9, 11:10", "phrase": "ἑαυτῶν", "matthew_ids": [12133], "luke_ids": [44886], "length": 1, "content_words": 1, "absent_lemmas": ["ἑαυτοῦ"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "luke", "chapter": 19, "verse": 36, "entry": "V-AP-B42K19V36", "text": " • 36 ⸀ εαυτων A B K N W Θ Ψ  ¦  - 1241  ¦  txt ℵ D L Γ Δ ƒ1.13 565. 579. 700. 892. 1424. 2542. l844 𝔐  |  ⸋ D", "matched_forms": ["εαυτων"], "localized_omission_addition": false}], "episodes": ["aland-269"], "lemma_frequency": [{"lemma": "ἑαυτοῦ", "stratum": "narrative", "occurrences": 21}]}
+{"matthew": "21:24", "luke": "20:3", "mark": "11:27, 11:28, 11:29, 11:30, 11:31, 11:32, 11:33", "phrase": "Ἐρωτήσω", "matthew_ids": [12453], "luke_ids": [45144], "length": 1, "content_words": 1, "absent_lemmas": ["ἐρωτάω"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-276"], "lemma_frequency": [{"lemma": "ἐρωτάω", "stratum": "speech", "occurrences": 5}]}
+{"matthew": "21:44", "luke": "20:18", "mark": "12:1, 12:2, 12:3, 12:4, 12:5, 12:6, 12:7, 12:8, 12:9, 12:10, 12:12", "phrase": "πεσὼν", "matthew_ids": [12838], "luke_ids": [45369], "length": 1, "content_words": 1, "absent_lemmas": ["πίπτω"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 21, "verse": 44, "entry": "V-AP-B40K21V44", "text": " • 44 ⸋ D 33 it sys; Or Eussyr  ¦  txt ℵ B C K L W Z Δ (- και Θ) 0102 ƒ1.13 565. 579. 700. 892. 1241. 1424. l844 𝔐 lat syc.p.h co", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-278"], "lemma_frequency": [{"lemma": "πίπτω", "stratum": "speech", "occurrences": 19}]}
+{"matthew": "21:44", "luke": "20:18", "mark": "12:1, 12:2, 12:3, 12:4, 12:5, 12:6, 12:7, 12:8, 12:9, 12:10, 12:12", "phrase": "λίθον", "matthew_ids": [12841], "luke_ids": [45373], "length": 1, "content_words": 1, "absent_lemmas": ["λίθος"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 21, "verse": 44, "entry": "V-AP-B40K21V44", "text": " • 44 ⸋ D 33 it sys; Or Eussyr  ¦  txt ℵ B C K L W Z Δ (- και Θ) 0102 ƒ1.13 565. 579. 700. 892. 1241. 1424. l844 𝔐 lat syc.p.h co", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-278"], "lemma_frequency": [{"lemma": "λίθος", "stratum": "speech", "occurrences": 11}]}
+{"matthew": "21:44", "luke": "20:18", "mark": "12:1, 12:2, 12:3, 12:4, 12:5, 12:6, 12:7, 12:8, 12:9, 12:10, 12:12", "phrase": "συνθλασθήσεται·", "matthew_ids": [12843], "luke_ids": [45374], "length": 1, "content_words": 1, "absent_lemmas": ["συνθλάω"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 21, "verse": 44, "entry": "V-AP-B40K21V44", "text": " • 44 ⸋ D 33 it sys; Or Eussyr  ¦  txt ℵ B C K L W Z Δ (- και Θ) 0102 ƒ1.13 565. 579. 700. 892. 1241. 1424. l844 𝔐 lat syc.p.h co", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-278"], "lemma_frequency": [{"lemma": "συνθλάω", "stratum": "speech", "occurrences": 2}]}
+{"matthew": "21:44", "luke": "20:18", "mark": "12:1, 12:2, 12:3, 12:4, 12:5, 12:6, 12:7, 12:8, 12:9, 12:10, 12:12", "phrase": "πέσῃ", "matthew_ids": [12848], "luke_ids": [45379], "length": 1, "content_words": 1, "absent_lemmas": ["πίπτω"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 21, "verse": 44, "entry": "V-AP-B40K21V44", "text": " • 44 ⸋ D 33 it sys; Or Eussyr  ¦  txt ℵ B C K L W Z Δ (- και Θ) 0102 ƒ1.13 565. 579. 700. 892. 1241. 1424. l844 𝔐 lat syc.p.h co", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-278"], "lemma_frequency": [{"lemma": "πίπτω", "stratum": "speech", "occurrences": 19}]}
+{"matthew": "21:44", "luke": "20:18", "mark": "12:1, 12:2, 12:3, 12:4, 12:5, 12:6, 12:7, 12:8, 12:9, 12:10, 12:12", "phrase": "λικμήσει", "matthew_ids": [12849], "luke_ids": [45380], "length": 1, "content_words": 1, "absent_lemmas": ["λικμάω"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 21, "verse": 44, "entry": "V-AP-B40K21V44", "text": " • 44 ⸋ D 33 it sys; Or Eussyr  ¦  txt ℵ B C K L W Z Δ (- και Θ) 0102 ƒ1.13 565. 579. 700. 892. 1241. 1424. l844 𝔐 lat syc.p.h co", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-278"], "lemma_frequency": [{"lemma": "λικμάω", "stratum": "speech", "occurrences": 2}]}
+{"matthew": "21:45", "luke": "20:19", "mark": "12:1, 12:2, 12:3, 12:4, 12:5, 12:6, 12:7, 12:8, 12:9, 12:10, 12:12", "phrase": "ἀρχιερεῖς", "matthew_ids": [12854], "luke_ids": [45388], "length": 1, "content_words": 1, "absent_lemmas": ["ἀρχιερεύς"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-278"], "lemma_frequency": [{"lemma": "ἀρχιερεύς", "stratum": "narrative", "occurrences": 47}]}
+{"matthew": "22:27", "luke": "20:32", "mark": "12:18, 12:19, 12:20, 12:21, 12:22, 12:23, 12:24, 12:25, 12:26, 12:27", "phrase": "ὕστερον", "matthew_ids": [13285], "luke_ids": [45584], "length": 1, "content_words": 1, "absent_lemmas": ["ὕστερος"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-281"], "lemma_frequency": [{"lemma": "ὕστερος", "stratum": "speech", "occurrences": 3}]}
+{"matthew": "22:45", "luke": "20:44", "mark": "12:35, 12:36, 12:37", "phrase": "καλεῖ", "matthew_ids": [13516], "luke_ids": [45741], "length": 1, "content_words": 1, "absent_lemmas": ["καλέω"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 22, "verse": 45, "entry": "V-AP-B40K22V45", "text": " • 45 ⸆ (43) εν πνευματι D K Δ Θ 0281 ƒ13 565. 1424 pm it vgmss syh** mae bopt", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-283"], "lemma_frequency": [{"lemma": "καλέω", "stratum": "speech", "occurrences": 7}]}
+{"matthew": "24:21", "luke": "21:23", "mark": "13:14, 13:15, 13:16, 13:17, 13:18, 13:19, 13:20", "phrase": "μεγάλη", "matthew_ids": [14487], "luke_ids": [46130], "length": 1, "content_words": 1, "absent_lemmas": ["μέγας"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-290"], "lemma_frequency": [{"lemma": "μέγας", "stratum": "speech", "occurrences": 19}]}
+{"matthew": "26:16", "luke": "22:6", "mark": "14:10, 14:11", "phrase": "εὐκαιρίαν", "matthew_ids": [15981], "luke_ids": [46442], "length": 1, "content_words": 1, "absent_lemmas": ["εὐκαιρία"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-307"], "lemma_frequency": [{"lemma": "εὐκαιρία", "stratum": "narrative", "occurrences": 2}]}
+{"matthew": "26:33", "luke": "22:33", "mark": "14:26, 14:27, 14:28, 14:29, 14:30, 14:31", "phrase": "εἶπεν", "matthew_ids": [16266], "luke_ids": [46856], "length": 1, "content_words": 1, "absent_lemmas": ["ἔπω, ἐρῶ, εἶπον"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-315"], "lemma_frequency": [{"lemma": "ἔπω, ἐρῶ, εἶπον", "stratum": "narrative", "occurrences": 227}]}
+{"matthew": "26:41", "luke": "22:46", "mark": "14:32, 14:33, 14:34, 14:35, 14:36, 14:37, 14:38, 14:39, 14:40, 14:41, 14:42", "phrase": "εἰσέλθητε", "matthew_ids": [16419], "luke_ids": [47075], "length": 1, "content_words": 1, "absent_lemmas": ["εἰσέρχομαι"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-330"], "lemma_frequency": [{"lemma": "εἰσέρχομαι", "stratum": "speech", "occurrences": 16}]}
+{"matthew": "26:47", "luke": "22:47", "mark": "14:43, 14:44, 14:45, 14:46, 14:47, 14:48, 14:49, 14:50, 14:51, 14:52", "phrase": "ἰδοὺ", "matthew_ids": [16513], "luke_ids": [47081], "length": 1, "content_words": 1, "absent_lemmas": ["ἰδού"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-331"], "lemma_frequency": [{"lemma": "ἰδού", "stratum": "narrative", "occurrences": 36}]}
+{"matthew": "26:58", "luke": "22:55", "mark": "14:53, 14:54, 14:55, 14:56, 14:57, 14:58, 14:59, 14:60, 14:61, 14:62, 14:63, 14:64, 14:65", "phrase": "ἐκάθητο", "matthew_ids": [16730], "luke_ids": [47227], "length": 1, "content_words": 1, "absent_lemmas": ["κάθημαι"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-332"], "lemma_frequency": [{"lemma": "κάθημαι", "stratum": "narrative", "occurrences": 26}]}
+{"matthew": "26:63", "luke": "22:70", "mark": "14:53, 14:54, 14:55, 14:56, 14:57, 14:58, 14:59, 14:60, 14:61, 14:62, 14:63, 14:64, 14:65", "phrase": "Θεοῦ.", "matthew_ids": [16815], "luke_ids": [47439], "length": 1, "content_words": 1, "absent_lemmas": ["θεός"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "matthew", "chapter": 26, "verse": 63, "entry": "V-AP-B40K26V63", "text": " • 63 ⸆ αποκριθεις A C K N W Γ Δ 565. 700. 1241. l844. (D 579) 𝔐 it sy  ¦  txt ℵ2 B L Z Θ ƒ1.13 33. 892. 1424 lat co  |  ⸀ ορκιζω D L Θ ƒ13 565. l844; Cyrpt  |  ⸇ του ζωντος C* N W Δ 1241. l844 ff2 vgmss syh samss mae bo", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-332"], "lemma_frequency": [{"lemma": "θεός", "stratum": "speech", "occurrences": 60}]}
+{"matthew": "26:68", "luke": "22:64", "mark": "14:53, 14:54, 14:55, 14:56, 14:57, 14:58, 14:59, 14:60, 14:61, 14:62, 14:63, 14:64, 14:65", "phrase": "παίσας", "matthew_ids": [16892], "luke_ids": [47362], "length": 1, "content_words": 1, "absent_lemmas": ["παίω"], "speech_or_narrative": "speech", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-332"], "lemma_frequency": [{"lemma": "παίω", "stratum": "speech", "occurrences": 2}]}
+{"matthew": "26:75", "luke": "22:62", "mark": "14:66, 14:67, 14:68, 14:69, 14:70, 14:71, 14:72", "phrase": "πικρῶς.", "matthew_ids": [17009], "luke_ids": [47343], "length": 1, "content_words": 1, "absent_lemmas": ["πικρῶς"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-333"], "lemma_frequency": [{"lemma": "πικρῶς", "stratum": "narrative", "occurrences": 2}]}
+{"matthew": "27:11", "luke": "23:3", "mark": "15:2, 15:3, 15:4, 15:5", "phrase": "ἔφη·", "matthew_ids": [17178], "luke_ids": [47514], "length": 1, "content_words": 1, "absent_lemmas": ["φημί"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "luke", "chapter": 23, "verse": 3, "entry": "V-AP-B42K23V3", "text": " • 3 ⸀ επηρωτησεν A D K L N W Γ Δ Θ Ψ ƒ1.13 565. 579. 700. 892. 1241. 1424. 2542 𝔐  ¦  txt 𝔓75 ℵ B T  |  ⸂ 1–3 5 𝔓75 lat sa bomss  ¦  αυτος εφη W  |  [˸ ;]", "matched_forms": ["εφη"], "localized_omission_addition": false}, {"book": "matthew", "chapter": 27, "verse": 11, "entry": "V-AP-B40K27V11", "text": " • 11 ⸀ εστη A K W Γ Δ ƒ13 565. 579. 700. 892. 1241. 1424. l844 𝔐  ¦  txt ℵ B C L Θ ƒ1 33  |  ⸋ W Θ sys  |  ⸆ αυτω A B K W Γ Δ Θ ƒ1.13 565. 579. 1241. 1424. l844 𝔐 lat sy mae  ¦  txt ℵ L 33. 700. 892 a d sa bo  |  [˸ ;]", "matched_forms": [], "localized_omission_addition": true}], "episodes": ["aland-336"], "lemma_frequency": [{"lemma": "φημί", "stratum": "narrative", "occurrences": 18}]}
+{"matthew": "27:31", "luke": "23:26", "mark": "15:20, 15:21", "phrase": "ἀπήγαγον", "matthew_ids": [17487], "luke_ids": [47840], "length": 1, "content_words": 1, "absent_lemmas": ["ἀπάγω"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-343"], "lemma_frequency": [{"lemma": "ἀπάγω", "stratum": "narrative", "occurrences": 6}]}
+{"matthew": "27:58", "luke": "23:52", "mark": "15:42, 15:43, 15:44, 15:45, 15:46, 15:47", "phrase": "προσελθὼν", "matthew_ids": [17874], "luke_ids": [48249], "length": 1, "content_words": 1, "absent_lemmas": ["προσέρχομαι"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-350"], "lemma_frequency": [{"lemma": "προσέρχομαι", "stratum": "narrative", "occurrences": 36}]}
+{"matthew": "27:59", "luke": "23:53", "mark": "15:42, 15:43, 15:44, 15:45, 15:46, 15:47", "phrase": "ἐνετύλιξεν", "matthew_ids": [17893], "luke_ids": [48259], "length": 1, "content_words": 1, "absent_lemmas": ["ἐντυλίσσω"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": true, "apparatus": [{"book": "luke", "chapter": 23, "verse": 53, "entry": "V-AP-B42K23V53", "text": " • 53 ⸂ αυτο ενετυλιξεν W Γ Θ Ψ ƒ1 (b q)  ¦  αυτο ενετυλιξεν αυτο A K P Δ 565. 700. 892. 1424 𝔐 sy  ¦  ενετυλιξεν το σωμα του Ιησου εν D  ¦  ενετυλιξεν αυτον 1241. (⸉ 2542)  ¦  txt 𝔓75 ℵ B C L 070 ƒ13 33. 579 (a ff2)  |  ⸀ αυτο 𝔓75 A K L P W Γ Δ Θ Ψ 070. 33. 565. 579. 700. 892. 1241. 1424. 2542 𝔐 c  ¦  - ƒ1.13  ¦  txt ℵ B C D lat  |  ⸄ μνημειω λελατομημενω D  |  ⸂1 ουδεις ουδεπω ℵ C K P W Θ ƒ13 33. 892 (⸉ Γ Δ Ψ 565. 700. 1424 𝔐)  ¦  ουπω ουδεις D 070  ¦  txt 𝔓75 A B L ƒ1 579. 1241. 2542  |  ⸆ p) και προσεκυλισεν λιθον μεγαν επι την θυραν του μνημειου ƒ13 700 bo  ¦  και θεντος αυτου επεθηκεν (επεθηκαν 070) τω μνημειω λιθον (+ μεγαν 070) ον μογις εικοσι (+ ανδρας 070) εκυλιον D 070 c (sa)", "matched_forms": ["ενετυλιξεν"], "localized_omission_addition": false}], "episodes": ["aland-350"], "lemma_frequency": [{"lemma": "ἐντυλίσσω", "stratum": "narrative", "occurrences": 2}]}
+{"matthew": "28:2", "luke": "24:4", "mark": "16:1, 16:2, 16:3, 16:4, 16:5, 16:6, 16:7, 16:8", "phrase": "ἰδοὺ", "matthew_ids": [18038], "luke_ids": [48356], "length": 1, "content_words": 1, "absent_lemmas": ["ἰδού"], "speech_or_narrative": "narrative", "alignment_flag": false, "apparatus_touched": false, "apparatus": [], "episodes": ["aland-352"], "lemma_frequency": [{"lemma": "ἰδού", "stratum": "narrative", "occurrences": 36}]}
+
+Limitations
+Absence from Mark does not establish innovation. Formulae, oral tradition and scribal harmonisation remain possible.
+Automatic alignment may miss or misplace agreements; alignment flags are retained, not accepted as secure.
+Apparatus absence is not textual security: NA28 is selective, not a full collation. Repeated-form localization and substring matches can overflag.
+Whole-verse Aland boundaries can be thematic; fixed whole-group exclusions discard additional material.
+
+Changes
+Created this audit and its two output files; no existing files edited.

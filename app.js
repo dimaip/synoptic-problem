@@ -5,7 +5,7 @@
 const GROUP_IDS = ['P', 'I', 'C', 'D', 'Q', 'M', 'S'];
 const FILES = ['meta', 'synopsis', 'chapters', 'phenomena', 'models',
   ...GROUP_IDS.map(g => `arguments/${g}`),
-  'positions', 'history', 'corrections', 'assessment', 'bibliography'];
+  'positions', 'history', 'corrections', 'research', 'assessment', 'bibliography'];
 
 async function load(name) {
   try {
@@ -45,6 +45,9 @@ const positions = obj(RAW.positions);
 const historyData = obj(RAW.history);
 const corrections = obj(RAW.corrections);
 const assessment = obj(RAW.assessment);
+const research = obj(RAW.research);
+const EXPERIMENTS = arr(research?.items).filter(x => x && x.id);
+const EXP = Object.fromEntries(EXPERIMENTS.map(x => [x.id, x]));
 const BIB = arr(RAW.bibliography).filter(b => b && b.key);
 
 const GROUP_FALLBACK = {
@@ -66,11 +69,12 @@ const exhibitsFor = id => EXHIBITS.filter(e => arr(e.usedBy).includes(id));
 
 const argLink = id => {
   const a = ARG[id];
+  if (!a && EXP[id]) return `<a href="#exp-${esc(id)}" class="arg-link exp-link" title="${esc(EXP[id].title || id)}">${esc(id)}</a>`;
   if (!a) return `<span class="arg-link missing" title="Not yet written">${esc(id)}</span>`;
   return `<a href="#arg-${esc(id)}" class="arg-link"${a ? ` title="${esc(a.title)}"` : ''}>${esc(id)}</a>`;
 };
 
-// Escape; tag Greek runs; *italic*; [[C3]] → link to an argument.
+// Escape; tag Greek runs; *italic*; [[C3]] → link to an argument, [[E1]] → link to an experiment.
 function rich(s) {
   if (s == null || s === '') return '';
   return esc(s)
@@ -1131,7 +1135,7 @@ function renderPositions() {
   $('#positions').innerHTML = sectionHead('5', 'Who stands where', P?.intro || intro('positions')) + timeline + pos;
 }
 
-/* ---------- 6–8. corrections, assessment, bibliography ---------- */
+/* ---------- 6–9. corrections, experiments, assessment, bibliography ---------- */
 
 function renderCorrections() {
   const C = corrections;
@@ -1147,14 +1151,78 @@ function renderCorrections() {
     </div>`;
 }
 
+// Experiments: each one a sub-section with the result always visible and the long detail folded.
+function tableHTML(t) {
+  if (!obj(t)) return '';
+  const head = arr(t.head), rows = arr(t.rows).filter(Array.isArray);
+  if (!rows.length) return '';
+  return `<figure class="exp-table">
+    ${t.caption ? `<figcaption>${rich(t.caption)}</figcaption>` : ''}
+    <div class="scroll-x" tabindex="0" role="region" aria-label="${esc(t.caption || 'Table')}">
+      <table>
+        ${head.length ? `<thead><tr>${head.map(h => `<th scope="col">${rich(h)}</th>`).join('')}</tr></thead>` : ''}
+        <tbody>${rows.map(r => `<tr>${r.map((c, i) => i === 0 ? `<th scope="row">${rich(c)}</th>` : `<td>${rich(c)}</td>`).join('')}</tr>`).join('')}</tbody>
+      </table>
+    </div>
+    ${t.note ? `<p class="exp-table-note">${rich(t.note)}</p>` : ''}
+  </figure>`;
+}
+const paras = xs => arr(xs).filter(Boolean).map(p => `<p>${rich(p)}</p>`).join('');
+const fileLink = f => /^[\w./-]+$/.test(f) ? `<a href="${esc(f)}"><code>${esc(f)}</code></a>` : `<code>${esc(f)}</code>`;
+
+function experimentHTML(x) {
+  const bears = arr(x.bearsOn).filter(Boolean);
+  const method = points(x.method), results = points(x.results), limits = points(x.limits), files = arr(x.files).filter(Boolean);
+  const tables = (Array.isArray(x.table) ? x.table : [x.table]).map(tableHTML).join('');
+  return `
+  <article class="exp" id="exp-${esc(x.id)}">
+    <header class="exp-head">
+      <span class="exp-id">${esc(x.id)}</span>
+      <div class="exp-main">
+        <h3 class="exp-title">${rich(x.title || x.id)}</h3>
+        ${x.question ? `<p class="exp-q">${rich(x.question)}</p>` : ''}
+        <p class="exp-meta">
+          ${x.date ? `<span><span class="lbl">Run</span> ${esc(x.date)}</span>` : ''}
+          ${bears.length ? `<span><span class="lbl">Bears on</span> ${bears.map(id => argLink(id)).join(', ')}</span>` : ''}
+          ${basisTag(x.basis)}
+        </p>
+      </div>
+    </header>
+    <div class="exp-body">
+      ${x.summary ? `<p class="exp-summary">${rich(x.summary)}</p>` : ''}
+      ${arr(x.why).length ? `<div class="exp-part"><h4>Why</h4>${paras(x.why)}</div>` : ''}
+      ${method.length ? `<div class="exp-part"><h4>What was done</h4>${paras(method.map(m => typeof m === 'string' ? m : m.text))}</div>` : ''}
+      ${results.length ? `<div class="exp-part evidence"><h4>Results</h4><ul>${results.map(point).join('')}</ul></div>` : ''}
+      ${x.figure ? figureHTML(x.figure) : ''}
+      ${tables}
+      ${arr(x.reading).length ? `<div class="exp-part status exp-reading"><h4>What can be drawn from it</h4>${paras(x.reading)}</div>` : ''}
+      ${limits.length ? `<details class="exp-more"><summary>Limits</summary><ul>${limits.map(point).join('')}</ul></details>` : ''}
+      ${files.length ? `<details class="exp-more"><summary>Script and output</summary><ul>${files.map(f => `<li>${fileLink(String(f))}</li>`).join('')}</ul></details>` : ''}
+    </div>
+  </article>`;
+}
+
+function renderResearch() {
+  const R = research;
+  const planned = arr(R?.planned).filter(Boolean);
+  $('#research').innerHTML = sectionHead('7', R?.title || 'Experiments', R?.intro || intro('research')) + `
+    <div class="wrap-wide">
+      ${EXPERIMENTS.length ? EXPERIMENTS.map(experimentHTML).join('') : NOT_YET}
+      ${planned.length ? `<div class="exp-planned">
+        <h3>Not yet run</h3>
+        <ul>${planned.map(p => `<li><span class="exp-p-title">${rich(p.title)}</span>${p.status ? ` <span class="kind">${esc(p.status)}</span>` : ''}${p.text ? ` <span class="exp-p-text">${rich(p.text)}</span>` : ''}</li>`).join('')}</ul>
+      </div>` : ''}
+    </div>`;
+}
+
 function renderAssessment() {
   const S = assessment;
-  if (!S) { $('#assessment').innerHTML = sectionHead('7', 'Assessment') + `<div class="wrap-wide">${NOT_YET}</div>`; return; }
+  if (!S) { $('#assessment').innerHTML = sectionHead('8', 'Assessment') + `<div class="wrap-wide">${NOT_YET}</div>`; return; }
   const steps = arr(S.steps).filter(Boolean), cols = arr(S.columns).filter(Boolean), closing = arr(S.closing).filter(Boolean);
   $('#assessment').innerHTML = `
     <div class="wrap-wide">
       <article class="assess">
-        <p class="sec-num">7</p>
+        <p class="sec-num">8</p>
         ${S.label ? `<p class="assess-label">${esc(S.label)}</p>` : ''}
         <h2>${esc(S.title || 'Assessment')}</h2>
         ${S.verdict ? `<p class="assess-verdict">${rich(S.verdict)}</p>` : ''}
@@ -1182,7 +1250,7 @@ function renderBibliography() {
       <span class="seg-label">Show</span>
       ${['all', ...kinds].map(k => `<button type="button" data-bibf="${esc(k)}" aria-pressed="${k === 'all'}">${esc(k === 'all' ? 'all' : SUM[k] || k)}</button>`).join('')}
     </div>`;
-  $('#bibliography').innerHTML = sectionHead('8', 'Bibliography', intro('bibliography')) + `
+  $('#bibliography').innerHTML = sectionHead('9', 'Bibliography', intro('bibliography')) + `
     <div class="wrap-wide">${sorted.length ? `
       <div class="bib-head">${summary}${filter}</div>
       <ol class="bib" data-f="all">${sorted.map(b => `
@@ -1243,6 +1311,12 @@ function openArg(id, scroll = true) {
   if (scroll) { scrollTo(el); flash(el); }
   return true;
 }
+function openExperiment(id, scroll = true) {
+  const el = document.getElementById('exp-' + id);
+  if (!el) return false;
+  if (scroll) { scrollTo(el); flash(el); }
+  return true;
+}
 function openExhibit(id, scroll = true) {
   const el = document.getElementById('ex-' + id);
   if (!el) return false;
@@ -1255,6 +1329,7 @@ function followHash(scroll = true) {
   if (!h) return;
   if (h.startsWith('arg-') && openArg(h.slice(4), scroll)) return;
   if (h.startsWith('ex-') && openExhibit(h.slice(3), scroll)) return;
+  if (h.startsWith('exp-') && openExperiment(h.slice(4), scroll)) return;
   const t = document.getElementById(h);
   if (t && scroll) t.scrollIntoView();
 }
@@ -1297,7 +1372,7 @@ document.addEventListener('click', e => {
   const a = e.target.closest('a[href^="#"]');
   if (a) {
     const id = decodeURIComponent(a.getAttribute('href').slice(1));
-    if ((id.startsWith('arg-') && ARG[id.slice(4)]) || (id.startsWith('ex-') && document.getElementById(id))) {
+    if ((id.startsWith('arg-') && ARG[id.slice(4)]) || ((id.startsWith('ex-') || id.startsWith('exp-')) && document.getElementById(id))) {
       e.preventDefault();
       history.pushState(null, '', '#' + id);
       followHash();
@@ -1370,9 +1445,12 @@ safe('data', '2', 'The data', renderData);
 safe('hypotheses', '3', 'Hypotheses', renderHypotheses);
 safe('positions', '5', 'Who stands where', renderPositions);
 safe('corrections', '6', 'Claims to retire', renderCorrections);
-safe('assessment', '7', 'Assessment', renderAssessment);
-safe('bibliography', '8', 'Bibliography', renderBibliography);
+safe('research', '7', 'Experiments', renderResearch);
+safe('assessment', '8', 'Assessment', renderAssessment);
+safe('bibliography', '9', 'Bibliography', renderBibliography);
 try { renderFooter(); } catch (err) { console.error(err); }
 applyModel();
 $$('main > section').forEach(s => io.observe(s));
 followHash();
+// The web font can shift the long page after the first jump; settle on an experiment once it has loaded.
+if (location.hash.startsWith('#exp-')) document.fonts?.ready.then(() => document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView());

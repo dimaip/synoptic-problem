@@ -1,0 +1,124 @@
+{
+ "settings": {
+  "permutations": 5000,
+  "bootstrap": 2000,
+  "classifier_permutations": 1000,
+  "null_splits": 200,
+  "seed": 20261116
+ },
+ "class_counts": [
+  {
+   "gospel": "matthew",
+   "cls": "DT",
+   "verses": 141,
+   "words": 2581,
+   "passages": 61
+  },
+  {
+   "gospel": "matthew",
+   "cls": "MK+L",
+   "verses": 121,
+   "words": 2137,
+   "passages": 65
+  },
+  {
+   "gospel": "matthew",
+   "cls": "MK-L",
+   "verses": 2,
+   "words": 61,
+   "passages": 2
+  },
+  {
+   "gospel": "matthew",
+   "cls": "M",
+   "verses": 88,
+   "words": 1596,
+   "passages": 16
+  },
+  {
+   "gospel": "luke",
+   "cls": "DT",
+   "verses": 173,
+   "words": 3128,
+   "passages": 50
+  },
+  {
+   "gospel": "luke",
+   "cls": "MK+M",
+   "verses": 71,
+   "words": 1278,
+   "passages": 44
+  },
+  {
+   "gospel": "luke",
+   "cls": "MK-M",
+   "verses": 2,
+   "words": 37,
+   "passages": 1
+  },
+  {
+   "gospel": "luke",
+   "cls": "L",
+   "verses": 115,
+   "words": 2169,
+   "passages": 29
+  },
+  {
+   "gospel": "mark",
+   "cls": "taken by Lk",
+   "verses": 87,
+   "words": 1572,
+   "passages": 52
+  },
+  {
+   "gospel": "mark",
+   "cls": "not taken by Lk",
+   "verses": 15,
+   "words": 259,
+   "passages": 7
+  },
+  {
+   "gospel": "mark",
+   "cls": "taken by Mt",
+   "verses": 132,
+   "words": 2313,
+   "passages": 65
+  },
+  {
+   "gospel": "mark",
+   "cls": "not taken by Mt",
+   "verses": 9,
+   "words": 143,
+   "passages": 4
+  }
+ ],
+ "sanity": {
+  "null_check": {
+   "splits": 200,
+   "share_p_below_05": 0.035,
+   "mean_p": 0.511044,
+   "passages": 16
+  },
+  "power_check": {
+   "id": "PWR",
+   "gospel": "Mt/Lk",
+   "a": "Mt all sayings",
+   "b": "Lk all sayings",
+   "wordsA": 9037,
+   "wordsB": 8038,
+   "passagesA": 79,
+   "passagesB": 98,
+   "D": 0.045446,
+   "permMean": 0.030074,
+   "E": 0.015372,
+   "Elo": 0.021325,
+   "Ehi": 0.071246,
+   "p": 0.052989,
+   "acc": 0.574754,
+   "chunksA": 90,
+   "chunksB": 79,
+   "accP": 0.095904
+  },
+  "power_passed": false
+ }
+}
